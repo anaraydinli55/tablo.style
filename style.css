@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+.top-banner {
+  background: #e1e1e1;
+  padding: 8px;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.top-banner button {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+header {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  font-size: 14px;
+}
+
+.top-nav nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+.logo-search {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+}
+
+.logo-search h1 {
+  margin: 0;
+}
+
+.logo-search input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.logo-search .search-btn {
+  padding: 8px 12px;
+  border: none;
+  background: #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.user-icons button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.categories {
+  display: flex;
+  gap: 15px;
+  padding: 0 20px 10px 20px;
+  font-size: 14px;
+}
+
+.categories a.highlight-red { color: red; }
+.categories a.highlight-green { color: green; }
+
+.category-slider {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding: 10px 20px;
+}
+
+.category-item {
+  text-align: center;
+  flex: 0 0 auto;
+}
+
+.category-item img {
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.product-item {
+  position: relative;
+}
+
+.product-item.large {
+  grid-column: span 2;
+}
+
+.product-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product-item button {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  border: none;
+  background: #ddd;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.floating-buttons button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.floating-buttons .whatsapp { background: #25d366; color: #fff; }
+.floating-buttons .chat { background: #000; color: #fff; }
