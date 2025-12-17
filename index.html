@@ -1,220 +1,300 @@
 <!DOCTYPE html>
 <html lang="az">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tablo Style</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
-
-<style>
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family:Arial, sans-serif;
-}
-
-body{
-  background:#cfe8ff; /* səhifənin ümumi açıq mavi fonu */
-  color:#000;
-}
-
-/* ÜST BANNER */
-.top-banner{
-  background:#e0e0e0;
-  padding:6px 10px;
-  display:flex;
-  justify-content:space-around;
-  align-items:center;
-  font-size:14px;
-}
-.top-banner button{
-  background:#000;
-  color:#fff;
-  border:none;
-  padding:5px 12px;
-  border-radius:5px;
-  cursor:pointer;
-}
-
-/* HEADER – ORTA MAVİ */
-header{
-  background:#6fa8dc;
-  padding:10px;
-}
-
-/* LOGO + SEARCH */
-.logo-search{
-  display:flex;
-  align-items:center;
-  gap:10px;
-}
-.logo-search h1{
-  font-size:24px;
-}
-.logo-search input{
-  flex:1;
-  padding:8px;
-  border-radius:25px;
-  border:1px solid #ccc;
-}
-.search-btn{
-  border:none;
-  padding:8px 14px;
-  border-radius:50%;
-  cursor:pointer;
-}
-.user-icons button{
-  background:none;
-  border:none;
-  font-size:18px;
-  cursor:pointer;
-  margin-left:6px;
-}
-
-/* KATEQORİYALAR – ORTA MAVİ */
-.categories{
-  background:#6fa8dc;
-  display:flex;
-  gap:12px;
-  padding:10px;
-  font-size:14px;
-}
-.categories a{
-  text-decoration:none;
-  color:#000;
-}
-.highlight-red{color:red;}
-.highlight-green{color:green;}
-
-/* SLIDER */
-.category-slider{
-  display:flex;
-  gap:10px;
-  overflow-x:auto;
-  padding:10px;
-}
-.category-slider::-webkit-scrollbar{display:none;}
-.category-item{
-  text-align:center;
-  font-size:12px;
-}
-.category-item img{
-  width:60px;
-  height:60px;
-  border-radius:12px;
-  object-fit:cover;
-}
-.category-item span{
-  display:block;
-  margin-top:4px;
-}
-
-/* GRID */
-.product-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
-  gap:10px;
-  padding:10px;
-}
-.product-item.large{
-  grid-column:span 2;
-}
-.product-item img{
-  width:100%;
-  border-radius:12px;
-}
-.product-item span{
-  display:block;
-  margin:8px 0;
-  font-weight:bold;
-}
-.product-item button{
-  border:none;
-  background:#000;
-  color:#fff;
-  padding:6px 12px;
-  border-radius:20px;
-  cursor:pointer;
-}
-
-/* FLOATING BUTTONS */
-.floating-buttons{
-  position:fixed;
-  bottom:20px;
-  right:20px;
-  display:flex;
-  flex-direction:column;
-  gap:10px;
-}
-.floating-buttons button{
-  width:50px;
-  height:50px;
-  border-radius:50%;
-  border:none;
-  font-size:22px;
-  cursor:pointer;
-}
-.whatsapp{background:#25d366;color:#fff;}
-.chat{background:#000;color:#fff;}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tablo Style</title>
+  <style>
+    /* Genel sıfırlama */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #fff;
+      color: #000;
+    }
+    /* Üst banner */
+    .top-banner {
+      background-color: #e0e0e0;
+      padding: 5px 10px;
+      text-align: center;
+      font-size: 14px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .top-banner b { font-weight: 700; }
+    .top-banner button {
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    /* Header */
+    header {
+      background-color: white;
+      padding: 10px;
+    }
+    .logo-search {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 10px 0;
+    }
+    .logo-search h1 { font-size: 24px; }
+    .logo-search input {
+      flex: 1;
+      margin: 0 10px;
+      padding: 8px;
+      border-radius: 25px;
+      border: 1px solid #ccc;
+    }
+    .search-btn {
+      background-color: #ccc;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .user-icons button {
+      background: none;
+      border: none;
+      margin-left: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    /* Kategori menü */
+    .categories {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      font-size: 14px;
+    }
+    .categories a {
+      text-decoration: none;
+      color: black;
+      padding: 5px 10px;
+      border-radius: 20px;
+      transition: 0.3s;
+    }
+    .categories a:hover { background-color: #f0f0f0; }
+    .highlight-red { color: red; }
+    .highlight-green { color: green; }
+    /* Kategori slider */
+    .category-slider {
+      display: flex;
+      overflow-x: auto;
+      padding: 10px 0;
+      gap: 10px;
+    }
+    .category-slider::-webkit-scrollbar { display: none; }
+    .category-item {
+      flex: 0 0 auto;
+      text-align: center;
+      font-size: 12px;
+    }
+    .category-item img {
+      width: 60px;
+      height: 60px;
+      border-radius: 15px;
+      object-fit: cover;
+    }
+    .category-item span {
+      display: block;
+      margin-top: 5px;
+      font-size: 12px;
+    }
+    /* Ürün grid */
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+      gap: 10px;
+      padding: 10px;
+    }
+    .product-item {
+      display: flex;
+      flex-direction: column;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+    .product-item img {
+      width: 100%;
+      display: block;
+      border-radius: 15px;
+    }
+    .product-item span {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .product-item.large { grid-column: span 2; }
+    .product-item button {
+      margin-top: 5px;
+      border: none;
+      background-color: black;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 20px;
+      cursor: pointer;
+      align-self: flex-start;
+    }
+    /* Floating buttons */
+    .floating-buttons {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 1000;
+    }
+    .floating-buttons button {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    .whatsapp { background-color: #25D366; color: white; }
+    .chat { background-color: #000; color: white; }
+    /* Mobil uyumlu ayar */
+    @media (max-width: 768px) {
+      .logo-search h1 {
+        font-size: 20px;
+        flex: 1 1 100%;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .logo-search input {
+        flex: 1 1 100%;
+        margin: 0 0 10px 0;
+      }
+      .product-item.large { grid-column: span 1; }
+    }
+  </style>
 </head>
-
 <body>
+  <div class="top-banner">
+    <span>🚚 Azərbaycanın Hər Yerinə <b>UYĞUN QİYMƏTLƏRLƏ ÇATDIRILMA!</b></span>
+    <span>Yanvar Ayına Özəl İkinci Sifarişə Ekstra 10% Endirim!</span>
+    <button>Bütün Tablolar</button>
+  </div>
 
-<div class="top-banner">
-  <span>🚚 Azərbaycanın Hər Yerinə <b>UYĞUN QİYMƏTLƏRLƏ ÇATDIRILMA!</b></span>
-  <span>Yanvar Ayına Özəl 10% Endirim</span>
-  <button>Bütün Tablolar</button>
-</div>
+  <header>
+    <div class="logo-search">
+      <h1>Tablo Style</h1>
+      <input type="text" placeholder="Nə Axtarırsınız?">
+      <button class="search-btn">🔍</button>
+      <div class="user-icons">
+        <button>🖼</button>
+        <button>🇦🇿</button>
+        <button>🛒</button>
+      </div>
+    </div>
 
-<header>
-  <div class="logo-search">
-    <h1>Tablo Style</h1>
-    <input type="text" placeholder="Nə axtarırsınız?">
-    <button class="search-btn">🔍</button>
-    <div class="user-icons">
-      <button>🖼</button>
-      <button>AZ</button>
-      <button>🛒</button>
+    <nav class="categories">
+      <a href="#">Kateqoriya ▾</a>
+      <a href="#">Kolleksiyalar ▾</a>
+      <a href="#">Tablo Qalereyası ▾</a>
+      <a href="#" class="highlight-red">LED İşıqlı Tablo ▾</a>
+      <a href="#" class="highlight-green">Yağlı Boya Tablolar ▾</a>
+    </nav>
+  </header>
+
+  <div class="category-slider">
+    <div class="category-item">
+      <a href="https://tablo-style.vercel.app/images/manzara.jpg" target="_blank">
+        <img src="https://tablo-style.vercel.app/images/manzara.jpg" alt="Təbiət">
+        <span>Təbiət</span>
+      </a>
+    </div>
+    <div class="category-item">
+      <a href="https://tablo-style.vercel.app/images/kinkade.jpg" target="_blank">
+        <img src="https://tablo-style.vercel.app/images/kinkade.jpg" alt="Afremov stili">
+        <span>Afremov stili</span>
+      </a>
+    </div>
+    <div class="category-item">
+      <a href="https://tablo-style.vercel.app/images/afremov.png" target="_blank">
+        <img src="https://tablo-style.vercel.app/images/afremov.png" alt="Kinkade stili">
+        <span>Kinkade stili</span>
+      </a>
+    </div>
+    <div class="category-item">
+      <a href="https://tablo-style.vercel.app/images/baki.jpg" target="_blank">
+        <img src="https://tablo-style.vercel.app/images/baki.jpg" alt="Bakı Mənzərələri">
+        <span>Bakı Mənzərələri</span>
+      </a>
+    </div>
+    <div class="category-item">
+      <a href="https://tablo-style.vercel.app/images/at.jpg" target="_blank">
+        <img src="https://tablo-style.vercel.app/images/at.jpg" alt="Heyvan tablolari">
+        <span>Heyvan Tablolari</span>
+      </a>
+    </div>
+    <div class="category-item">
+      <a href="https://tablo-style.vercel.app/images/istanbul.jpg" target="_blank">
+        <img src="https://tablo-style.vercel.app/images/istanbul.jpg" alt="İstanbul">
+        <span>İstanbul</span>
+      </a>
+    </div>
+    <div class="category-item">
+      <a href="https://tablo-style.vercel.app/images/eyfel.jpg" target="_blank">
+        <img src="https://tablo-style.vercel.app/images/eyfel.jpg" alt="Paris">
+        <span>Paris</span>
+      </a>
+    </div>
+    <div class="category-item">
+      <a href="https://tablo-style.vercel.app/images/hulya.jpg" target="_blank">
+        <img src="https://tablo-style.vercel.app/images/hulya.jpg" alt="Hülya Özdemir stili">
+        <span>Hülya Özdemir stili</span>
+      </a>
+    </div>
+    <div class="category-item">
+      <a href="https://tablo-style.vercel.app/images/musiqi.jpg" target="_blank">
+        <img src="https://tablo-style.vercel.app/images/musiqi.jpg" alt="Sənət - musiqi">
+        <span>Sənət - musiqi</span>
+      </a>
+    </div>
+    <div class="category-item">
+      <a href="https://tablo-style.vercel.app/images/dini.jpg" target="_blank">
+        <img src="https://tablo-style.vercel.app/images/dini.jpg" alt="Dini">
+        <span>Dini</span>
+      </a>
+    </div>
+    <div class="category-item">
+      <a href="https://tablo-style.vercel.app/images/cicek.jpg" target="_blank">
+        <img src="https://tablo-style.vercel.app/images/cicek.jpg" alt="Çiçək tabloları">
+        <span>Çiçək tabloları</span>
+      </a>
+    </div>
+    <div class="category-item">
+      <a href="https://tablo-style.vercel.app/images/abstrakt.jpg" target="_blank">
+        <img src="https://tablo-style.vercel.app/images/abstrakt.jpg" alt="Abstrakt">
+        <span>Abstrakt</span>
+      </a>
     </div>
   </div>
 
-  <nav class="categories">
-    <a href="#">Kateqoriya ▾</a>
-    <a href="#">Kolleksiyalar ▾</a>
-    <a href="#">Tablo Qalereyası ▾</a>
-    <a href="#" class="highlight-red">LED İşıqlı Tablo ▾</a>
-    <a href="#" class="highlight-green">Yağlı Boya Tablolar ▾</a>
-  </nav>
-</header>
+  <main class="product-grid">
+    <div class="product-item large">
+      <img src="https://via.placeholder.com/400x400" alt="">
+      <span>Kataloqdakı bütün tablolara bax</span>
+      <button>İncələ →</button>
+    </div>
+  </main>
 
-<div class="category-slider">
-  <div class="category-item">
-    <img src="https://tablo-style.vercel.app/images/cicek.jpg">
-    <span>Təbiət</span>
+  <div class="floating-buttons">
+    <button class="whatsapp">💬</button>
+    <button class="chat">🗨️</button>
   </div>
-  <div class="category-item">
-    <a href="https://github.com/anaraydinli55/tablo.style/blob/main/images/afremov.png" target="_blank">
-      <img src="https://github.com/anaraydinli55/tablo.style/blob/main/images/afremov.png">
-      <span>Afremov stili</span>
-    </a>
-  </div>
-</div>
-
-<main class="product-grid">
-  <div class="product-item large">
-    <img src="https://via.placeholder.com/400">
-    <span>Kataloqdakı bütün tablolara bax</span>
-    <button>İncələ →</button>
-  </div>
-</main>
-
-<div class="floating-buttons">
-  <button class="whatsapp">💬</button>
-  <button class="chat">🗨️</button>
-</div>
-
 </body>
 </html>
