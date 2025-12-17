@@ -59,6 +59,12 @@ header {
   border-radius: 20px;
   border: 1px solid #ccc;
 }
+.logo-search h1{
+  font-family:'Baloo 2', cursive;
+  font-weight:700;
+  letter-spacing:1px;
+}
+
 
 .logo-search .search-btn {
   padding: 8px 12px;
