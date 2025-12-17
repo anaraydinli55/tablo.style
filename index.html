@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tablo Style</title>
-
 <style>
 * {
   margin: 0;
@@ -12,146 +11,135 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
-
 body {
-  background: #eaf4ff; /* AÇIK MAVİ */
+  background: #eaf4ff;
   color: #000;
 }
-
-/* Üst banner */
 .top-banner {
-  background: #e0e0e0;
-  padding: 6px 10px;
+  background-color: #e0e0e0;
+  padding: 5px 10px;
+  text-align: center;
   font-size: 14px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
-
+.top-banner b { font-weight: 700; }
 .top-banner button {
-  background: #000;
-  color: #fff;
+  background-color: black;
+  color: white;
   border: none;
-  padding: 5px 12px;
+  padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
 }
-
-/* Header */
 header {
-  background: #fff;
+  background-color: white;
   padding: 10px;
 }
-
 .logo-search {
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: space-between;
   flex-wrap: wrap;
+  margin: 10px 0;
 }
-
-.logo-search h1 {
-  font-size: 22px;
-}
-
+.logo-search h1 { font-size: 24px; }
 .logo-search input {
   flex: 1;
+  margin: 0 10px;
   padding: 8px;
-  border-radius: 20px;
+  border-radius: 25px;
   border: 1px solid #ccc;
 }
-
 .search-btn {
+  background-color: #ccc;
   border: none;
-  padding: 8px 12px;
+  padding: 8px 15px;
   border-radius: 50%;
   cursor: pointer;
 }
-
 .user-icons button {
   background: none;
   border: none;
-  font-size: 18px;
+  margin-left: 10px;
+  font-size: 20px;
   cursor: pointer;
 }
-
-/* Kategoriler */
 .categories {
   display: flex;
-  gap: 10px;
-  margin-top: 10px;
   flex-wrap: wrap;
-}
-
-.categories a {
-  text-decoration: none;
-  color: #000;
+  gap: 10px;
   font-size: 14px;
 }
-
-/* Slider */
+.categories a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.categories a:hover { background-color: #f0f0f0; }
+.highlight-red { color: red; }
+.highlight-green { color: green; }
 .category-slider {
   display: flex;
-  gap: 12px;
-  padding: 12px;
   overflow-x: auto;
+  padding: 10px 0;
+  gap: 10px;
 }
-
-.category-slider::-webkit-scrollbar {
-  display: none;
-}
-
+.category-slider::-webkit-scrollbar { display: none; }
 .category-item {
-  text-align: center;
   flex: 0 0 auto;
-}
-
-.category-item img {
-  width: 65px;
-  height: 65px;
-  border-radius: 12px;
-  object-fit: cover;
-}
-
-.category-item span {
-  display: block;
-  margin-top: 4px;
+  text-align: center;
   font-size: 12px;
 }
-
-/* Ürün */
-.product-grid {
-  padding: 15px;
-}
-
-.product-item {
-  background: #fff;
-  padding: 10px;
+.category-item img {
+  width: 60px;
+  height: 60px;
   border-radius: 15px;
-  max-width: 400px;
+  object-fit: cover;
 }
-
+.category-item span {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+  gap: 10px;
+  padding: 10px;
+}
+.product-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  overflow: hidden;
+}
 .product-item img {
   width: 100%;
-  border-radius: 12px;
-}
-
-.product-item span {
   display: block;
-  margin: 10px 0;
-  font-weight: bold;
+  border-radius: 15px;
 }
-
+.product-item span {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.product-item.large {
+  grid-column: span 2;
+}
 .product-item button {
-  background: #000;
-  color: #fff;
+  margin-top: 5px;
   border: none;
-  padding: 8px 14px;
+  background-color: black;
+  color: white;
+  padding: 8px 12px;
   border-radius: 20px;
   cursor: pointer;
+  align-self: flex-start;
 }
-
-/* Floating */
 .floating-buttons {
   position: fixed;
   bottom: 20px;
@@ -160,35 +148,37 @@ header {
   flex-direction: column;
   gap: 10px;
 }
-
 .floating-buttons button {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   border: none;
-  font-size: 22px;
+  font-size: 24px;
   cursor: pointer;
 }
-
-.whatsapp { background: #25D366; color: #fff; }
-.chat { background: #000; color: #fff; }
-
+.whatsapp { background-color: #25D366; color: white; }
+.chat { background-color: #000; color: white; }
 @media (max-width: 768px) {
-  .logo-search {
-    flex-direction: column;
-    align-items: stretch;
+  .logo-search h1 {
+    font-size: 20px;
+    flex: 1 1 100%;
+    text-align: center;
+    margin-bottom: 10px;
   }
+  .logo-search input {
+    flex: 1 1 100%;
+    margin: 0 0 10px 0;
+  }
+  .product-item.large { grid-column: span 1; }
 }
 </style>
 </head>
-
 <body>
-
 <div class="top-banner">
   <span>🚚 Azərbaycanın Hər Yerinə <b>UYĞUN QİYMƏTLƏRLƏ ÇATDIRILMA!</b></span>
+  <span>Yanvar Ayına Özəl İkinci Sifarişə Ekstra 10% Endirim!</span>
   <button>Bütün Tablolar</button>
 </div>
-
 <header>
   <div class="logo-search">
     <h1>Tablo Style</h1>
@@ -200,58 +190,32 @@ header {
       <button>🛒</button>
     </div>
   </div>
-
   <nav class="categories">
-    <a href="#">Kateqoriya</a>
-    <a href="#">Kolleksiyalar</a>
-    <a href="#">Qalereya</a>
-    <a href="#" style="color:red">LED Tablolar</a>
-    <a href="#" style="color:green">Yağlı Boya</a>
+    <a href="#">Kateqoriya ▾</a>
+    <a href="#">Kolleksiyalar ▾</a>
+    <a href="#">Tablo Qalereyası ▾</a>
+    <a href="#" class="highlight-red">LED İşıqlı Tablo ▾</a>
+    <a href="#" class="highlight-green">Yağlı Boya Tablolar ▾</a>
   </nav>
 </header>
-
 <div class="category-slider">
   <div class="category-item">
     <a href="https://tablo-style.vercel.app/images/manzara.jpg" target="_blank">
-      <img src="https://tablo-style.vercel.app/images/manzara.jpg">
+      <img src="https://tablo-style.vercel.app/images/manzara.jpg" alt="Təbiət">
       <span>Təbiət</span>
     </a>
   </div>
-
-  <div class="category-item">
-    <a href="https://tablo-style.vercel.app/images/afremov.png" target="_blank">
-      <img src="https://tablo-style.vercel.app/images/afremov.png">
-      <span>Afremov stili</span>
-    </a>
-  </div>
-
-  <div class="category-item">
-    <a href="https://tablo-style.vercel.app/images/kinkade.jpg" target="_blank">
-      <img src="https://tablo-style.vercel.app/images/kinkade.jpg">
-      <span>Kinkade stili</span>
-    </a>
-  </div>
-
-  <div class="category-item">
-    <a href="https://tablo-style.vercel.app/images/baki.jpg" target="_blank">
-      <img src="https://tablo-style.vercel.app/images/baki.jpg">
-      <span>Bakı</span>
-    </a>
-  </div>
 </div>
-
 <main class="product-grid">
-  <div class="product-item">
-    <img src="https://via.placeholder.com/400x400">
+  <div class="product-item large">
+    <img src="https://via.placeholder.com/400x400" alt="">
     <span>Kataloqdakı bütün tablolara bax</span>
     <button>İncələ →</button>
   </div>
 </main>
-
 <div class="floating-buttons">
   <button class="whatsapp">💬</button>
   <button class="chat">🗨️</button>
 </div>
-
 </body>
 </html>
