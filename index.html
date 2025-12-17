@@ -12,10 +12,12 @@
       box-sizing: border-box;
       font-family: Arial, sans-serif;
     }
+
     body {
       background: #d0f0ff; /* Açıq mavi */
       color: #000;
     }
+
     /* Üst banner */
     .top-banner {
       background-color: #e0e0e0;
@@ -27,7 +29,9 @@
       align-items: center;
       flex-wrap: wrap;
     }
+
     .top-banner b { font-weight: 700; }
+
     .top-banner button {
       background-color: black;
       color: white;
@@ -36,33 +40,56 @@
       border-radius: 5px;
       cursor: pointer;
     }
+
     /* Header və kategoriya sahəsi */
     header {
       background-color: #d0f0ff; /* Açıq mavi */
-      padding: 10px;
+      padding: 15px 10px;
     }
+
     .logo-search {
       display: flex;
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
-      margin: 10px 0;
     }
-    .logo-search h1 { font-size: 24px; }
-    .logo-search input {
-      flex: 1;
-      margin: 0 10px;
-      padding: 8px;
+
+    .logo-search h1 {
+      font-size: 32px; /* Daha böyük yazı */
+      text-align: center;
+      flex: 1 1 100%;
+      margin-bottom: 10px;
+    }
+
+    .search-wrapper {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+    }
+
+    .search-wrapper input {
+      width: 150px; /* Qısaldıldı */
+      padding: 6px 10px;
       border-radius: 25px;
       border: 1px solid #ccc;
+      font-size: 14px;
     }
+
     .search-btn {
       background-color: #ccc;
       border: none;
-      padding: 8px 15px;
+      padding: 6px 12px;
       border-radius: 50%;
+      margin-left: 5px;
       cursor: pointer;
     }
+
+    .user-icons {
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+    }
+
     .user-icons button {
       background: none;
       border: none;
@@ -70,13 +97,18 @@
       font-size: 20px;
       cursor: pointer;
     }
+
     .categories {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
       font-size: 14px;
       margin-top: 10px;
+      background-color: #d0f0ff; /* Açıq mavi */
+      padding: 10px 0;
+      border-radius: 10px;
     }
+
     .categories a {
       text-decoration: none;
       color: black;
@@ -84,9 +116,11 @@
       border-radius: 20px;
       transition: 0.3s;
     }
+
     .categories a:hover { background-color: #f0f0f0; }
     .highlight-red { color: red; }
     .highlight-green { color: green; }
+
     /* Kategori slider */
     .category-slider {
       display: flex;
@@ -95,23 +129,28 @@
       gap: 10px;
       background-color: #80c0ff; /* Orta mavi */
     }
+
     .category-slider::-webkit-scrollbar { display: none; }
+
     .category-item {
       flex: 0 0 auto;
       text-align: center;
       font-size: 12px;
     }
+
     .category-item img {
       width: 60px;
       height: 60px;
       border-radius: 15px;
       object-fit: cover;
     }
+
     .category-item span {
       display: block;
       margin-top: 5px;
       font-size: 12px;
     }
+
     /* Ürün grid */
     .product-grid {
       display: grid;
@@ -119,23 +158,28 @@
       gap: 10px;
       padding: 10px;
     }
+
     .product-item {
       display: flex;
       flex-direction: column;
       border-radius: 15px;
       overflow: hidden;
     }
+
     .product-item img {
       width: 100%;
       display: block;
       border-radius: 15px;
     }
+
     .product-item span {
       margin-top: 10px;
       font-weight: bold;
       font-size: 16px;
     }
+
     .product-item.large { grid-column: span 2; }
+
     .product-item button {
       margin-top: 5px;
       border: none;
@@ -146,6 +190,7 @@
       cursor: pointer;
       align-self: flex-start;
     }
+
     /* Floating buttons */
     .floating-buttons {
       position: fixed;
@@ -156,6 +201,7 @@
       gap: 10px;
       z-index: 1000;
     }
+
     .floating-buttons button {
       width: 50px;
       height: 50px;
@@ -164,25 +210,30 @@
       font-size: 24px;
       cursor: pointer;
     }
+
     .whatsapp { background-color: #25D366; color: white; }
     .chat { background-color: #000; color: white; }
+
     /* Mobil uyumlu ayar */
     @media (max-width: 768px) {
       .logo-search h1 {
-        font-size: 20px;
-        flex: 1 1 100%;
-        text-align: center;
+        font-size: 28px;
         margin-bottom: 10px;
       }
-      .logo-search input {
-        flex: 1 1 100%;
-        margin: 0 0 10px 0;
+      .search-wrapper {
+        width: 100%;
+        justify-content: flex-end;
+        margin-bottom: 10px;
+      }
+      .search-wrapper input {
+        width: 120px;
       }
       .product-item.large { grid-column: span 1; }
     }
   </style>
 </head>
 <body>
+
   <div class="top-banner">
     <span>🚚 Azərbaycanın Hər Yerinə <b>UYĞUN QİYMƏTLƏRLƏ ÇATDIRILMA!</b></span>
     <span>Yanvar Ayına Özəl İkinci Sifarişə Ekstra 10% Endirim!</span>
@@ -192,8 +243,10 @@
   <header>
     <div class="logo-search">
       <h1>Tablo Style</h1>
-      <input type="text" placeholder="Nə Axtarırsınız?">
-      <button class="search-btn">🔍</button>
+      <div class="search-wrapper">
+        <input type="text" placeholder="Axtar...">
+        <button class="search-btn">🔍</button>
+      </div>
       <div class="user-icons">
         <button>🖼</button>
         <button>🇦🇿</button>
@@ -297,5 +350,6 @@
     <button class="whatsapp">💬</button>
     <button class="chat">🗨️</button>
   </div>
+
 </body>
 </html>
