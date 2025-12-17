@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tablo Style</title>
-<link rel="stylesheet" href="style.css">
 <style>
 /* Genel sıfırlama */
 * {
@@ -14,22 +13,27 @@
   font-family: Arial, sans-serif;
 }
 
+body {
+  background: #fff;
+  color: #000;
+}
+
 /* Üst banner */
 .top-banner {
   background-color: #e0e0e0;
   padding: 5px 10px;
   text-align: center;
   font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.top-banner b {
-  font-weight: 700;
-}
+.top-banner b { font-weight: 700; }
 .top-banner button {
   background-color: black;
   color: white;
   border: none;
   padding: 5px 10px;
-  margin-left: 10px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -46,9 +50,7 @@ header {
   flex-wrap: wrap;
   margin: 10px 0;
 }
-.logo-search h1 {
-  font-size: 24px;
-}
+.logo-search h1 { font-size: 24px; }
 .logo-search input {
   flex: 1;
   margin: 0 10px;
@@ -85,15 +87,9 @@ header {
   border-radius: 20px;
   transition: 0.3s;
 }
-.categories a:hover {
-  background-color: #f0f0f0;
-}
-.highlight-red {
-  color: red;
-}
-.highlight-green {
-  color: green;
-}
+.categories a:hover { background-color: #f0f0f0; }
+.highlight-red { color: red; }
+.highlight-green { color: green; }
 
 /* Kategori slider */
 .category-slider {
@@ -102,9 +98,7 @@ header {
   padding: 10px 0;
   gap: 10px;
 }
-.category-slider::-webkit-scrollbar {
-  display: none;
-}
+.category-slider::-webkit-scrollbar { display: none; }
 .category-item {
   flex: 0 0 auto;
   text-align: center;
@@ -116,6 +110,11 @@ header {
   border-radius: 15px;
   object-fit: cover;
 }
+.category-item span {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+}
 
 /* Ürün grid */
 .product-grid {
@@ -125,34 +124,33 @@ header {
   padding: 10px;
 }
 .product-item {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  overflow: hidden;
 }
 .product-item img {
   width: 100%;
-  border-radius: 15px;
   display: block;
+  border-radius: 15px;
+}
+.product-item span {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
 }
 .product-item.large {
   grid-column: span 2;
 }
-.product-item.large span {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  text-shadow: 0 0 5px black;
-}
-.product-item.large button {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  padding: 5px 15px;
+.product-item button {
+  margin-top: 5px;
   border: none;
+  background-color: black;
+  color: white;
+  padding: 8px 12px;
   border-radius: 20px;
-  background-color: white;
   cursor: pointer;
+  align-self: flex-start;
 }
 
 /* Floating buttons */
@@ -165,21 +163,15 @@ header {
   gap: 10px;
 }
 .floating-buttons button {
-  border: none;
-  border-radius: 50%;
   width: 50px;
   height: 50px;
+  border-radius: 50%;
+  border: none;
   font-size: 24px;
   cursor: pointer;
 }
-.whatsapp {
-  background-color: #25D366;
-  color: white;
-}
-.chat {
-  background-color: #000;
-  color: white;
-}
+.whatsapp { background-color: #25D366; color: white; }
+.chat { background-color: #000; color: white; }
 
 /* Mobil uyumlu ayar */
 @media (max-width: 768px) {
@@ -193,9 +185,7 @@ header {
     flex: 1 1 100%;
     margin: 0 0 10px 0;
   }
-  .product-item.large {
-    grid-column: span 1;
-  }
+  .product-item.large { grid-column: span 1; }
 }
 </style>
 </head>
@@ -228,8 +218,16 @@ header {
 </header>
 
 <div class="category-slider">
-  <div class="category-item"><https://github.com/anaraydinli55/tablo.style/blob/main/images/cicek.jpg" alt=""><span>Təbiət</span></div>
-  <div class="category-item"><img src="https://via.placeholder.com/80" alt=""><span>Afremov stili</span></div>
+  <div class="category-item">
+    <img src="https://github.com/anaraydinli55/tablo.style/blob/main/images/cicek.jpg" alt="Təbiət">
+    <span>Təbiət</span>
+  </div>
+  <div class="category-item">
+    <a href="https://github.com/anaraydinli55/tablo.style/blob/main/images/afremov.png" target="_blank">
+      <img src="https://github.com/anaraydinli55/tablo.style/blob/main/images/afremov.png" alt="Afremov stili">
+      <span>Afremov stili</span>
+    </a>
+  </div>
   <div class="category-item"><img src="https://via.placeholder.com/80" alt=""><span>Abstrakt</span></div>
   <div class="category-item"><img src="https://via.placeholder.com/80" alt=""><span>İşyeri - ofis</span></div>
   <div class="category-item"><img src="https://via.placeholder.com/80" alt=""><span>Çiçək tabloları</span></div>
