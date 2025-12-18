@@ -203,7 +203,9 @@ header {
   margin-top: 10px;
   padding-left: 7mm;
   padding-right: 7mm;
+  margin-bottom: 10mm; /* ← BUNU EKLEDİN */
 }
+
 
 .video-container video {
   width: 100%;
