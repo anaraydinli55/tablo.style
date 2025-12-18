@@ -108,20 +108,30 @@ header {
   display: flex;
   gap: 10px;
   overflow-x: auto;
-  padding: 10px 10px; /* Yan boşluk azaltıldı */
-  scroll-behavior: smooth; /* Akıcı kaydırma */
+  padding: 10px 10px;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch; /* mobil kaydırma için */
+}
+
+.category-slider::-webkit-scrollbar {
+  height: 6px;
+}
+
+.category-slider::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 3px;
 }
 
 .category-item {
   text-align: center;
   flex: 0 0 auto;
-  width: 80px; /* Sabit genişlik */
+  width: 70px; /* öğelerin sığması için biraz küçültüldü */
 }
 
 .category-item img {
   border-radius: 10px;
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
 }
 
 .category-item span {
@@ -220,5 +230,12 @@ header {
   }
   .search-box input {
     font-size: 14px;
+  }
+  .category-item {
+    width: 60px; /* mobilde biraz daha küçük */
+  }
+  .category-item img {
+    width: 60px;
+    height: 60px;
   }
 }
