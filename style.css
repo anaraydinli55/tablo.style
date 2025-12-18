@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #fff;
+  background: #d0f0ff; /* Açık mavi arka plan */
   color: #000;
 }
 
@@ -15,24 +15,28 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
+.top-banner b { font-weight: 700; }
+
 .top-banner button {
-  background: #000;
-  color: #fff;
+  background-color: black;
+  color: white;
   border: none;
-  padding: 5px 15px;
-  cursor: pointer;
+  padding: 5px 10px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 /* Header */
 header {
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
+  background-color: #d0f0ff;
 }
 
-/* Logo və search/emoji */
+/* Logo ve arama / emoji */
 .logo-search {
   display: flex;
   flex-direction: column;
@@ -42,44 +46,32 @@ header {
 }
 
 .logo-search h1 {
+  font-family: 'Architects Daughter', cursive;
   font-size: 32px;
-  font-weight: 700;
   text-align: center;
 }
 
-/* Search və emoji eyni satırda */
-.search-icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-width: 400px;
-  gap: 10px;
-}
-
-.search-box {
+.search-wrapper {
   display: flex;
   align-items: center;
-  flex: 1;
   gap: 5px;
 }
 
-.search-box input {
-  flex: 1;
-  padding: 8px 12px;
-  border-radius: 20px;
+.search-wrapper input {
+  padding: 6px 10px;
+  border-radius: 25px;
   border: 1px solid #ccc;
+  font-size: 14px;
 }
 
-.search-box .search-btn {
-  padding: 8px 12px;
+.search-btn {
+  background-color: #ccc;
   border: none;
-  background: #ddd;
+  padding: 6px 12px;
   border-radius: 50%;
   cursor: pointer;
 }
 
-/* Emoji buttonları */
 .user-icons {
   display: flex;
   gap: 10px;
@@ -88,46 +80,61 @@ header {
 .user-icons button {
   background: none;
   border: none;
-  font-size: 18px;
+  font-size: 20px;
   cursor: pointer;
 }
 
-/* Kateqoriyalar */
+/* Kategoriler menüsü */
 .categories {
   display: flex;
-  gap: 15px;
-  padding: 0 20px 10px 20px;
+  flex-wrap: wrap;
+  gap: 10px;
   font-size: 14px;
+  margin-top: 10px;
+  background-color: #d0f0ff;
+  padding: 10px 0;
+  border-radius: 10px;
 }
 
-.categories a.highlight-red { color: red; }
-.categories a.highlight-green { color: green; }
+.categories a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
 
-/* Kategori slider (Tam çalışan) */
+.categories a:hover { background-color: #f0f0f0; }
+.highlight-red { color: red; }
+.highlight-green { color: green; }
+
+/* ============================= */
+/* Kategori slider – tam çalışan */
+/* ============================= */
 .category-slider {
   display: flex;
-  flex-wrap: nowrap; /* öğeler tek satırda */
+  flex-wrap: nowrap; /* tek satır */
   gap: 10px;
-  overflow-x: auto;
+  overflow-x: auto; /* yatay kaydırma */
   padding: 10px;
+  background-color: #80c0ff;
   scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch; /* mobil kaydırma için */
-  width: 100%;
+  -webkit-overflow-scrolling: touch; /* mobil kaydırma */
 }
 
 .category-slider::-webkit-scrollbar {
-  height: 6px;
+  height: 8px;
 }
 
 .category-slider::-webkit-scrollbar-thumb {
   background-color: #888;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 .category-item {
+  flex: 0 0 auto; /* öğeler sabit boyutta */
   text-align: center;
-  flex: 0 0 auto; /* sabit boyut */
-  min-width: 70px; /* öğelerin sığması için */
+  min-width: 70px;
 }
 
 .category-item a {
@@ -139,42 +146,43 @@ header {
 }
 
 .category-item img {
-  border-radius: 10px;
   width: 70px;
   height: 70px;
+  border-radius: 15px;
   object-fit: cover;
+  transition: transform 0.2s;
+}
+
+.category-item img:hover {
+  transform: scale(1.1);
 }
 
 .category-item span {
   display: block;
   margin-top: 5px;
-  font-size: 14px;
-  white-space: nowrap; /* yazılar taşmasın */
+  font-size: 12px;
+  white-space: nowrap; /* isimler taşmasın */
 }
 
-/* Product grid */
+/* Ürün grid */
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 15px;
-  padding: 20px;
+  grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+  gap: 10px;
+  padding: 10px;
 }
 
 .product-item {
   display: flex;
   flex-direction: column;
-  border-radius: 10px;
+  border-radius: 15px;
   overflow: hidden;
 }
 
 .product-item img {
   width: 100%;
-  border-radius: 10px;
   display: block;
-}
-
-.product-item.large {
-  grid-column: span 2;
+  border-radius: 15px;
 }
 
 .product-item span {
@@ -183,11 +191,13 @@ header {
   font-size: 16px;
 }
 
+.product-item.large { grid-column: span 2; }
+
 .product-item button {
   margin-top: 5px;
   border: none;
-  background: #000;
-  color: #fff;
+  background-color: black;
+  color: white;
   padding: 8px 12px;
   border-radius: 20px;
   cursor: pointer;
@@ -214,10 +224,11 @@ header {
 .floating-buttons {
   position: fixed;
   bottom: 20px;
-  left: 20px;
+  right: 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  z-index: 1000;
 }
 
 .floating-buttons button {
@@ -229,23 +240,26 @@ header {
   cursor: pointer;
 }
 
-.floating-buttons .whatsapp { background: #25d366; color: #fff; }
-.floating-buttons .chat { background: #000; color: #fff; }
+.whatsapp { background-color: #25D366; color: white; }
+.chat { background-color: #000; color: white; }
 
 /* Mobil uyumlu */
 @media (max-width: 768px) {
-  .logo-search {
-    padding: 10px;
+  .logo-search h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
   }
-  .search-icons {
-    max-width: 100%;
+
+  .search-wrapper input {
+    width: 120px;
   }
-  .search-box input {
-    font-size: 14px;
-  }
+
+  .product-item.large { grid-column: span 1; }
+
   .category-item {
-    min-width: 60px; /* mobilde biraz daha küçük */
+    min-width: 60px;
   }
+
   .category-item img {
     width: 60px;
     height: 60px;
