@@ -247,4 +247,29 @@ header {
     height: auto;
     display: block;
   }
+
+  /* Mobil: search solda, emojilər sağda */
+  .logo-search {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .search-wrapper {
+    margin-left: 0;
+    margin-right: 8px;
+    flex: 1;
+    display: flex;
+  }
+
+  .search-wrapper input {
+    width: 100%;
+  }
+
+  .user-icons {
+    display: flex;
+    gap: 8px;
+    margin-left: auto;
+  }
+
+
 }
