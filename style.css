@@ -241,3 +241,42 @@ header {
   justify-content: space-around;
   align-items: center;
 }
+
+/* Video bölməsi */
+.video-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Videolar arası məsafə */
+  padding-left: 7mm;
+  padding-right: 7mm;
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+/* Mobil uyğunlaşma */
+@media (max-width: 768px) {
+  .video-wrapper {
+    padding-left: 7mm;
+    padding-right: 7mm;
+  }
+
+  .video-wrapper video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Hər videoya ayrı ölçü istəyirsənsə, ayrıca */
+.video1 { max-height: 250px; }
+.video2 { max-height: 230px; }
+.video3 { max-height: 260px; }
+.video4 { max-height: 240px; }
+.video5 { max-height: 250px; }
+.video6 { max-height: 235px; }
+
