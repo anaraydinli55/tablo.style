@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #d0f0ff;
+  background: #d0f0ff; /* Açıq mavi */
   color: #000;
 }
 
@@ -20,20 +20,15 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
-}
-
-.top-banner b {
-  font-weight: 700;
 }
 
 .top-banner button {
-  background-color: #000;
+  background: #000;
   color: #fff;
   border: none;
   padding: 5px 15px;
-  border-radius: 5px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 /* Header */
@@ -42,7 +37,7 @@ header {
   background-color: #d0f0ff;
 }
 
-/* Logo ve search + emoji bölməsi */
+/* Logo ve search */
 .logo-search {
   display: flex;
   flex-direction: column;
@@ -56,6 +51,7 @@ header {
   text-align: center;
 }
 
+/* Search ve emoji aynı satırda */
 .search-icons {
   display: flex;
   justify-content: space-between;
@@ -65,11 +61,26 @@ header {
   gap: 10px;
 }
 
-.search-icons input {
+.search-box {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 5px;
+}
+
+.search-box input {
   flex: 1;
   padding: 8px 12px;
   border-radius: 20px;
   border: 1px solid #ccc;
+}
+
+.search-box .search-btn {
+  padding: 8px 12px;
+  border: none;
+  background: #ddd;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .user-icons {
@@ -84,13 +95,12 @@ header {
   cursor: pointer;
 }
 
-/* Kategoriyalar */
+/* Kategoriler */
 .categories {
   display: flex;
   gap: 15px;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 0;
   font-size: 14px;
-  flex-wrap: wrap;
 }
 
 .categories a.highlight-red { color: red; }
@@ -101,11 +111,7 @@ header {
   display: flex;
   gap: 10px;
   overflow-x: auto;
-  padding: 10px 20px;
-}
-
-.category-slider::-webkit-scrollbar {
-  display: none;
+  padding: 10px 0;
 }
 
 .category-item {
@@ -114,10 +120,9 @@ header {
 }
 
 .category-item img {
+  border-radius: 10px;
   width: 80px;
   height: 80px;
-  border-radius: 10px;
-  object-fit: cover;
 }
 
 .category-item span {
@@ -144,6 +149,7 @@ header {
 .product-item img {
   width: 100%;
   border-radius: 10px;
+  display: block;
 }
 
 .product-item.large {
@@ -180,7 +186,6 @@ header {
 .video-container video {
   width: 100%;
   height: auto;
-  display: block;
   border-radius: 10px;
   object-fit: cover;
 }
@@ -189,7 +194,7 @@ header {
 .floating-buttons {
   position: fixed;
   bottom: 20px;
-  left: 20px;
+  right: 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -209,16 +214,18 @@ header {
 
 /* Mobil uyumlu */
 @media (max-width: 768px) {
-  .logo-search h1 {
-    font-size: 28px;
+  .logo-search {
+    width: 100%;
+    gap: 8px;
   }
 
   .search-icons {
     max-width: 100%;
+    flex-wrap: nowrap;
   }
 
-  .search-icons input {
-    flex: 1;
+  .search-box input {
+    font-size: 14px;
   }
 
   .video-wrapper {
