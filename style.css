@@ -51,6 +51,9 @@ header {
 
 .logo-search h1 {
   margin: 0;
+  font-family:'Baloo 2', cursive;
+  font-weight:700;
+  letter-spacing:1px;
 }
 
 .logo-search input {
@@ -58,12 +61,6 @@ header {
   padding: 8px;
   border-radius: 20px;
   border: 1px solid #ccc;
-}
-
-.logo-search h1 {
-  font-family:'Baloo 2', cursive;
-  font-weight:700;
-  letter-spacing:1px;
 }
 
 .logo-search .search-btn {
@@ -178,30 +175,34 @@ header {
 .floating-buttons .whatsapp { background: #25d366; color: #fff; }
 .floating-buttons .chat { background: #000; color: #fff; }
 
-/* Video bölməsi */
+/* Videolar üçün bölmə */
 .video-wrapper {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding-left: 7mm;
-  padding-right: 7mm;
   margin-top: 10px;
 }
 
-.video-wrapper video {
+/* Hər video üçün konteyner */
+.video-container {
+  padding-left: 7mm;
+  padding-right: 7mm;
+}
+
+.video-container video {
   width: 100%;
   border-radius: 10px;
   display: block;
   object-fit: cover;
 }
 
-/* Hər video üçün fərdi hündürlük */
-.video1 { height: 200px; }
-.video2 { height: 220px; }
-.video3 { height: 180px; }
-.video4 { height: 240px; }
-.video5 { height: 210px; }
-.video6 { height: 230px; }
+/* Hər videoya fərdi hündürlük */
+.video1 video { max-height: 250px; }
+.video2 video { max-height: 230px; }
+.video3 video { max-height: 260px; }
+.video4 video { max-height: 240px; }
+.video5 video { max-height: 250px; }
+.video6 video { max-height: 235px; }
 
 /* Mobil uyumlu */
 @media (max-width: 768px) {
@@ -209,11 +210,11 @@ header {
     flex-direction: column;
     align-items: stretch;
   }
-  
+
   .logo-search h1 {
     text-align: center;
   }
-  
+
   .logo-search input {
     margin-bottom: 10px;
   }
@@ -222,61 +223,13 @@ header {
     grid-column: span 1;
   }
 
-  .video-wrapper {
+  .video-container {
     padding-left: 7mm;
     padding-right: 7mm;
   }
 
-  .video-wrapper video {
+  .video-container video {
+    width: 100%;
     height: auto !important;
   }
 }
-
-.top-banner {
-  background-color: #f2c200 !important;
-  padding: 8px;
-  text-align: center;
-  font-size: 14px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-/* Video bölməsi */
-.video-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 10px; /* Videolar arası məsafə */
-  padding-left: 7mm;
-  padding-right: 7mm;
-}
-
-.video-wrapper video {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  display: block;
-}
-
-/* Mobil uyğunlaşma */
-@media (max-width: 768px) {
-  .video-wrapper {
-    padding-left: 7mm;
-    padding-right: 7mm;
-  }
-
-  .video-wrapper video {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-  }
-}
-
-/* Hər videoya ayrı ölçü istəyirsənsə, ayrıca */
-.video1 { max-height: 250px; }
-.video2 { max-height: 230px; }
-.video3 { max-height: 260px; }
-.video4 { max-height: 240px; }
-.video5 { max-height: 250px; }
-.video6 { max-height: 235px; }
-
