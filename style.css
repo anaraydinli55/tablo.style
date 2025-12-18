@@ -5,8 +5,9 @@ body {
   color: #000;
 }
 
+/* Top banner */
 .top-banner {
-  background-color: #f2c200; /* Koyu sarı */
+  background-color: #f2c200;
   padding: 8px;
   text-align: center;
   font-size: 14px;
@@ -24,6 +25,7 @@ body {
   border-radius: 5px;
 }
 
+/* Header & navigation */
 header {
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
@@ -42,6 +44,7 @@ header {
   color: #000;
 }
 
+/* Logo & search */
 .logo-search {
   display: flex;
   align-items: center;
@@ -71,6 +74,7 @@ header {
   cursor: pointer;
 }
 
+/* User icons */
 .user-icons button {
   background: none;
   border: none;
@@ -79,6 +83,7 @@ header {
   cursor: pointer;
 }
 
+/* Categories */
 .categories {
   display: flex;
   gap: 15px;
@@ -113,6 +118,7 @@ header {
   font-size: 14px;
 }
 
+/* Product grid */
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -154,6 +160,7 @@ header {
   align-self: flex-start;
 }
 
+/* Floating buttons */
 .floating-buttons {
   position: fixed;
   bottom: 20px;
@@ -175,7 +182,7 @@ header {
 .floating-buttons .whatsapp { background: #25d366; color: #fff; }
 .floating-buttons .chat { background: #000; color: #fff; }
 
-/* Videolar üçün bölmə */
+/* Video bölməsi */
 .video-wrapper {
   display: flex;
   flex-direction: column;
@@ -183,7 +190,6 @@ header {
   margin-top: 10px;
 }
 
-/* Hər video üçün konteyner */
 .video-container {
   padding-left: 7mm;
   padding-right: 7mm;
@@ -191,46 +197,11 @@ header {
 
 .video-container video {
   width: 100%;
-  border-radius: 10px;
+  height: auto; /* hündürlük proporsional */
   display: block;
+  border-radius: 10px;
   object-fit: cover;
 }
-
-/* Video bölməsi */
-.video-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 10px; /* videolar arası məsafə */
-  margin-top: 10px;
-}
-
-/* Hər video üçün container */
-.video-container {
-  padding-left: 7mm;
-  padding-right: 7mm;
-}
-
-.video-container video {
-  width: 100%;      /* eni konteynerə uyğun */
-  height: 100%;     /* hündürlük tam */
-  display: block;
-  border-radius: 10px;
-  object-fit: cover; /* hündürlük və eni konteynerə uyğun saxlayır */
-}
-
-/* Mobil uyumlu */
-@media (max-width: 768px) {
-  .video-container {
-    padding-left: 7mm;
-    padding-right: 7mm;
-  }
-
-  .video-container video {
-    width: calc(100% - 14mm); /* hər tərəfdən 7mm aralı */
-    height: 100%;             /* hündürlük konteynerə tam */
-  }
-}
-
 
 /* Mobil uyumlu */
 @media (max-width: 768px) {
@@ -258,6 +229,7 @@ header {
 
   .video-container video {
     width: 100%;
-    height: auto !important;
+    height: auto;
+    display: block;
   }
 }
