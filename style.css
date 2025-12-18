@@ -1,12 +1,16 @@
-/* Body */
+/* ===================== */
+/* GENEL AYARLAR */
+/* ===================== */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #d0f0ff; /* Açık mavi arka plan */
+  background: #d0f0ff;
   color: #000;
 }
 
-/* Üst banner */
+/* ===================== */
+/* ÜST BANNER */
+/* ===================== */
 .top-banner {
   background-color: #f2c200;
   padding: 8px;
@@ -18,7 +22,9 @@ body {
   flex-wrap: wrap;
 }
 
-.top-banner b { font-weight: 700; }
+.top-banner b {
+  font-weight: 700;
+}
 
 .top-banner button {
   background-color: black;
@@ -29,7 +35,9 @@ body {
   cursor: pointer;
 }
 
-/* Header */
+/* ===================== */
+/* HEADER */
+/* ===================== */
 header {
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
@@ -47,12 +55,11 @@ header {
 
 .logo-search h1 {
   font-family: 'Architects Daughter', cursive;
-  font-size: 48px;   /* Daha büyük */
-  font-weight: 900;  /* Daha kalın */
+  font-size: 48px;
+  font-weight: 900;
   text-align: center;
   margin-bottom: 15px;
 }
-
 
 .search-wrapper {
   display: flex;
@@ -75,7 +82,14 @@ header {
   cursor: pointer;
 }
 
-/* Kategoriler menüsü */
+/* EMOJİLERİ TAMAMEN KALDIR */
+.user-icons {
+  display: none !important;
+}
+
+/* ===================== */
+/* KATEGORİ MENÜSÜ */
+/* ===================== */
 .categories {
   display: flex;
   flex-wrap: wrap;
@@ -95,22 +109,30 @@ header {
   transition: 0.3s;
 }
 
-.categories a:hover { background-color: #f0f0f0; }
-.highlight-red { color: red; }
-.highlight-green { color: green; }
+.categories a:hover {
+  background-color: #f0f0f0;
+}
 
-/* ============================= */
-/* Kategori slider – tam çalışan */
-/* ============================= */
+.highlight-red {
+  color: red;
+}
+
+.highlight-green {
+  color: green;
+}
+
+/* ===================== */
+/* KATEGORİ SLIDER */
+/* ===================== */
 .category-slider {
   display: flex;
-  flex-wrap: nowrap; /* tek satır */
+  flex-wrap: nowrap;
   gap: 10px;
-  overflow-x: auto; /* yatay kaydırma */
+  overflow-x: auto;
   padding: 10px;
   background-color: #80c0ff;
   scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch; /* mobil kaydırma */
+  -webkit-overflow-scrolling: touch;
 }
 
 .category-slider::-webkit-scrollbar {
@@ -123,7 +145,7 @@ header {
 }
 
 .category-item {
-  flex: 0 0 auto; /* öğeler sabit boyutta */
+  flex: 0 0 auto;
   text-align: center;
   min-width: 70px;
 }
@@ -149,16 +171,17 @@ header {
 }
 
 .category-item span {
-  display: block;
   margin-top: 5px;
   font-size: 12px;
-  white-space: nowrap; /* isimler taşmasın */
+  white-space: nowrap;
 }
 
-/* Ürün grid */
+/* ===================== */
+/* ÜRÜN GRID */
+/* ===================== */
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 10px;
   padding: 10px;
 }
@@ -172,7 +195,6 @@ header {
 
 .product-item img {
   width: 100%;
-  display: block;
   border-radius: 15px;
 }
 
@@ -182,7 +204,9 @@ header {
   font-size: 16px;
 }
 
-.product-item.large { grid-column: span 2; }
+.product-item.large {
+  grid-column: span 2;
+}
 
 .product-item button {
   margin-top: 5px;
@@ -192,10 +216,11 @@ header {
   padding: 8px 12px;
   border-radius: 20px;
   cursor: pointer;
-  align-self: flex-start;
 }
 
-/* Videolar */
+/* ===================== */
+/* VİDEOLAR */
+/* ===================== */
 .video-wrapper {
   display: flex;
   flex-direction: column;
@@ -203,9 +228,8 @@ header {
   margin-top: 10px;
   padding-left: 7mm;
   padding-right: 7mm;
-  margin-bottom: 10mm; /* ← BUNU EKLEDİN */
+  margin-bottom: 10mm; /* SEO metninden önce boşluk */
 }
-
 
 .video-container video {
   width: 100%;
@@ -213,7 +237,32 @@ header {
   object-fit: cover;
 }
 
-/* Floating buttons */
+/* ===================== */
+/* SEO AÇIKLAMA METNİ */
+/* ===================== */
+.seo-text {
+  background-color: #f2c200;
+  color: #0a1a3f;
+  padding: 25px 20px;
+  margin-top: 10mm;
+  margin-left: 7mm;
+  margin-right: 7mm;
+  margin-bottom: 30px;
+  border-radius: 18px;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.seo-text h2 {
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #081633;
+}
+
+/* ===================== */
+/* FLOATING BUTONLAR */
+/* ===================== */
 .floating-buttons {
   position: fixed;
   bottom: 20px;
@@ -233,26 +282,31 @@ header {
   cursor: pointer;
 }
 
-.whatsapp { background-color: #25D366; color: white; }
-.chat { background-color: #000; color: white; }
-
-/* Emoji öğelerini tamamen kaldır */
-.user-icons {
-  display: none !important;
+.whatsapp {
+  background-color: #25D366;
+  color: white;
 }
 
-/* Mobil uyumlu */
+.chat {
+  background-color: #000;
+  color: white;
+}
+
+/* ===================== */
+/* MOBİL */
+/* ===================== */
 @media (max-width: 768px) {
   .logo-search h1 {
     font-size: 28px;
-    margin-bottom: 10px;
   }
 
   .search-wrapper input {
     width: 120px;
   }
 
-  .product-item.large { grid-column: span 1; }
+  .product-item.large {
+    grid-column: span 1;
+  }
 
   .category-item {
     min-width: 60px;
@@ -262,21 +316,4 @@ header {
     width: 60px;
     height: 60px;
   }
-}
-/* SEO Açıklama Metni – Sarı kutu */
-.seo-text {
-  background-color: #f2c200; /* sarı */
-  color: #0a1a3f;           /* lacivert yazı */
-  padding: 25px 20px;
-  margin: 10mm 15px 30px;  /* videolardan 10mm aşağı */
-  border-radius: 18px;
-  line-height: 1.6;
-  font-size: 15px;
-}
-
-.seo-text h2 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  color: #081633; /* biraz daha koyu lacivert */
 }
