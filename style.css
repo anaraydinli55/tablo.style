@@ -5,9 +5,8 @@ body {
   color: #000;
 }
 
-/* Top banner */
 .top-banner {
-  background-color: #f2c200;
+  background-color: #f2c200; /* Koyu sarı */
   padding: 8px;
   text-align: center;
   font-size: 14px;
@@ -25,7 +24,6 @@ body {
   border-radius: 5px;
 }
 
-/* Header & navigation */
 header {
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
@@ -44,7 +42,6 @@ header {
   color: #000;
 }
 
-/* Logo & search */
 .logo-search {
   display: flex;
   align-items: center;
@@ -54,9 +51,9 @@ header {
 
 .logo-search h1 {
   margin: 0;
-  font-family:'Baloo 2', cursive;
-  font-weight:700;
-  letter-spacing:1px;
+  font-family: 'Baloo 2', cursive;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 .logo-search input {
@@ -74,7 +71,6 @@ header {
   cursor: pointer;
 }
 
-/* User icons */
 .user-icons button {
   background: none;
   border: none;
@@ -83,7 +79,6 @@ header {
   cursor: pointer;
 }
 
-/* Categories */
 .categories {
   display: flex;
   gap: 15px;
@@ -118,7 +113,6 @@ header {
   font-size: 14px;
 }
 
-/* Product grid */
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -160,7 +154,6 @@ header {
   align-self: flex-start;
 }
 
-/* Floating buttons */
 .floating-buttons {
   position: fixed;
   bottom: 20px;
@@ -182,7 +175,7 @@ header {
 .floating-buttons .whatsapp { background: #25d366; color: #fff; }
 .floating-buttons .chat { background: #000; color: #fff; }
 
-/* Video bölməsi */
+/* Videolar üçün bölmə */
 .video-wrapper {
   display: flex;
   flex-direction: column;
@@ -190,14 +183,16 @@ header {
   margin-top: 10px;
 }
 
+/* Hər video üçün konteyner */
 .video-container {
   padding-left: 7mm;
   padding-right: 7mm;
+  box-sizing: border-box;
 }
 
 .video-container video {
   width: 100%;
-  height: auto; /* hündürlük proporsional */
+  height: 100%;
   display: block;
   border-radius: 10px;
   object-fit: cover;
@@ -225,6 +220,7 @@ header {
   .video-container {
     padding-left: 7mm;
     padding-right: 7mm;
+    box-sizing: border-box;
   }
 
   .video-container video {
