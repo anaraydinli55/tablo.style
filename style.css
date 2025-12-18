@@ -231,6 +231,11 @@ header {
 .whatsapp { background-color: #25D366; color: white; }
 .chat { background-color: #000; color: white; }
 
+/* Emoji öğelerini tamamen kaldır */
+.user-icons {
+  display: none !important;
+}
+
 /* Mobil uyumlu */
 @media (max-width: 768px) {
   .logo-search h1 {
