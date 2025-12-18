@@ -196,13 +196,41 @@ header {
   object-fit: cover;
 }
 
-/* Hər videoya fərdi hündürlük */
-.video1 video { max-height: 250px; }
-.video2 video { max-height: 230px; }
-.video3 video { max-height: 260px; }
-.video4 video { max-height: 240px; }
-.video5 video { max-height: 250px; }
-.video6 video { max-height: 235px; }
+/* Video bölməsi */
+.video-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* videolar arası məsafə */
+  margin-top: 10px;
+}
+
+/* Hər video üçün container */
+.video-container {
+  padding-left: 7mm;
+  padding-right: 7mm;
+}
+
+.video-container video {
+  width: 100%;      /* eni konteynerə uyğun */
+  height: 100%;     /* hündürlük tam */
+  display: block;
+  border-radius: 10px;
+  object-fit: cover; /* hündürlük və eni konteynerə uyğun saxlayır */
+}
+
+/* Mobil uyumlu */
+@media (max-width: 768px) {
+  .video-container {
+    padding-left: 7mm;
+    padding-right: 7mm;
+  }
+
+  .video-container video {
+    width: calc(100% - 14mm); /* hər tərəfdən 7mm aralı */
+    height: 100%;             /* hündürlük konteynerə tam */
+  }
+}
+
 
 /* Mobil uyumlu */
 @media (max-width: 768px) {
