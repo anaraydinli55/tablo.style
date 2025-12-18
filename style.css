@@ -1,18 +1,26 @@
-body {
+/* RESET */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Arial, sans-serif;
-  background: #fff;
+}
+
+body {
+  background: #d0f0ff;
   color: #000;
 }
 
+/* TOP BANNER */
 .top-banner {
-  background-color: #f2c200; /* Koyu sarı */
+  background-color: #f2c200;
   padding: 8px;
   text-align: center;
   font-size: 14px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .top-banner button {
@@ -24,76 +32,90 @@ body {
   border-radius: 5px;
 }
 
+/* HEADER */
 header {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
+  background: #d0f0ff;
+  padding: 10px;
 }
 
-.top-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 5px 20px;
-  font-size: 14px;
-}
-
-.top-nav nav a {
-  margin-right: 15px;
-  text-decoration: none;
-  color: #000;
-}
-
+/* LOGO + SEARCH + EMOJI */
 .logo-search {
   display: flex;
   align-items: center;
-  padding: 10px 20px;
   gap: 10px;
 }
 
 .logo-search h1 {
-  margin: 0;
-  font-family: 'Baloo 2', cursive;
-  font-weight: 700;
-  letter-spacing: 1px;
+  font-size: 28px;
+  white-space: nowrap;
 }
 
-.logo-search input {
+/* SEARCH SOLDa */
+.search-wrapper {
+  display: flex;
+  align-items: center;
   flex: 1;
-  padding: 8px;
+}
+
+.search-wrapper input {
+  width: 100%;
+  padding: 8px 12px;
   border-radius: 20px;
   border: 1px solid #ccc;
 }
 
-.logo-search .search-btn {
-  padding: 8px 12px;
+.search-btn {
+  margin-left: 5px;
   border: none;
-  background: #ddd;
+  background: #ccc;
+  padding: 8px 12px;
   border-radius: 50%;
   cursor: pointer;
+}
+
+/* EMOJİLƏR SAĞDA */
+.user-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
 }
 
 .user-icons button {
   background: none;
   border: none;
-  font-size: 18px;
-  margin-left: 10px;
+  font-size: 20px;
   cursor: pointer;
 }
 
+/* CATEGORIES */
 .categories {
   display: flex;
-  gap: 15px;
-  padding: 0 20px 10px 20px;
+  flex-wrap: wrap;
+  gap: 10px;
   font-size: 14px;
+  margin-top: 10px;
 }
 
-.categories a.highlight-red { color: red; }
-.categories a.highlight-green { color: green; }
+.categories a {
+  text-decoration: none;
+  color: #000;
+}
 
+.highlight-red { color: red; }
+.highlight-green { color: green; }
+
+/* CATEGORY SLIDER */
 .category-slider {
   display: flex;
   gap: 10px;
   overflow-x: auto;
-  padding: 10px 20px;
+  padding: 10px;
+  background: #80c0ff;
+}
+
+.category-slider::-webkit-scrollbar {
+  display: none;
 }
 
 .category-item {
@@ -102,45 +124,31 @@ header {
 }
 
 .category-item img {
-  border-radius: 10px;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
 }
 
 .category-item span {
   display: block;
   margin-top: 5px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 15px;
-  padding: 20px;
-}
-
+/* PRODUCT */
 .product-item {
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  overflow: hidden;
+  padding: 10px;
 }
 
 .product-item img {
   width: 100%;
-  border-radius: 10px;
-  display: block;
-}
-
-.product-item.large {
-  grid-column: span 2;
+  border-radius: 15px;
 }
 
 .product-item span {
+  display: block;
   margin-top: 10px;
   font-weight: bold;
-  font-size: 16px;
 }
 
 .product-item button {
@@ -150,14 +158,29 @@ header {
   color: #fff;
   padding: 8px 12px;
   border-radius: 20px;
-  cursor: pointer;
-  align-self: flex-start;
 }
 
+/* VIDEOLAR – SOL SAĞ 7mm DƏQİQ */
+.video-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 7mm;
+  padding-right: 7mm;
+}
+
+.video-container video {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* FLOATING BUTTONS */
 .floating-buttons {
   position: fixed;
   bottom: 20px;
-  left: 20px;
+  right: 20px;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -169,107 +192,25 @@ header {
   border-radius: 50%;
   border: none;
   font-size: 24px;
-  cursor: pointer;
 }
 
-.floating-buttons .whatsapp { background: #25d366; color: #fff; }
-.floating-buttons .chat { background: #000; color: #fff; }
-
-/* Videolar üçün bölmə */
-.video-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 10px;
+.whatsapp {
+  background: #25d366;
+  color: #fff;
 }
 
-/* Hər video üçün konteyner */
-.video-container {
-  padding-left: 7mm;
-  padding-right: 7mm;
-  box-sizing: border-box;
+.chat {
+  background: #000;
+  color: #fff;
 }
 
-.video-container video {
-  width: 100%;
-  height: 100%;
-  display: block;
-  border-radius: 10px;
-  object-fit: cover;
-}
-
-/* Mobil uyumlu */
-.video-wrapper {
-  padding-left: 7mm;
-  padding-right: 7mm;
-}
-
+/* MOBİL */
 @media (max-width: 768px) {
-  .video-wrapper {
-    padding-left: 7mm;
-    padding-right: 7mm;
-  }
-
-  .video-container {
-    padding: 0; /* Konteyner içinde ekstra padding varsa kaldır */
-  }
-
-  .video-container video {
-    width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
-  }
-}
-
-
-
-  .logo-search h1 {
-    text-align: center;
-  }
-
-  .logo-search input {
-    margin-bottom: 10px;
-  }
-
-  .product-item.large {
-    grid-column: span 1;
-  }
-
-  .video-container {
-    padding-left: 7mm;
-    padding-right: 7mm;
-    box-sizing: border-box;
-  }
-
-  .video-container video {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  /* Mobil: search solda, emojilər sağda */
   .logo-search {
     flex-direction: row;
-    align-items: center;
   }
 
-  .search-wrapper {
-    margin-left: 0;
-    margin-right: 8px;
-    flex: 1;
-    display: flex;
+  .logo-search h1 {
+    font-size: 24px;
   }
-
-  .search-wrapper input {
-    width: 100%;
-  }
-
-  .user-icons {
-    display: flex;
-    gap: 8px;
-    margin-left: auto;
-  }
-
-
 }
