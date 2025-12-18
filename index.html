@@ -43,7 +43,7 @@
 
     /* Header ve kategoriya */
     header {
-      background-color: #d0f0ff; /* Açıq mavi */
+      background-color: #d0f0ff;
       padding: 15px 10px;
     }
 
@@ -127,7 +127,7 @@
       overflow-x: auto;
       padding: 10px 0;
       gap: 10px;
-      background-color: #80c0ff; /* Orta mavi */
+      background-color: #80c0ff;
     }
 
     .category-slider::-webkit-scrollbar { display: none; }
@@ -197,11 +197,12 @@
       flex-direction: column;
       gap: 10px;
       margin-top: 10px;
+      padding-left: 7mm;
+      padding-right: 7mm; /* Wrapper’da sol-sağ eşit boşluk */
     }
 
     .video-container {
-      padding-left: 7mm;
-      padding-right: 7mm;
+      padding: 0; /* Konteyner içinde ekstra boşluk yok */
     }
 
     .video-container video {
@@ -227,12 +228,14 @@
         width: 120px;
       }
       .product-item.large { grid-column: span 1; }
-      .video-container {
+      
+      .video-wrapper {
         padding-left: 7mm;
-        padding-right: 7mm;
+        padding-right: 7mm; /* Mobilde de eşit 7mm */
       }
+
       .video-container video {
-        width: calc(100% - 14mm);
+        width: 100%; /* Wrapper padding’i sayesinde sol-sağ eşit */
         height: 100%;
       }
     }
