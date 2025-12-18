@@ -47,9 +47,12 @@ header {
 
 .logo-search h1 {
   font-family: 'Architects Daughter', cursive;
-  font-size: 32px;
+  font-size: 48px;   /* Daha büyük */
+  font-weight: 900;  /* Daha kalın */
   text-align: center;
+  margin-bottom: 15px;
 }
+
 
 .search-wrapper {
   display: flex;
