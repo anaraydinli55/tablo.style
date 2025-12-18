@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #d0f0ff; /* Açıq mavi */
+  background: #d0f0ff;
   color: #000;
 }
 
@@ -38,27 +38,22 @@ header {
   background-color: #d0f0ff;
 }
 
-/* Logo + search + emoji */
-.logo-search {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-
+/* Logo */
 .logo-search h1 {
   font-size: 32px;
   font-weight: 700;
   text-align: center;
+  margin-bottom: 10px;
 }
 
-/* Search ve emoji aynı satırda */
+/* Search + emoji container */
 .search-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   max-width: 400px;
+  margin: 0 auto;
 }
 
 .search-box {
@@ -209,35 +204,4 @@ header {
 .floating-buttons button {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-.floating-buttons .whatsapp { background: #25d366; color: #fff; }
-.floating-buttons .chat { background: #000; color: #fff; }
-
-/* Mobil uyumlu */
-@media (max-width: 768px) {
-  .logo-search h1 {
-    font-size: 28px;
-  }
-
-  .search-icons {
-    max-width: 100%;
-  }
-
-  .search-box input {
-    font-size: 14px;
-  }
-
-  .product-item.large {
-    grid-column: span 1;
-  }
-
-  .video-wrapper {
-    padding-left: 7mm;
-    padding-right: 7mm;
-  }
-}
+  border
