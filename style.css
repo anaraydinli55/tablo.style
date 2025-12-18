@@ -36,7 +36,7 @@ header {
   background-color: #d0f0ff;
 }
 
-/* Logo ve arama / emoji */
+/* Logo ve arama */
 .logo-search {
   display: flex;
   flex-direction: column;
@@ -69,18 +69,6 @@ header {
   border: none;
   padding: 6px 12px;
   border-radius: 50%;
-  cursor: pointer;
-}
-
-.user-icons {
-  display: flex;
-  gap: 10px;
-}
-
-.user-icons button {
-  background: none;
-  border: none;
-  font-size: 20px;
   cursor: pointer;
 }
 
