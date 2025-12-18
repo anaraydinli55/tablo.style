@@ -261,3 +261,20 @@ header {
     height: 60px;
   }
 }
+/* SEO Açıklama Metni – Sarı kutu */
+.seo-text {
+  background-color: #f2c200; /* sarı */
+  color: #0a1a3f;           /* lacivert yazı */
+  padding: 25px 20px;
+  margin: 10mm 15px 30px;  /* videolardan 10mm aşağı */
+  border-radius: 18px;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.seo-text h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #081633; /* biraz daha koyu lacivert */
+}
