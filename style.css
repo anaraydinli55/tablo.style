@@ -237,28 +237,24 @@ header {
   object-fit: cover;
 }
 
-/* ===================== */
-/* SEO AÇIKLAMA METNİ */
-/* ===================== */
+/* SEO Açıklama Metni – Sarı kutu, container içinde, videolarla boşluklu */
 .seo-text {
-  background-color: #f2c200;
-  color: #0a1a3f;
-  padding: 25px 20px;
-  margin-top: 10mm;
-  margin-left: 7mm;
-  margin-right: 7mm;
-  margin-bottom: 30px;
+  background-color: #f2c200; /* Sarı zemin */
+  color: #0a1a3f;            /* Lacivert yazı */
+  padding: 25px 7mm;         /* Üst-alt 25px, sol-sağ 7mm */
+  margin-top: 10mm;          /* Videolardan 10mm aşağı */
   border-radius: 18px;
   line-height: 1.6;
   font-size: 15px;
 }
 
 .seo-text h2 {
-  font-size: 22px;
-  font-weight: 800;
+  font-size: 20px;
+  font-weight: 700;
   margin-bottom: 10px;
-  color: #081633;
+  color: #081633; /* Daha koyu lacivert */
 }
+
 
 /* ===================== */
 /* FLOATING BUTONLAR */
