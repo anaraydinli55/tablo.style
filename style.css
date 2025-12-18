@@ -214,11 +214,19 @@ header {
   /* Videolar mobilde ekranın sağ ve solundan 7mm aralık */
   .videos-section {
     grid-template-columns: 1fr;
-    gap: 7mm;
+    gap: 10px;
     padding-left: 7mm;
     padding-right: 7mm;
   }
+
+  .videos-section video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
 }
+
 .top-banner {
   background-color: #f2c200 !important;
   padding: 8px;
