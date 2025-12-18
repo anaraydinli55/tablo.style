@@ -127,7 +127,7 @@
       overflow-x: auto;
       padding: 10px 0;
       gap: 10px;
-      background-color: #80c0ff;
+      background-color: #80c0ff; /* Orta mavi */
     }
 
     .category-slider::-webkit-scrollbar { display: none; }
@@ -232,7 +232,7 @@
         padding-right: 7mm;
       }
       .video-container video {
-        width: calc(100% - 14mm); /* her taraftan 7mm */
+        width: calc(100% - 14mm);
         height: 100%;
       }
     }
@@ -259,6 +259,7 @@
 
     .whatsapp { background-color: #25D366; color: white; }
     .chat { background-color: #000; color: white; }
+
   </style>
 </head>
 <body>
@@ -292,10 +293,26 @@
     </nav>
   </header>
 
+  <!-- Kategori slider -->
   <div class="category-slider">
-    <!-- kategori itemleri burada kalabilir -->
+    <div class="category-item">
+      <a href="#"><img src="https://tablo-style.vercel.app/images/manzara.jpg" alt="Mənzərə"><span>Mənzərə</span></a>
+    </div>
+    <div class="category-item">
+      <a href="#"><img src="https://tablo-style.vercel.app/images/kinkade.jpg" alt="Kinkade stili"><span>Kinkade stili</span></a>
+    </div>
+    <div class="category-item">
+      <a href="#"><img src="https://tablo-style.vercel.app/images/afremov.png" alt="Afremov stili"><span>Afremov stili</span></a>
+    </div>
+    <div class="category-item">
+      <a href="#"><img src="https://tablo-style.vercel.app/images/istanbul.jpg" alt="İstanbul"><span>İstanbul</span></a>
+    </div>
+    <div class="category-item">
+      <a href="#"><img src="https://tablo-style.vercel.app/images/eyfel.jpg" alt="Paris"><span>Paris</span></a>
+    </div>
   </div>
 
+  <!-- Ürün kart -->
   <div class="product-item large">
     <img src="https://via.placeholder.com/400x400" alt="">
     <span>Kataloqdakı bütün tablolara bax</span>
