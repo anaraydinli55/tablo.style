@@ -111,6 +111,7 @@ header {
   padding: 10px 10px;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch; /* mobil kaydırma için */
+  width: 100%;
 }
 
 .category-slider::-webkit-scrollbar {
@@ -125,7 +126,7 @@ header {
 .category-item {
   text-align: center;
   flex: 0 0 auto;
-  width: 70px; /* öğelerin sığması için biraz küçültüldü */
+  min-width: 70px; /* öğelerin sığması için küçültüldü */
 }
 
 .category-item img {
@@ -138,6 +139,7 @@ header {
   display: block;
   margin-top: 5px;
   font-size: 14px;
+  white-space: nowrap; /* yazılar tek satırda */
 }
 
 /* Product grid */
@@ -232,7 +234,7 @@ header {
     font-size: 14px;
   }
   .category-item {
-    width: 60px; /* mobilde biraz daha küçük */
+    min-width: 60px; /* mobilde biraz daha küçük */
   }
   .category-item img {
     width: 60px;
