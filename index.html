@@ -191,6 +191,43 @@
       align-self: flex-start;
     }
 
+    /* Video bölməsi */
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .video-grid video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    @media (max-width: 768px) {
+      .logo-search h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+      }
+      .search-wrapper {
+        width: 100%;
+        justify-content: flex-end;
+        margin-bottom: 10px;
+      }
+      .search-wrapper input {
+        width: 120px;
+      }
+      .product-item.large { grid-column: span 1; }
+      .video-grid {
+        grid-template-columns: 1fr;
+      }
+      .video-grid video {
+        margin-left: 0.7mm;
+        margin-right: 0.7mm;
+      }
+    }
+
     /* Floating buttons */
     .floating-buttons {
       position: fixed;
@@ -213,23 +250,6 @@
 
     .whatsapp { background-color: #25D366; color: white; }
     .chat { background-color: #000; color: white; }
-
-    /* Mobil uyumlu ayar */
-    @media (max-width: 768px) {
-      .logo-search h1 {
-        font-size: 28px;
-        margin-bottom: 10px;
-      }
-      .search-wrapper {
-        width: 100%;
-        justify-content: flex-end;
-        margin-bottom: 10px;
-      }
-      .search-wrapper input {
-        width: 120px;
-      }
-      .product-item.large { grid-column: span 1; }
-    }
   </style>
 </head>
 <body>
@@ -343,6 +363,17 @@
       <img src="https://via.placeholder.com/400x400" alt="">
       <span>Kataloqdakı bütün tablolara bax</span>
       <button>İncələ →</button>
+
+      <!-- Burada videolar əlavə olunur -->
+      <div class="video-grid">
+        <video src="/images/hareketli.kiz.mp4" autoplay muted loop></video>
+        <video src="/images/hareketli.atli.mp4" autoplay muted loop></video>
+        <video src="/images/hareketli.tren.mp4" autoplay muted loop></video>
+        <video src="/images/hareketli.tekne.mp4" autoplay muted loop></video>
+        <video src="/images/hareketli.atlar.mp4" autoplay muted loop></video>
+        <video src="/images/video6.mp4" autoplay muted loop></video>
+      </div>
+
     </div>
   </main>
 
