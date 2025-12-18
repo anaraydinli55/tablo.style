@@ -228,7 +228,7 @@ header {
   margin-top: 10px;
   padding-left: 7mm;
   padding-right: 7mm;
-  margin-bottom: 10mm; /* SEO metninden önce boşluk */
+  margin-bottom: 0; /* SEO metni margin-top ile ayrılacak */
 }
 
 .video-container video {
@@ -237,12 +237,17 @@ header {
   object-fit: cover;
 }
 
-/* SEO Açıklama Metni – Sarı kutu, container içinde, videolarla boşluklu */
+/* SEO metni container, videolarla tam hizalı */
+.seo-text-wrapper {
+  padding-left: 7mm;
+  padding-right: 7mm;
+}
+
 .seo-text {
-  background-color: #f2c200; /* Sarı zemin */
-  color: #0a1a3f;            /* Lacivert yazı */
-  padding: 25px 7mm;         /* Üst-alt 25px, sol-sağ 7mm */
-  margin-top: 10mm;          /* Videolardan 10mm aşağı */
+  background-color: #f2c200;
+  color: #0a1a3f;
+  padding: 25px;
+  margin-top: 10mm; /* videolardan 10mm aşağı */
   border-radius: 18px;
   line-height: 1.6;
   font-size: 15px;
@@ -252,8 +257,9 @@ header {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
-  color: #081633; /* Daha koyu lacivert */
+  color: #081633;
 }
+
 
 
 /* ===================== */
