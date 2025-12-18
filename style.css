@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #fff;
+  background: #d0f0ff;
   color: #000;
 }
 
@@ -20,72 +20,61 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.top-banner b {
+  font-weight: 700;
 }
 
 .top-banner button {
-  background: #000;
+  background-color: #000;
   color: #fff;
   border: none;
   padding: 5px 15px;
-  cursor: pointer;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 /* Header */
 header {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
+  padding: 15px 20px;
+  background-color: #d0f0ff;
 }
 
-/* Logo + Search + Emojiler */
+/* Logo ve search + emoji bölməsi */
 .logo-search {
   display: flex;
-  justify-content: space-between; /* Solda search, sağda emojiler */
+  flex-direction: column;
   align-items: center;
-  padding: 10px 20px;
-  flex-wrap: wrap;
   gap: 10px;
 }
 
 .logo-search h1 {
-  margin: 0;
-  font-family: 'Baloo 2', cursive;
+  font-size: 32px;
   font-weight: 700;
-  letter-spacing: 1px;
-  flex-basis: 100%;
   text-align: center;
-  margin-bottom: 10px;
 }
 
-/* Search ve button */
-.search-wrapper {
+.search-icons {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  flex: 1;
-  max-width: 300px; /* İstəyə görə genişlik */
+  width: 100%;
+  max-width: 400px;
+  gap: 10px;
 }
 
-.search-wrapper input {
+.search-icons input {
   flex: 1;
-  padding: 8px;
+  padding: 8px 12px;
   border-radius: 20px;
   border: 1px solid #ccc;
 }
 
-.search-wrapper .search-btn {
-  padding: 8px 12px;
-  border: none;
-  background: #ddd;
-  border-radius: 50%;
-  margin-left: 5px;
-  cursor: pointer;
-}
-
-/* Emojiler */
 .user-icons {
   display: flex;
-  align-items: center;
-  gap: 10px; /* Emoji arası boşluk */
+  gap: 10px;
 }
 
 .user-icons button {
@@ -99,8 +88,9 @@ header {
 .categories {
   display: flex;
   gap: 15px;
-  padding: 0 20px 10px 20px;
+  padding: 10px 20px 10px 20px;
   font-size: 14px;
+  flex-wrap: wrap;
 }
 
 .categories a.highlight-red { color: red; }
@@ -114,15 +104,20 @@ header {
   padding: 10px 20px;
 }
 
+.category-slider::-webkit-scrollbar {
+  display: none;
+}
+
 .category-item {
   text-align: center;
   flex: 0 0 auto;
 }
 
 .category-item img {
-  border-radius: 10px;
   width: 80px;
   height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .category-item span {
@@ -149,7 +144,6 @@ header {
 .product-item img {
   width: 100%;
   border-radius: 10px;
-  display: block;
 }
 
 .product-item.large {
@@ -215,27 +209,20 @@ header {
 
 /* Mobil uyumlu */
 @media (max-width: 768px) {
-  .logo-search {
-    justify-content: space-between;
-    gap: 10px;
-  }
-
   .logo-search h1 {
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 10px;
+    font-size: 28px;
   }
 
-  .search-wrapper {
+  .search-icons {
+    max-width: 100%;
+  }
+
+  .search-icons input {
     flex: 1;
   }
 
   .video-wrapper {
     padding-left: 7mm;
     padding-right: 7mm;
-  }
-
-  .product-item.large {
-    grid-column: span 1;
   }
 }
