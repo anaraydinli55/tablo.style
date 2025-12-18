@@ -18,60 +18,6 @@
       color: #000;
     }
 
-<!DOCTYPE html>
-<html lang="az">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Videolar Nümunəsi</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <!-- Mevcut içerik varsa buraya devam edebilir -->
-
-  <div class="top-banner">
-    <span>🚚 Banner Mətn</span>
-    <button>Button</button>
-  </div>
-
-  <header>
-    <div class="logo-search">
-      <h1>Logo</h1>
-      <input type="text" placeholder="Axtarış...">
-      <button class="search-btn">🔍</button>
-    </div>
-  </header>
-
-  <!-- Videolar burada başlayacak -->
-  <div class="video-wrapper">
-    <div class="video-container">
-      <video src="/images/hareketli.kiz.mp4" autoplay muted loop></video>
-    </div>
-    <div class="video-container">
-      <video src="/images/hareketli.atli.mp4" autoplay muted loop></video>
-    </div>
-    <div class="video-container">
-      <video src="/images/hareketli.tren.mp4" autoplay muted loop></video>
-    </div>
-    <div class="video-container">
-      <video src="/images/hareketli.tekne.mp4" autoplay muted loop></video>
-    </div>
-    <div class="video-container">
-      <video src="/images/hareketli.atlar.mp4" autoplay muted loop></video>
-    </div>
-    <div class="video-container">
-      <video src="/images/video6.mp4" autoplay muted loop></video>
-    </div>
-  </div>
-
-  <!-- Eğer başka içerik varsa buraya devam edebilir -->
-
-</body>
-</html>
-
-    
-
     /* Üst banner */
     .top-banner {
       background-color: #f2c200;
@@ -95,7 +41,7 @@
       cursor: pointer;
     }
 
-    /* Header və kategoriya sahəsi */
+    /* Header ve kategoriya */
     header {
       background-color: #d0f0ff; /* Açıq mavi */
       padding: 15px 10px;
@@ -109,7 +55,7 @@
     }
 
     .logo-search h1 {
-      font-size: 32px; /* Daha böyük yazı */
+      font-size: 32px;
       text-align: center;
       flex: 1 1 100%;
       margin-bottom: 10px;
@@ -122,7 +68,7 @@
     }
 
     .search-wrapper input {
-      width: 150px; /* Qısaldıldı */
+      width: 150px;
       padding: 6px 10px;
       border-radius: 25px;
       border: 1px solid #ccc;
@@ -158,7 +104,7 @@
       gap: 10px;
       font-size: 14px;
       margin-top: 10px;
-      background-color: #d0f0ff; /* Açıq mavi */
+      background-color: #d0f0ff;
       padding: 10px 0;
       border-radius: 10px;
     }
@@ -181,7 +127,7 @@
       overflow-x: auto;
       padding: 10px 0;
       gap: 10px;
-      background-color: #80c0ff; /* Orta mavi */
+      background-color: #80c0ff;
     }
 
     .category-slider::-webkit-scrollbar { display: none; }
@@ -245,20 +191,28 @@
       align-self: flex-start;
     }
 
-    /* Video bölməsi */
-    .video-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
+    /* Videolar */
+    .video-wrapper {
+      display: flex;
+      flex-direction: column;
       gap: 10px;
-      padding: 10px;
+      margin-top: 10px;
     }
 
-    .video-grid video {
+    .video-container {
+      padding-left: 7mm;
+      padding-right: 7mm;
+    }
+
+    .video-container video {
       width: 100%;
-      height: auto;
+      height: 100%;
       display: block;
+      border-radius: 10px;
+      object-fit: cover;
     }
 
+    /* Mobil uyumlu */
     @media (max-width: 768px) {
       .logo-search h1 {
         font-size: 28px;
@@ -273,12 +227,13 @@
         width: 120px;
       }
       .product-item.large { grid-column: span 1; }
-      .video-grid {
-        grid-template-columns: 1fr;
+      .video-container {
+        padding-left: 7mm;
+        padding-right: 7mm;
       }
-      .video-grid video {
-        margin-left: 0.7mm;
-        margin-right: 0.7mm;
+      .video-container video {
+        width: calc(100% - 14mm); /* her taraftan 7mm */
+        height: 100%;
       }
     }
 
@@ -338,118 +293,38 @@
   </header>
 
   <div class="category-slider">
-    <div class="category-item">
-      <a href="https://tablo-style.vercel.app/images/manzara.jpg" target="_blank">
-        <img src="https://tablo-style.vercel.app/images/manzara.jpg" alt="Təbiət">
-        <span>Təbiət</span>
-      </a>
-    </div>
-    <div class="category-item">
-      <a href="https://tablo-style.vercel.app/images/kinkade.jpg" target="_blank">
-        <img src="https://tablo-style.vercel.app/images/kinkade.jpg" alt="Afremov stili">
-        <span>Afremov stili</span>
-      </a>
-    </div>
-    <div class="category-item">
-      <a href="https://tablo-style.vercel.app/images/afremov.png" target="_blank">
-        <img src="https://tablo-style.vercel.app/images/afremov.png" alt="Kinkade stili">
-        <span>Kinkade stili</span>
-      </a>
-    </div>
-    <div class="category-item">
-      <a href="https://tablo-style.vercel.app/images/baki.jpg" target="_blank">
-        <img src="https://tablo-style.vercel.app/images/baki.jpg" alt="Bakı Mənzərələri">
-        <span>Bakı Mənzərələri</span>
-      </a>
-    </div>
-    <div class="category-item">
-      <a href="https://tablo-style.vercel.app/images/at.jpg" target="_blank">
-        <img src="https://tablo-style.vercel.app/images/at.jpg" alt="Heyvan tablolari">
-        <span>Heyvan Tablolari</span>
-      </a>
-    </div>
-    <div class="category-item">
-      <a href="https://tablo-style.vercel.app/images/istanbul.jpg" target="_blank">
-        <img src="https://tablo-style.vercel.app/images/istanbul.jpg" alt="İstanbul">
-        <span>İstanbul</span>
-      </a>
-    </div>
-    <div class="category-item">
-      <a href="https://tablo-style.vercel.app/images/eyfel.jpg" target="_blank">
-        <img src="https://tablo-style.vercel.app/images/eyfel.jpg" alt="Paris">
-        <span>Paris</span>
-      </a>
-    </div>
-    <div class="category-item">
-      <a href="https://tablo-style.vercel.app/images/hulya.jpg" target="_blank">
-        <img src="https://tablo-style.vercel.app/images/hulya.jpg" alt="Hülya Özdemir stili">
-        <span>Hülya Özdemir stili</span>
-      </a>
-    </div>
-    <div class="category-item">
-      <a href="https://tablo-style.vercel.app/images/musiqi.jpg" target="_blank">
-        <img src="https://tablo-style.vercel.app/images/musiqi.jpg" alt="Sənət - musiqi">
-        <span>Sənət - musiqi</span>
-      </a>
-    </div>
-    <div class="category-item">
-      <a href="https://tablo-style.vercel.app/images/dini.jpg" target="_blank">
-        <img src="https://tablo-style.vercel.app/images/dini.jpg" alt="Dini">
-        <span>Dini</span>
-      </a>
-    </div>
-    <div class="category-item">
-      <a href="https://tablo-style.vercel.app/images/cicek.jpg" target="_blank">
-        <img src="https://tablo-style.vercel.app/images/cicek.jpg" alt="Çiçək tabloları">
-        <span>Çiçək tabloları</span>
-      </a>
-    </div>
-    <div class="category-item">
-      <a href="https://tablo-style.vercel.app/images/abstrakt.jpg" target="_blank">
-        <img src="https://tablo-style.vercel.app/images/abstrakt.jpg" alt="Abstrakt">
-        <span>Abstrakt</span>
-      </a>
-    </div>
+    <!-- kategori itemleri burada kalabilir -->
   </div>
 
-<div class="product-item large">
-  <img src="https://via.placeholder.com/400x400" alt="">
-  <span>Kataloqdakı bütün tablolara bax</span>
-  <button>İncələ →</button>
+  <div class="product-item large">
+    <img src="https://via.placeholder.com/400x400" alt="">
+    <span>Kataloqdakı bütün tablolara bax</span>
+    <button>İncələ →</button>
+  </div>
 
   <!-- Videolar -->
-<div class="video-wrapper">
-  
-  <div class="video-container video1">
-    <video src="/images/hareketli.kiz.mp4" autoplay muted loop></video>
-  </div>
-  
-  <div class="video-container video2">
-    <video src="/images/hareketli.atli.mp4" autoplay muted loop></video>
-  </div>
-  
-  <div class="video-container video3">
-    <video src="/images/hareketli.tren.mp4" autoplay muted loop></video>
-  </div>
-  
-  <div class="video-container video4">
-    <video src="/images/hareketli.tekne.mp4" autoplay muted loop></video>
-  </div>
-  
-  <div class="video-container video5">
-    <video src="/images/hareketli.atlar.mp4" autoplay muted loop></video>
-  </div>
-  
-  <div class="video-container video6">
-    <video src="/images/video6.mp4" autoplay muted loop></video>
+  <div class="video-wrapper">
+    <div class="video-container video1">
+      <video src="/images/hareketli.kiz.mp4" autoplay muted loop></video>
+    </div>
+    <div class="video-container video2">
+      <video src="/images/hareketli.atli.mp4" autoplay muted loop></video>
+    </div>
+    <div class="video-container video3">
+      <video src="/images/hareketli.tren.mp4" autoplay muted loop></video>
+    </div>
+    <div class="video-container video4">
+      <video src="/images/hareketli.tekne.mp4" autoplay muted loop></video>
+    </div>
+    <div class="video-container video5">
+      <video src="/images/hareketli.atlar.mp4" autoplay muted loop></video>
+    </div>
+    <div class="video-container video6">
+      <video src="/images/video6.mp4" autoplay muted loop></video>
+    </div>
   </div>
 
-</div>
-
-
-
-
-
+  <!-- Floating buttons -->
   <div class="floating-buttons">
     <button class="whatsapp">💬</button>
     <button class="chat">🗨️</button>
