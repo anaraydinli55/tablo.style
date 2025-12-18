@@ -14,12 +14,13 @@ body {
 /* Üst banner */
 .top-banner {
   background-color: #f2c200;
-  padding: 8px;
+  padding: 8px 10px;
   text-align: center;
   font-size: 14px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .top-banner button {
@@ -37,7 +38,7 @@ header {
   background-color: #d0f0ff;
 }
 
-/* Logo ve search */
+/* Logo + search + emoji */
 .logo-search {
   display: flex;
   flex-direction: column;
@@ -58,7 +59,6 @@ header {
   align-items: center;
   width: 100%;
   max-width: 400px;
-  gap: 10px;
 }
 
 .search-box {
@@ -95,11 +95,11 @@ header {
   cursor: pointer;
 }
 
-/* Kategoriler */
+/* Kategoriyalar */
 .categories {
   display: flex;
   gap: 15px;
-  padding: 10px 0;
+  padding: 10px 20px;
   font-size: 14px;
 }
 
@@ -111,7 +111,7 @@ header {
   display: flex;
   gap: 10px;
   overflow-x: auto;
-  padding: 10px 0;
+  padding: 10px 20px;
 }
 
 .category-item {
@@ -183,9 +183,14 @@ header {
   padding-right: 7mm;
 }
 
+.video-container {
+  width: 100%;
+}
+
 .video-container video {
   width: 100%;
   height: auto;
+  display: block;
   border-radius: 10px;
   object-fit: cover;
 }
@@ -198,6 +203,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  z-index: 1000;
 }
 
 .floating-buttons button {
@@ -214,18 +220,20 @@ header {
 
 /* Mobil uyumlu */
 @media (max-width: 768px) {
-  .logo-search {
-    width: 100%;
-    gap: 8px;
+  .logo-search h1 {
+    font-size: 28px;
   }
 
   .search-icons {
     max-width: 100%;
-    flex-wrap: nowrap;
   }
 
   .search-box input {
     font-size: 14px;
+  }
+
+  .product-item.large {
+    grid-column: span 1;
   }
 
   .video-wrapper {
