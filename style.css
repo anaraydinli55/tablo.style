@@ -59,7 +59,8 @@ header {
   border-radius: 20px;
   border: 1px solid #ccc;
 }
-.logo-search h1{
+
+.logo-search h1 {
   font-family:'Baloo 2', cursive;
   font-weight:700;
   letter-spacing:1px;
@@ -177,22 +178,32 @@ header {
 .floating-buttons .whatsapp { background: #25d366; color: #fff; }
 .floating-buttons .chat { background: #000; color: #fff; }
 
-/* Videolar üçün stil */
-.videos-section {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+/* Video bölməsi */
+.video-wrapper {
+  display: flex;
+  flex-direction: column;
   gap: 10px;
-  padding: 20px;
+  padding-left: 7mm;
+  padding-right: 7mm;
+  margin-top: 10px;
 }
 
-.videos-section video {
+.video-wrapper video {
   width: 100%;
-  height: auto;
-  display: block;
   border-radius: 10px;
+  display: block;
+  object-fit: cover;
 }
 
-/* Mobil uyumlu ayarlar */
+/* Hər video üçün fərdi hündürlük */
+.video1 { height: 200px; }
+.video2 { height: 220px; }
+.video3 { height: 180px; }
+.video4 { height: 240px; }
+.video5 { height: 210px; }
+.video6 { height: 230px; }
+
+/* Mobil uyumlu */
 @media (max-width: 768px) {
   .logo-search {
     flex-direction: column;
@@ -211,19 +222,13 @@ header {
     grid-column: span 1;
   }
 
-  /* Videolar mobilde ekranın sağ ve solundan 7mm aralık */
-  .videos-section {
-    grid-template-columns: 1fr;
-    gap: 10px;
+  .video-wrapper {
     padding-left: 7mm;
     padding-right: 7mm;
   }
 
-  .videos-section video {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    display: block;
+  .video-wrapper video {
+    height: auto !important;
   }
 }
 
