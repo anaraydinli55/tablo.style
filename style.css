@@ -197,3 +197,12 @@ header {
     grid-column: span 1;
   }
 }
+.top-banner {
+  background-color: #f2c200 !important;
+  padding: 8px;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
