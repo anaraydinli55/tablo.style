@@ -103,12 +103,13 @@ header {
 .categories a.highlight-red { color: red; }
 .categories a.highlight-green { color: green; }
 
-/* Kategori slider */
+/* Kategori slider (Tam çalışan) */
 .category-slider {
   display: flex;
+  flex-wrap: nowrap; /* öğeler tek satırda */
   gap: 10px;
   overflow-x: auto;
-  padding: 10px 10px;
+  padding: 10px;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch; /* mobil kaydırma için */
   width: 100%;
@@ -125,21 +126,22 @@ header {
 
 .category-item {
   text-align: center;
-  flex: 0 0 auto;
-  min-width: 70px; /* öğelerin sığması için küçültüldü */
+  flex: 0 0 auto; /* sabit boyut */
+  min-width: 70px; /* öğelerin sığması için */
 }
 
 .category-item img {
   border-radius: 10px;
   width: 70px;
   height: 70px;
+  object-fit: cover;
 }
 
 .category-item span {
   display: block;
   margin-top: 5px;
   font-size: 14px;
-  white-space: nowrap; /* yazılar tek satırda */
+  white-space: nowrap; /* yazılar taşmasın */
 }
 
 /* Product grid */
