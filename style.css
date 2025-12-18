@@ -6,7 +6,7 @@ body {
 }
 
 .top-banner {
-  background: #e1e1e1;
+  background-color: #f2c200; /* Koyu sarı */
   padding: 8px;
   text-align: center;
   font-size: 14px;
