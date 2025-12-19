@@ -219,68 +219,38 @@ header {
 }
 
 /* ===================== */
-/* VİDEOLAR */
+/* VİDEOLAR & GÖRSELLER */
 /* ===================== */
 .video-wrapper {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: 10px;
   padding-left: 7mm;
   padding-right: 7mm;
-  margin-bottom: 0; /* SEO metni margin-top ile ayrılacak */
 }
 
-/* Video ve görseller için ORTAK container */
-.video-container {
-  width: 100%;
-  aspect-ratio: 9 / 16;   /* Videoların oranı */
-  overflow: hidden;
-  border-radius: 10px;
-}
-
-/* Video */
-.video-container video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-/* Görsel */
-.video-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-/* ===================== */
-/* VIDEO & GÖRSEL CONTAINER (MOBİL GARANTİ) */
-/* ===================== */
 .video-container {
   position: relative;
   width: 100%;
-  padding-top: 177.77%; /* 9:16 oran → (16/9)*100 */
+  aspect-ratio: 9 / 16;
   overflow: hidden;
   border-radius: 10px;
+  background: #000;
 }
 
-/* Video ve görsel ortak */
 .video-container video,
 .video-container img {
   position: absolute;
-  top: 0;
-  left: 0;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
 
-
-
-/* SEO metni container, videolarla tam hizalı */
+/* ===================== */
+/* SEO METİNLERİ */
+/* ===================== */
 .seo-text-wrapper {
   padding-left: 7mm;
   padding-right: 7mm;
@@ -290,7 +260,7 @@ header {
   background-color: #f2c200;
   color: #0a1a3f;
   padding: 25px;
-  margin-top: 10mm; /* videolardan 10mm aşağı */
+  margin-top: 10mm;
   border-radius: 18px;
   line-height: 1.6;
   font-size: 15px;
@@ -302,8 +272,6 @@ header {
   margin-bottom: 10px;
   color: #081633;
 }
-
-
 
 /* ===================== */
 /* FLOATING BUTONLAR */
@@ -362,32 +330,3 @@ header {
     height: 60px;
   }
 }
-
-/* ===================== */
-/* VİDEO & GÖRSEL SABİT ÖLÇÜ (KESİN ÇÖZÜM) */
-/* ===================== */
-
-.video-container {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 9 / 16;   /* Instagram / Reels oranı */
-  overflow: hidden;
-  border-radius: 10px;
-  background: #000;
-}
-
-/* Video ve görsel AYNI davranır */
-.video-container video,
-.video-container img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* Eski img kurallarını EZ */
-.video-container img {
-  max-width: none !important;
-}
-
