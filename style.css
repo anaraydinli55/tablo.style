@@ -237,6 +237,14 @@ header {
   object-fit: cover;
 }
 
+.video-container img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+
 /* SEO metni container, videolarla tam hizalı */
 .seo-text-wrapper {
   padding-left: 7mm;
