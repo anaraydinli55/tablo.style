@@ -1,14 +1,9 @@
-/* ===================== */
-/* ÖNEMLİ GENEL AYAR */
-/* ===================== */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+/* ÖNEMLİ: En alttaki görseller video container ölçülerinde sabitlenecek, mobilde taşma olmayacak */
 
+/* ===================== */
+/* GENEL AYARLAR */
+/* ===================== */
 body {
-  overflow-x: hidden; /* Yan kaydırmayı önler */
   margin: 0;
   font-family: Arial, sans-serif;
   background: #d0f0ff;
@@ -29,9 +24,7 @@ body {
   flex-wrap: wrap;
 }
 
-.top-banner b {
-  font-weight: 700;
-}
+.top-banner b { font-weight: 700; }
 
 .top-banner button {
   background-color: black;
@@ -51,6 +44,7 @@ header {
   background-color: #d0f0ff;
 }
 
+/* Logo ve arama */
 .logo-search {
   display: flex;
   flex-direction: column;
@@ -115,17 +109,9 @@ header {
   transition: 0.3s;
 }
 
-.categories a:hover {
-  background-color: #f0f0f0;
-}
-
-.highlight-red {
-  color: red;
-}
-
-.highlight-green {
-  color: green;
-}
+.categories a:hover { background-color: #f0f0f0; }
+.highlight-red { color: red; }
+.highlight-green { color: green; }
 
 /* ===================== */
 /* KATEGORİ SLIDER */
@@ -138,16 +124,10 @@ header {
   padding: 10px;
   background-color: #80c0ff;
   scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
 }
 
 .category-slider::-webkit-scrollbar {
   height: 8px;
-}
-
-.category-slider::-webkit-scrollbar-thumb {
-  background-color: #888;
-  border-radius: 4px;
 }
 
 .category-item {
@@ -225,7 +205,7 @@ header {
 }
 
 /* ===================== */
-/* VİDEOLAR & GÖRSELLER (TAM RESPONSİVE) */
+/* VİDEOLAR & GÖRSELLER */
 /* ===================== */
 .video-wrapper {
   display: flex;
@@ -234,31 +214,29 @@ header {
   margin-top: 10px;
   padding-left: 7mm;
   padding-right: 7mm;
-  margin-bottom: 0;
 }
 
 .video-container {
   width: 100%;
-  position: relative;
-  padding-top: 177.77%; /* 16/9 oranını korur ve mobilde taşmayı önler */
+  aspect-ratio: 9 / 16; /* Videoların ve görsellerin oranı sabit */
   overflow: hidden;
   border-radius: 10px;
-  background: #000;
+  position: relative;
 }
 
 .video-container video,
 .video-container img {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
   display: block;
 }
 
 /* ===================== */
-/* SEO METİNLERİ */
+/* SEO METNİ */
 /* ===================== */
 .seo-text-wrapper {
   padding-left: 7mm;
@@ -304,43 +282,28 @@ header {
   cursor: pointer;
 }
 
-.whatsapp {
-  background-color: #25D366;
-  color: white;
-}
-
-.chat {
-  background-color: #000;
-  color: white;
-}
+.whatsapp { background-color: #25D366; color: white; }
+.chat { background-color: #000; color: white; }
 
 /* ===================== */
 /* MOBİL */
 /* ===================== */
 @media (max-width: 768px) {
-  .logo-search h1 {
-    font-size: 28px;
-  }
+  .logo-search h1 { font-size: 28px; }
+  .search-wrapper input { width: 120px; }
+  .product-item.large { grid-column: span 1; }
 
-  .search-wrapper input {
-    width: 120px;
-  }
-
-  .product-item.large {
-    grid-column: span 1;
-  }
-
-  .category-item {
-    min-width: 60px;
-  }
-
-  .category-item img {
-    width: 60px;
-    height: 60px;
-  }
-
-  /* Video ve görsel container mobilde de aynı oranı korur */
+  /* Görsellerin mobilde taşmasını engelle */
   .video-container {
-    padding-top: 177.77%; /* 16/9 oranı */
+    aspect-ratio: 9 / 16;
+    max-height: 80vw; /* Görsel yüksekliği ekran genişliği ile sınırlı */
   }
+}
+
+/* ===================== */
+/* GÖRSELLERİN SABİT OLMA ÇÖZÜMÜ */
+/* ===================== */
+.video-wrapper .video-container img {
+  max-width: 100%;
+  max-height: 100%;
 }
