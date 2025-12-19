@@ -255,6 +255,30 @@ header {
   display: block;
 }
 
+/* ===================== */
+/* VIDEO & GÖRSEL CONTAINER (MOBİL GARANTİ) */
+/* ===================== */
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 177.77%; /* 9:16 oran → (16/9)*100 */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Video ve görsel ortak */
+.video-container video,
+.video-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
 
 /* SEO metni container, videolarla tam hizalı */
 .seo-text-wrapper {
