@@ -1,7 +1,14 @@
 /* ===================== */
-/* GENEL AYARLAR */
+/* ÖNEMLİ GENEL AYAR */
 /* ===================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* Tüm elementlerde padding ve border hesaplamaya dahil */
+}
+
 body {
+  overflow-x: hidden; /* Yan kaydırmayı önler */
   margin: 0;
   font-family: Arial, sans-serif;
   background: #d0f0ff;
@@ -225,14 +232,16 @@ header {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-top: 10px;
   padding-left: 7mm;
   padding-right: 7mm;
+  margin-bottom: 0;
 }
 
 .video-container {
-  position: relative;
   width: 100%;
-  aspect-ratio: 9 / 16;
+  aspect-ratio: 9 / 16; /* Videolarla aynı oran */
+  position: relative;
   overflow: hidden;
   border-radius: 10px;
   background: #000;
@@ -328,5 +337,9 @@ header {
   .category-item img {
     width: 60px;
     height: 60px;
+  }
+
+  .video-container {
+    aspect-ratio: 9 / 16;
   }
 }
