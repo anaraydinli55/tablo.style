@@ -231,17 +231,28 @@ header {
   margin-bottom: 0; /* SEO metni margin-top ile ayrılacak */
 }
 
-.video-container video {
+/* Video ve görseller için ORTAK container */
+.video-container {
   width: 100%;
+  aspect-ratio: 9 / 16;   /* Videoların oranı */
+  overflow: hidden;
   border-radius: 10px;
-  object-fit: cover;
 }
 
+/* Video */
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Görsel */
 .video-container img {
   width: 100%;
-  display: block;
-  border-radius: 10px;
+  height: 100%;
   object-fit: cover;
+  display: block;
 }
 
 
