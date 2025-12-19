@@ -4,7 +4,7 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box; /* Tüm elementlerde padding ve border hesaplamaya dahil */
+  box-sizing: border-box;
 }
 
 body {
@@ -51,7 +51,6 @@ header {
   background-color: #d0f0ff;
 }
 
-/* Logo ve arama */
 .logo-search {
   display: flex;
   flex-direction: column;
@@ -226,7 +225,7 @@ header {
 }
 
 /* ===================== */
-/* VİDEOLAR & GÖRSELLER */
+/* VİDEOLAR & GÖRSELLER (TAM RESPONSİVE) */
 /* ===================== */
 .video-wrapper {
   display: flex;
@@ -240,8 +239,8 @@ header {
 
 .video-container {
   width: 100%;
-  aspect-ratio: 9 / 16; /* Videolarla aynı oran */
   position: relative;
+  padding-top: 177.77%; /* 16/9 oranını korur ve mobilde taşmayı önler */
   overflow: hidden;
   border-radius: 10px;
   background: #000;
@@ -250,7 +249,8 @@ header {
 .video-container video,
 .video-container img {
   position: absolute;
-  inset: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -339,7 +339,8 @@ header {
     height: 60px;
   }
 
+  /* Video ve görsel container mobilde de aynı oranı korur */
   .video-container {
-    aspect-ratio: 9 / 16;
+    padding-top: 177.77%; /* 16/9 oranı */
   }
 }
