@@ -362,3 +362,32 @@ header {
     height: 60px;
   }
 }
+
+/* ===================== */
+/* VİDEO & GÖRSEL SABİT ÖLÇÜ (KESİN ÇÖZÜM) */
+/* ===================== */
+
+.video-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9 / 16;   /* Instagram / Reels oranı */
+  overflow: hidden;
+  border-radius: 10px;
+  background: #000;
+}
+
+/* Video ve görsel AYNI davranır */
+.video-container video,
+.video-container img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Eski img kurallarını EZ */
+.video-container img {
+  max-width: none !important;
+}
+
