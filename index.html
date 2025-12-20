@@ -235,10 +235,14 @@
     .seo-text h2 { font-size: 20px; margin-bottom: 5px; }
     .seo-text p { font-size: 14px; line-height: 1.5; }
 
-    /* Sadece son bölüm için: koyu lacivert ve kalın */
-    .process-list li, .process-note {
-      color: #081633; /* koyu lacivert */
-      font-weight: 700; /* kalın */
+    /* Sadece baskı prosesi bölümü için tüm metinler */
+    .seo-text-wrapper .seo-text h2,
+    .seo-text-wrapper .seo-text ul.process-list li,
+    .seo-text-wrapper .seo-text p.process-note {
+      color: #081633;      /* koyu lacivert */
+      font-weight: 700;     /* kalın */
+      font-size: 16px;      /* aynı boyut */
+      line-height: 1.5;     /* okunabilirlik için */
     }
   </style>
 </head>
