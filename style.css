@@ -328,3 +328,16 @@ p.process-note {
     grid-column: span 1;
   }
 }
+
+.site-footer {
+  margin-top: 20mm;          /* son linklərdən 20mm aşağı */
+  padding: 15px 10px;
+  text-align: center;        /* yatayda ortala */
+  font-size: 14px;
+  color: #081633;
+  width: 100%;
+
+  display: flex;             /* dikey + yatay tam ortalama */
+  justify-content: center;
+  align-items: center;
+}
