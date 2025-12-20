@@ -277,3 +277,19 @@ header {
   .video-wrapper { padding-left: 7mm; padding-right: 7mm; }
   .video-container { aspect-ratio: 9 / 16; }
 }
+
+.process-list {
+  margin-top: 10px;
+  padding-left: 20px;
+  font-weight: 600; /* yazı bir az qalın */
+  line-height: 1.6;
+}
+
+.process-list li {
+  margin-bottom: 6px;
+}
+
+.process-note {
+  margin-top: 10px;
+  font-weight: 500;
+}
