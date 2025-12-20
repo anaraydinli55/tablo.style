@@ -305,3 +305,24 @@ header {
   margin-bottom: 12px;
   line-height: 1.6;
 }
+
+/* Baskı prosesi listesi – numarasız ve kalın */
+.process-list {
+  list-style: none;      /* 1,2,3,4,5 KALKAR */
+  padding-left: 0;
+  margin: 15px 0;
+}
+
+.process-list li {
+  font-weight: 700;      /* kalın yazı */
+  margin-bottom: 10px;  /* alt alta boşluk */
+  line-height: 1.5;
+}
+
+/* Açıklama notu */
+.process-note {
+  font-weight: 700;       /* kalın */
+  color: #081633;         /* koyu lacivert */
+  margin-top: 15px;
+}
+
