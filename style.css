@@ -1,4 +1,11 @@
 /* ===================== */
+/* RENK DEĞİŞKENLERİ */
+/* ===================== */
+:root {
+  --baski-renk: #081633; /* İstediğin koyu lacivert rengini buradan değiştir */
+}
+
+/* ===================== */
 /* GENEL AYARLAR */
 /* ===================== */
 * {
@@ -248,7 +255,7 @@ header {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 12px;
-  color: #081633;
+  color: var(--baski-renk);
 }
 
 /* ===================== */
@@ -262,7 +269,7 @@ ul.process-list {
 
 ul.process-list li {
   font-weight: 700 !important;
-  color: #081633 !important;
+  color: var(--baski-renk) !important;
   margin-bottom: 10px !important;
   line-height: 1.6 !important;
 }
@@ -270,7 +277,7 @@ ul.process-list li {
 p.process-note {
   margin-top: 15px !important;
   font-weight: 700 !important;
-  color: #081633 !important;
+  color: var(--baski-renk) !important;
 }
 
 /* ===================== */
