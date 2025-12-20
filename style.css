@@ -295,3 +295,13 @@ header {
   color: #0a1a3f;          /* koyu lacivert */
 }
 
+.seo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.seo-list li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
