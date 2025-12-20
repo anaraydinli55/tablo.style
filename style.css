@@ -332,12 +332,12 @@ p.process-note {
 .site-footer {
   margin-top: 20mm;          /* son linklərdən 20mm aşağı */
   padding: 15px 10px;
-  text-align: center;        /* yatayda ortala */
+  text-align: center;        /* yazını yatay ortala */
   font-size: 14px;
   color: #081633;
   width: 100%;
 
-  display: flex;             /* dikey + yatay tam ortalama */
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  justify-content: center;   /* yatay mərkəz */
 }
+
