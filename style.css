@@ -291,5 +291,7 @@ header {
 
 .process-note {
   margin-top: 10px;
-  font-weight: 500;
+  font-weight: 700;        /* kalın */
+  color: #0a1a3f;          /* koyu lacivert */
 }
+
