@@ -254,23 +254,23 @@ header {
 /* ===================== */
 /* BASKI PROSESİ – TEMİZ VE KESİN */
 /* ===================== */
-.process-list {
-  list-style: none;        /* numaralar kalkar */
-  padding-left: 0;
-  margin-top: 15px;
+ul.process-list {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin-top: 15px !important;
 }
 
-.process-list li {
-  font-weight: 700;        /* yazılar kalın */
-  color: #081633;          /* koyu lacivert */
-  margin-bottom: 10px;     /* alt alta düzgün boşluk */
-  line-height: 1.6;
+ul.process-list li {
+  font-weight: 700 !important;
+  color: #081633 !important;
+  margin-bottom: 10px !important;
+  line-height: 1.6 !important;
 }
 
-.process-note {
-  margin-top: 15px;
-  font-weight: 700;        /* kalın */
-  color: #081633;          /* koyu lacivert */
+p.process-note {
+  margin-top: 15px !important;
+  font-weight: 700 !important;
+  color: #081633 !important;
 }
 
 /* ===================== */
