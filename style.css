@@ -2,7 +2,7 @@
 /* RENK DEĞİŞKENLERİ */
 /* ===================== */
 :root {
-  --baski-renk: #081633; /* İstediğin koyu lacivert rengini buradan değiştir */
+  --baski-renk: #081633;
 }
 
 /* ===================== */
@@ -18,6 +18,11 @@
 body {
   background: #d0f0ff;
   color: #000;
+
+  /* ✅ EKLENEN – footer ortalama ve en alta sabitleme */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* ===================== */
@@ -119,13 +124,8 @@ header {
   background-color: #f0f0f0;
 }
 
-.highlight-red {
-  color: red;
-}
-
-.highlight-green {
-  color: green;
-}
+.highlight-red { color: red; }
+.highlight-green { color: green; }
 
 /* ===================== */
 /* KATEGORİ SLIDER */
@@ -259,7 +259,7 @@ header {
 }
 
 /* ===================== */
-/* BASKI PROSESİ – TEMİZ VE KESİN */
+/* BASKI PROSESİ */
 /* ===================== */
 ul.process-list {
   list-style: none !important;
@@ -302,33 +302,21 @@ p.process-note {
   cursor: pointer;
 }
 
-.whatsapp {
-  background-color: #25D366;
-  color: white;
-}
-
-.chat {
-  background-color: #000;
-  color: white;
-}
+.whatsapp { background-color: #25D366; color: white; }
+.chat { background-color: #000; color: white; }
 
 /* ===================== */
 /* MOBİL */
 /* ===================== */
 @media (max-width: 768px) {
-  .logo-search h1 {
-    font-size: 28px;
-  }
-
-  .search-wrapper input {
-    width: 120px;
-  }
-
-  .product-item.large {
-    grid-column: span 1;
-  }
+  .logo-search h1 { font-size: 28px; }
+  .search-wrapper input { width: 120px; }
+  .product-item.large { grid-column: span 1; }
 }
 
+/* ===================== */
+/* FOOTER */
+/* ===================== */
 .site-footer {
   margin-top: 80px;
   padding: 15px 10px;
@@ -336,6 +324,8 @@ p.process-note {
   font-size: 14px;
   color: #081633;
   width: 100%;
+
+  /* ✅ garanti ortalama */
+  margin-left: auto;
+  margin-right: auto;
 }
-
-
