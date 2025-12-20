@@ -317,15 +317,20 @@ p.process-note {
 /* ===================== */
 /* FOOTER */
 /* ===================== */
+main, .content-wrapper { /* varsa ana içerik divi */
+  flex: 1;  /* footer en alta sabitlenirken içerik alanı esnek */
+}
+
 .site-footer {
-  margin-top: 80px;
+  margin-top: 20mm;  /* son linklerden aşağı */
   padding: 15px 10px;
   text-align: center;
   font-size: 14px;
   color: #081633;
   width: 100%;
 
-  /* ✅ garanti ortalama */
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;  /* yatay ortala */
+  align-items: center;      /* dikey ortala */
 }
+
