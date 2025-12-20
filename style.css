@@ -252,24 +252,25 @@ header {
 }
 
 /* ===================== */
-/* BASKI PROSESİ (TEK VE TEMİZ) */
+/* BASKI PROSESİ – TEMİZ VE KESİN */
 /* ===================== */
 .process-list {
-  list-style: none;
+  list-style: none;        /* numaralar kalkar */
   padding-left: 0;
-  margin: 15px 0;
+  margin-top: 15px;
 }
 
 .process-list li {
-  font-weight: 700;
+  font-weight: 700;        /* yazılar kalın */
+  color: #081633;          /* koyu lacivert */
+  margin-bottom: 10px;     /* alt alta düzgün boşluk */
   line-height: 1.6;
-  margin-bottom: 10px;
 }
 
 .process-note {
-  font-weight: 700;
-  color: #081633;
   margin-top: 15px;
+  font-weight: 700;        /* kalın */
+  color: #081633;          /* koyu lacivert */
 }
 
 /* ===================== */
@@ -320,45 +321,3 @@ header {
     grid-column: span 1;
   }
 }
-
-/* === BASKI PROSESİ – SON VE KESİN AYAR === */
-.process-list {
-  list-style: none;        /* 1,2,3,4,5 TAMAMEN KALKAR */
-  padding-left: 0;
-  margin-top: 15px;
-}
-
-.process-list li {
-  font-weight: 700;        /* yazılar KALIN */
-  margin-bottom: 10px;    /* alt alta düzgün boşluk */
-  line-height: 1.6;
-  color: #000;
-}
-
-.process-note {
-  margin-top: 15px;
-  font-weight: 700;        /* kalın */
-  color: #081633;          /* koyu lacivert */
-}
-
-/* === BASKI PROSESİ – KESİN AYAR === */
-.process-list {
-  list-style: none;        /* 1,2,3,4,5 tamamen kalkar */
-  padding-left: 0;
-  margin-top: 15px;
-}
-
-.process-list li {
-  font-weight: 700;        /* yazılar KALIN */
-  color: #081633;          /* koyu lacivert */
-  margin-bottom: 10px;     /* alt alta düzgün boşluk */
-  line-height: 1.6;
-}
-
-.process-note {
-  margin-top: 15px;
-  font-weight: 700;        /* kalın */
-  color: #081633;          /* koyu lacivert */
-}
-
-
