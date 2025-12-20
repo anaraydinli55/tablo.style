@@ -320,3 +320,24 @@ header {
     grid-column: span 1;
   }
 }
+
+/* === BASKI PROSESİ – SON VE KESİN AYAR === */
+.process-list {
+  list-style: none;        /* 1,2,3,4,5 TAMAMEN KALKAR */
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+.process-list li {
+  font-weight: 700;        /* yazılar KALIN */
+  margin-bottom: 10px;    /* alt alta düzgün boşluk */
+  line-height: 1.6;
+  color: #000;
+}
+
+.process-note {
+  margin-top: 15px;
+  font-weight: 700;        /* kalın */
+  color: #081633;          /* koyu lacivert */
+}
+
