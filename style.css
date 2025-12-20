@@ -27,7 +27,9 @@ body {
   flex-wrap: wrap;
 }
 
-.top-banner b { font-weight: 700; }
+.top-banner b {
+  font-weight: 700;
+}
 
 .top-banner button {
   background-color: black;
@@ -106,9 +108,17 @@ header {
   transition: 0.3s;
 }
 
-.categories a:hover { background-color: #f0f0f0; }
-.highlight-red { color: red; }
-.highlight-green { color: green; }
+.categories a:hover {
+  background-color: #f0f0f0;
+}
+
+.highlight-red {
+  color: red;
+}
+
+.highlight-green {
+  color: green;
+}
 
 /* ===================== */
 /* KATEGORİ SLIDER */
@@ -121,7 +131,9 @@ header {
   background-color: #80c0ff;
 }
 
-.category-slider::-webkit-scrollbar { display: none; }
+.category-slider::-webkit-scrollbar {
+  display: none;
+}
 
 .category-item {
   flex: 0 0 auto;
@@ -139,7 +151,6 @@ header {
 .category-item span {
   display: block;
   margin-top: 5px;
-  font-size: 12px;
 }
 
 /* ===================== */
@@ -147,7 +158,7 @@ header {
 /* ===================== */
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 10px;
   padding: 10px;
 }
@@ -171,7 +182,9 @@ header {
   font-size: 16px;
 }
 
-.product-item.large { grid-column: span 2; }
+.product-item.large {
+  grid-column: span 2;
+}
 
 .product-item button {
   margin-top: 5px;
@@ -185,7 +198,7 @@ header {
 }
 
 /* ===================== */
-/* VİDEOLAR VE GÖRSELLER */
+/* VİDEOLAR & GÖRSELLER */
 /* ===================== */
 .video-wrapper {
   display: flex;
@@ -199,7 +212,7 @@ header {
 .video-container {
   position: relative;
   width: 100%;
-  aspect-ratio: 9 / 16; /* Videolar ve görsellerin sabit oranı */
+  aspect-ratio: 9 / 16;
   overflow: hidden;
   border-radius: 10px;
 }
@@ -207,12 +220,10 @@ header {
 .video-container video,
 .video-container img {
   position: absolute;
-  top: 0;
-  left: 0;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
 }
 
 /* ===================== */
@@ -236,8 +247,29 @@ header {
 .seo-text h2 {
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   color: #081633;
+}
+
+/* ===================== */
+/* BASKI PROSESİ (TEK VE TEMİZ) */
+/* ===================== */
+.process-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 15px 0;
+}
+
+.process-list li {
+  font-weight: 700;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.process-note {
+  font-weight: 700;
+  color: #081633;
+  margin-top: 15px;
 }
 
 /* ===================== */
@@ -262,67 +294,29 @@ header {
   cursor: pointer;
 }
 
-.whatsapp { background-color: #25D366; color: white; }
-.chat { background-color: #000; color: white; }
+.whatsapp {
+  background-color: #25D366;
+  color: white;
+}
+
+.chat {
+  background-color: #000;
+  color: white;
+}
 
 /* ===================== */
-/* MOBİL UYUM */
+/* MOBİL */
 /* ===================== */
 @media (max-width: 768px) {
-  .logo-search h1 { font-size: 28px; }
-  .search-wrapper input { width: 120px; }
-  .product-item.large { grid-column: span 1; }
+  .logo-search h1 {
+    font-size: 28px;
+  }
 
-  /* Video ve görsellerin mobilde taşmaması için */
-  .video-wrapper { padding-left: 7mm; padding-right: 7mm; }
-  .video-container { aspect-ratio: 9 / 16; }
+  .search-wrapper input {
+    width: 120px;
+  }
+
+  .product-item.large {
+    grid-column: span 1;
+  }
 }
-
-.process-list {
-  margin-top: 10px;
-  padding-left: 20px;
-  font-weight: 600; /* yazı bir az qalın */
-  line-height: 1.6;
-}
-
-.process-list li {
-  margin-bottom: 6px;
-}
-
-.process-note {
-  margin-top: 10px;
-  font-weight: 700;        /* kalın */
-  color: #0a1a3f;          /* koyu lacivert */
-}
-
-.seo-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.seo-list li {
-  margin-bottom: 12px;
-  line-height: 1.6;
-}
-
-/* Baskı prosesi listesi – numarasız ve kalın */
-.process-list {
-  list-style: none;      /* 1,2,3,4,5 KALKAR */
-  padding-left: 0;
-  margin: 15px 0;
-}
-
-.process-list li {
-  font-weight: 700;      /* kalın yazı */
-  margin-bottom: 10px;  /* alt alta boşluk */
-  line-height: 1.5;
-}
-
-/* Açıklama notu */
-.process-note {
-  font-weight: 700;       /* kalın */
-  color: #081633;         /* koyu lacivert */
-  margin-top: 15px;
-}
-
