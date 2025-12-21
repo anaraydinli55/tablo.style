@@ -245,6 +245,13 @@
       line-height: 1.5;     /* okunabilirlik için */
     }
   </style>
+
+<!-- Hero CSS -->
+<link rel="stylesheet" href="/components/hero.css">
+<!-- Ana style.css -->
+<link rel="stylesheet" href="/style.css">
+</head>
+  
 </head>
 <body>
 
@@ -295,6 +302,19 @@
     <div class="category-item"><a href="images/ceyran.jpg"><img src="images/ceyran.jpg" alt="Ceyran"><span>Ceyran</span></a></div>
     <div class="category-item"><a href="images/peleng.jpg"><img src="images/peleng.jpg" alt="Pələng"><span>Pələng</span></a></div>
   </div>
+
+    <!-- HERO SECTION placeholder -->
+  <div id="hero"></div>
+
+  <!-- Hero fetch ve render -->
+  <script>
+    fetch("/components/hero.html")
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById("hero").innerHTML = html;
+      });
+  </script>
+
 
   <!-- Ürün kart -->
   <div class="product-item large">
