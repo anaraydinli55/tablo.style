@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   height: 100vh;
-  background: url("https://tablo-style.vercel.app//images/hero.jpg") center/cover no-repeat;
+  background: url("/images/hero.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
