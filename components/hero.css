@@ -1,21 +1,28 @@
+/* ==============================
+   HERO SECTION
+============================== */
 .hero {
   position: relative;
+  z-index: 1; /* slider və digər elementlərdən aşağı */
   height: 100vh;
   background: url("/images/hero.jpg") center / cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  overflow: hidden;
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.45);
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1;
 }
 
 .hero-content {
   position: relative;
+  z-index: 2; /* yazılar slider və overlay üzərində olsun */
   color: #fff;
   max-width: 720px;
   padding: 20px;
@@ -46,8 +53,17 @@
   opacity: 0;
   animation: fadeUp 1.5s ease forwards;
   animation-delay: 1.2s;
+  transition: 0.3s;
 }
 
+.hero-btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* ==============================
+   ANİMASİYA
+============================== */
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -59,3 +75,22 @@
   }
 }
 
+/* ==============================
+   KATEGORI SLIDER ÜSTÜNDƏ HERO
+============================== */
+.category-slider {
+  position: relative;
+  z-index: 2; /* slider hero overlay-in üstündə */
+}
+
+/* ==============================
+   MOBIL UYUMLUQ
+============================== */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.2rem;
+  }
+  .hero-text {
+    font-size: 1rem;
+  }
+}
