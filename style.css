@@ -210,6 +210,17 @@ header {
   padding-right: 7mm;
 }
 
+.video-wrapper span {
+  display: block;
+  max-width: 300px;      /* 2 satır olmasını istediğin genişlik */
+  margin: 0 auto;
+  text-align: center;
+  white-space: normal;   /* satır kırılması aktif */
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+
 .video-container {
   width: calc(33.333% - 10px); /* 3 sütun layout */
   overflow: hidden;
