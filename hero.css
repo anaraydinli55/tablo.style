@@ -1,6 +1,10 @@
 .hero {
   min-height: 100vh;
-  background: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url("hero.jpg");
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.35),
+      rgba(0, 0, 0, 0.35)
+    ),
+    url("hero.jpg"); /* TABLO görseli */
   background-size: cover;
   background-position: center;
   display: flex;
@@ -8,23 +12,70 @@
   padding: 0 8%;
 }
 
-.hero-content { max-width: 620px; color: #2e2e2e; }
-
-.hero-title { font-size: 48px; font-weight: 600; animation: fadeSlide 2.2s ease forwards; }
-
-.hero-subtitle { font-size: 18px; margin-bottom: 32px; opacity: 0; animation: fadeSlide 2.2s ease forwards; animation-delay: 0.4s; }
-
-.hero-btn { display: inline-block; padding: 14px 38px; background-color: #5b2c83; color: #fff; border-radius: 30px; text-decoration: none; opacity: 0; animation: fadeSlide 2.2s ease forwards; animation-delay: 0.8s; }
-
-.hero-btn:hover { background-color: #6a1b9a; transform: translateY(-2px); }
-
-@keyframes fadeSlide {
-  from { opacity: 0; transform: translateY(22px); }
-  to { opacity: 1; transform: translateY(0); }
+.hero-content {
+  max-width: 620px;
+  color: #f6f1eb;
 }
 
+.hero-title {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  animation: fadeSlide 2.2s ease forwards;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 32px;
+  opacity: 0;
+  animation: fadeSlide 2.2s ease forwards;
+  animation-delay: 0.4s;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 14px 38px;
+  background-color: #5b2c83; /* mor */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  opacity: 0;
+  animation: fadeSlide 2.2s ease forwards;
+  animation-delay: 0.8s;
+}
+
+.hero-btn:hover {
+  background-color: #6a1b9a;
+  transform: translateY(-2px);
+}
+
+/* Animasyon */
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* MOBIL */
 @media (max-width: 768px) {
-  .hero { text-align: center; padding: 0 6%; }
-  .hero-title { font-size: 30px; }
-  .hero-subtitle { font-size: 16px; }
+  .hero {
+    padding: 0 6%;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 30px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
 }
