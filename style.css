@@ -198,9 +198,12 @@ header {
 /* ===================== */
 /* VİDEOLAR & GÖRSELLER */
 /* ===================== */
+/* ===================== */
+/* VİDEOLAR & GÖRSELLER */
+/* ===================== */
 .video-wrapper {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;       /* Videolar ve görseller yan yana da dizilebilir */
   gap: 10px;
   margin-top: 10px;
   padding-left: 7mm;
@@ -208,20 +211,28 @@ header {
 }
 
 .video-container {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 9 / 16;
+  width: calc(33.333% - 10px); /* 3 sütun layout */
   overflow: hidden;
   border-radius: 10px;
+  background-color: #000; /* Video yoksa arka plan siyah */
 }
 
 .video-container video,
 .video-container img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 100%;     /* container eni kadar */
+  height: auto;    /* yükseklik otomatik, kırpma yok */
+  object-fit: contain; /* tüm içerik görünür, kırpma yok */
+  display: block;
+}
+
+/* ===================== */
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .video-container { width: calc(50% - 10px); } /* 2 sütun */
+}
+
+@media (max-width: 768px) {
+  .video-container { width: 100%; } /* tek sütun */
 }
 
 /* ===================== */
