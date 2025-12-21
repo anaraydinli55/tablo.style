@@ -202,11 +202,20 @@ header {
 
 .info-text span {
   display: inline-block;
-  max-width: 400px;  /* Genişliği sınırla, 2 satır olacak */
   font-size: 14px;
   line-height: 1.4;
-  white-space: normal;
+  white-space: nowrap;      /* Masaüstünde tek satır */
+  max-width: 100%;
 }
+
+/* Mobilde 2 satır olacak */
+@media (max-width: 768px) {
+  .info-text span {
+    white-space: normal;    /* Satır kırılmasına izin ver */
+    max-width: 300px;       /* İki satırlık genişlik sınırı */
+  }
+}
+
 
 
 /* ===================== */
