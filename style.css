@@ -195,6 +195,20 @@ header {
   align-self: flex-start;
 }
 
+.info-text {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.info-text span {
+  display: inline-block;
+  max-width: 400px;  /* Genişliği sınırla, 2 satır olacak */
+  font-size: 14px;
+  line-height: 1.4;
+  white-space: normal;
+}
+
+
 /* ===================== */
 /* VİDEOLAR & GÖRSELLER */
 /* ===================== */
@@ -208,16 +222,6 @@ header {
   margin-top: 10px;
   padding-left: 7mm;
   padding-right: 7mm;
-}
-
-.video-wrapper span {
-  display: block;
-  max-width: 300px;      /* 2 satır olmasını istediğin genişlik */
-  margin: 0 auto;
-  text-align: center;
-  white-space: normal;   /* satır kırılması aktif */
-  line-height: 1.4;
-  font-size: 14px;
 }
 
 
