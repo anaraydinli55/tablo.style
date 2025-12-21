@@ -358,33 +358,38 @@ p.process-note {
   flex-shrink: 0;         /* footer boyutunu koru */
 }
 
-.printer-section {
-  display: flex;         /* Görsel ve yazıyı yan yana koyar */
+.printer-container {
+  display: flex;
   align-items: flex-start;
-  gap: 20px;             /* Görsel ve yazı arasındaki boşluk */
+  gap: 20px;
   margin-bottom: 20px;
+  flex-wrap: wrap; /* Görsel çok büyükse alt satıra geçmesini sağlar */
 }
 
-.printer-section img {
-  width: 40%;            /* Görsel genişliği */
+.printer-image img {
+  width: 40%;
+  max-width: 100%;
   border-radius: 10px;
   object-fit: cover;
+  display: block;
 }
 
-.printer-section .printer-text {
-  width: 55%;            /* Yazının genişliği */
+.printer-text-wrapper {
+  width: 55%;
 }
 
 @media (max-width: 768px) {
-  .printer-section {
-    flex-direction: column;  /* Mobilde alt alta */
+  .printer-container {
+    flex-direction: column;
+    gap: 10px;
   }
 
-  .printer-section img,
-  .printer-section .printer-text {
+  .printer-image img,
+  .printer-text-wrapper {
     width: 100%;
   }
 }
+
 
 
 #plus-container {
