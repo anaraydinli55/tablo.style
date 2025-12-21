@@ -355,3 +355,14 @@ p.process-note {
   text-align: center;
   flex-shrink: 0;         /* footer boyutunu koru */
 }
+
+.product-item button {
+  background-color: #f2c200; /* sarı */
+  color: #000;               /* siyah yazı */
+  font-weight: 700;
+}
+
+.product-item button:hover {
+  background-color: #e0b000; /* hover’da biraz koyu sarı */
+}
+
