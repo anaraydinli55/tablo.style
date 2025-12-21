@@ -1,50 +1,56 @@
+/* HERO SECTION */
 .hero {
   min-height: 100vh;
   background: linear-gradient(
       rgba(0, 0, 0, 0.35),
       rgba(0, 0, 0, 0.35)
     ),
-    url("hero.jpg"); /* TABLO görseli */
+    url("hero.jpg"); /* tablo görselin */
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
   padding: 0 8%;
+  box-sizing: border-box;
 }
 
+/* CONTENT */
 .hero-content {
-  max-width: 620px;
+  max-width: 600px;
   color: #f6f1eb;
 }
 
+/* ANIMATED TITLE */
 .hero-title {
   font-size: 48px;
   font-weight: 600;
   margin-bottom: 16px;
-  animation: fadeSlide 2.2s ease forwards;
+  animation: fadeSlide 2.5s ease forwards;
 }
 
+/* SUBTITLE */
 .hero-subtitle {
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 32px;
   opacity: 0;
-  animation: fadeSlide 2.2s ease forwards;
-  animation-delay: 0.4s;
+  animation: fadeSlide 2.5s ease forwards;
+  animation-delay: 0.5s;
 }
 
+/* CTA BUTTON */
 .hero-btn {
   display: inline-block;
-  padding: 14px 38px;
+  padding: 14px 36px;
   background-color: #5b2c83; /* mor */
   color: #fff;
   text-decoration: none;
-  border-radius: 30px;
   font-size: 16px;
+  border-radius: 30px;
   transition: all 0.3s ease;
   opacity: 0;
-  animation: fadeSlide 2.2s ease forwards;
-  animation-delay: 0.8s;
+  animation: fadeSlide 2.5s ease forwards;
+  animation-delay: 1s;
 }
 
 .hero-btn:hover {
@@ -52,11 +58,11 @@
   transform: translateY(-2px);
 }
 
-/* Animasyon */
+/* ANIMATION */
 @keyframes fadeSlide {
   from {
     opacity: 0;
-    transform: translateY(22px);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
@@ -64,11 +70,15 @@
   }
 }
 
-/* MOBIL */
+/* MOBILE */
 @media (max-width: 768px) {
   .hero {
     padding: 0 6%;
     text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
   }
 
   .hero-title {
@@ -77,5 +87,9 @@
 
   .hero-subtitle {
     font-size: 16px;
+  }
+
+  .hero-btn {
+    padding: 12px 30px;
   }
 }
