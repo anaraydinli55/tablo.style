@@ -187,13 +187,15 @@ header {
 .product-item button {
   margin-top: 5px;
   border: none;
-  background-color: black;
-  color: white;
+  background-color: #f2c200; /* sarı */
+  color: #000;
   padding: 8px 12px;
   border-radius: 20px;
   cursor: pointer;
   align-self: flex-start;
+  font-weight: 700;
 }
+
 
 .info-text {
   text-align: center;
@@ -356,13 +358,5 @@ p.process-note {
   flex-shrink: 0;         /* footer boyutunu koru */
 }
 
-.product-item button {
-  background-color: #f2c200; /* sarı */
-  color: #000;               /* siyah yazı */
-  font-weight: 700;
-}
 
-.product-item button:hover {
-  background-color: #e0b000; /* hover’da biraz koyu sarı */
-}
 
