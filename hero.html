@@ -9,4 +9,98 @@
 
     <a href="#tablolar" class="hero-btn">Tabloları Kəşf Et</a>
   </div>
+</section><section class="hero">
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+    <h1 class="hero-title">Eviniz üçün Xüsusi Tablolar</h1>
+    <p class="hero-text">
+      Zövqlü dizayn, keyfiyyətli material və modern üslub
+    </p>
+    <a href="index.html" class="hero-btn">Tabloları Kəşf Et</a>
+  </div>
 </section>
+
+<style>
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url("/images/hero.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  z-index: 0; /* sliderin altındadır */
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1; /* content-in altındadır, slider-dən üstün */
+}
+
+.hero-content {
+  position: relative;
+  color: #fff;
+  max-width: 700px;
+  padding: 20px;
+  z-index: 2; /* overlay-in üstündə */
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  opacity: 0;
+  animation: fadeUp 1.5s ease forwards;
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  margin: 20px 0 35px;
+  opacity: 0;
+  animation: fadeUp 1.5s ease forwards;
+  animation-delay: 0.6s;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 14px 34px;
+  background: #ffffff;
+  color: #000;
+  font-weight: 600;
+  border-radius: 30px;
+  text-decoration: none;
+  opacity: 0;
+  animation: fadeUp 1.5s ease forwards;
+  animation-delay: 1.2s;
+  transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-text {
+    font-size: 1rem;
+  }
+}
+</style>
