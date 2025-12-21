@@ -7,12 +7,14 @@
   justify-content: center;
   text-align: center;
   overflow: hidden;
+  z-index: 0; /* sliderin altındadır */
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.45);
+  z-index: 1; /* content-in altındadır, slider-dən üstün */
 }
 
 .hero-content {
@@ -20,6 +22,7 @@
   color: #fff;
   max-width: 700px;
   padding: 20px;
+  z-index: 2; /* overlay-in üstündə */
 }
 
 .hero-title {
@@ -77,4 +80,10 @@
   .hero-text {
     font-size: 1rem;
   }
+}
+
+/* Sliderin hero üzərinə düşməməsi üçün */
+.category-slider {
+  position: relative;
+  z-index: 0;
 }
