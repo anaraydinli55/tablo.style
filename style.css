@@ -358,6 +358,35 @@ p.process-note {
   flex-shrink: 0;         /* footer boyutunu koru */
 }
 
+.printer-section {
+  display: flex;         /* Görsel ve yazıyı yan yana koyar */
+  align-items: flex-start;
+  gap: 20px;             /* Görsel ve yazı arasındaki boşluk */
+  margin-bottom: 20px;
+}
+
+.printer-section img {
+  width: 40%;            /* Görsel genişliği */
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.printer-section .printer-text {
+  width: 55%;            /* Yazının genişliği */
+}
+
+@media (max-width: 768px) {
+  .printer-section {
+    flex-direction: column;  /* Mobilde alt alta */
+  }
+
+  .printer-section img,
+  .printer-section .printer-text {
+    width: 100%;
+  }
+}
+
+
 #plus-container {
   position: fixed;
   inset: 0;
