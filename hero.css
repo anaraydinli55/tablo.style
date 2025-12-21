@@ -1,68 +1,66 @@
-/* HERO SECTION */
 .hero {
-  min-height: 100vh;
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.35),
-      rgba(0, 0, 0, 0.35)
-    ),
-    url("https://tablo-style.vercel.app/images/hero.jpg"); /* tablo görselin */
-  background-size: cover;
-  background-position: center;
+  position: relative;
+  height: 100vh;
+  background: url("/images/hero.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
-  padding: 0 8%;
-  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
 }
 
-/* CONTENT */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
 .hero-content {
-  max-width: 600px;
-  color: #f6f1eb;
+  position: relative;
+  color: #fff;
+  max-width: 700px;
+  padding: 20px;
 }
 
-/* ANIMATED TITLE */
 .hero-title {
-  font-size: 48px;
-  font-weight: 600;
-  margin-bottom: 16px;
-  animation: fadeSlide 2.5s ease forwards;
-}
-
-/* SUBTITLE */
-.hero-subtitle {
-  font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 32px;
+  font-size: 3rem;
+  font-weight: 700;
   opacity: 0;
-  animation: fadeSlide 2.5s ease forwards;
-  animation-delay: 0.5s;
+  animation: fadeUp 1.5s ease forwards;
 }
 
-/* CTA BUTTON */
+.hero-text {
+  font-size: 1.2rem;
+  margin: 20px 0 35px;
+  opacity: 0;
+  animation: fadeUp 1.5s ease forwards;
+  animation-delay: 0.6s;
+}
+
 .hero-btn {
   display: inline-block;
-  padding: 14px 36px;
-  background-color: #5b2c83; /* mor */
-  color: #fff;
-  text-decoration: none;
-  font-size: 16px;
+  padding: 14px 34px;
+  background: #ffffff;
+  color: #000;
+  font-weight: 600;
   border-radius: 30px;
-  transition: all 0.3s ease;
+  text-decoration: none;
   opacity: 0;
-  animation: fadeSlide 2.5s ease forwards;
-  animation-delay: 1s;
+  animation: fadeUp 1.5s ease forwards;
+  animation-delay: 1.2s;
+  transition: all 0.3s ease;
 }
 
 .hero-btn:hover {
-  background-color: #6a1b9a;
-  transform: translateY(-2px);
+  background: #000;
+  color: #fff;
 }
 
-/* ANIMATION */
-@keyframes fadeSlide {
+/* Yavaş akan yazı animasiyası */
+@keyframes fadeUp {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(40px);
   }
   to {
     opacity: 1;
@@ -70,26 +68,13 @@
   }
 }
 
-/* MOBILE */
+/* Mobil uyğunluq */
 @media (max-width: 768px) {
-  .hero {
-    padding: 0 6%;
-    text-align: center;
-  }
-
-  .hero-content {
-    max-width: 100%;
-  }
-
   .hero-title {
-    font-size: 30px;
+    font-size: 2.2rem;
   }
 
-  .hero-subtitle {
-    font-size: 16px;
-  }
-
-  .hero-btn {
-    padding: 12px 30px;
+  .hero-text {
+    font-size: 1rem;
   }
 }
