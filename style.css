@@ -235,7 +235,7 @@ header {
 
 
 .video-container {
-  width: calc(33.333% - 10px); /* 3 sütun layout */
+  width: calc(63.333% - 10px); /* 3 sütun layout */
   overflow: hidden;
   border-radius: 10px;
   background-color: #000; /* Video yoksa arka plan siyah */
