@@ -9,7 +9,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
 
   <style>
-    /* Genel sıfırlama */
+    /* ===================== */
+    /* GENEL SIFIRLAMA */
+    /* ===================== */
     * {
       margin: 0;
       padding: 0;
@@ -22,7 +24,9 @@
       color: #000;
     }
 
-    /* Üst banner */
+    /* ===================== */
+    /* ÜST BANNER */
+    /* ===================== */
     .top-banner {
       background-color: #f2c200;
       padding: 5px 10px;
@@ -45,6 +49,9 @@
       cursor: pointer;
     }
 
+    /* ===================== */
+    /* HEADER */
+    /* ===================== */
     header {
       background-color: #d0f0ff;
       padding: 15px 10px;
@@ -88,7 +95,7 @@
       cursor: pointer;
     }
 
-    .categories {
+    nav.categories {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
@@ -99,7 +106,7 @@
       border-radius: 10px;
     }
 
-    .categories a {
+    nav.categories a {
       text-decoration: none;
       color: black;
       padding: 5px 10px;
@@ -107,10 +114,13 @@
       transition: 0.3s;
     }
 
-    .categories a:hover { background-color: #f0f0f0; }
+    nav.categories a:hover { background-color: #f0f0f0; }
     .highlight-red { color: red; }
     .highlight-green { color: green; }
 
+    /* ===================== */
+    /* KATEGORI SLIDER */
+    /* ===================== */
     .category-slider {
       display: flex;
       overflow-x: auto;
@@ -140,6 +150,9 @@
       font-size: 12px;
     }
 
+    /* ===================== */
+    /* ÜRÜN GRID */
+    /* ===================== */
     .product-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
@@ -179,26 +192,34 @@
       align-self: flex-start;
     }
 
+    /* ===================== */
+    /* VIDEO & IMAGE WRAPPER */
+    /* ===================== */
     .video-wrapper {
       display: flex;
-      flex-direction: column;
+      flex-wrap: wrap;
       gap: 10px;
       margin-top: 10px;
-      padding-left: 7mm;
-      padding-right: 7mm;
+      padding: 0 7mm;
     }
 
     .video-container {
-      padding: 0;
+      width: calc(33.333% - 10px);
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
     }
 
     .video-container video,
     .video-container img {
       width: 100%;
-      height: 100%;
-      display: block;
-      border-radius: 10px;
+      height: 200px;
       object-fit: cover;
+      display: block;
+    }
+
+    @media (max-width: 1024px) {
+      .video-container { width: calc(50% - 10px); }
     }
 
     @media (max-width: 768px) {
@@ -206,9 +227,12 @@
       .search-wrapper { width: 100%; justify-content: flex-end; margin-bottom: 10px; }
       .search-wrapper input { width: 120px; }
       .product-item.large { grid-column: span 1; }
-      .video-wrapper { padding-left: 7mm; padding-right: 7mm; }
+      .video-container { width: 100%; }
     }
 
+    /* ===================== */
+    /* FLOATING BUTTONS */
+    /* ===================== */
     .floating-buttons {
       position: fixed;
       bottom: 20px;
@@ -231,36 +255,56 @@
     .whatsapp { background-color: #25D366; color: white; }
     .chat { background-color: #000; color: white; }
 
+    /* ===================== */
+    /* SEO METINLERI */
+    /* ===================== */
     .seo-text-wrapper { padding: 10px 7mm; margin-top: 10px; }
     .seo-text h2 { font-size: 20px; margin-bottom: 5px; }
     .seo-text p { font-size: 14px; line-height: 1.5; }
 
-    /* Sadece baskı prosesi bölümü için tüm metinler */
     .seo-text-wrapper .seo-text h2,
     .seo-text-wrapper .seo-text ul.process-list li,
     .seo-text-wrapper .seo-text p.process-note {
-      color: #081633;      /* koyu lacivert */
-      font-weight: 700;     /* kalın */
-      font-size: 16px;      /* aynı boyut */
-      line-height: 1.5;     /* okunabilirlik için */
+      color: #081633;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .seo-text-wrapper .seo-text ul,
+    .seo-text-wrapper .seo-text ul li {
+      padding-left: 20px;
+      margin-top: 5px;
+      list-style: none;
+    }
+
+    .seo-text-wrapper .seo-text ul li b { color: #000; }
+
+    .seo-text-wrapper a { text-decoration: none; color: #081633; font-weight: 700; }
+
+    footer.site-footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #d0f0ff;
+      margin-top: 20px;
+      font-size: 14px;
     }
   </style>
-  
 </head>
 <body>
 
+  <!-- ===================== -->
+  <!-- ÜST BANNER -->
+  <!-- ===================== -->
   <div class="top-banner">
     <span>🚚 Azərbaycanın Hər Yerinə <b>UYĞUN QİYMƏTLƏRLƏ ÇATDIRILMA!</b></span>
     <span>Yanvar Ayına Özəl İkinci Sifarişə Ekstra 10% Endirim!</span>
     <button>Tabloların Sonsuz Dünyası</button>
   </div>
 
-  <!-- Hero CSS -->
-<link rel="stylesheet" href="/components/hero.css">
-<!-- Ana style.css -->
-<link rel="stylesheet" href="/style.css">
-</head>
-
+  <!-- ===================== -->
+  <!-- HEADER -->
+  <!-- ===================== -->
   <header>
     <div class="logo-search">
       <h1>Tablo Style</h1>
@@ -280,225 +324,141 @@
     </nav>
   </header>
 
-  <!-- Kategori slider -->
+  <!-- ===================== -->
+  <!-- KATEGORI SLIDER -->
+  <!-- ===================== -->
   <div class="category-slider">
-    <div class="category-item"><a href="images/manzara.jpg"><img src="images/manzara.jpg" alt="Mənzərə"><span>Mənzərə</span></a></div>
-    <div class="category-item"><a href="images/kinkade.jpg"><img src="images/kinkade.jpg" alt="Kinkade stili"><span>Kinkade</span></a></div>
-    <div class="category-item"><a href="images/afremov.png"><img src="images/afremov.png" alt="Afremov stili"><span>Afremov</span></a></div>
-    <div class="category-item"><a href="images/abstrakt.jpg"><img src="images/abstrakt.jpg" alt="Abstrakt"><span>Abstrakt</span></a></div>
-    <div class="category-item"><a href="images/cicek.jpg"><img src="images/cicek.jpg" alt="Çiçək"><span>Çiçək</span></a></div>
-    <div class="category-item"><a href="images/baki.jpg"><img src="images/baki.jpg" alt="Bakı"><span>Bakı</span></a></div>
-    <div class="category-item"><a href="images/at.jpg"><img src="images/at.jpg" alt="At"><span>At</span></a></div>
-    <div class="category-item"><a href="images/eyfel.jpg"><img src="images/eyfel.jpg" alt="Eyfel"><span>Eyfel</span></a></div>
-    <div class="category-item"><a href="images/dini.jpg"><img src="images/dini.jpg" alt="Dini"><span>Dini</span></a></div>
-    <div class="category-item"><a href="images/istanbul.jpg"><img src="images/istanbul.jpg" alt="İstanbul"><span>İstanbul</span></a></div>
-    <div class="category-item"><a href="images/afrika.jpg"><img src="images/afrika.jpg" alt="Afrika"><span>Afrika</span></a></div>
-    <div class="category-item"><a href="images/agac.jpg"><img src="images/agac.jpg" alt="Ağac"><span>Ağac</span></a></div>
-    <div class="category-item"><a href="images/gol.jpg"><img src="images/gol.jpg" alt="Göl"><span>Göl</span></a></div>
-    <div class="category-item"><a href="images/paris.jpeg"><img src="images/paris.jpeg" alt="Paris"><span>Paris</span></a></div>
-    <div class="category-item"><a href="images/milli.jpg"><img src="images/milli.jpg" alt="Milli"><span>Milli</span></a></div>
-    <div class="category-item"><a href="images/leylek.jpg"><img src="images/leylek.jpg" alt="Leylək"><span>Leylək</span></a></div>
-    <div class="category-item"><a href="images/tarixi.jpg"><img src="images/tarixi.jpg" alt="Tarixi"><span>Tarixi</span></a></div>
-    <div class="category-item"><a href="images/ceyran.jpg"><img src="images/ceyran.jpg" alt="Ceyran"><span>Ceyran</span></a></div>
-    <div class="category-item"><a href="images/peleng.jpg"><img src="images/peleng.jpg" alt="Pələng"><span>Pələng</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/manzara.jpg" alt="Mənzərə"><span>Mənzərə</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/kinkade.jpg" alt="Kinkade stili"><span>Kinkade</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/afremov.png" alt="Afremov stili"><span>Afremov</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/abstrakt.jpg" alt="Abstrakt"><span>Abstrakt</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/cicek.jpg" alt="Çiçək"><span>Çiçək</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/baki.jpg" alt="Bakı"><span>Bakı</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/at.jpg" alt="At"><span>At</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/eyfel.jpg" alt="Eyfel"><span>Eyfel</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/dini.jpg" alt="Dini"><span>Dini</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/istanbul.jpg" alt="İstanbul"><span>İstanbul</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/afrika.jpg" alt="Afrika"><span>Afrika</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/agac.jpg" alt="Ağac"><span>Ağac</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/gol.jpg" alt="Göl"><span>Göl</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/paris.jpeg" alt="Paris"><span>Paris</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/milli.jpg" alt="Milli"><span>Milli</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/leylek.jpg" alt="Leylək"><span>Leylək</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/tarixi.jpg" alt="Tarixi"><span>Tarixi</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/ceyran.jpg" alt="Ceyran"><span>Ceyran</span></a></div>
+    <div class="category-item"><a href="#"><img src="images/peleng.jpg" alt="Pələng"><span>Pələng</span></a></div>
   </div>
 
-    <!-- HERO SECTION placeholder -->
-  <div id="hero"></div>
-
-  <!-- Hero fetch ve render -->
-  <script>
-    fetch("/components/hero.html")
-      .then(res => res.text())
-      .then(html => {
-        document.getElementById("hero").innerHTML = html;
-      });
-  </script>
-
-
-  <!-- Ürün kart -->
-  <div class="product-item large">
-    <img src="https://via.placeholder.com/400x400" alt="">
-    <span>Kataloqdakı bütün tablolara bax</span>
-    <button>İncələ →</button>
+  <!-- ===================== -->
+  <!-- ÜRÜN KART -->
+  <!-- ===================== -->
+  <div class="product-grid">
+    <div class="product-item large">
+      <img src="https://via.placeholder.com/400x400" alt="">
+      <span>Kataloqdakı bütün tablolara bax</span>
+      <button>İncələ →</button>
+    </div>
   </div>
 
-  <!-- Videolar -->
+  <!-- ===================== -->
+  <!-- VİDEOLAR -->
+  <!-- ===================== -->
   <div class="video-wrapper">
-    <div class="video-container video1"><video src="/images/hareketli.kiz.mp4" autoplay muted loop></video></div>
-    <div class="video-container video2"><video src="/images/hareketli.atli.mp4" autoplay muted loop></video></div>
-    <div class="video-container video3"><video src="/images/hareketli.tren.mp4" autoplay muted loop></video></div>
-    <div class="video-container video4"><video src="/images/hareketli.tekne.mp4" autoplay muted loop></video></div>
-    <div class="video-container video5"><video src="/images/hareketli.atlar.mp4" autoplay muted loop></video></div>
-    <div class="video-container video6"><video src="/images/hareketli.piano.mp4" autoplay muted loop></video></div>
+    <div class="video-container"><video src="images/hareketli.kiz.mp4" autoplay muted loop></video></div>
+    <div class="video-container"><video src="images/hareketli.atli.mp4" autoplay muted loop></video></div>
+    <div class="video-container"><video src="images/hareketli.tren.mp4" autoplay muted loop></video></div>
+    <div class="video-container"><video src="images/hareketli.tekne.mp4" autoplay muted loop></video></div>
+    <div class="video-container"><video src="images/hareketli.atlar.mp4" autoplay muted loop></video></div>
+    <div class="video-container"><video src="images/hareketli.piano.mp4" autoplay muted loop></video></div>
   </div>
 
-  <!-- SEO metinleri -->
+  <!-- ===================== -->
+  <!-- SEO METİNLERİ -->
+  <!-- ===================== -->
   <div class="seo-text-wrapper">
     <section class="seo-text">
       <h2>Abstrakt Tablolar</h2>
-      <p>Müasir dekorasiyanın vazkeçilməzi olan abstrakt divar tabloları, məkanınıza estetik və çağdaş bir görünüş qazandırır. Yüksək keyfiyyətli kanvas üzərində çap olunmuş abstrakt divar tablosu salon, ofis və yataq otaqları üçün idealdır. Abstrakt tablo, müasir divar tablosu, kanvas tablo axtaranlar üçün mükəmməl seçimdir.</p>
+      <p>Müasir dekorasiyanın vazkeçilməzi olan abstrakt divar tabloları, məkanınıza estetik və çağdaş bir görünüş qazandırır...</p>
     </section>
   </div>
 
   <div class="seo-text-wrapper">
     <section class="seo-text">
       <h2>Minimalist Tablo</h2>
-      <p>Sadə və zərif dizaynı ilə seçilən minimalist tablolar, müasir interyerlərə mükəmməl uyğunlaşır. Az rəng, güclü məna prinsipi ilə hazırlanmış belə tablolar məkanlara genişlik hissi verir. Minimal divar tablosu, Skandinaviya üslublu tablo, müasir kanvas tablo axtaranlar üçün ideal seçimdir.</p>
+      <p>Sadə və zərif dizaynı ilə seçilən minimalist tablolar, müasir interyerlərə mükəmməl uyğunlaşır...</p>
     </section>
   </div>
 
   <div class="seo-text-wrapper">
     <section class="seo-text">
       <h2>Mənzərə Tabloları</h2>
-      <p>Təbiətin sakitliyini evinizə gətirən mənzərə tabloları, interyerə rahatlıq və harmoniya bəxş edir. Keyfiyyətli çap texologiyası sayəsində rənglər solmur və uzunömürlüdür. Salon və yataq otağı dekorasiyası üçün uyğundur. Təbiət tablosu, kanvas mənzərə tablosu sevənlər üçün ideal seçimdir.</p>
+      <p>Təbiətin sakitliyini evinizə gətirən mənzərə tabloları, interyerə rahatlıq və harmoniya bəxş edir...</p>
     </section>
   </div>
 
   <div class="seo-text-wrapper">
     <section class="seo-text">
       <h2>Qızılı Detallı Tablo</h2>
-      <p>Zəriflik və lüksü bir araya gətirən qızılı detallı modern tablolar, əl işləməsi qızılı zərli, qızılı daşlı, interyer dizaynında fərq yaradır. Qara-ağ fon üzərində qızılı effektləri ilə salon və ofislərə prestijli görünüş qazandırır. Modern tablo, lüks divar tablosu, kanvas tablo kateqoriyalarında yüksək tələbat görür.</p>
+      <p>Zəriflik və lüksü bir araya gətirən qızılı detallı modern tablolar...</p>
     </section>
   </div>
 
-  <!-- Görseller -->
+  <!-- ===================== -->
+  <!-- GÖRSELLER -->
+  <!-- ===================== -->
   <div class="video-wrapper">
-    <div class="video-container image1"><img src="/images/minimalist.png" alt="Minimalist Tablo"></div>
-    <div class="video-container image2"><img src="/images/maral2.jpg" alt="Maral Tablosu"></div>
-    <div class="video-container image3"><img src="/images/milli1.jpg" alt="Milli İncəsənət Nümunəsi"></div>
-    <div class="video-container image4"><img src="/images/zenci.jpg" alt="Minimalist-abstrakt"></div>
-    <div class="video-container image5"><img src="/images/at1.jpg" alt="At Tablosu"></div>
-    <div class="video-container image6"><img src="/images/delfin.jpeg" alt="Delfin-Gün Batışı"></div>
+    <div class="video-container"><img src="images/minimalist.png" alt="Minimalist Tablo"></div>
+    <div class="video-container"><img src="images/maral2.jpg" alt="Maral Tablosu"></div>
+    <div class="video-container"><img src="images/milli1.jpg" alt="Milli İncəsənət Nümunəsi"></div>
+    <div class="video-container"><img src="images/zenci.jpg" alt="Minimalist-abstrakt"></div>
+    <div class="video-container"><img src="images/at1.jpg" alt="At Tablosu"></div>
+    <div class="video-container"><img src="images/delfin.jpeg" alt="Delfin-Gün Batışı"></div>
   </div>
 
-  <div class="seo-text-wrapper">
-    <section class="seo-text">
-      <h2>Azərbaycanda Ev Üçün Tablo – Tablo-Style</h2>
-      <p>Tablo-Style Azərbaycanda ev və ofis üçün modern, minimalist və abstrakt tablo seçimləri təqdim edən onlayn mağazadır. Evinizin interyerinə uyğun divar tabloları ilə məkanınıza zövq və xarakter qatın.
-      Kolleksiyamızda mənzərə tabloları, modern dizaynlar, minimalist tablolar və rəssamların əl işi bənzəri tablolar yer alır. Hər bir tablo keyfiyyətli materiallardan hazırlanır və uzunömürlü istifadə üçün nəzərdə tutulur.
-      Əgər Bakıda tablo sifarişi axtarırsınızsa və ya bölgələrə çatdırılma ilə etibarlı mağaza istəyirsinizsə, Tablo-Style sizin üçün doğru seçimdir. Müasir dizaynlar, uyğun qiymətlər və sürətli çatdırılma ilə müştərilərimizin məmnuniyyətini ön planda tuturuq.
-      Divar tablosu seçərkən otağın ölçüsü, rəng harmoniyası və işıqlandırma vacib rol oynayır. Biz bu detalları nəzərə alaraq hər zövqə uyğun tablo modelləri təqdim edirik.
-      Tablo-Style ilə evinizin atmosferini dəyişin – Azərbaycanda tablo almağın ən zövqlü yolu.</p>
-    </section>
-  </div>
-
+  <!-- ===================== -->
+  <!-- PRINTER GÖRSELLERİ -->
+  <!-- ===================== -->
   <div class="video-wrapper">
-    <div class="video-container image1"><img src="/images/printer.jpeg" alt="tablo sifarişi"></div>
+    <div class="video-container"><img src="images/printer.jpeg" alt="tablo sifarişi"></div>
+    <div class="video-container"><img src="images/printer1.jpeg" alt="divar tablosu"></div>
+    <div class="video-container"><img src="images/printer2.jpeg" alt="mənzərə tabloları"></div>
+    <div class="video-container"><img src="images/printer3.jpeg" alt="tablo çapı"></div>
   </div>
 
-  <div class="seo-text-wrapper">
-    <section class="seo-text">
-      <h2>KANVAS KƏTAN PARÇA ÜZƏRİNDƏ DİGİTAL TABLO BASKISI NƏDİR?</h2>
-      <p>Kanvas kətan parça üzərində digital tablo baskısı, yüksək keyfiyyətli rəqəmsal şəkillərin xüsusi printerlər vasitəsilə kətan əsaslı parça üzərinə çap edilməsidir. Bu üsul klassik yağlı boya tablolarına bənzər görünüş yaradır və müasir interyer dizaynında geniş istifadə olunur.
-      Kanvas materialı qalın, davamlı və teksturalı olduğu üçün çap olunan şəkillər daha canlı, dərin və real görünür. Bu səbəbdən digital kanvas tablolar həm ev, həm də ofis dekorasiyasında ideal seçim sayılır.</p>
-    </section>
-  </div>
-
+  <!-- ===================== -->
+  <!-- BLOG -->
+  <!-- ===================== -->
   <div class="video-wrapper">
-    <div class="video-container image1"><img src="/images/printer1.jpeg" alt="divar tablosu"></div>
+    <div class="video-container"><img src="images/bloq.jpg" alt="Bloq"></div>
   </div>
-
-  <div class="seo-text-wrapper">
-    <section class="seo-text">
-      <h2>DİGİTAL KANVAS TABLOLARIN ÜSTÜNLÜKLƏRİ</h2>
-
-      <ul class="seo-list">
-        <li>
-          <b>✔ Yüksək görüntü keyfiyyəti</b><br>
-          Yüksək çözünürlüklü digital çap texnologiyası sayəsində rənglər solmur, detallar aydın qalır.
-        </li>
-
-        <li>
-          <b>✔ Uzunömürlü istifadə</b><br>
-          Keyfiyyətli boya və keten parça sayəsində tablolar illərlə formasını və rəngini qoruyur.
-        </li>
-
-        <li>
-          <b>✔ Estetik və modern görünüş</b><br>
-          Kanvas tablolar çərçivəsiz də istifadə oluna bilər və divarda daha təbii görünüş yaradır.
-        </li>
-
-        <li>
-          <b>✔ İstənilən dizayn imkanı</b><br>
-          Fotoşəkillər, abstrakt rəsmlər, mənzərələr, minimalist dizaynlar və xüsusi sifarişlər çap oluna bilər.
-        </li>
-      </ul>
-
-    </section>
-  </div>
-
-  <div class="video-wrapper">
-    <div class="video-container image1"><img src="/images/printer2.jpeg" alt="mənzərə tabloları"></div>
-  </div>
-
-  <div class="seo-text-wrapper">
-    <section class="seo-text">
-      <h2>🖨️ BASKI VƏ TABLONUN SON HALI PROSESİ NECƏ APARILIR?</h2>
-
-      <ul class="process-list">
-        <li>Yüksək keyfiyyətli digital görüntü seçilir</li>
-        <li>Şəkil ölçüyə uyğun optimallaşdırılır</li>
-        <li>Xüsusi kanvas printerlərdə çap edilir</li>
-        <li>Çap olunmuş parça taxta karkasa (şassi) gərilir</li>
-        <li>Tablonun arxa astarı vurulur, asqı taxılır</li>
-        <li>Son keyfiyyət yoxlanışı aparılır</li>
-      </ul>
-
-      <p class="process-note">
-        Bu proses tabloların bərabər gərginlikdə, dalğasız və peşəkar görünməsini təmin edir.
-      </p>
-    </section>
-  </div>
-
-    <!-- Görseller -->
-  <div class="video-wrapper">
-    <div class="video-container image1"><img src="/images/bloq.jpg" alt="bakıda tablo hardan almaq olar?"></div>
-   </div>
 
   <div class="seo-text-wrapper">
     <section class="seo-text">
       <h2>Bloq yazılarını klikləyib oxuyun</h2>
-  
-  
-<ul class="seo-list">
-  <li>
-    <a href="bloq1.html" style="text-decoration: underline; color: var(--baski-renk); font-weight: 700;">
-      ✔ Ev üçün tablo necə seçilməlidir?
-    </a>
-  </li>
+      <ul class="seo-list">
+        <li><a href="bloq1.html">✔ Ev üçün tablo necə seçilməlidir?</a></li>
+        <li><a href="bloq2.html">✔ Minimalist tablo nədir və kimlər üçün uyğundur?</a></li>
+        <li><a href="bloq3.html">✔ Divar tablosu ölçüsü necə seçilir?</a></li>
+        <li><a href="bloq4.html">✔ Divar rənginə uyğun seçimi necə edə bilərəm?</a></li>
+      </ul>
+    </section>
+  </div>
 
-  <li>
-    <a href="bloq2.html" style="text-decoration: underline; color: var(--baski-renk); font-weight: 700;">
-      ✔ Minimalist tablo nədir və kimlər üçün uyğundur?
-    </a>
-  </li>
-
-  <li>
-    <a href="bloq3.html" style="text-decoration: underline; color: var(--baski-renk); font-weight: 700;">
-      ✔ Divar tablosu ölçüsü necə seçilir?
-    </a>
-  </li>
-
-  <li>
-    <a href="bloq4.html" style="text-decoration: underline; color: var(--baski-renk); font-weight: 700;">
-      ✔ Divar rənginə uyğun seçimi necə edə bilərəm?
-    </a>
-  </li>
-</ul>
-
-
-  
-
-  <!-- Floating buttons -->
+  <!-- ===================== -->
+  <!-- FLOATING BUTTONS -->
+  <!-- ===================== -->
   <div class="floating-buttons">
     <button class="whatsapp">💬</button>
     <button class="chat">🗨️</button>
   </div>
 
-<footer class="site-footer">
-  &copy; 2025 Müasir Kanvas Tablolar. Bütün hüquqlar qorunur.
-</footer>
+  <!-- ===================== -->
+  <!-- FOOTER -->
+  <!-- ===================== -->
+  <footer class="site-footer">
+    &copy; 2025 Müasir Kanvas Tablolar. Bütün hüquqlar qorunur.
+  </footer>
 
 </body>
 </html>
+
