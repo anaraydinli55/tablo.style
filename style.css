@@ -235,19 +235,22 @@ header {
 
 
 .video-container {
-  width: calc(63.333% - 10px); /* 3 sütun layout */
+  width: calc(33.333% - 10px); /* eski genişlik, 3 sütun düzeni */
+  height: auto;                /* yükseklik otomatik olmasın */
+  min-height: 300px;           /* container yüksekliğini artırmak için */
   overflow: hidden;
   border-radius: 10px;
-  background-color: #000; /* Video yoksa arka plan siyah */
+  background-color: #000;
 }
 
 .video-container video,
 .video-container img {
-  width: 100%;     /* container eni kadar */
-  height: auto;    /* yükseklik otomatik, kırpma yok */
-  object-fit: contain; /* tüm içerik görünür, kırpma yok */
+  width: 100%;       
+  height: 100%;       /* container yüksekliğine uysun */
+  object-fit: cover;  /* container’i doldursun, kırpma olabilir */
   display: block;
 }
+
 
 /* ===================== */
 /* RESPONSIVE */
