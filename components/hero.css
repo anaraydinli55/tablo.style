@@ -3,7 +3,7 @@
 ============================== */
 .hero {
   position: relative;
-  z-index: 1; /* slider və digər elementlərdən aşağı */
+  z-index: 0; /* slider hero-nun üstündə olmamalıdır */
   height: 100vh;
   background: url("/images/hero.jpg") center / cover no-repeat;
   display: flex;
@@ -12,6 +12,12 @@
   text-align: center;
   overflow: hidden;
 }
+
+.category-slider {
+  position: relative;
+  z-index: 1; /* slider hero-nun üstündə olsun */
+}
+
 
 .hero-overlay {
   position: absolute;
