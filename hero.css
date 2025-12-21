@@ -5,7 +5,7 @@
       rgba(0, 0, 0, 0.35),
       rgba(0, 0, 0, 0.35)
     ),
-    url("hero.jpg"); /* tablo görselin */
+    url("https://tablo-style.vercel.app/images/hero.jpg"); /* tablo görselin */
   background-size: cover;
   background-position: center;
   display: flex;
