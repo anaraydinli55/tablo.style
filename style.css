@@ -408,41 +408,41 @@ p.process-note {
 }
 
 /* Sticky Neon Button Navbar Altında */
-.btn-neon-sticky {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 95%;
-  max-width: 380px;
-  padding: 14px 24px;
-  min-height: 60px;       /* Yüksekliği artırdık */
+.top-banner .btn-neon-sticky {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 95% !important;
+  max-width: 380px !important;
+  padding: 14px 24px !important;
+  min-height: 60px !important;       /* Yüksekliği artırdık */
   
-  background: #9b30ff;     /* Neon mor */
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 18px;
-  text-decoration: none;
-  text-align: center;
-  border-radius: 12px;
-  cursor: pointer;
+  background: #9b30ff !important;     /* Neon mor */
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  text-decoration: none !important;
+  text-align: center !important;
+  border-radius: 12px !important;
+  cursor: pointer !important;
 
-  box-shadow: 0 0 10px #9b30ff, 0 0 25px #9b30ff; /* neon efekti */
-  margin: 10px auto 0 auto;
-  z-index: 1000;
-  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 10px #9b30ff, 0 0 25px #9b30ff !important; /* neon efekti */
+  margin: 10px auto 0 auto !important;
+  z-index: 1000 !important;
+  transition: all 0.2s ease-in-out !important;
 }
 
-.btn-neon-sticky:hover {
-  box-shadow: 0 0 15px #9b30ff, 0 0 35px #9b30ff;
-  transform: scale(1.05);
+.top-banner .btn-neon-sticky:hover {
+  box-shadow: 0 0 15px #9b30ff, 0 0 35px #9b30ff !important;
+  transform: scale(1.05) !important;
 }
 
 /* Mobil Uyumluluk */
 @media (max-width: 768px) {
-  .btn-neon-sticky {
-    width: 95%;
-    font-size: 16px;
-    padding: 12px 18px;
-    min-height: 55px;
+  .top-banner .btn-neon-sticky {
+    width: 95% !important;
+    font-size: 16px !important;
+    padding: 12px 18px !important;
+    min-height: 55px !important;
   }
 }
