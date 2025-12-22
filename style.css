@@ -29,24 +29,51 @@ body {
 /* ===================== */
 .top-banner {
   background-color: #f2c200;
-  padding: 5px 10px;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;  /* Yazılar alt alta */
+  align-items: center;
+  gap: 4px;                /* satırlar arası boşluk */
   text-align: center;
   font-size: 14px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
 }
 
-.top-banner b { font-weight: 700; }
+.top-banner span {
+  display: block;          /* her span alt satıra geçer */
+}
+
+.top-banner b {
+  font-weight: 700;
+}
 
 .top-banner button {
-  background-color: black;
-  color: white;
+  background-color: #9b30ff;  /* Neon mor */
+  color: #fff;
   border: none;
-  padding: 5px 10px;
-  border-radius: 5px;
+  padding: 14px 24px;
+  border-radius: 12px;
   cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+  box-shadow: 0 0 10px #9b30ff, 0 0 25px #9b30ff;
+  transition: all 0.2s ease-in-out;
+  margin-top: 6px;          /* üstten biraz boşluk */
+}
+
+.top-banner button:hover {
+  box-shadow: 0 0 15px #9b30ff, 0 0 35px #9b30ff;
+  transform: scale(1.05);
+}
+
+/* Mobil uyumluluk */
+@media (max-width: 768px) {
+  .top-banner {
+    font-size: 13px;
+  }
+  .top-banner button {
+    font-size: 16px;
+    padding: 12px 18px;
+  }
 }
 
 /* ===================== */
