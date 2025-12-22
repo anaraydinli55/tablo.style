@@ -407,4 +407,43 @@ p.process-note {
   opacity: 1;
 }
 
+/* Sticky Neon Button Navbar Altında */
+.btn-neon-sticky {
+  position: sticky;
+  top: 0;                  /* Navbarın altında yapışması */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  max-width: 380px;
+  padding: 12px 20px;
+  min-height: 45px;
+
+  background: #32cd32;      /* Soft neon yaşıl */
+  color: #000000;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+
+  box-shadow: 0 0 8px #32cd32, 0 0 15px #32cd32;
+  margin: 10px auto;
+  z-index: 1000;
+}
+
+.btn-neon-sticky:hover {
+  box-shadow: 0 0 12px #32cd32, 0 0 25px #32cd32;
+  transform: scale(1.03);
+  transition: all 0.2s ease-in-out;
+}
+
+/* Mobil Uyğunluq */
+@media (max-width: 768px) {
+  .btn-neon-sticky {
+    width: 95%;
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+}
 
