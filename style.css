@@ -408,39 +408,44 @@ p.process-note {
 }
 
 /* Sticky Neon Button Navbar Altında */
+/* Sticky Neon Mor Button Navbar Altında */
 .btn-neon-sticky {
   position: sticky;
-  top: 60px;              /* navbar yüksekliği kadar boşluk */
+  top: 0;                  
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
   width: 95%;
   max-width: 380px;
   padding: 14px 24px;
-  min-height: 50px;
-  background: #32cd32;
-  color: #000;
+  min-height: 55px;
+
+  background: #9b30ff;      /* Neon mor */
+  color: #ffffff;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 18px;
   text-decoration: none;
   text-align: center;
   border-radius: 12px;
-  box-shadow: 0 0 8px #32cd32, 0 0 15px #32cd32;
+  cursor: pointer;
+
+  box-shadow: 0 0 8px #9b30ff, 0 0 20px #9b30ff;
   margin: 10px auto;
   z-index: 1000;
-}
-
-.btn-neon-sticky:hover {
-  box-shadow: 0 0 12px #32cd32, 0 0 25px #32cd32;
-  transform: scale(1.05);
   transition: all 0.2s ease-in-out;
 }
 
+.btn-neon-sticky:hover {
+  box-shadow: 0 0 12px #9b30ff, 0 0 30px #9b30ff;
+  transform: scale(1.05);
+}
+
+/* Mobil Uyumluluk */
 @media (max-width: 768px) {
   .btn-neon-sticky {
     width: 95%;
-    font-size: 14px;
-    padding: 12px 20px;
+    font-size: 16px;
+    padding: 12px 18px;
+    min-height: 50px;
   }
 }
