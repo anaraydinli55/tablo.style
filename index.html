@@ -203,20 +203,22 @@
       padding: 0 7mm;
     }
 
-    .video-container {
-      width: calc(33.333% - 10px);
-      border-radius: 10px;
-      overflow: hidden;
-      position: relative;
-    }
+.video-container {
+  width: calc(33.333% - 10px);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  min-height: 300px; /* Yüksekliği artırdık */
+}
 
-    .video-container video,
-    .video-container img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      display: block;
-    }
+.video-container video,
+.video-container img {
+  width: 100%;
+  height: 100%;       /* Container yüksekliğini dolduracak */
+  object-fit: cover;  /* Taşma veya kırpma ile doldurur */
+  display: block;
+}
+
 
     @media (max-width: 1024px) {
       .video-container { width: calc(50% - 10px); }
