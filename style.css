@@ -264,12 +264,11 @@ header {
 
 
 .video-container {
-  width: calc(33.333% - 10px); /* eski genişlik, 3 sütun düzeni */
-  height: auto;                /* yükseklik otomatik olmasın */
-  min-height: 750px;           /* container yüksekliğini artırmak için */
-  overflow: hidden;
-  border-radius: 10px;
-  background-color: #000;
+    width: calc(33.333% - 10px);
+    height: 650px;       /* Artırılmış kesin yükseklik */
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #000;
 }
 
 .video-container video,
