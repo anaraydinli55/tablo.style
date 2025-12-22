@@ -408,19 +408,16 @@ p.process-note {
 }
 
 /* Sticky Neon Button Navbar Altında */
-/* Sticky Neon Mor Button Navbar Altında */
 .btn-neon-sticky {
-  position: sticky;
-  top: 0;                  
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 95%;
   max-width: 380px;
   padding: 14px 24px;
-  min-height: 55px;
-
-  background: #9b30ff;      /* Neon mor */
+  min-height: 60px;       /* Yüksekliği artırdık */
+  
+  background: #9b30ff;     /* Neon mor */
   color: #ffffff;
   font-weight: 700;
   font-size: 18px;
@@ -429,14 +426,14 @@ p.process-note {
   border-radius: 12px;
   cursor: pointer;
 
-  box-shadow: 0 0 8px #9b30ff, 0 0 20px #9b30ff;
-  margin: 10px auto;
+  box-shadow: 0 0 10px #9b30ff, 0 0 25px #9b30ff; /* neon efekti */
+  margin: 10px auto 0 auto;
   z-index: 1000;
   transition: all 0.2s ease-in-out;
 }
 
 .btn-neon-sticky:hover {
-  box-shadow: 0 0 12px #9b30ff, 0 0 30px #9b30ff;
+  box-shadow: 0 0 15px #9b30ff, 0 0 35px #9b30ff;
   transform: scale(1.05);
 }
 
@@ -446,6 +443,6 @@ p.process-note {
     width: 95%;
     font-size: 16px;
     padding: 12px 18px;
-    min-height: 50px;
+    min-height: 55px;
   }
 }
