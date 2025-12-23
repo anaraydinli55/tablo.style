@@ -473,27 +473,34 @@ p.process-note {
   }
 }
 
-.media-container {
-  display: flex;          /* Flexbox ilə yan-yana */
-  gap: 10px;              /* İlk aradakı boşluq, sonra daha da tənzimlənə bilər */
-  justify-content: center; /* Container ortalanır */
-  align-items: stretch;    /* Hündürlük bərabər olur */
-  background-color: #b0b0b0; /* Orta boz fon */
-  padding: 0;              /* Başlanğıcda sıfır */
-  flex-wrap: nowrap;       /* Alt-alta keçməsin */
+.media-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2mm;                 /* iki görsel arası boşluk */
+  background: #b0b0b0;      /* orta gri */
+  padding: 4mm;             /* her kenardan boşluk */
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
-.media-item {
-  flex: 1 1 0;           /* Hər ikisi bərabər ölçü alır */
-}
-
-.media-item img,
-.media-item video {
-  width: 100%;           /* Container eninə uyğun */
-  height: 100%;          /* Container hündürlüyü ilə uyğun */
-  object-fit: cover;     /* Proporsiyanı saxlayır */
+/* JPG ve MP4 AYNI DAVRANIŞ */
+.media-wrapper img,
+.media-wrapper video {
+  width: 50%;
+  height: auto;
   display: block;
+  object-fit: cover;
 }
+
+/* MOBİLDE DE YAN YANA KALSIN */
+@media (max-width: 600px) {
+  .media-wrapper img,
+  .media-wrapper video {
+    width: 50%;
+  }
+}
+
 
 
 
