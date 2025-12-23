@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.PAIR_CONTAINER_98123 {
+  display: flex;
+  gap: 2mm;
+  padding: 4mm;
+  background: #b0b0b0;
+  width: 100%;
+}
+
+.PAIR_ITEM_98123 {
+  width: 50%;
+}
+
+.PAIR_ITEM_98123 img,
+.PAIR_ITEM_98123 video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
