@@ -475,28 +475,30 @@ p.process-note {
 
 .media-container {
   display: flex;
-  justify-content: center;       /* yan-yana ortalanır */
-  gap: 5mm;                      /* elementlər arası 5mm boşluq */
-  background-color: #b0b0b0;     /* orta boz fon */
-  padding: 4mm;                   /* container-in hər tərəfi ilə 4mm boşluq */
-  flex-wrap: nowrap;              /* alt-alta keçməsin */
-  align-items: stretch;           /* hündürlüklər container ilə eyni olsun */
+  justify-content: center;       /* Yan-yana ortalanır */
+  gap: 2mm;                      /* Elementlər arası boşluq */
+  background-color: #b0b0b0;     /* Orta boz fon */
+  padding: 4mm;                   /* Container-in hər tərəfi ilə boşluq */
   box-sizing: border-box;
-  overflow-x: auto;               /* mobil dar ekranda yatay scroll çıxar */
+  flex-wrap: nowrap;              /* Alt-alta keçməsin */
+  overflow-x: auto;               /* Mobil dar ekranda yatay scroll çıxır */
 }
 
 .media-item {
-  flex: 1 1 0;                    /* hər iki media bərabər ölçü alsın */
-  max-width: 48%;                  /* container-də bərabər ölçü */
+  flex: 1 1 0;                   /* Bərabər ölçü */
+  max-width: calc(50% - 1mm);    /* İki element arasında 2mm boşluq */
+  aspect-ratio: 16 / 9;           /* Hündürlük eni nisbətinə görə tənzimlənir */
 }
 
 .media-item img,
 .media-item video {
-  width: 100%;                     /* container eninə uyğun ölçü */
-  height: 100%;                    /* container hündürlüyü ilə eyni */
-  object-fit: cover;               /* şəkil/video proporsiyasını saxlayır */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;             /* Şəkil/video container ölçüsünə uyğun */
+  border-radius: 5px;            /* Opsiyonel yumşaq kənarlar */
   display: block;
-  border-radius: 5px;              /* opsiyonel yumşaq kənarlar */
+}
+
 }
 
 
