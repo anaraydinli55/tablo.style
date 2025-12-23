@@ -485,13 +485,19 @@ p.process-note {
   overflow: hidden !important;
 }
 
-/* === JPG + MP4 XÜSUSİ CONTAINER (IZOLYASIYALI) === */
+/* === TAM IZOLYASIYALI JPG + MP4 CONTAINER === */
 .PAIR_CONTAINER_98123 {
+  all: initial;
   display: flex;
   gap: 2mm;
   padding: 4mm;
   background: #b0b0b0;
   width: 100%;
+  box-sizing: border-box;
+}
+
+.PAIR_CONTAINER_98123 * {
+  all: unset;
   box-sizing: border-box;
 }
 
@@ -505,4 +511,3 @@ p.process-note {
   height: auto;
   display: block;
 }
-
