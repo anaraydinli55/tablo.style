@@ -476,29 +476,29 @@ p.process-note {
 .media-container {
   display: flex;
   justify-content: center;       /* yan-yana ortalanır */
-  gap: 2mm;                      /* elementlər arası 2mm boşluq */
+  gap: 5mm;                      /* elementlər arası 5mm boşluq */
   background-color: #b0b0b0;     /* orta boz fon */
-  padding: 10px 7mm;
-  box-sizing: border-box;
+  padding: 4mm;                   /* container-in hər tərəfi ilə 4mm boşluq */
   flex-wrap: nowrap;              /* alt-alta keçməsin */
-  align-items: flex-start;        /* hündürlüklər eni nisbətinə görə tənzimlənir */
-  overflow-x: auto;               /* kiçik ekranlarda yatay scroll çıxır */
+  align-items: stretch;           /* hündürlüklər container ilə eyni olsun */
+  box-sizing: border-box;
+  overflow-x: auto;               /* mobil dar ekranda yatay scroll çıxar */
 }
 
 .media-item {
-  flex: 0 0 auto;                /* ölçüləri öz ölçüsündə saxla */
-  width: 48%;                     /* containerin yarısından az bir ölçü */
-  max-width: 200px;               /* maksimum ölçü */
+  flex: 1 1 0;                    /* hər iki media bərabər ölçü alsın */
+  max-width: 48%;                  /* container-də bərabər ölçü */
 }
 
 .media-item img,
 .media-item video {
-  width: 100%;                    /* container eninə uyğun ölçü */
-  height: auto;                   /* hündürlük eni ilə nisbətdə */
+  width: 100%;                     /* container eninə uyğun ölçü */
+  height: 100%;                    /* container hündürlüyü ilə eyni */
+  object-fit: cover;               /* şəkil/video proporsiyasını saxlayır */
   display: block;
-  border-radius: 5px;
-  object-fit: cover;              /* video və şəkil proporsiyasını saxlayır */
+  border-radius: 5px;              /* opsiyonel yumşaq kənarlar */
 }
+
 
 
 
