@@ -472,3 +472,28 @@ p.process-note {
     min-height: 55px !important;
   }
 }
+
+.media-container {
+  display: flex;
+  justify-content: center; /* yan-yana mərkəzləşdirmək */
+  gap: 20px; /* şəkil və video arası boşluq */
+  background-color: #b0b0b0; /* orta boz arxa fon */
+  padding: 20px 7mm; /* yuxarı-alt + sağ-sol 7mm boşluq */
+  flex-wrap: wrap; /* ekran kiçikdirsə alt-alta qoyulsun */
+  box-sizing: border-box; /* padding container daxilində hesablanır */
+}
+
+.media-item {
+  flex: 1 1 300px; /* ölçüləri uyğunlaşdırır, minimum 300px */
+  max-width: 45%; /* containerin 45%-dən böyük olmasın */
+}
+
+.media-item img,
+.media-item video {
+  width: 100%; /* yan-yana eyni ölçü */
+  height: auto;
+  display: block;
+  border-radius: 8px; /* köşələri yumşaltmaq üçün opsiyonel */
+}
+
+
