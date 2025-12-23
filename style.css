@@ -485,29 +485,24 @@ p.process-note {
   overflow: hidden !important;
 }
 
-/* === ITEM QABI (IMG & VIDEO ORIJINALINI BOĞUR) === */
-.PAIR_CONTAINER_98123 .PAIR_ITEM_98123 {
-  width: 50% !important;
-  flex: 0 0 50% !important;
-  overflow: hidden !important;
+/* === JPG + MP4 XÜSUSİ CONTAINER (IZOLYASIYALI) === */
+.PAIR_CONTAINER_98123 {
+  display: flex;
+  gap: 2mm;
+  padding: 4mm;
+  background: #b0b0b0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-/* === IMG === */
-.PAIR_CONTAINER_98123 img {
-  width: 100% !important;
-  height: auto !important;
-  display: block !important;
-  max-width: 100% !important;
+.PAIR_ITEM_98123 {
+  width: 50%;
 }
 
-/* === VIDEO (BURASI ƏSAS PROBLEM İDİ) === */
-.PAIR_CONTAINER_98123 video {
-  width: 100% !important;
-  height: auto !important;
-  display: block !important;
-  max-width: 100% !important;
-  object-fit: cover !important;
-  position: static !important;
-  visibility: visible !important;
-  opacity: 1 !important;
+.PAIR_ITEM_98123 img,
+.PAIR_ITEM_98123 video {
+  width: 100%;
+  height: auto;
+  display: block;
 }
+
