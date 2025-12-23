@@ -473,46 +473,41 @@ p.process-note {
   }
 }
 
-/* === SADECE BU CONTAINER === */
-.media-pair-only {
+/* === ANA CONTAINER === */
+.PAIR_CONTAINER_98123 {
   display: flex !important;
-  gap: 2mm;
-  background-color: #b0b0b0;
-  padding: 4mm;
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 100%;
-  overflow: hidden;
+  flex-direction: row !important;
+  gap: 2mm !important;
+  padding: 4mm !important;
+  background: #b0b0b0 !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
 }
 
-/* === SADECE BU CONTAINER ICIN IMG + VIDEO === */
-.media-pair-only > img,
-.media-pair-only > video {
-  width: 50%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-  flex-shrink: 0;
+/* === ITEM QABI (IMG & VIDEO ORIJINALINI BOĞUR) === */
+.PAIR_CONTAINER_98123 .PAIR_ITEM_98123 {
+  width: 50% !important;
+  flex: 0 0 50% !important;
+  overflow: hidden !important;
 }
 
-/* === MOBILDE DE YAN YANA KALSIN === */
-@media (max-width: 768px) {
-  .media-pair-only {
-    flex-direction: row;
-  }
-
-  .media-pair-only > img,
-  .media-pair-only > video {
-    width: 50%;
-  }
+/* === IMG === */
+.PAIR_CONTAINER_98123 img {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  max-width: 100% !important;
 }
 
-
-
-
-
-
-
-
-
-
+/* === VIDEO (BURASI ƏSAS PROBLEM İDİ) === */
+.PAIR_CONTAINER_98123 video {
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  max-width: 100% !important;
+  object-fit: cover !important;
+  position: static !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
