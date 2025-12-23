@@ -474,31 +474,27 @@ p.process-note {
 }
 
 .media-container {
-  display: flex;
-  justify-content: center;       /* container ortalanır */
-  align-items: stretch;          /* hündürlüklər bərabər olur */
-  gap: 2mm;                      /* elementlər arası 2mm boşluq */
-  padding: 4mm;                  /* container-in hər tərəfi ilə 4mm boşluq */
-  background-color: #b0b0b0;     /* orta boz fon */
-  box-sizing: border-box;
-  flex-wrap: nowrap;             /* alt-alta keçməsin */
-  overflow-x: auto;              /* mobil dar ekranda scroll çıxır */
+  display: flex;          /* Flexbox ilə yan-yana */
+  gap: 10px;              /* İlk aradakı boşluq, sonra daha da tənzimlənə bilər */
+  justify-content: center; /* Container ortalanır */
+  align-items: stretch;    /* Hündürlük bərabər olur */
+  background-color: #b0b0b0; /* Orta boz fon */
+  padding: 0;              /* Başlanğıcda sıfır */
+  flex-wrap: nowrap;       /* Alt-alta keçməsin */
 }
 
 .media-item {
-  flex: 1 1 0;                   /* hər iki media bərabər ölçü alsın */
-  max-width: calc(50% - 1mm);    /* aradakı 2mm boşluğu nəzərə alaraq */
-  aspect-ratio: 16/9;            /* eni/hündürlük nisbəti avtomatik */
+  flex: 1 1 0;           /* Hər ikisi bərabər ölçü alır */
 }
 
 .media-item img,
 .media-item video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;             /* media proporsiyasını saxlayır */
-  border-radius: 5px;
+  width: 100%;           /* Container eninə uyğun */
+  height: 100%;          /* Container hündürlüyü ilə uyğun */
+  object-fit: cover;     /* Proporsiyanı saxlayır */
   display: block;
 }
+
 
 
 
