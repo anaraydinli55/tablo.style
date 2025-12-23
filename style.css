@@ -473,33 +473,40 @@ p.process-note {
   }
 }
 
-.media-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  gap: 2mm;                 /* iki görsel arası boşluk */
-  background: #b0b0b0;      /* orta gri */
-  padding: 4mm;             /* her kenardan boşluk */
-  max-width: 100%;
+/* === SADECE BU CONTAINER === */
+.media-pair-only {
+  display: flex !important;
+  gap: 2mm;
+  background-color: #b0b0b0;
+  padding: 4mm;
   box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
 
-/* JPG ve MP4 AYNI DAVRANIŞ */
-.media-wrapper img,
-.media-wrapper video {
+/* === SADECE BU CONTAINER ICIN IMG + VIDEO === */
+.media-pair-only > img,
+.media-pair-only > video {
   width: 50%;
   height: auto;
   display: block;
   object-fit: cover;
+  flex-shrink: 0;
 }
 
-/* MOBİLDE DE YAN YANA KALSIN */
-@media (max-width: 600px) {
-  .media-wrapper img,
-  .media-wrapper video {
+/* === MOBILDE DE YAN YANA KALSIN === */
+@media (max-width: 768px) {
+  .media-pair-only {
+    flex-direction: row;
+  }
+
+  .media-pair-only > img,
+  .media-pair-only > video {
     width: 50%;
   }
 }
+
 
 
 
