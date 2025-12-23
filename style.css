@@ -475,25 +475,27 @@ p.process-note {
 
 .media-container {
   display: flex;
-  justify-content: center; /* yan-yana mərkəzləşdirmək */
-  gap: 20px; /* şəkil və video arası boşluq */
+  justify-content: center;   /* yan-yana mərkəzləşdirmək */
+  gap: 2mm;                  /* elementlər arası 2mm boşluq */
   background-color: #b0b0b0; /* orta boz arxa fon */
-  padding: 20px 7mm; /* yuxarı-alt + sağ-sol 7mm boşluq */
-  flex-wrap: wrap; /* ekran kiçikdirsə alt-alta qoyulsun */
-  box-sizing: border-box; /* padding container daxilində hesablanır */
+  padding: 10px 7mm;         /* container içi boşluq */
+  flex-wrap: wrap;            /* mobil üçün alt-alta keçmək */
+  box-sizing: border-box;
 }
 
 .media-item {
-  flex: 1 1 300px; /* ölçüləri uyğunlaşdırır, minimum 300px */
-  max-width: 45%; /* containerin 45%-dən böyük olmasın */
+  flex: 0 0 auto;           /* elementləri kiçik sabit tut */
+  width: calc(50% - 1mm);   /* iki element üçün yan-yana, arada 2mm boşluq */
+  max-width: 200px;         /* maksimum kiçik ölçü */
 }
 
 .media-item img,
 .media-item video {
-  width: 100%; /* yan-yana eyni ölçü */
-  height: auto;
+  width: 100%;             /* container eninə uyğun ölçü */
+  height: auto;            /* hündürlük eni nisbətinə görə tənzimlənir */
   display: block;
-  border-radius: 8px; /* köşələri yumşaltmaq üçün opsiyonel */
+  border-radius: 5px;      /* opsiyonel yumşaq kənarlar */
 }
+
 
 
