@@ -183,3 +183,51 @@
   height: auto;
   display: block;
 }
+
+
+/* ===================== */
+/* RAINBOW BAŞLIK */
+/* ===================== */
+.rainbow-text-wrapper {
+  padding: 0 7mm;
+  margin: 7mm 0 !important;
+  text-align: center;
+}
+
+.animated-rainbow-2 {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 4mm;
+
+  background: linear-gradient(
+    90deg,
+    #ff0057,
+    #fffd44,
+    #00ffcc,
+    #6a00ff,
+    #ff0057
+  );
+  background-size: 400% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: rainbowMove 6s linear infinite;
+}
+
+.rainbow-desc {
+  color: #081633 !important;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@keyframes rainbowMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+/* Mobil */
+@media (max-width: 768px) {
+  .animated-rainbow-2 { font-size: 22px; }
+  .rainbow-desc { font-size: 15px; }
+}
+
