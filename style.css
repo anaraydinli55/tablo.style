@@ -514,45 +514,40 @@ p.process-note {
 
 
 /* ===================== */
-/* ESTETIK BLOK Sade    */
+/* ESTETİK BLOK (Sade) */
 /* ===================== */
-.seo-text-wrapper {
+.estetik {
+  display: block;
   width: 100%;
-  clear: both;
-  overflow: visible;
-  margin: 10mm 0 7mm 0; /* Üst ve alt boşluk */
-  padding: 0 7mm;       /* Yan boşluk, mobil uyumlu */
+  padding: 7mm;
+  margin: 7mm 0; /* üst-alt boşluk */
   box-sizing: border-box;
 }
 
-.seo-text-wrapper h2 {
+.estetik h2 {
   text-align: center;
-  color: #9b00ff; /* neon mor */
-  font-size: 26px;
-  margin-bottom: 6mm;
+  color: #6a00ff; /* koyu mor */
+  font-size: 22px;
+  margin-bottom: 5mm;
 }
 
-.seo-text-wrapper p {
-  color: #081633; /* koyu lacivert */
-  line-height: 1.5;
-  margin-bottom: 4mm;
-  white-space: normal;
+.estetik p {
+  color: #081633; /* lacivert */
+  font-size: 16px;
+  line-height: 1.6;
 }
 
-/* ===================== */
-/* MOBIL UYUM            */
-/* ===================== */
+/* Mobil uyum */
 @media (max-width: 768px) {
-  .seo-text-wrapper {
-    padding-left: 7mm;
-    padding-right: 7mm;
+  .estetik {
+    padding: 7mm; /* sağ-sol-üst-alt 7mm mobilde de korunur */
   }
 
-  .seo-text-wrapper h2 {
-    font-size: 22px;
+  .estetik h2 {
+    font-size: 20px;
   }
 
-  .seo-text-wrapper p {
-    font-size: 14px;
+  .estetik p {
+    font-size: 15px;
   }
 }
