@@ -198,8 +198,6 @@ body {
 @keyframes rainbowText {
   0%   { color: #ff0000; } /* kırmızı */
   14%  { color: #ff7f00; } /* turuncu */
-  28%  { color: #ffff00; } /* sarı */
-  42%  { color: #00ff00; } /* yeşil */
   57%  { color: #0000ff; } /* mavi */
   71%  { color: #4b0082; } /* lacivert */
   85%  { color: #8b00ff; } /* mor */
