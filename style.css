@@ -514,22 +514,34 @@ p.process-note {
 
 
 /* ===================== */
-/* ESTETIK BÖLMƏ */
+/* ESTETIK BÖLMƏ - FIX */
 /* ===================== */
-.estetik {
-  margin-top: 10mm;
-  margin-bottom: 7mm;
-}
-
-.estetik h2 {
-  text-align: center;
-  color: #081633;
-  margin-bottom: 6mm;
+.seo-text-wrapper .estetik {
+  display: block;
+  width: 100%;
 }
 
 .estetik .card {
+  display: block;
+  width: 100%;
   background-color: #d4a800;   /* koyu sarı */
   border: 3px solid #081633;   /* orta qalın lacivert */
   padding: 6mm;
   color: #081633;
+  box-sizing: border-box;
 }
+
+/* mətnin kəsilməsinin qarşısını alır */
+.estetik .card p {
+  white-space: normal;
+  overflow: visible;
+}
+
+/* mobil yan boşluqlar */
+@media (max-width: 768px) {
+  .seo-text-wrapper .estetik {
+    margin-left: 7mm;
+    margin-right: 7mm;
+  }
+}
+
