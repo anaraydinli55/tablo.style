@@ -516,20 +516,20 @@ p.process-note {
 .estetik {
   width: 100%;
   clear: both;
-  overflow: auto;
-  isolation: isolate;
+  overflow: visible;
   margin-top: 10mm;
   margin-bottom: 7mm;
 }
 
 .estetik .card {
-  background-color: #d4a800; /* Koyu sarı */
-  border: 3px solid #081633; /* Lacivert border */
+  background-color: #d4a800; /* sarı fon */
+  border: 3px solid #081633; /* lacivert border */
   padding: 6mm;
-  color: #081633; /* Lacivert yazı */
+  color: #081633; /* yazı lacivert */
   width: 100%;
+  max-width: 1200px; /* optional: container max eni */
+  margin: 0 auto; /* ortala */
   box-sizing: border-box;
-  margin: 0 auto;
 }
 
 .estetik .card h2 {
@@ -538,10 +538,8 @@ p.process-note {
 }
 
 .estetik .card p {
-  white-space: normal;
-  overflow: visible;
-  display: block;
   line-height: 1.5;
+  margin-bottom: 4mm;
 }
 
 /* Mobil */
