@@ -1,52 +1,58 @@
+/* Genel sayfa stili */
 body {
   background-color: #d3d3d3; /* gri arka plan */
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
   box-sizing: border-box;
+  text-align: center;
 }
 
-/* 3 renkli gökkuşağı animasyonu */
-@keyframes rainbow {
-  0% { background-color: #00008B; }   /* koyu mavi */
-  33% { background-color: #FF0000; }  /* kırmızı */
-  66% { background-color: #00FF00; }  /* yeşil */
-  100% { background-color: #00008B; } /* tekrar koyu mavi */
+/* Başlık için 3 renkli animasyon */
+@keyframes rainbowText {
+  0% { color: #00008B; }   /* koyu mavi */
+  33% { color: #FF0000; }  /* kırmızı */
+  66% { color: #00FF00; }  /* yeşil */
+  100% { color: #00008B; } /* tekrar koyu mavi */
 }
 
+h1.rainbow {
+  animation: rainbowText 3s linear infinite;
+}
+
+/* Tablonun temel stili */
 .price-table {
   width: 100%;
   border-collapse: collapse;
+  background-color: #fff; /* tablo beyaz */
   border-radius: 8px;
   overflow: hidden;
-  min-width: 400px;
-  animation: rainbow 5s linear infinite; /* animasyonu uygula */
+  table-layout: fixed; /* kolonları daraltmak için */
 }
 
 .price-table th,
 .price-table td {
   border: 2px solid #000;
-  padding: 10px 8px; /* kolonları daralt */
+  padding: 8px; /* dar padding */
   text-align: center;
-  word-break: break-word; /* uzun metin taşmasın */
-  background-color: rgba(255,255,255,0.85); /* metin okunabilir */
+  word-wrap: break-word; /* uzun metin taşmasın */
 }
 
 .price-table th {
   font-weight: bold;
-  background-color: rgba(0,0,0,0.7); 
+  background-color: #4a4a4a;
   color: #fff;
 }
 
 .price-table tbody tr:nth-child(even) {
-  background-color: rgba(255,255,255,0.5);
+  background-color: #f2f2f2;
 }
 
 /* Mobil uyumlu tablo */
 @media (max-width: 600px) {
   .price-table th,
   .price-table td {
-    padding: 6px 4px;
+    padding: 6px;
     font-size: 12px;
   }
 }
@@ -65,25 +71,4 @@ body {
   background-color: #c49f00; /* sarı */
   color: #fff;
   text-decoration: none;
-  padding: 8px 12px;
-  border-radius: 8px;
-  font-weight: bold;
-  text-align: center;
-  transition: all 0.3s ease;
-  font-size: 14px;
-  white-space: nowrap; /* yazılar mobilde taşmasın */
-}
-
-.nav a:hover {
-  background-color: #d4af37; 
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transform: translateY(-2px);
-}
-
-/* Daha dar ekranlar için buton küçültme */
-@media (max-width: 480px) {
-  .nav a {
-    padding: 6px 10px;
-    font-size: 12px;
-  }
-}
+  padding: 8
