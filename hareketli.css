@@ -29,7 +29,7 @@ body {
 }
 
 .animated-rainbow-2 {
-  animation: rainbowText 3s linear infinite;
+  animation: rainbowText 8s linear infinite;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 15px;
