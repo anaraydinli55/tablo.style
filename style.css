@@ -513,9 +513,6 @@ p.process-note {
 }
 
 
-/* ===================== */
-/* ESTETIK BLOK CSS */
-/* ===================== */
 .estetik {
   width: 100%;
   clear: both;
@@ -525,19 +522,18 @@ p.process-note {
   margin-bottom: 7mm;
 }
 
-.estetik h2 {
-  text-align: center;
-  color: #081633;
-  margin-bottom: 6mm;
-}
-
 .estetik .card {
-  background-color: #d4a800; /* Koyu sarı fon */
+  background-color: #d4a800; /* Koyu sarı */
   border: 3px solid #081633; /* Lacivert border */
   padding: 6mm;
   color: #081633; /* Lacivert yazı */
   width: 100%;
   box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.estetik .card h2 {
+  text-align: center;
   margin-bottom: 6mm;
 }
 
@@ -548,9 +544,9 @@ p.process-note {
   line-height: 1.5;
 }
 
-/* Mobil görünüm */
+/* Mobil */
 @media (max-width: 768px) {
-  .estetik {
+  .estetik .card {
     margin-left: 7mm;
     margin-right: 7mm;
   }
