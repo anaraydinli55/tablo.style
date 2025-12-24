@@ -558,6 +558,15 @@ p.process-note {
   }
 }
 
+.printer-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 7mm !important; /* Görsel-görsel arası mesafe */
+  flex-wrap: wrap;
+  margin-bottom: 0 !important; /* Altındaki boşluğu sıfırlıyoruz */
+}
+
 .printer-container .seo-text-wrapper {
   margin-top: 7mm !important; /* Görsel-alt metin arası mesafe */
 }
+
