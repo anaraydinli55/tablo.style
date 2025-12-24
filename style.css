@@ -513,26 +513,28 @@ p.process-note {
 }
 
 
+
 /* ===================== */
 /* ESTETİK BLOK (Sade) */
 /* ===================== */
 .estetik {
   display: block;
   width: 100%;
-  padding: 7mm;
-  margin: 7mm 0; /* üst-alt boşluk */
+  padding: 7mm;         /* tüm kenarlardan 7mm */
+  margin: 7mm 0;        /* üst-alt boşluk 7mm */
   box-sizing: border-box;
+  background: transparent; /* arka plan tamamen sade */
 }
 
 .estetik h2 {
   text-align: center;
-  color: #6a00ff; /* koyu mor */
+  color: #6a00ff;       /* koyu mor başlık */
   font-size: 22px;
   margin-bottom: 5mm;
 }
 
 .estetik p {
-  color: #081633; /* lacivert */
+  color: #081633;       /* lacivert metin */
   font-size: 16px;
   line-height: 1.6;
 }
@@ -540,14 +542,9 @@ p.process-note {
 /* Mobil uyum */
 @media (max-width: 768px) {
   .estetik {
-    padding: 7mm; /* sağ-sol-üst-alt 7mm mobilde de korunur */
+    padding: 7mm;        /* her kenardan sabit */
   }
 
-  .estetik h2 {
-    font-size: 20px;
-  }
-
-  .estetik p {
-    font-size: 15px;
-  }
+  .estetik h2 { font-size: 20px; }
+  .estetik p { font-size: 15px; }
 }
