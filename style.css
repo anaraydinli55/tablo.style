@@ -511,3 +511,35 @@ p.process-note {
   height: auto;
   display: block;
 }
+
+
+/* Bölmə ümumi */
+.estetik {
+  margin-top: 10mm;          /* yuxarıdakı vizualdan 10mm boşluq */
+  margin-bottom: 7mm;        /* altdakı containerə 7mm boşluq */
+}
+
+/* Başlıq */
+.estetik h2 {
+  text-align: center;
+  color: #0a1f44;            /* lacivert */
+  margin-bottom: 6mm;
+}
+
+/* Container (card) */
+.estetik .card {
+  background-color: #d4a800; /* koyu sarı */
+  border: 3px solid #0a1f44; /* orta qalın lacivert kənar */
+  padding: 6mm;
+  color: #0a1f44;            /* mətn lacivert */
+  box-sizing: border-box;
+}
+
+/* Mobil görünüm üçün boşluqlar */
+@media (max-width: 768px) {
+  .estetik .card {
+    margin-left: 7mm;
+    margin-right: 7mm;
+  }
+}
+
