@@ -72,3 +72,11 @@ h1.rainbow {
   color: #fff;
   text-decoration: none;
   padding: 8
+
+  .table-container {
+  width: 100%;   /* ekranın tamamını kapla */
+  max-width: 100%; /* taşmayı önle */
+  margin: 0 auto;  /* ortala */
+  overflow: hidden;
+}
+
