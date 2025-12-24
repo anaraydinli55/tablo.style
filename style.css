@@ -494,7 +494,7 @@ p.process-note {
   display: flex;
   gap: 2mm;
   padding: 4mm;
-  background-color: #b0d4ff; /* açık mavi */
+  background-color: #b0d4ff !important; /* açık mavi */
   width: 100%;
   box-sizing: border-box;
 }
