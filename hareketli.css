@@ -215,8 +215,8 @@ body {
 
 /* Açıklama metni */
 .rainbow-desc {
-  font-size: 18px;
-  line-height: 1.2;
+  font-size: 16px;
+  line-height: 1.4;
   color: #000;
   margin: 0 0 20px 0;
   text-align: justify;
