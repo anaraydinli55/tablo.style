@@ -519,11 +519,11 @@ p.process-note {
 .estetik {
   display: block;
   width: 100%;
-  max-width: 800px;      /* çok geniş ekranlarda okunabilirliği artır */
+  max-width: 800px;      /* Maksimum genişlik ile satır çok uzun olmaz */
   padding: 7mm;          /* tüm kenarlardan 7mm */
   margin: 7mm auto;      /* üst-alt boşluk + ortalama */
   box-sizing: border-box;
-  background: transparent; /* tamamen sade */
+  background: transparent; /* arka plan sade */
 }
 
 .estetik h2 {
@@ -538,23 +538,18 @@ p.process-note {
   color: #081633;        /* lacivert metin */
   font-size: 16px;
   line-height: 1.6;
-  text-align: justify;    /* metni sağ-sol hizalar */
-  word-break: break-word; /* uzun kelimelerde taşmayı engeller */
+  text-align: justify;     /* satırları estetik hizala */
+  word-wrap: break-word;   /* uzun kelimelerde taşmayı engelle */
+  margin-bottom: 10px;     /* paragraflar arası boşluk */
 }
 
 /* Mobil uyum */
 @media (max-width: 768px) {
   .estetik {
-    padding: 7mm;           /* tüm kenarlardan sabit */
-    max-width: 100%;        /* ekranı tamamen kullan */
+    padding: 7mm;
+    max-width: 100%;      /* mobilde tam genişlik */
   }
 
-  .estetik h2 {
-    font-size: 20px;
-  }
-
-  .estetik p {
-    font-size: 15px;
-    line-height: 1.5;
-  }
+  .estetik h2 { font-size: 20px; }
+  .estetik p { font-size: 15px; line-height: 1.5; }
 }
