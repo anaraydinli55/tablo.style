@@ -254,3 +254,12 @@ body {
   flex: 0 0 auto;
 }
 
+.rainbow-desc {
+  text-align: left;
+}
+
+@media (min-width: 900px) {
+  .rainbow-desc {
+    text-align: justify;
+  }
+}
