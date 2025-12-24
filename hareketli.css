@@ -216,7 +216,7 @@ body {
 /* Açıklama metni */
 .rainbow-desc {
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.2;
   color: #000;
   margin: 0 0 20px 0;
   text-align: justify;
@@ -230,3 +230,27 @@ body {
   padding-left: 3mm;
   padding-right: 3mm;
 }
+
+/* ALT NAV – HER ZAMAN TEK SATIR */
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: nowrap;     /* ❗ alt satıra düşmeyi engeller */
+  overflow-x: hidden;    /* taşma yok */
+}
+
+/* Butonlar */
+.nav a {
+  background-color: #c49f00; /* sarı */
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 10px;        /* mobil için dar */
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 13px;          /* mobilde sığar */
+  white-space: nowrap;     /* yazı kırılmaz */
+  flex: 0 0 auto;
+}
+
