@@ -1,6 +1,6 @@
 <style>
 body {
-  background-color: #d3d3d3; /* gri arka plan */
+  background-color: #d3d3d3;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
@@ -10,10 +10,10 @@ body {
 
 /* Başlık için 3 renkli animasyon */
 @keyframes rainbowText {
-  0% { color: #00008B; }   /* koyu mavi */
-  33% { color: #FF0000; }  /* kırmızı */
-  66% { color: #00FF00; }  /* yeşil */
-  100% { color: #00008B; } /* tekrar koyu mavi */
+  0% { color: #00008B; }
+  33% { color: #FF0000; }
+  66% { color: #00FF00; }
+  100% { color: #00008B; }
 }
 
 h1.rainbow {
@@ -24,10 +24,10 @@ h1.rainbow {
 .price-table {
   width: 100%;
   border-collapse: collapse;
-  background-color: #fff; /* tablo beyaz */
+  background-color: #fff;
   border-radius: 8px;
   overflow: hidden;
-  table-layout: fixed; /* kolonları daraltmak için */
+  table-layout: fixed; /* kolon genişliklerini sabitle */
 }
 
 .price-table th,
@@ -35,7 +35,28 @@ h1.rainbow {
   border: 2px solid #000;
   padding: 8px;
   text-align: center;
-  word-wrap: break-word; /* uzun metin taşmasın */
+  word-wrap: break-word;
+}
+
+/* Kolon genişlikleri */
+.price-table th:nth-child(1),
+.price-table td:nth-child(1) {
+  width: 10%; /* Sıra */
+}
+
+.price-table th:nth-child(2),
+.price-table td:nth-child(2) {
+  width: 35%; /* Ölçü */
+}
+
+.price-table th:nth-child(3),
+.price-table td:nth-child(3) {
+  width: 35%; /* Material */
+}
+
+.price-table th:nth-child(4),
+.price-table td:nth-child(4) {
+  width: 20%; /* Qiymət */
 }
 
 .price-table th {
@@ -68,7 +89,7 @@ h1.rainbow {
 
 .nav a {
   display: inline-block;
-  background-color: #c49f00; /* sarı */
+  background-color: #c49f00;
   color: #fff;
   text-decoration: none;
   padding: 8px 12px;
@@ -99,10 +120,10 @@ h1.rainbow {
 <table class="price-table">
   <thead>
     <tr>
-      <th style="width:10%;">Sıra</th>
-      <th style="width:30%;">Ölçü</th>
-      <th style="width:40%;">Material</th>
-      <th style="width:20%;">Qiymət</th>
+      <th>Sıra</th>
+      <th>Ölçü</th>
+      <th>Material</th>
+      <th>Qiymət</th>
     </tr>
   </thead>
   <tbody>
@@ -110,25 +131,25 @@ h1.rainbow {
       <td>1</td>
       <td>40 × 60 sm</td>
       <td>Kanvas</td>
-      <td>—</td>
+      <td>200 AZN</td>
     </tr>
     <tr>
       <td>2</td>
       <td>50 × 70 sm</td>
       <td>Kanvas</td>
-      <td>—</td>
+      <td>250 AZN</td>
     </tr>
     <tr>
       <td>3</td>
       <td>60 × 90 sm</td>
       <td>Kanvas</td>
-      <td>—</td>
+      <td>300 AZN</td>
     </tr>
     <tr>
       <td>4</td>
       <td>70 × 100 sm</td>
       <td>Kanvas</td>
-      <td>—</td>
+      <td>350 AZN</td>
     </tr>
     <tr>
       <td>5</td>
@@ -137,3 +158,10 @@ h1.rainbow {
       <td>Razılaşma ilə</td>
     </tr>
   </tbody>
+</table>
+
+<div class="nav">
+  <a href="https://viktoria-az.vercel.app">⬅ Geri</a>
+  <a href="https://viktoria-az.vercel.app">🏠 Ana səhifə</a>
+  <a href="https://viktoria-az.vercel.app/next">İrəli ➡</a>
+</div>
