@@ -514,17 +514,9 @@ p.process-note {
 
 
 /* ===================== */
-/* FLEX AKIŞINI KIR */
-/* ===================== */
-.seo-text-wrapper {
-  clear: both;
-}
-
-/* ===================== */
-/* ESTETIK BLOK – KESIN FIX */
+/* ESTETIK BLOK CSS */
 /* ===================== */
 .estetik {
-  display: block;
   width: 100%;
   clear: both;
   overflow: auto;
@@ -540,22 +532,23 @@ p.process-note {
 }
 
 .estetik .card {
-  background-color: #d4a800;
-  border: 3px solid #081633;
+  background-color: #d4a800; /* Koyu sarı fon */
+  border: 3px solid #081633; /* Lacivert border */
   padding: 6mm;
-  color: #081633;
+  color: #081633; /* Lacivert yazı */
   width: 100%;
   box-sizing: border-box;
+  margin-bottom: 6mm;
 }
 
-/* metnin yarım kəsilməsini QƏTİ dayandırır */
 .estetik .card p {
   white-space: normal;
   overflow: visible;
   display: block;
+  line-height: 1.5;
 }
 
-/* mobil yan boşluqlar */
+/* Mobil görünüm */
 @media (max-width: 768px) {
   .estetik {
     margin-left: 7mm;
