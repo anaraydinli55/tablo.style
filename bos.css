@@ -1,289 +1,125 @@
-* {
+<style>
+body {
+  background-color: #d3d3d3; /* gri arka plan */
+  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 20px;
   box-sizing: border-box;
 }
 
-.PAIR_CONTAINER_98123 {
-  display: flex;
-  gap: 4mm;
-  padding: 4mm;
-  background: #b0b0b0;
+.price-table {
   width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  min-width: 400px; /* mobilde kaydırma için */
 }
 
-.PAIR_ITEM_98123 {
-  width: 50%;
-}
-
-.PAIR_ITEM_98123 img,
-.PAIR_ITEM_98123 video {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.PAIR_CONTAINER_98124 {
-  display: flex;
-  gap: 4mm;
-  padding: 4mm;
-  background: #b0b0b0;
-  width: 100%;
-}
-
-.PAIR_ITEM_98124 {
-  width: 50%;
-}
-
-.PAIR_ITEM_98124 img,
-.PAIR_ITEM_98124 video {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.PAIR_CONTAINER_98125 {
-  display: flex;
-  gap: 4mm;
-  padding: 4mm;
-  background: #b0b0b0;
-  width: 100%;
-}
-
-.PAIR_ITEM_98125 {
-  width: 50%;
-}
-
-.PAIR_ITEM_98125 img,
-.PAIR_ITEM_98125 video {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.PAIR_CONTAINER_98126 {
-  display: flex;
-  gap: 4mm;
-  padding: 4mm;
-  background: #b0b0b0;
-  width: 100%;
-}
-
-.PAIR_ITEM_98126 {
-  width: 50%;
-}
-
-.PAIR_ITEM_98126 img,
-.PAIR_ITEM_98126 video {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.PAIR_CONTAINER_98127 {
-  display: flex;
-  gap: 4mm;
-  padding: 4mm;
-  background: #b0b0b0;
-  width: 100%;
-}
-
-.PAIR_ITEM_98127 {
-  width: 50%;
-}
-
-.PAIR_ITEM_98127 img,
-.PAIR_ITEM_98127 video {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.PAIR_CONTAINER_98128 {
-  display: flex;
-  gap: 4mm;
-  padding: 4mm;
-  background: #b0b0b0;
-  width: 100%;
-}
-
-.PAIR_ITEM_98128 {
-  width: 50%;
-}
-
-.PAIR_ITEM_98128 img,
-.PAIR_ITEM_98128 video {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.PAIR_CONTAINER_98129 {
-  display: flex;
-  gap: 4mm;
-  padding: 4mm;
-  background: #b0b0b0;
-  width: 100%;
-}
-
-.PAIR_ITEM_98129 {
-  width: 50%;
-}
-
-.PAIR_ITEM_98129 img,
-.PAIR_ITEM_98129 video {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-
-/* ============================= */
-/* ORTAK ARKA PLAN AYARI */
-/* ============================= */
-:root {
-  --ortak-arka-plan: #e6f2ff; /* Açık mavi */
-}
-
-/* ============================= */
-/* ÜST BAŞLIK + METİN ALANI */
-/* ============================= */
-.rainbow-text-wrapper,
-.seo-text-wrapper {
-  background-color: var(--ortak-arka-plan) !important;
-  padding: 16px;
-  box-sizing: border-box;
-}
-
-/* Başlık (neon mor) */
-.seo-text h2,
-.animated-rainbow-2 {
-  color: #6a00ff !important;
-  font-weight: 900;
-  text-align: center;
-  margin-top: 0;
-}
-
-/* Metin (koyu lacivert) */
-.seo-text,
-.rainbow-text-wrapper p {
-  color: #081633 !important;
-  font-size: 20px;
-  line-height: 1.6;
-}
-
-/* ============================= */
-/* TÜM GÖRSEL + VİDEO CONTAINER'LAR */
-/* ============================= */
-[class^="PAIR_CONTAINER_"] {
-  background-color: var(--ortak-arka-plan) !important;
-  padding: 16px;
-  margin-bottom: 12px; /* aradaki mesafeyi küçülttük */
-  box-sizing: border-box;
-}
-
-/* İç öğeler */
-[class^="PAIR_CONTAINER_"] img,
-[class^="PAIR_CONTAINER_"] video {
-  width: 100%;
-  display: block;
-  border-radius: 12px;
-  object-fit: cover;
-}
-
-/* ============================= */
-/* MOBİL DÜZEN */
-/* ============================= */
-@media (max-width: 768px) {
-  .seo-text,
-  .rainbow-text-wrapper p {
-    font-size: 18px;
-  }
-
-  .seo-text h2,
-  .animated-rainbow-2 {
-    font-size: 24px;
-  }
-
-  [class^="PAIR_CONTAINER_"] {
-    padding: 12px;
-    margin-bottom: 10px;
-  }
-}
-
-
-/* ============================= */
-/* RAINBOW ANİMASYONUNU GERİ AL */
-/* ============================= */
-.animated-rainbow-2 {
-  background: linear-gradient(
-    90deg,
-    #ff005a,
-    #ff8c00,
-    #ffe600,
-    #00ff9c,
-    #00c3ff,
-    #6a00ff,
-    #ff005a
-  );
-  background-size: 400% 400%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: rainbowMove 6s linear infinite;
-  font-weight: 900;
+.price-table th,
+.price-table td {
+  border: 2px solid #000;
+  padding: 12px;
   text-align: center;
 }
 
-/* Animasyon */
-@keyframes rainbowMove {
-  0% { background-position: 0% 50%; }
-  100% { background-position: 100% 50%; }
+.price-table th {
+  font-weight: bold;
+  background-color: #4a4a4a;
+  color: #fff;
 }
 
+.price-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Mobil uyumlu */
+@media (max-width: 600px) {
+  .price-table th,
+  .price-table td {
+    padding: 10px 8px;
+    font-size: 14px;
+  }
+}
+
+/* Alt nav butonları */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.nav a {
+  display: inline-block;
+  background-color: #c49f00; /* sarı */
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+.nav a:hover {
+  background-color: #d4af37; /* açık sarı hover */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+}
+</style>
+
+<h1 style="text-align:center;">Qiymət Cədvəli</h1>
+
+<div class="price-table-container" style="overflow-x:auto;">
+  <table class="price-table">
+    <thead>
+      <tr>
+        <th>Sıra</th>
+        <th>Ölçü</th>
+        <th>Material</th>
+        <th>Qiymət</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>40 × 60 sm</td>
+        <td>Kanvas</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>50 × 70 sm</td>
+        <td>Kanvas</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>60 × 90 sm</td>
+        <td>Kanvas</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>70 × 100 sm</td>
+        <td>Kanvas</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Xüsusi ölçü</td>
+        <td>Kanvas / Çərçivəli</td>
+        <td>Razılaşma ilə</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="nav">
+  <a href="https://viktoria-az.vercel.app">⬅ Geri</a>
+  <a href="https://viktoria-az.vercel.app">🏠 Ana səhifə</a>
+  <a href="https://viktoria-az.vercel.app/next">İrəli ➡</a>
+</div>
