@@ -223,12 +223,12 @@ body {
 }
 
 
-/* Metinler için sağ-sol 3mm boşluk */
+/* Metinler için sağ-sol 2mm boşluk */
 .rainbow-text-wrapper,
 .rainbow-desc,
 .animated-rainbow-2 {
-  padding-left: 3mm;
-  padding-right: 3mm;
+  padding-left: 2mm;
+  padding-right: 2mm;
 }
 
 /* ALT NAV – HER ZAMAN TEK SATIR */
