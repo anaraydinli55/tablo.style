@@ -207,7 +207,7 @@ body {
 }
 
 .animated-rainbow-2 {
-  animation: rainbowText 8s linear infinite; /* YAVAŞ */
+  animation: rainbowText 20s linear infinite; /* YAVAŞ */
   font-size: 18px;
   font-weight: bold;
   text-align: center;
