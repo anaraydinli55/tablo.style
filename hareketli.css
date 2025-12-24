@@ -187,13 +187,18 @@
 /* ===================== */
 /* NAV BUTONLARI STİLİ */
 /* ===================== */
+.nav {
+  display: flex;           /* Aynı satıra dizmek için flex kullandık */
+  gap: 10px;               /* Butonlar arası boşluk */
+  justify-content: center; /* Ortala */
+}
+
 .nav a {
   display: inline-block;
   background-color: #c49f00; /* koyu sarı */
   color: #fff;
   text-decoration: none;
   padding: 10px 18px;
-  margin: 5px;
   border-radius: 8px;
   font-weight: bold;
   text-align: center;
@@ -206,14 +211,3 @@
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   transform: translateY(-2px);
 }
-
-/* Mobil uyum */
-@media (max-width: 600px) {
-  .nav a {
-    padding: 12px 20px;
-    font-size: 18px;
-    width: 100%;
-    box-sizing: border-box;
-  }
-}
-
