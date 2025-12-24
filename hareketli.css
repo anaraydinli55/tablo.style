@@ -183,3 +183,37 @@
   height: auto;
   display: block;
 }
+
+/* ===================== */
+/* NAV BUTONLARI STİLİ */
+/* ===================== */
+.nav a {
+  display: inline-block;
+  background-color: #c49f00; /* koyu sarı */
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 18px;
+  margin: 5px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+.nav a:hover {
+  background-color: #d4af37; /* biraz daha açık sarı */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+}
+
+/* Mobil uyum */
+@media (max-width: 600px) {
+  .nav a {
+    padding: 12px 20px;
+    font-size: 18px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
