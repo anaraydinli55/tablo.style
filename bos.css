@@ -18,43 +18,42 @@ body {
 
 h1.rainbow {
   animation: rainbowText 3s linear infinite;
+  margin-bottom: 20px;
 }
 
 /* Tablonun kapsayıcı konteyneri */
 .table-container {
-  width: 100%;   /* ekranın tamamını kapla */
-  max-width: 100%; /* taşmayı önle */
-  margin: 0 auto;  /* ortala */
-  overflow: hidden;
+  width: 100%;       /* ekranın tamamını kapla */
+  margin: 0 auto;    /* ortala */
+  overflow: hidden;  /* taşmayı önle */
 }
 
 /* Tablonun temel stili */
 .price-table {
-  width: 100%;
+  width: 100%;       /* container genişliğini kapla */
   border-collapse: collapse;
-  background-color: #fff; /* tablo beyaz */
+  background-color: #fff;
   border-radius: 8px;
-  overflow: hidden;
-  table-layout: fixed; /* kolonları daraltmak için */
+  table-layout: fixed; /* kolon oranlarını koru */
 }
 
 .price-table th,
 .price-table td {
   border: 2px solid #000;
-  padding: 8px; /* dar padding */
+  padding: 10px;
   text-align: center;
   word-wrap: break-word; /* uzun metin taşmasın */
 }
 
 /* Kolon genişlikleri */
 .price-table th:nth-child(1),
-.price-table td:nth-child(1) { width: 10%; } /* Sıra */
+.price-table td:nth-child(1) { width: 10%; }   /* Sıra */
 .price-table th:nth-child(2),
-.price-table td:nth-child(2) { width: 35%; } /* Ölçü */
+.price-table td:nth-child(2) { width: 35%; }  /* Ölçü */
 .price-table th:nth-child(3),
-.price-table td:nth-child(3) { width: 35%; } /* Material */
+.price-table td:nth-child(3) { width: 35%; }  /* Material */
 .price-table th:nth-child(4),
-.price-table td:nth-child(4) { width: 20%; } /* Qiymət */
+.price-table td:nth-child(4) { width: 20%; }  /* Qiymət */
 
 .price-table th {
   font-weight: bold;
@@ -86,7 +85,7 @@ h1.rainbow {
 
 .nav a {
   display: inline-block;
-  background-color: #c49f00; /* sarı */
+  background-color: #c49f00;
   color: #fff;
   text-decoration: none;
   padding: 8px 12px;
@@ -95,10 +94,18 @@ h1.rainbow {
   text-align: center;
   transition: all 0.3s ease;
   font-size: 14px;
-  white-space: nowrap; /* taşmayı önler */
+  white-space: nowrap;
 }
 
 .nav a:hover {
   background-color: #d4af37;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transform
+  transform: translateY(-2px);
+}
+
+@media (max-width: 480px) {
+  .nav a {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
