@@ -398,10 +398,14 @@ p.process-note {
 .printer-image img {
   width: 40%;
   max-width: 100%;
-  border-radius: 10px;
-  object-fit: cover;
   display: block;
+  object-fit: cover;
+  border-top-left-radius: 15px;   /* üst sol köşe yuvarlak */
+  border-top-right-radius: 15px;  /* üst sağ köşe yuvarlak */
+  border-bottom-left-radius: 15px;   /* alt sol köşe yuvarlak */
+  border-bottom-right-radius: 15px;  /* alt sağ köşe yuvarlak */
 }
+
 
 .printer-text-wrapper {
   width: 55%;
