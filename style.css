@@ -513,39 +513,46 @@ p.process-note {
 }
 
 
-.estetik {
+/* ===================== */
+/* ESTETIK BLOK Sade    */
+/* ===================== */
+.seo-text-wrapper {
   width: 100%;
   clear: both;
   overflow: visible;
-  margin: 10mm 0 7mm 0;
-  padding: 0 7mm; /* Mobil yan boşluk */
+  margin: 10mm 0 7mm 0; /* Üst ve alt boşluk */
+  padding: 0 7mm;       /* Yan boşluk, mobil uyumlu */
   box-sizing: border-box;
 }
 
-.estetik h2 {
+.seo-text-wrapper h2 {
   text-align: center;
-  color: #9b00ff; /* koyu mor neon */
+  color: #9b00ff; /* neon mor */
   font-size: 26px;
   margin-bottom: 6mm;
 }
 
-.estetik p {
+.seo-text-wrapper p {
   color: #081633; /* koyu lacivert */
   line-height: 1.5;
   margin-bottom: 4mm;
+  white-space: normal;
 }
 
+/* ===================== */
+/* MOBIL UYUM            */
+/* ===================== */
 @media (max-width: 768px) {
-  .estetik {
+  .seo-text-wrapper {
     padding-left: 7mm;
     padding-right: 7mm;
   }
 
-  .estetik h2 {
+  .seo-text-wrapper h2 {
     font-size: 22px;
   }
 
-  .estetik p {
+  .seo-text-wrapper p {
     font-size: 14px;
   }
 }
