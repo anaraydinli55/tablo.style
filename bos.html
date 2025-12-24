@@ -1,138 +1,142 @@
-<!DOCTYPE html>
-<html lang="az">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Qiymət Cədvəli</title>
-  <style>
-    body {
-      background-color: #d3d3d3; /* gri arka plan */
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-      box-sizing: border-box;
-    }
+<style>
+body {
+  background-color: #d3d3d3; /* gri arka plan */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
 
-    .price-table-container {
-      overflow-x: auto; /* mobilde yatay kaydırma */
-      margin-bottom: 20px;
-    }
+/* 3 renkli gökkuşağı animasyonu */
+@keyframes rainbow {
+  0% { background-color: #00008B; }   /* koyu mavi */
+  33% { background-color: #FF0000; }  /* kırmızı */
+  66% { background-color: #00FF00; }  /* yeşil */
+  100% { background-color: #00008B; } /* tekrar koyu mavi */
+}
 
-    table.price-table {
-      width: 100%;
-      border-collapse: collapse;
-      background-color: #fff;
-      border-radius: 8px;
-      overflow: hidden;
-      min-width: 400px;
-    }
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  min-width: 400px;
+  animation: rainbow 5s linear infinite; /* animasyonu uygula */
+}
 
-    table.price-table th, table.price-table td {
-      padding: 12px 16px;
-      border: 1px solid #ccc;
-      text-align: center;
-    }
+.price-table th,
+.price-table td {
+  border: 2px solid #000;
+  padding: 10px 8px;
+  text-align: center;
+  word-break: break-word;
+  background-color: rgba(255,255,255,0.85); /* içerik okunabilir */
+}
 
-    table.price-table th {
-      background-color: #4a4a4a;
-      color: #fff;
-    }
+.price-table th {
+  font-weight: bold;
+  background-color: rgba(0,0,0,0.7); 
+  color: #fff;
+}
 
-    table.price-table tbody tr:nth-child(even) {
-      background-color: #f2f2f2;
-    }
+.price-table tbody tr:nth-child(even) {
+  background-color: rgba(255,255,255,0.5);
+}
 
-    /* Nav butonları */
-    .nav {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
-      flex-wrap: wrap;
-      margin-top: 20px;
-    }
+/* Mobil uyumlu tablo */
+@media (max-width: 600px) {
+  .price-table th,
+  .price-table td {
+    padding: 6px 4px;
+    font-size: 12px;
+  }
+}
 
-    .nav a {
-      display: inline-block;
-      background-color: #c49f00; /* koyu sarı */
-      color: #fff;
-      text-decoration: none;
-      padding: 10px 18px;
-      border-radius: 8px;
-      font-weight: bold;
-      text-align: center;
-      transition: all 0.3s ease;
-      font-size: 16px;
-    }
+/* Alt nav butonları */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
 
-    .nav a:hover {
-      background-color: #d4af37;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      transform: translateY(-2px);
-    }
+.nav a {
+  display: inline-block;
+  background-color: #c49f00; /* sarı */
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  white-space: nowrap;
+}
 
-    /* Mobil uyumlu tablo yazı */
-    @media (max-width: 600px) {
-      table.price-table th, table.price-table td {
-        padding: 10px 8px;
-        font-size: 14px;
-      }
-    }
-  </style>
-</head>
-<body>
+.nav a:hover {
+  background-color: #d4af37; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+}
 
-  <h1 style="text-align:center;">Qiymət Cədvəli</h1>
+/* Daha dar ekranlar için buton küçültme */
+@media (max-width: 480px) {
+  .nav a {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
+</style>
 
-  <div class="price-table-container">
-    <table class="price-table">
-      <thead>
-        <tr>
-          <th>Sıra</th>
-          <th>Ölçü</th>
-          <th>Material</th>
-          <th>Qiymət</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1</td>
-          <td>40 × 60 sm</td>
-          <td>Kanvas</td>
-          <td>—</td>
-        </tr>
-        <tr>
-          <td>2</td>
-          <td>50 × 70 sm</td>
-          <td>Kanvas</td>
-          <td>—</td>
-        </tr>
-        <tr>
-          <td>3</td>
-          <td>60 × 90 sm</td>
-          <td>Kanvas</td>
-          <td>—</td>
-        </tr>
-        <tr>
-          <td>4</td>
-          <td>70 × 100 sm</td>
-          <td>Kanvas</td>
-          <td>—</td>
-        </tr>
-        <tr>
-          <td>5</td>
-          <td>Xüsusi ölçü</td>
-          <td>Kanvas / Çərçivəli</td>
-          <td>Razılaşma ilə</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+<h1 style="text-align:center;">Qiymət Cədvəli</h1>
 
-  <div class="nav">
-    <a href="https://viktoria-az.vercel.app/hareketli.html">⬅ Geri</a>
-    <a href="https://viktoria-az.vercel.app">🏠 Ana səhifə</a>
-    <a href="https://viktoria-az.vercel.app/bloq1.html">İrəli ➡</a>
-  </div>
+<table class="price-table">
+  <thead>
+    <tr>
+      <th>Sıra</th>
+      <th>Ölçü</th>
+      <th>Material</th>
+      <th>Qiymət</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>40 × 60 sm</td>
+      <td>Kanvas</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>50 × 70 sm</td>
+      <td>Kanvas</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>60 × 90 sm</td>
+      <td>Kanvas</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>70 × 100 sm</td>
+      <td>Kanvas</td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Xüsusi ölçü</td>
+      <td>Kanvas / Çərçivəli</td>
+      <td>Razılaşma ilə</td>
+    </tr>
+  </tbody>
+</table>
 
-</body>
-</html>
+<div class="nav">
+  <a href="https://viktoria-az.vercel.app">⬅ Geri</a>
+  <a href="https://viktoria-az.vercel.app">🏠 Ana səhifə</a>
+  <a href="https://viktoria-az.vercel.app/next">İrəli ➡</a>
+</div>
