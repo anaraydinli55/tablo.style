@@ -1,4 +1,3 @@
-<style>
 body {
   background-color: #d3d3d3; /* gri arka plan */
   font-family: Arial, sans-serif;
@@ -7,38 +6,48 @@ body {
   box-sizing: border-box;
 }
 
+/* 3 renkli gökkuşağı animasyonu */
+@keyframes rainbow {
+  0% { background-color: #00008B; }   /* koyu mavi */
+  33% { background-color: #FF0000; }  /* kırmızı */
+  66% { background-color: #00FF00; }  /* yeşil */
+  100% { background-color: #00008B; } /* tekrar koyu mavi */
+}
+
 .price-table {
   width: 100%;
   border-collapse: collapse;
-  background-color: #fff;
   border-radius: 8px;
   overflow: hidden;
-  min-width: 400px; /* mobilde kaydırma için */
+  min-width: 400px;
+  animation: rainbow 5s linear infinite; /* animasyonu uygula */
 }
 
 .price-table th,
 .price-table td {
   border: 2px solid #000;
-  padding: 12px;
+  padding: 10px 8px; /* kolonları daralt */
   text-align: center;
+  word-break: break-word; /* uzun metin taşmasın */
+  background-color: rgba(255,255,255,0.85); /* metin okunabilir */
 }
 
 .price-table th {
   font-weight: bold;
-  background-color: #4a4a4a;
+  background-color: rgba(0,0,0,0.7); 
   color: #fff;
 }
 
 .price-table tbody tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: rgba(255,255,255,0.5);
 }
 
-/* Mobil uyumlu */
+/* Mobil uyumlu tablo */
 @media (max-width: 600px) {
   .price-table th,
   .price-table td {
-    padding: 10px 8px;
-    font-size: 14px;
+    padding: 6px 4px;
+    font-size: 12px;
   }
 }
 
@@ -46,8 +55,8 @@ body {
 .nav {
   display: flex;
   justify-content: center;
-  gap: 12px;
-  flex-wrap: wrap;
+  gap: 8px;
+  flex-wrap: wrap; /* mobilde alt satıra geçebilir */
   margin-top: 20px;
 }
 
@@ -56,70 +65,25 @@ body {
   background-color: #c49f00; /* sarı */
   color: #fff;
   text-decoration: none;
-  padding: 10px 18px;
+  padding: 8px 12px;
   border-radius: 8px;
   font-weight: bold;
   text-align: center;
   transition: all 0.3s ease;
-  font-size: 16px;
+  font-size: 14px;
+  white-space: nowrap; /* yazılar mobilde taşmasın */
 }
 
 .nav a:hover {
-  background-color: #d4af37; /* açık sarı hover */
+  background-color: #d4af37; 
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   transform: translateY(-2px);
 }
-</style>
 
-<h1 style="text-align:center;">Qiymət Cədvəli</h1>
-
-<div class="price-table-container" style="overflow-x:auto;">
-  <table class="price-table">
-    <thead>
-      <tr>
-        <th>Sıra</th>
-        <th>Ölçü</th>
-        <th>Material</th>
-        <th>Qiymət</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>1</td>
-        <td>40 × 60 sm</td>
-        <td>Kanvas</td>
-        <td>—</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>50 × 70 sm</td>
-        <td>Kanvas</td>
-        <td>—</td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>60 × 90 sm</td>
-        <td>Kanvas</td>
-        <td>—</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>70 × 100 sm</td>
-        <td>Kanvas</td>
-        <td>—</td>
-      </tr>
-      <tr>
-        <td>5</td>
-        <td>Xüsusi ölçü</td>
-        <td>Kanvas / Çərçivəli</td>
-        <td>Razılaşma ilə</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<div class="nav">
-  <a href="https://viktoria-az.vercel.app">⬅ Geri</a>
-  <a href="https://viktoria-az.vercel.app">🏠 Ana səhifə</a>
-  <a href="https://viktoria-az.vercel.app/next">İrəli ➡</a>
-</div>
+/* Daha dar ekranlar için buton küçültme */
+@media (max-width: 480px) {
+  .nav a {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
