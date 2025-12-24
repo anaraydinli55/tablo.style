@@ -557,3 +557,7 @@ p.process-note {
     font-size: 26px !important;
   }
 }
+
+.printer-container .seo-text-wrapper {
+  margin-top: 7mm !important; /* Görsel-alt metin arası mesafe */
+}
