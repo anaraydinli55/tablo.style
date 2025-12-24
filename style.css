@@ -515,15 +515,16 @@ p.process-note {
 
 .estetik {
   width: 100%;
-  margin-top: 10mm;
-  margin-bottom: 7mm;
-  padding: 0 10mm; /* Desktop default yan boşluk */
+  clear: both;
+  overflow: visible;
+  margin: 10mm 0 7mm 0;
+  padding: 0 7mm; /* Mobil yan boşluk */
   box-sizing: border-box;
 }
 
 .estetik h2 {
-  color: #9b00ff; /* koyu mor neon */
   text-align: center;
+  color: #9b00ff; /* koyu mor neon */
   font-size: 26px;
   margin-bottom: 6mm;
 }
@@ -534,7 +535,6 @@ p.process-note {
   margin-bottom: 4mm;
 }
 
-/* Mobil uyum */
 @media (max-width: 768px) {
   .estetik {
     padding-left: 7mm;
