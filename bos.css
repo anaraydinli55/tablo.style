@@ -20,6 +20,14 @@ h1.rainbow {
   animation: rainbowText 3s linear infinite;
 }
 
+/* Tablonun kapsayıcı konteyneri */
+.table-container {
+  width: 100%;   /* ekranın tamamını kapla */
+  max-width: 100%; /* taşmayı önle */
+  margin: 0 auto;  /* ortala */
+  overflow: hidden;
+}
+
 /* Tablonun temel stili */
 .price-table {
   width: 100%;
@@ -37,6 +45,16 @@ h1.rainbow {
   text-align: center;
   word-wrap: break-word; /* uzun metin taşmasın */
 }
+
+/* Kolon genişlikleri */
+.price-table th:nth-child(1),
+.price-table td:nth-child(1) { width: 10%; } /* Sıra */
+.price-table th:nth-child(2),
+.price-table td:nth-child(2) { width: 35%; } /* Ölçü */
+.price-table th:nth-child(3),
+.price-table td:nth-child(3) { width: 35%; } /* Material */
+.price-table th:nth-child(4),
+.price-table td:nth-child(4) { width: 20%; } /* Qiymət */
 
 .price-table th {
   font-weight: bold;
@@ -71,12 +89,16 @@ h1.rainbow {
   background-color: #c49f00; /* sarı */
   color: #fff;
   text-decoration: none;
-  padding: 8
-
-  .table-container {
-  width: 100%;   /* ekranın tamamını kapla */
-  max-width: 100%; /* taşmayı önle */
-  margin: 0 auto;  /* ortala */
-  overflow: hidden;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  white-space: nowrap; /* taşmayı önler */
 }
 
+.nav a:hover {
+  background-color: #d4af37;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transform
