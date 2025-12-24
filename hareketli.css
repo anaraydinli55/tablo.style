@@ -132,6 +132,8 @@ body {
 /* MOBİL UYUM */
 /* ===================== */
 @media (max-width: 600px) {
+
+  /* Container alt alta gelsin ama iç yapı yan yana kalsın */
   .PAIR_CONTAINER_98123,
   .PAIR_CONTAINER_98124,
   .PAIR_CONTAINER_98125,
@@ -139,20 +141,19 @@ body {
   .PAIR_CONTAINER_98127,
   .PAIR_CONTAINER_98128,
   .PAIR_CONTAINER_98129 {
-    flex-direction: column; /* mobilde container alt alta */
-    align-items: center;    /* içerik ortalı */
+    width: 100%;
+    padding: 6px;
   }
 
-  .animated-rainbow-2 {
-    font-size: 16px;
-  }
-
-  .rainbow-desc {
-    font-size: 13px;
-  }
-
-  .nav a {
-    padding: 6px 10px;
-    font-size: 12px;
+  /* JPG ve MP4 her zaman yan yana */
+  .PAIR_ITEM_98123,
+  .PAIR_ITEM_98124,
+  .PAIR_ITEM_98125,
+  .PAIR_ITEM_98126,
+  .PAIR_ITEM_98127,
+  .PAIR_ITEM_98128,
+  .PAIR_ITEM_98129 {
+    width: 50%;
+    flex: 0 0 50%;
   }
 }
