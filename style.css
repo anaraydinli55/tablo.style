@@ -515,43 +515,37 @@ p.process-note {
 
 .estetik {
   width: 100%;
-  clear: both;
-  overflow: visible;
   margin-top: 10mm;
   margin-bottom: 7mm;
-}
-
-.estetik .card {
-  background-color: #d4a800; /* sarı fon */
-  border: 3px solid #081633; /* lacivert border */
-  padding: 6mm;
-  color: #081633; /* yazı lacivert */
-  width: 100%;
-  max-width: 1200px; /* container max eni */
-  margin: 0 auto; /* ortala */
+  padding: 0 10mm; /* Desktop default yan boşluk */
   box-sizing: border-box;
 }
 
-.estetik .card h2 {
+.estetik h2 {
+  color: #9b00ff; /* koyu mor neon */
   text-align: center;
+  font-size: 26px;
   margin-bottom: 6mm;
 }
 
-.estetik .card p {
+.estetik p {
+  color: #081633; /* koyu lacivert */
   line-height: 1.5;
   margin-bottom: 4mm;
 }
 
-/* Mobil görünüm */
+/* Mobil uyum */
 @media (max-width: 768px) {
-  .estetik .card {
-    margin-left: 7mm;
-    margin-right: 7mm;
+  .estetik {
+    padding-left: 7mm;
+    padding-right: 7mm;
   }
-  div[style*="display:flex"] {
-    flex-direction: column;
+
+  .estetik h2 {
+    font-size: 22px;
   }
-  div[style*="width:48%"] {
-    width: 100% !important;
+
+  .estetik p {
+    font-size: 14px;
   }
 }
