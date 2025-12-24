@@ -527,7 +527,7 @@ p.process-note {
   padding: 6mm;
   color: #081633; /* yazı lacivert */
   width: 100%;
-  max-width: 1200px; /* optional: container max eni */
+  max-width: 1200px; /* container max eni */
   margin: 0 auto; /* ortala */
   box-sizing: border-box;
 }
@@ -542,10 +542,16 @@ p.process-note {
   margin-bottom: 4mm;
 }
 
-/* Mobil */
+/* Mobil görünüm */
 @media (max-width: 768px) {
   .estetik .card {
     margin-left: 7mm;
     margin-right: 7mm;
+  }
+  div[style*="display:flex"] {
+    flex-direction: column;
+  }
+  div[style*="width:48%"] {
+    width: 100% !important;
   }
 }
