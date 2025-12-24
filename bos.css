@@ -257,3 +257,33 @@
     margin-bottom: 10px;
   }
 }
+
+
+/* ============================= */
+/* RAINBOW ANİMASYONUNU GERİ AL */
+/* ============================= */
+.animated-rainbow-2 {
+  background: linear-gradient(
+    90deg,
+    #ff005a,
+    #ff8c00,
+    #ffe600,
+    #00ff9c,
+    #00c3ff,
+    #6a00ff,
+    #ff005a
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbowMove 6s linear infinite;
+  font-weight: 900;
+  text-align: center;
+}
+
+/* Animasyon */
+@keyframes rainbowMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
