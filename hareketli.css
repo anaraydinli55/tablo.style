@@ -236,7 +236,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
   flex-wrap: nowrap;     /* ❗ alt satıra düşmeyi engeller */
   overflow-x: hidden;    /* taşma yok */
 }
@@ -246,10 +246,10 @@ body {
   background-color: #c49f00; /* sarı */
   color: #fff;
   text-decoration: none;
-  padding: 6px 10px;        /* mobil için dar */
+  padding: 10px 16px;        /* mobil için dar */
   border-radius: 8px;
   font-weight: bold;
-  font-size: 13px;          /* mobilde sığar */
+  font-size: 16px;          /* mobilde sığar */
   white-space: nowrap;     /* yazı kırılmaz */
   flex: 0 0 auto;
 }
