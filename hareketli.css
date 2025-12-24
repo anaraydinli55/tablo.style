@@ -211,3 +211,32 @@
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   transform: translateY(-2px);
 }
+
+
+/* Gökkuşağı animasyonu – tam renkler */
+@keyframes rainbowText {
+  0% { color: #FF0000; }
+  14% { color: #FF7F00; }
+  28% { color: #FFFF00; }
+  42% { color: #00FF00; }
+  57% { color: #0000FF; }
+  71% { color: #4B0082; }
+  85% { color: #8B00FF; }
+  100% { color: #FF0000; }
+}
+
+.animated-rainbow-2 {
+  animation: rainbowText 3s linear infinite;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.rainbow-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 20px;
+  color: #000;
+}
