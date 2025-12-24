@@ -138,12 +138,13 @@ header {
 
 .categories a {
   text-decoration: none;
-  color: #081633;   /* Koyu lacivert */
+  color: #081633 !important;   /* Koyu lacivert */
   padding: 5px 10px;
   border-radius: 20px;
   transition: 0.3s;
-  font-weight: 700;  /* Kalın yazı */
+  font-weight: 700 !important;  /* Kalın yazı için önemli */
 }
+
 
 
 .categories a:hover { background-color: #f0f0f0; }
