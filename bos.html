@@ -1,6 +1,13 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Qiymət Cədvəli</title>
 <style>
+/* Genel sayfa stili */
 body {
-  background-color: #d3d3d3;
+  background-color: #d3d3d3; /* gri arka plan */
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
@@ -10,48 +17,50 @@ body {
 
 /* Başlık için 3 renkli animasyon */
 @keyframes rainbowText {
-  0% { color: #00008B; }
-  33% { color: #FF0000; }
-  66% { color: #00FF00; }
-  100% { color: #00008B; }
+  0% { color: #00008B; }   /* koyu mavi */
+  33% { color: #FF0000; }  /* kırmızı */
+  66% { color: #00FF00; }  /* yeşil */
+  100% { color: #00008B; } /* tekrar koyu mavi */
 }
 
 h1.rainbow {
   animation: rainbowText 3s linear infinite;
+  margin-bottom: 20px;
 }
 
-/* Tablonun merkezi ve sabit genişlikte olması */
+/* Tablonun kapsayıcı konteyneri */
 .table-container {
-  max-width: 600px; /* mobilde tam ekranı aşmayacak */
-  margin: 0 auto; /* ortala */
-  overflow: hidden;
+  width: 100%;       /* ekranın tamamını kapla */
+  margin: 0 auto;    /* ortala */
+  overflow: hidden;  /* taşmayı önle */
 }
 
+/* Tablonun temel stili */
 .price-table {
-  width: 100%;
+  width: 100%;       /* container genişliğini kapla */
   border-collapse: collapse;
   background-color: #fff;
   border-radius: 8px;
-  table-layout: fixed; /* kolonları sabitle */
+  table-layout: fixed; /* kolon oranlarını koru */
 }
 
 .price-table th,
 .price-table td {
   border: 2px solid #000;
-  padding: 8px;
+  padding: 10px;
   text-align: center;
-  word-wrap: break-word;
+  word-wrap: break-word; /* uzun metin taşmasın */
 }
 
 /* Kolon genişlikleri */
 .price-table th:nth-child(1),
-.price-table td:nth-child(1) { width: 10%; } /* Sıra */
+.price-table td:nth-child(1) { width: 10%; }   /* Sıra */
 .price-table th:nth-child(2),
-.price-table td:nth-child(2) { width: 35%; } /* Ölçü */
+.price-table td:nth-child(2) { width: 35%; }  /* Ölçü */
 .price-table th:nth-child(3),
-.price-table td:nth-child(3) { width: 35%; } /* Material */
+.price-table td:nth-child(3) { width: 35%; }  /* Material */
 .price-table th:nth-child(4),
-.price-table td:nth-child(4) { width: 20%; } /* Qiymət */
+.price-table td:nth-child(4) { width: 20%; }  /* Qiymət */
 
 .price-table th {
   font-weight: bold;
@@ -63,7 +72,7 @@ h1.rainbow {
   background-color: #f2f2f2;
 }
 
-/* Mobil uyumlu */
+/* Mobil uyumlu tablo */
 @media (max-width: 600px) {
   .price-table th,
   .price-table td {
@@ -77,7 +86,7 @@ h1.rainbow {
   display: flex;
   justify-content: center;
   gap: 8px;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* mobilde alt satıra geçebilir */
   margin-top: 20px;
 }
 
@@ -108,6 +117,8 @@ h1.rainbow {
   }
 }
 </style>
+</head>
+<body>
 
 <h1 class="rainbow">Qiymət Cədvəli</h1>
 
@@ -161,3 +172,6 @@ h1.rainbow {
   <a href="https://viktoria-az.vercel.app">🏠 Ana səhifə</a>
   <a href="https://viktoria-az.vercel.app/next">İrəli ➡</a>
 </div>
+
+</body>
+</html>
