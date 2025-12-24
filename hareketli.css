@@ -1,228 +1,31 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.PAIR_CONTAINER_98123 {
-  display: flex;
-  gap: 4mm;
-  padding: 4mm;
-  background: #b0b0b0;
-  width: 100%;
-}
-
-.PAIR_ITEM_98123 {
-  width: 50%;
-}
-
-.PAIR_ITEM_98123 img,
-.PAIR_ITEM_98123 video {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.PAIR_CONTAINER_98124 {
-  display: flex;
-  gap: 4mm;
-  padding: 4mm;
-  background: #b0b0b0;
-  width: 100%;
-}
-
-.PAIR_ITEM_98124 {
-  width: 50%;
-}
-
-.PAIR_ITEM_98124 img,
-.PAIR_ITEM_98124 video {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.PAIR_CONTAINER_98125 {
-  display: flex;
-  gap: 4mm;
-  padding: 4mm;
-  background: #b0b0b0;
-  width: 100%;
-}
-
-.PAIR_ITEM_98125 {
-  width: 50%;
-}
-
-.PAIR_ITEM_98125 img,
-.PAIR_ITEM_98125 video {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.PAIR_CONTAINER_98126 {
-  display: flex;
-  gap: 4mm;
-  padding: 4mm;
-  background: #b0b0b0;
-  width: 100%;
-}
-
-.PAIR_ITEM_98126 {
-  width: 50%;
-}
-
-.PAIR_ITEM_98126 img,
-.PAIR_ITEM_98126 video {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.PAIR_CONTAINER_98127 {
-  display: flex;
-  gap: 4mm;
-  padding: 4mm;
-  background: #b0b0b0;
-  width: 100%;
-}
-
-.PAIR_ITEM_98127 {
-  width: 50%;
-}
-
-.PAIR_ITEM_98127 img,
-.PAIR_ITEM_98127 video {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.PAIR_CONTAINER_98128 {
-  display: flex;
-  gap: 4mm;
-  padding: 4mm;
-  background: #b0b0b0;
-  width: 100%;
-}
-
-.PAIR_ITEM_98128 {
-  width: 50%;
-}
-
-.PAIR_ITEM_98128 img,
-.PAIR_ITEM_98128 video {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.PAIR_CONTAINER_98129 {
-  display: flex;
-  gap: 4mm;
-  padding: 4mm;
-  background: #b0b0b0;
-  width: 100%;
-}
-
-.PAIR_ITEM_98129 {
-  width: 50%;
-}
-
-.PAIR_ITEM_98129 img,
-.PAIR_ITEM_98129 video {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
 /* ===================== */
-/* NAV BUTONLARI STİLİ */
+/* GENEL SAYFA STİLİ */
 /* ===================== */
-.nav {
-  display: flex;           /* Aynı satıra dizmek için flex kullandık */
-  gap: 10px;               /* Butonlar arası boşluk */
-  justify-content: center; /* Ortala */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.nav a {
-  display: inline-block;
-  background-color: #c49f00; /* koyu sarı */
-  color: #fff;
-  text-decoration: none;
-  padding: 10px 18px;
-  border-radius: 8px;
-  font-weight: bold;
+body {
+  background-color: #d3d3d3; /* tüm sayfa gri */
+  font-family: Arial, sans-serif;
+  padding: 20px;
   text-align: center;
-  transition: all 0.3s ease;
-  font-size: 16px;
 }
 
-.nav a:hover {
-  background-color: #d4af37; /* biraz daha açık sarı */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transform: translateY(-2px);
-}
-
-
-/* Gökkuşağı animasyonu – tam renkler */
+/* ===================== */
+/* GÖKKUŞAĞI ANİMASYON */
+/* ===================== */
 @keyframes rainbowText {
-  0% { color: #FF0000; }
-  14% { color: #FF7F00; }
-  28% { color: #FFFF00; }
-  42% { color: #00FF00; }
-  57% { color: #0000FF; }
-  71% { color: #4B0082; }
-  85% { color: #8B00FF; }
-  100% { color: #FF0000; }
+  0% { color: #FF0000; }    /* kırmızı */
+  14% { color: #FF7F00; }   /* turuncu */
+  28% { color: #FFFF00; }   /* sarı */
+  42% { color: #00FF00; }   /* yeşil */
+  57% { color: #0000FF; }   /* mavi */
+  71% { color: #4B0082; }   /* lacivert */
+  85% { color: #8B00FF; }   /* mor */
+  100% { color: #FF0000; }  /* tekrar kırmızı */
 }
 
 .animated-rainbow-2 {
@@ -239,4 +42,117 @@
   text-align: justify;
   margin-bottom: 20px;
   color: #000;
+}
+
+/* ===================== */
+/* MEDIA CONTAINERLAR */
+/* ===================== */
+.PAIR_CONTAINER_98123,
+.PAIR_CONTAINER_98124,
+.PAIR_CONTAINER_98125,
+.PAIR_CONTAINER_98126,
+.PAIR_CONTAINER_98127,
+.PAIR_CONTAINER_98128,
+.PAIR_CONTAINER_98129 {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background: #b0b0b0;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  justify-content: center;
+  flex-wrap: nowrap; /* iç yapıyı bozmadan yan yana */
+}
+
+/* PAIR ITEMLER */
+.PAIR_ITEM_98123,
+.PAIR_ITEM_98124,
+.PAIR_ITEM_98125,
+.PAIR_ITEM_98126,
+.PAIR_ITEM_98127,
+.PAIR_ITEM_98128,
+.PAIR_ITEM_98129 {
+  flex: 1 1 45%; /* yan yana */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.PAIR_ITEM_98123 img,
+.PAIR_ITEM_98124 img,
+.PAIR_ITEM_98125 img,
+.PAIR_ITEM_98126 img,
+.PAIR_ITEM_98127 img,
+.PAIR_ITEM_98128 img,
+.PAIR_ITEM_98129 img,
+.PAIR_ITEM_98123 video,
+.PAIR_ITEM_98124 video,
+.PAIR_ITEM_98125 video,
+.PAIR_ITEM_98126 video,
+.PAIR_ITEM_98127 video,
+.PAIR_ITEM_98128 video,
+.PAIR_ITEM_98129 video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+/* ===================== */
+/* ALT NAV BUTONLARI */
+/* ===================== */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap; /* mobilde alt satıra geçebilir */
+  margin-top: 20px;
+}
+
+.nav a {
+  display: inline-block;
+  background-color: #c49f00;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.3s ease;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.nav a:hover {
+  background-color: #d4af37;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+}
+
+/* ===================== */
+/* MOBİL UYUM */
+/* ===================== */
+@media (max-width: 600px) {
+  .PAIR_CONTAINER_98123,
+  .PAIR_CONTAINER_98124,
+  .PAIR_CONTAINER_98125,
+  .PAIR_CONTAINER_98126,
+  .PAIR_CONTAINER_98127,
+  .PAIR_CONTAINER_98128,
+  .PAIR_CONTAINER_98129 {
+    flex-direction: column; /* mobilde container alt alta */
+    align-items: center;    /* içerik ortalı */
+  }
+
+  .animated-rainbow-2 {
+    font-size: 16px;
+  }
+
+  .rainbow-desc {
+    font-size: 13px;
+  }
+
+  .nav a {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
 }
