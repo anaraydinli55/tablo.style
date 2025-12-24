@@ -2,198 +2,137 @@
 <html lang="az">
 <head>
   <meta charset="UTF-8">
-  <title>Azərbaycanda Divar Tabloları</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="bos.css">
-</head>
+  <title>Qiymət Cədvəli</title>
+  <style>
+    body {
+      background-color: #d3d3d3; /* gri arka plan */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      box-sizing: border-box;
+    }
 
-<body>
+    .price-table-container {
+      overflow-x: auto; /* mobilde yatay kaydırma */
+      margin-bottom: 20px;
+    }
 
-<!-- ===== BAŞLIK + METİN ===== -->
-<div class="rainbow-text-wrapper">
-  <div class="animated-rainbow-2">Gördüyünüz hərəkətli kimi görünən tablolar yalnız estetik təəssürat yaratmaq üçündür, satışda belə tablolar yoxdur!</div>
-  <p class="rainbow-desc">
-    Buradakı hərəkətli tablolar yalnız xəyal gücünü oyatmaq üçün yaradılıb. Burada gördüyün hərəkət, axın və dəyişiklik hissi real bir hadisənin və ya fiziki bir mexanizmin nəticəsi deyil. 
-    Tabloların canlanır kimi görünməsi, baxanın zehnində formalaşan təsəvvürün, duyğuların və estetik algının təbii nəticəsidir. Əslində isə bu əsərlər hərəkət etmir, dəyişmir və zamanla formalarını yeniləmir. 
-    Onlar olduğu kimi qalır, sadəcə baxış bucağı və hisslər dəyişir.
+    table.price-table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      min-width: 400px;
+    }
 
-    Burada təqdim olunan təsvirlər və ifadələr reallığı olduğu kimi göstərmək məqsədi daşımır. Onlar yalnız estetik təəssürat yaratmaq, baxanı düşündürmək və xəyal gücünü hərəkətə gətirmək üçün mövcuddur. 
-    Hərəkətli kimi qavranılan tablolar texnoloji bir yenilik, animasiya və ya fiziki mexanizm deyil. Bu, sənətin insan psixologiyası ilə qurduğu səssiz dialoqun bir hissəsidir.
+    table.price-table th, table.price-table td {
+      padding: 12px 16px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
 
-    Əsərlər sabitdir, lakin onların yaratdığı təsir hər kəs üçün fərqli ola bilər. Kimi sakitlik hiss edir, kimi enerji, kimi isə sadəcə dərin bir düşüncəyə dalır.
+    table.price-table th {
+      background-color: #4a4a4a;
+      color: #fff;
+    }
 
-Sənət məhz bu nöqtədə dəyər qazanır. O, fiziki qaydalara tabe olmadan hisslər üzərində təsir yaradır. Hərəkət illüziyası da bu təsirin bir formasıdır. 
-    Baxdıqca dəyişən, lakin əslində dəyişməyən tablolar, insanın daxili dünyası ilə birbaşa əlaqə qurur. Bu əlaqə real deyil, amma təsiri tamamilə gerçəkdir.
+    table.price-table tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
 
-    Nəticə olaraq demək olar ki, burada təqdim olunan hər şey yalnız təsəvvür üçündür. Hərəkətli görünən tablolar əslində hərəkət etmir. Onlar sadəcə sənətin, rənglərin və xəyal gücünün bir araya gələrək yaratdığı vizual bir hissdir. 
-    Reallıqla fantaziya arasındakı bu incə xətt isə sənəti maraqlı və dəyərli edən əsas amildir.
+    /* Nav butonları */
+    .nav {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
 
-  </p>
-</div>
+    .nav a {
+      display: inline-block;
+      background-color: #c49f00; /* koyu sarı */
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-align: center;
+      transition: all 0.3s ease;
+      font-size: 16px;
+    }
 
-  
-<div class="PAIR_CONTAINER_98123">
-  <div class="PAIR_ITEM_98123">
-    <img src="images/qiz.jpeg" alt="">
-  </div>
-  <div class="PAIR_ITEM_98123">
-    <video autoplay loop muted playsinline>
-      <source src="images/qiz.mp4" type="video/mp4">
-    </video>
-  </div>
+    .nav a:hover {
+      background-color: #d4af37;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transform: translateY(-2px);
+    }
 
-</div>
-
-  <!DOCTYPE html>
-<html lang="az">
-<head>
-  <meta charset="UTF-8">
-  <title>Test</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="bos.css">
-</head>
-<body>
-
-<div class="PAIR_CONTAINER_98124">
-  <div class="PAIR_ITEM_98123">
-    <img src="images/napoleon.jpg" alt="">
-  </div>
-  <div class="PAIR_ITEM_98124">
-    <video autoplay loop muted playsinline>
-      <source src="images/hareketli.atli.mp4" type="video/mp4">
-    </video>
-  </div>
-
-</div>
-
-
-
-  </div>
-
-  <!DOCTYPE html>
-<html lang="az">
-<head>
-  <meta charset="UTF-8">
-  <title>Test</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="bos.css">
-</head>
-<body>
-
-<div class="PAIR_CONTAINER_98125">
-  <div class="PAIR_ITEM_98125">
-    <img src="images/yuruyen-qiz.jpg" alt="">
-  </div>
-  <div class="PAIR_ITEM_98125">
-    <video autoplay loop muted playsinline>
-      <source src="images/hareketli.kiz.mp4" type="video/mp4">
-    </video>
-  </div>
-
-</div>
-
-
-    </div>
-
-  <!DOCTYPE html>
-<html lang="az">
-<head>
-  <meta charset="UTF-8">
-  <title>Test</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="bos.css">
+    /* Mobil uyumlu tablo yazı */
+    @media (max-width: 600px) {
+      table.price-table th, table.price-table td {
+        padding: 10px 8px;
+        font-size: 14px;
+      }
+    }
+  </style>
 </head>
 <body>
 
-<div class="PAIR_CONTAINER_98126">
-  <div class="PAIR_ITEM_98126">
-    <img src="images/tren.jpg" alt="">
-  </div>
-  <div class="PAIR_ITEM_98126">
-    <video autoplay loop muted playsinline>
-      <source src="images/hareketli.tren.mp4" type="video/mp4">
-    </video>
-  </div>
+  <h1 style="text-align:center;">Qiymət Cədvəli</h1>
 
-</div>
-
-
-
-      </div>
-
-  <!DOCTYPE html>
-<html lang="az">
-<head>
-  <meta charset="UTF-8">
-  <title>Test</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="bos.css">
-</head>
-<body>
-
-<div class="PAIR_CONTAINER_98127">
-  <div class="PAIR_ITEM_98127">
-    <img src="images/qacan-atlar.jpg" alt="">
-  </div>
-  <div class="PAIR_ITEM_98127">
-    <video autoplay loop muted playsinline>
-      <source src="images/hareketli.atlar.mp4" type="video/mp4">
-    </video>
-  </div>
-
-</div>
-
-
-
-        </div>
-
-  <!DOCTYPE html>
-<html lang="az">
-<head>
-  <meta charset="UTF-8">
-  <title>Test</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="bos.css">
-</head>
-<body>
-
-<div class="PAIR_CONTAINER_98128">
-  <div class="PAIR_ITEM_98128">
-    <img src="images/qiz-piano.jpg" alt="">
-  </div>
-  <div class="PAIR_ITEM_98128">
-    <video autoplay loop muted playsinline>
-      <source src="images/hareketli.piano.mp4" type="video/mp4">
-    </video>
+  <div class="price-table-container">
+    <table class="price-table">
+      <thead>
+        <tr>
+          <th>Sıra</th>
+          <th>Ölçü</th>
+          <th>Material</th>
+          <th>Qiymət</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>40 × 60 sm</td>
+          <td>Kanvas</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>50 × 70 sm</td>
+          <td>Kanvas</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>60 × 90 sm</td>
+          <td>Kanvas</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>70 × 100 sm</td>
+          <td>Kanvas</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Xüsusi ölçü</td>
+          <td>Kanvas / Çərçivəli</td>
+          <td>Razılaşma ilə</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
-</div>
-
-
-
-          </div>
-
-  <!DOCTYPE html>
-<html lang="az">
-<head>
-  <meta charset="UTF-8">
-  <title>Test</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="bos.css">
-</head>
-<body>
-
-<div class="PAIR_CONTAINER_98129">
-  <div class="PAIR_ITEM_98129">
-    <img src="images/tekne.jpeg" alt="">
+  <div class="nav">
+    <a href="https://viktoria-az.vercel.app/hareketli.html">⬅ Geri</a>
+    <a href="https://viktoria-az.vercel.app">🏠 Ana səhifə</a>
+    <a href="https://viktoria-az.vercel.app/bloq1.html">İrəli ➡</a>
   </div>
-  <div class="PAIR_ITEM_98129">
-    <video autoplay loop muted playsinline>
-      <source src="images/hareketli.tekne.mp4" type="video/mp4">
-    </video>
-  </div>
-
-</div>
 
 </body>
 </html>
