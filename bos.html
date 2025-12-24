@@ -20,14 +20,19 @@ h1.rainbow {
   animation: rainbowText 3s linear infinite;
 }
 
-/* Tablonun temel stili */
+/* Tablonun merkezi ve sabit genişlikte olması */
+.table-container {
+  max-width: 600px; /* mobilde tam ekranı aşmayacak */
+  margin: 0 auto; /* ortala */
+  overflow: hidden;
+}
+
 .price-table {
   width: 100%;
   border-collapse: collapse;
   background-color: #fff;
   border-radius: 8px;
-  overflow: hidden;
-  table-layout: fixed; /* kolon genişliklerini sabitle */
+  table-layout: fixed; /* kolonları sabitle */
 }
 
 .price-table th,
@@ -40,24 +45,13 @@ h1.rainbow {
 
 /* Kolon genişlikleri */
 .price-table th:nth-child(1),
-.price-table td:nth-child(1) {
-  width: 10%; /* Sıra */
-}
-
+.price-table td:nth-child(1) { width: 10%; } /* Sıra */
 .price-table th:nth-child(2),
-.price-table td:nth-child(2) {
-  width: 35%; /* Ölçü */
-}
-
+.price-table td:nth-child(2) { width: 35%; } /* Ölçü */
 .price-table th:nth-child(3),
-.price-table td:nth-child(3) {
-  width: 35%; /* Material */
-}
-
+.price-table td:nth-child(3) { width: 35%; } /* Material */
 .price-table th:nth-child(4),
-.price-table td:nth-child(4) {
-  width: 20%; /* Qiymət */
-}
+.price-table td:nth-child(4) { width: 20%; } /* Qiymət */
 
 .price-table th {
   font-weight: bold;
@@ -117,48 +111,50 @@ h1.rainbow {
 
 <h1 class="rainbow">Qiymət Cədvəli</h1>
 
-<table class="price-table">
-  <thead>
-    <tr>
-      <th>Sıra</th>
-      <th>Ölçü</th>
-      <th>Material</th>
-      <th>Qiymət</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>40 × 60 sm</td>
-      <td>Kanvas</td>
-      <td>200 AZN</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>50 × 70 sm</td>
-      <td>Kanvas</td>
-      <td>250 AZN</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>60 × 90 sm</td>
-      <td>Kanvas</td>
-      <td>300 AZN</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>70 × 100 sm</td>
-      <td>Kanvas</td>
-      <td>350 AZN</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>Xüsusi ölçü</td>
-      <td>Kanvas / Çərçivəli</td>
-      <td>Razılaşma ilə</td>
-    </tr>
-  </tbody>
-</table>
+<div class="table-container">
+  <table class="price-table">
+    <thead>
+      <tr>
+        <th>Sıra</th>
+        <th>Ölçü</th>
+        <th>Material</th>
+        <th>Qiymət</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>40 × 60 sm</td>
+        <td>Kanvas</td>
+        <td>200 AZN</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>50 × 70 sm</td>
+        <td>Kanvas</td>
+        <td>250 AZN</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>60 × 90 sm</td>
+        <td>Kanvas</td>
+        <td>300 AZN</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>70 × 100 sm</td>
+        <td>Kanvas</td>
+        <td>350 AZN</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Xüsusi ölçü</td>
+        <td>Kanvas / Çərçivəli</td>
+        <td>Razılaşma ilə</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <div class="nav">
   <a href="https://viktoria-az.vercel.app">⬅ Geri</a>
