@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tablo Style – Divar Tabloları Bakı | Kanvas Tablo Sifarişi</title>
+  <meta name="description" content="Bakıda ən keyfiyyətli divar tabloları. Kanvas tablo, abstrakt tablo, mənzərə tablosu sifarişi. Azərbaycana çatdırılma. Tablo Style.">
+  <meta name="keywords" content="divar tablosu, kanvas tablo, tablo sifarişi, Bakı tablo, abstrakt tablo, mənzərə tablosu, divar dekorasiyası Azərbaycan">
+  <link rel="canonical" href="https://tablo-style.vercel.app/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Tablo Style – Divar Tabloları Bakı">
+  <meta property="og:description" content="Keyfiyyətli kanvas divar tabloları. Azərbaycana çatdırılma.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tablo-style.vercel.app/">
+
+  <!-- ===================== -->
+  <!-- JSON-LD SCHEMA — SEO  -->
+  <!-- ===================== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Tablo Style",
+    "description": "Bakıda kanvas divar tabloları sifarişi. Abstrakt, mənzərə, minimalist, hərəkətli tablolar. Azərbaycanın hər yerinə çatdırılma.",
+    "url": "https://tablo-style.vercel.app/",
+    "telephone": "+994554828428",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "AZ",
+      "addressLocality": "Bakı"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Azerbaijan"
+    },
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Divar Tabloları",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Abstrakt Kanvas Tablo",
+            "description": "Müasir abstrakt divar tablosu, kanvas üzərində çap"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Mənzərə Tablosu",
+            "description": "Təbiət mənzərəli kanvas tablo, salon və yataq otağı üçün"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Hərəkətli LED Tablo",
+            "description": "LED işıqlı hərəkətli divar tablosu"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Product",
+            "name": "Minimalist Tablo",
+            "description": "Skandinaviya üslublu minimalist kanvas tablo"
+          }
+        }
+      ]
+    },
+    "sameAs": [
+      "https://wa.me/994554828428"
+    ]
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+  <style>
+    /* ===================== */
+    /* GENEL SIFIRLAMA */
+    /* ===================== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #d0f0ff;
+      color: #000;
+    }
+
+    /* ===================== */
+    /* ÜST BANNER */
+    /* ===================== */
+    .top-banner {
+      background-color: #f2c200;
+      padding: 5px 10px;
+      text-align: center;
+      font-size: 14px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .top-banner b { font-weight: 700; }
+
+    .top-banner button {
+      background-color: black;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .sponsored-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 2px;
+    }
+
+    .sponsored-label {
+      font-size: 9px;
+      color: #555;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      background: rgba(0,0,0,0.08);
+      padding: 1px 5px;
+      border-radius: 3px;
+      line-height: 1.4;
+    }
+
+    /* ===================== */
+    /* HEADER */
+    /* ===================== */
+    header {
+      background-color: #d0f0ff;
+      padding: 15px 10px;
+    }
+
+    .logo-search {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .logo-search h1 {
+      font-family: 'Architects Daughter', cursive;
+      font-size: 32px;
+      text-align: center;
+      flex: 1 1 100%;
+      margin-bottom: 10px;
+    }
+
+    .search-wrapper {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+    }
+
+    .search-wrapper input {
+      width: 150px;
+      padding: 6px 10px;
+      border-radius: 25px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+
+    .search-btn {
+      background-color: #ccc;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 50%;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+
+    nav.categories {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      font-size: 14px;
+      margin-top: 10px;
+      background-color: #d0f0ff;
+      padding: 10px 0;
+      border-radius: 10px;
+    }
+
+    nav.categories a {
+      text-decoration: none;
+      color: black;
+      padding: 5px 10px;
+      border-radius: 20px;
+      transition: 0.3s;
+    }
+
+    nav.categories a:hover { background-color: #f0f0f0; }
+    .highlight-red { color: red; }
+    .highlight-green { color: green; }
+
+    /* ===================== */
+    /* KATEGORI SLIDER */
+    /* ===================== */
+    .category-slider {
+      display: flex;
+      overflow-x: auto;
+      padding: 10px 8px;
+      gap: 10px;
+      background-color: #80c0ff;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .category-slider::-webkit-scrollbar { display: none; }
+
+    .category-item {
+      flex: 0 0 auto;
+      text-align: center;
+      font-size: 12px;
+    }
+
+    .category-item img {
+      width: 60px;
+      height: 60px;
+      border-radius: 15px;
+      object-fit: cover;
+    }
+
+    .category-item span {
+      display: block;
+      margin-top: 5px;
+      font-size: 12px;
+    }
+
+    /* ===================== */
+    /* ÜRÜN GRID */
+    /* ===================== */
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 10px;
+      padding: 10px;
+    }
+
+    .product-item {
+      display: flex;
+      flex-direction: column;
+      border-radius: 15px;
+      overflow: hidden;
+    }
+
+    .product-item img {
+      width: 100%;
+      display: block;
+      border-radius: 15px;
+    }
+
+    .product-item span {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .product-item.large { grid-column: span 2; }
+
+    .product-item button {
+      margin-top: 5px;
+      border: none;
+      background-color: black;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 20px;
+      cursor: pointer;
+      align-self: flex-start;
+    }
+
+    /* ===================== */
+    /* VIDEO & IMAGE WRAPPER */
+    /* ===================== */
+    .video-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+      padding: 0 20px; /* FIX: 7mm → px */
+    }
+
+    .video-container {
+      width: calc(33.333% - 10px);
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      aspect-ratio: 4/3;  /* FIX: min-height:300px yerine */
+    }
+
+    .video-container video,
+    .video-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    @media (max-width: 1024px) {
+      .video-container { width: calc(50% - 10px); }
+    }
+
+    @media (max-width: 768px) {
+      .logo-search h1 { font-size: 28px; margin-bottom: 10px; }
+      .search-wrapper { width: 100%; justify-content: flex-end; margin-bottom: 10px; }
+      .search-wrapper input { width: 120px; }
+      .product-item.large { grid-column: span 1; }
+      .video-container { width: 100%; }
+      .video-wrapper { padding: 0 10px; }
+    }
+
+    /* ===================== */
+    /* FLOATING BUTTONS — YENİLƏNDİ */
+    /* ===================== */
+    .floating-buttons {
+      position: fixed;
+      bottom: 24px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      z-index: 1000;
+    }
+
+    .floating-btn {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .floating-btn:hover {
+      transform: scale(1.12);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    }
+
+    .floating-btn svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    .btn-whatsapp {
+      background: linear-gradient(135deg, #25D366, #128C7E);
+    }
+
+    .btn-phone {
+      background: linear-gradient(135deg, #0088cc, #005fa3);
+    }
+
+    /* Tooltip */
+    .floating-btn-wrap {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .floating-btn-wrap .tooltip {
+      position: absolute;
+      right: 66px;
+      background: #333;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 8px;
+      font-size: 12px;
+      white-space: nowrap;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s;
+    }
+
+    .floating-btn-wrap:hover .tooltip {
+      opacity: 1;
+    }
+
+    /* ===================== */
+    /* SEO METİNLERİ */
+    /* ===================== */
+    .seo-text-wrapper { padding: 10px 20px; margin-top: 10px; }
+    .seo-text h2 { font-size: 20px; margin-bottom: 5px; }
+    .seo-text p { font-size: 14px; line-height: 1.5; }
+
+    .seo-text-wrapper .seo-text h2,
+    .seo-text-wrapper .seo-text ul.process-list li,
+    .seo-text-wrapper .seo-text p.process-note {
+      color: #081633;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .seo-text-wrapper .seo-text ul,
+    .seo-text-wrapper .seo-text ul li {
+      padding-left: 20px;
+      margin-top: 5px;
+      list-style: none;
+    }
+
+    .seo-text-wrapper .seo-text ul li b { color: #000; }
+    .seo-text-wrapper a { text-decoration: none; color: #081633; font-weight: 700; }
+
+    /* FIX: feel-text CSS əlavə edildi */
+    .feel-text {
+      font-style: italic;
+      color: #444;
+      margin-top: 8px;
+      font-size: 13px;
+    }
+
+    /* FIX: h4 → p.lead kimi istifadə */
+    .lead-text {
+      font-size: 15px;
+      line-height: 1.7;
+      color: #111;
+      margin-bottom: 12px;
+    }
+
+    footer.site-footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #d0f0ff;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Üst Banner -->
+<div class="top-banner">
+  <span>🚚 <strong>Azərbaycanın Hər Yerinə</strong> 🚚</span>
+  <span><b>UYĞUN QİYMƏTLƏRLƏ ÇATDIRILMA!</b></span>
+  <span>Yanvara Özəl 2-ci Sifarişə Ekstra 10% Endirim!</span>
+  <div class="sponsored-wrap">
+    <span class="sponsored-label">🔹 Reklam</span>
+    <a href="https://viktoria-az.vercel.app"
+       rel="sponsored noopener"
+       target="_blank"
+       style="text-decoration:none;">
+      <button>⏩ <strong>PALTAR BOYALARI SƏHİFƏSİNƏ KEÇİN</strong> ⏩</button>
+    </a>
+  </div>
+</div>
+
+<header>
+  <div class="logo-search">
+    <h1>Tablo Style</h1>
+    <div class="search-wrapper">
+      <input type="text" placeholder="Axtar...">
+      <button class="search-btn">🔍</button>
+    </div>
+  </div>
+
+  <nav class="categories">
+    <a href="#">➧ Kateqoriya ▾</a>
+    <a href="#">➧ Kolleksiyalar ▾</a>
+    <a href="#">➧ Tablo Qalereyası ▾</a>
+    <a href="#" class="highlight-red">➧ LED İşıqlı Tablo ▾</a>
+    <a href="#" class="highlight-green">➧ Yağlı Boya Tablolar ▾</a>
+    <a href="#" class="highlight-green">➧ Zərli Tablolar ▾</a>
+  </nav>
+</header>
+
+<!-- KATEGORI SLIDER -->
+<div class="category-slider">
+  <div class="category-item"><a href="#"><img src="images/manzara.jpg" alt="Mənzərə tablosu"><span>Mənzərə</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/kinkade.jpg" alt="Kinkade stili tablo"><span>Kinkade</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/afremov.png" alt="Afremov stili tablo"><span>Afremov</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/abstrakt.jpg" alt="Abstrakt tablo"><span>Abstrakt</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/cicek.jpg" alt="Çiçək tablosu"><span>Çiçək</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/baki.jpg" alt="Bakı divar tablosu"><span>Bakı</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/at.jpg" alt="At tablosu"><span>At</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/eyfel.jpg" alt="Eyfel tablosu"><span>Eyfel</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/dini.jpg" alt="Dini tablo"><span>Dini</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/istanbul.jpg" alt="İstanbul tablosu"><span>İstanbul</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/afrika.jpg" alt="Afrika tablosu"><span>Afrika</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/agac.jpg" alt="Ağac tablosu"><span>Ağac</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/gol.jpg" alt="Göl mənzərəsi tablosu"><span>Göl</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/paris.jpeg" alt="Paris tablosu"><span>Paris</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/milli.jpg" alt="Milli tablo"><span>Milli</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/medine1.jpg" alt="Mədinə tablosu"><span>Mədinə</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/london.jpg" alt="London tablosu"><span>London</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/lale.jpg" alt="Lalə tablosu"><span>Lalə</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/venedik.jpeg" alt="Venedik tablosu"><span>Venedik</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/besiktas1.jpeg" alt="Beşiktaş tablosu"><span>Beşiktaş</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/fayton.jpeg" alt="Fayton tablosu"><span>Fayton</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/tovuz-qusu.jpeg" alt="Tovuz Quşu tablosu"><span>Tovuz Quşu</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/leylek.jpg" alt="Leylək tablosu"><span>Leylək</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/tarixi.jpg" alt="Tarixi tablo"><span>Tarixi</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/ceyran.jpg" alt="Ceyran tablosu"><span>Ceyran</span></a></div>
+  <div class="category-item"><a href="#"><img src="images/peleng.jpg" alt="Pələng tablosu"><span>Pələng</span></a></div>
+</div>
+
+<!-- ÜRÜN KART -->
+<div class="product-grid">
+  <div class="product-item large">
+    <!-- FIX: alt mətni əlavə edildi -->
+    <img src="https://via.placeholder.com/600x600" alt="Tablo Style – Divar tabloları kataloqu">
+    <span>Vacib Açıqlama</span>
+    <button onclick="window.location.href='https://tablo-style.vercel.app/hareketli.html'">
+      KLİKLƏYİN →
+    </button>
+  </div>
+</div>
+
+<!-- VİDEOLAR -->
+<div class="video-wrapper">
+  <div class="video-container"><video src="images/hareketli.kiz.mp4" autoplay muted loop playsinline></video></div>
+  <div class="video-container"><video src="images/hareketli.atli.mp4" autoplay muted loop playsinline></video></div>
+  <div class="video-container"><video src="images/hareketli.tren.mp4" autoplay muted loop playsinline></video></div>
+  <div class="video-container"><video src="images/hareketli.tekne.mp4" autoplay muted loop playsinline></video></div>
+  <div class="video-container"><video src="images/hareketli.atlar.mp4" autoplay muted loop playsinline></video></div>
+  <div class="video-container"><video src="images/hareketli.piano.mp4" autoplay muted loop playsinline></video></div>
+</div>
+
+<!-- SEO METİNLERİ -->
+<div class="seo-text-wrapper">
+  <section class="seo-text">
+    <h2>Abstrakt Tablolar</h2>
+    <p>Müasir dekorasiyanın vazkeçilməzi olan <strong>abstrakt tablolar,</strong> məkanınıza estetik və çağdaş bir görünüş qazandırır. Yüksək keyfiyyətli kanvas üzərində çap olunmuş belə divar tablosu salon, ofis və yataq otaqları üçün idealdır. Abstrakt tablo, <strong>müasir divar tablosu,</strong> kanvas tablo axtaranlar üçün mükəmməl seçimdir.</p>
+  </section>
+</div>
+
+<div class="seo-text-wrapper">
+  <section class="seo-text">
+    <h2>Minimalist Tablo</h2>
+    <p>Sadə və zərif dizaynı ilə seçilən <strong>minimalist tablolar,</strong> müasir interyerlərə mükəmməl uyğunlaşır. Az rəng, güclü məna prinsipi ilə hazırlanmış belə tablo məkanlara genişlik hissi verir. Minimal divar tablosu, Skandinaviya üslublu tablo, müasir <strong>kanvas tablo</strong> axtaranlar üçün ideal seçimdir.</p>
+  </section>
+</div>
+
+<div class="seo-text-wrapper">
+  <section class="seo-text">
+    <h2>Mənzərə Tabloları</h2>
+    <p>Təbiətin sakitliyini evinizə gətirən <strong>mənzərə tabloları,</strong> interyerə rahatlıq və harmoniya bəxş edir. Keyfiyyətli çap texnologiyası sayəsində rənglər solmur və uzunömürlüdür. Salon və yataq otağı <strong>dekorasiyası</strong> üçün uyğundur. Təbiət tablosu, <strong>kanvas mənzərə</strong> tablosu sevənlər üçün ideal seçimdir.</p>
+  </section>
+</div>
+
+<div class="seo-text-wrapper">
+  <section class="seo-text">
+    <h2>Qızılı Detallı Tablo</h2>
+    <p>Zəriflik və lüksü bir araya gətirən qızılı detallı tablolar, interyer dizaynında fərq yaradır. Qara-ağ yada sadə xətlərə malik fon üzərində qızılı effektləri ilə salon və ofislərə prestijli görünüş qazandırır. <strong>Modern tablo, lüks divar tablosu, kanvas tablo</strong> kateqoriyalarında yüksək tələbat görür.</p>
+  </section>
+</div>
+
+<!-- GÖRSELLER — FIX: video-wrapper içinə seo-text qarışdırılmırdı -->
+<div class="video-wrapper">
+  <div class="video-container"><img src="images/minimalist.png" alt="Minimalist divar tablosu"></div>
+  <div class="video-container"><img src="images/maral2.jpg" alt="Maral tablosu"></div>
+  <div class="video-container"><img src="images/milli1.jpg" alt="Milli mövzulu divar tablosu"></div>
+  <div class="video-container"><img src="images/zenci.jpg" alt="Minimalist abstrakt tablo"></div>
+  <div class="video-container"><img src="images/at1.jpg" alt="At tablosu kanvas"></div>
+  <div class="video-container"><img src="images/delfin.jpeg" alt="Delfin gün batışı tablosu"></div>
+</div>
+
+<!-- EVİNƏ ESTETİK DƏYƏR QAT — FIX: h4 → p.lead-text -->
+<div class="seo-text-wrapper">
+  <section class="seo-text">
+    <h2>EVİNƏ ESTETİK DƏYƏR QAT!</h2>
+    <p class="lead-text">
+      <strong>Tablolar</strong> ev dekorasiyasının ən vacib elementlərindən biridir və sadəcə divarı dolduran boş bir şəkil deyil.
+      Keyfiyyətli və zövqlə seçilmiş tablolar məkanın ruhunu formalaşdırır, evə <strong>canlılıq</strong>, <strong>istilik</strong> və <strong>estetik görünüş</strong> qazandırır.
+      Doğru tablo seçimi otağın atmosferini tamamilə dəyişərək sakitlik, enerji və ilham hissi yaradır.
+    </p>
+
+    <h2>İndi təsəvvür et:</h2>
+    <p class="lead-text">
+      Evinə daxil olursan və ilk baxışda diqqət çəkən, göz yormayan, əksinə rahatladan və ilham verən bir <strong>divar tablosu</strong> ilə qarşılaşırsan.
+      Zövqünü və üslubunu əks etdirən bu sənət əsəri ev dekorasiyasını daha dəyərli, daha səmimi və daha cəlbedici edir.
+    </p>
+
+    <h3>Evin üçün ideal tabloyu seç, fərqi hiss et və indi sifariş ver.</h3>
+  </section>
+</div>
+
+<a href="https://tablo-style.vercel.app/hareketli.html" style="text-decoration:none; display:block;">
+  <div style="
+    display:flex;
+    gap:10px;
+    padding:10px 20px;
+    background:#b0d4ff;
+    margin:16px 0;
+    border-radius:12px;
+    box-sizing:border-box;
+    cursor:pointer;
+  ">
+    <div style="width:50%;">
+      <img src="images/qiz.jpeg" alt="Hərəkətli divar tablosu qız" style="width:100%;display:block;border-radius:8px;">
+    </div>
+    <div style="width:50%;">
+      <video autoplay loop muted playsinline style="width:100%;display:block;border-radius:8px;">
+        <source src="images/qiz.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</a>
+
+<!-- PRINTER BÖLMƏSİ — FIX: video-wrapper içindən seo-text çıxarıldı, ayrı bloklar edildi -->
+<div class="seo-text-wrapper">
+  <section class="seo-text">
+    <h2>KANVAS KƏTAN PARÇA ÜZƏRİNDƏ DİGİTAL TABLO BASKISI NƏDİR?</h2>
+    <p>Kanvas kətan parça üzərində digital tablo baskısı, yüksək keyfiyyətli rəqəmsal şəkillərin xüsusi printerlər vasitəsilə kətan əsaslı parça üzərinə çap edilməsidir. Bu üsul klassik yağlı boya tablolarına bənzər görünüş yaradır və müasir interyer dizaynında geniş istifadə olunur.
+    Kanvas materialı qalın, davamlı və teksturalı olduğu üçün çap olunan şəkillər daha canlı, dərin və real görünür.</p>
+  </section>
+</div>
+
+<div class="video-wrapper">
+  <div class="video-container"><img src="images/printer.jpeg" alt="Kanvas tablo sifarişi çap prosesi"></div>
+  <div class="video-container"><img src="images/printer1.jpeg" alt="Divar tablosu çap mərhələsi"></div>
+  <div class="video-container"><img src="images/printer2.jpeg" alt="Kanvas mənzərə tablo çapı"></div>
+</div>
+
+<div class="seo-text-wrapper">
+  <section class="seo-text">
+    <h2>DİGİTAL KANVAS TABLOLARIN ÜSTÜNLÜKLƏRI</h2>
+    <p>✔ <strong>Yüksək görüntü keyfiyyəti:</strong> Yüksək çözünürlüklü digital çap texnologiyası sayəsində rənglər solmur, detallar aydın qalır.<br>
+    ✔ <strong>Uzunömürlü istifadə:</strong> Keyfiyyətli boya və keten parça sayəsində tablolar illərlə formasını qoruyur.<br>
+    ✔ <strong>Estetik və modern görünüş:</strong> Kanvas tablolar çərçivəsiz də istifadə oluna bilər.<br>
+    ✔ <strong>İstənilən dizayn imkanı:</strong> Fotoşəkillər, abstrakt rəsmlər, mənzərələr, xüsusi sifarişlər çap oluna bilər.</p>
+  </section>
+</div>
+
+<div class="seo-text-wrapper">
+  <section class="seo-text">
+    <h2>🖨️ BASKI PROSESİ NECƏ APARILIR?</h2>
+    <p>BASKI PROSESİ İSTANBULDA HƏYATA KEÇİRİLİR<br>
+    Yüksək keyfiyyətli digital görüntü seçilir → Şəkil ölçüyə uyğun optimallaşdırılır → Xüsusi kanvas printerlərdə çap edilir → Taxta karkasa gərilir → Astar vurulur → Son keyfiyyət yoxlanışı aparılır.</p>
+  </section>
+</div>
+
+<div class="seo-text-wrapper">
+  <section class="seo-text">
+    <h2>KANVAS KƏTAN vs VİNİL/PVC</h2>
+    <p><strong>Kanvas:</strong> Qalın, teksturalı parça. Mat səth – işıq əks etdirmir. Rənglər dərin və yumşaq görünür. Taxta çərçivə üzərinə gərilir. Divarda sənət əsəri effekti yaradır. Premium, qalereya üslubu.</p>
+  </section>
+</div>
+
+<div class="video-wrapper">
+  <div class="video-container"><img src="images/vinil.png" alt="Vinil PVC vs kanvas tablo fərqi"></div>
+</div>
+
+<div class="seo-text-wrapper">
+  <section class="seo-text">
+    <h2>🪧 Reklam banner materialı (Vinil/PVC)</h2>
+    <p>Daha çox reklam və açıq hava üçün istifadə olunur. Plastik əsaslı (PVC, vinil), hamar, tekstura yoxdur. Parlaq səth – işıq əks etdirir. İstidə deformasiya olur. <strong>ONA GÖRƏ BİZDƏ BU MATERİAL İSTİFADƏ EDİLMİR.</strong></p>
+    <p class="feel-text">Reklam bannerləri üçün uyğundur • müvəqqətidir • kommersiya obyektlərində istifadə olunur</p>
+  </section>
+</div>
+
+<!-- BLOG -->
+<div class="video-wrapper">
+  <div class="video-container"><img src="images/bloq.png" alt="Divar tablosu seçimi haqqında bloq yazıları"></div>
+</div>
+
+<div class="seo-text-wrapper">
+  <section class="seo-text">
+    <h2>Bloq yazılarını klikləyib oxuyun</h2>
+    <ul class="seo-list">
+      <li><a href="bloq1.html">✔ Ev üçün tablo necə seçilməlidir?</a></li>
+      <li><a href="bloq2.html">✔ Minimalist tablo nədir və kimlər üçün uyğundur?</a></li>
+      <li><a href="bloq3.html">✔ Divar tablosu ölçüsü necə seçilir?</a></li>
+      <li><a href="bloq4.html">✔ Divar rənginə uyğun seçimi necə edə bilərəm?</a></li>
+    </ul>
+  </section>
+</div>
+
+<!-- ===================== -->
+<!-- FLOATING BUTTONS — YENİ DİZAYN -->
+<!-- ===================== -->
+<div class="floating-buttons">
+
+  <!-- WhatsApp -->
+  <div class="floating-btn-wrap">
+    <span class="tooltip">WhatsApp ilə yazın</span>
+    <a class="floating-btn btn-whatsapp"
+       href="https://wa.me/994554828428?text=Salam.%20m%C9%99n%20divar%20tablolar%C4%B1%20il%C9%99%20maraqlan%C4%B1ram"
+       target="_blank"
+       rel="noopener"
+       aria-label="WhatsApp ilə əlaqə">
+      <svg viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+    </a>
+  </div>
+
+  <!-- Zəng -->
+  <div class="floating-btn-wrap">
+    <span class="tooltip">Zəng edin</span>
+    <a class="floating-btn btn-phone"
+       href="tel:+994554828428"
+       aria-label="Telefon ilə əlaqə">
+      <svg viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+      </svg>
+    </a>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  &copy; 2025 Müasir Kanvas Tablolar | Divar Tabloları Bakı, Azərbaycan. Bütün hüquqlar qorunur.
+</footer>
+
+</body>
+</html>
