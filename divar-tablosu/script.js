@@ -6,7 +6,7 @@
 
 /* ── Config ─────────────────────────────────────────── */
 const CONFIG = {
-  waNumber:    '994XXXXXXXXX',
+  waNumber:    '905540183188',
   waText:      (code) => `${code} haqqında məlumat almaq istəyirəm`,
   imageFolder: '/',           // prefix for image paths
   imageExt:    '.jpg',
@@ -25,7 +25,7 @@ function generateArtworks() {
     const num = String(i).padStart(3, '0');
     artworks.push({
       num,
-      code:      `VB-GAL-${num}`,
+      code:      `TS-GAL-${num}`,
       title:     '',          // ← Fill: artwork title (e.g. "Dağ mənzərəsi")
       artist:    '',          // ← Fill: artist name
       cat:       '',          // ← Fill: menzere | portret | abstrakt | sheher | hediyye
