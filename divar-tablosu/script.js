@@ -271,7 +271,7 @@ const ARTWORKS_DATA = [
   },
   {
     num:'024', code:'VB-GAL-024', alt:'024',
-    title:'Qızıl Baxış – Qara Gözəl Portret',
+    title:'Qızıl Baxış – Qara Gözəl Portreti',
     artist:'Naməlum rəssam', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
     seoDesc:'Qara fonda tünd dərili qadın üzü, qızıl parıltılı dırnaqlar, kaş və göz makiyajı. Güclü müasir portret tablosu.',
@@ -403,6 +403,17 @@ const ARTWORKS_DATA = [
   },
   {
     num:'036', code:'VB-GAL-036', alt:'036',
+    title:'Mədinə – Peyğəmbər Məscidi Gecə',
+    artist:'Naməlum rəssam', cat:'hediyye',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Mədinə Peyğəmbər Məscidi gecə mavi ulduzlu göy altında – işıqlı minarələr, parıltılı İslami tablo.',
+    emoDesc:'Minarələr gecəni aydınladır, ulduzlar isə səmada rəqs edir. Bu tablo evə ruhani hüzur gətirir.',
+    interior:'Qonaq otağı, namaz otağı, dini məkanlara uyğun. İslami ev dekorunun ən gözəl nümunəsi.',
+    gift:'Həcc-ümrə ziyarəti edənlərə, Ramazan hədiyyəsi, dindar dostlara – müqəddəs xatirə.',
+    metaDesc:'Mədinə Peyğəmbər Məscidi gecə tablo parıltılı. İslami divar tablosu Bakı.'
+  }
+  {
+    num:'037', code:'VB-GAL-037', alt:'037',
     title:'Hollandiya Buket – Klassik Natürmort',
     artist:'Ambrosius Bosschaert üslubu', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi',
@@ -413,7 +424,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Hollandiya buket klassik natürmort tablo. Divar tablosu Bakı.'
   },
   {
-    num:'037', code:'VB-GAL-037', alt:'037',
+    num:'038', code:'VB-GAL-038', alt:'038',
     title:'Rəngarəng Mandala Pişiklər',
     artist:'Naməlum rəssam', cat:'diger',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -425,7 +436,7 @@ const ARTWORKS_DATA = [
   },
   {
     num:'038', code:'VB-GAL-038', alt:'038',
-    title:'Sarı Meşə Yolu – Günəş Işığı',
+    title:'Sarı Payız - Meşə Yolu',
     artist:'Leonid Afremov üslubu', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi',
     seoDesc:'Sarı-narıncı payız ağacları arasında günəşə doğru uzanan yol, tənha fiqur. Afremov üslubunda tablo.',
@@ -434,17 +445,6 @@ const ARTWORKS_DATA = [
     gift:'Optimist, həyatı sevən insanlara – işığı hədiyyə et.',
     metaDesc:'Sarı meşə yolu günəş ışığı Afremov tablo. Divar tablosu Bakı.'
   },
-  {
-    num:'039', code:'VB-GAL-039', alt:'039',
-    title:'Mədinə – Peyğəmbər Məscidi Gecə',
-    artist:'Naməlum rəssam', cat:'hediyye',
-    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
-    seoDesc:'Mədinə Peyğəmbər Məscidi gecə mavi ulduzlu göy altında – işıqlı minarələr, parıltılı İslami tablo.',
-    emoDesc:'Minarələr gecəni aydınladır, ulduzlar isə səmada rəqs edir. Bu tablo evə ruhani hüzur gətirir.',
-    interior:'Qonaq otağı, namaz otağı, dini məkanlara uyğun. İslami ev dekorunun ən gözəl nümunəsi.',
-    gift:'Həcc-ümrə ziyarəti edənlərə, Ramazan hədiyyəsi, dindar dostlara – müqəddəs xatirə.',
-    metaDesc:'Mədinə Peyğəmbər Məscidi gecə tablo parıltılı. İslami divar tablosu Bakı.'
-  }
 ];
 
 /* ── Generate full artwork list ─────────────────────── */
