@@ -236,6 +236,215 @@ const ARTWORKS_DATA = [
     gift:'Optimist, həyat sevən insanlara, yeni evə köçənlərə ən rəngli hədiyyə.',
     metaDesc:'Sarı həyət rəngli küçə tablo parıltılı. Divar tablosu Bakı.'
   }
+    {
+    num:'021', code:'VB-GAL-021', alt:'021',
+    title:'Nağıl Kotteci – Çiçəkli Bağ',
+    artist:'Thomas Kinkade üslubu', cat:'menzere',
+    size:'100×70 sm', material:'Əl işi – Parıltılı',
+    seoDesc:'Işıqlı pəncərəli daş kottec, çiçəkli rəngarəng bağ, daş yol, köhnə quyu. 100×70 sm parıltılı tablo.',
+    emoDesc:'Hər pəncərəsindən isti bir işıq süzülür bu nağıl evinə. Sanki içəridə sevdiklərin sizi gözləyir. Ürəyi ısıdan tablo.',
+    interior:'Qonaq otağı, yataq otağı, uşaq otağı. İsti, romantik interyerlər üçün ideal.',
+    gift:'Yeni evə köçənlərə, ailə həyatına başlayanlara – yuva sevgisini hədiyyə et.',
+    metaDesc:'Nağıl kottec çiçəkli bağ tablo 100×70 sm. Parıltılı divar tablosu Bakı.'
+  },
+  {
+    num:'022', code:'VB-GAL-022', alt:'022',
+    title:'Mavi Ağac – Boz Dünyada Rəng',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Boz-ağ mənzərədə tək mavi parıltılı ağac, uzaqda kiçik ev. Kontrast effektli müasir divar tablosu.',
+    emoDesc:'Bütün dünya boz olsa belə, o ağac mavi qalır. Ümid, fərqlilik, güc – bu tablo hər baxanda ilham verir.',
+    interior:'Müasir, minimalist interyerlər. Ağ və boz divanlara dramatik kontrast effekti.',
+    gift:'İlhamlı, həyatsevər insanlara – fərqli olmağı hədiyyə et.',
+    metaDesc:'Mavi ağac boz mənzərə tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'023', code:'VB-GAL-023', alt:'023',
+    title:'Qış Yolu – Ağ Meşə Panoraması',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Yarpaqsız ağaclar arasında uzanan düz yol – ağ-boz qış mənzərəsi, geniş panoramik format, parıltılı tekstura.',
+    emoDesc:'Yolun sonu görünmür, amma ağaclar hər iki tərəfdən mühafizə edir. Sakitlik, sükut, meditasiya hissi.',
+    interior:'Qonaq otağı, işgüzar ofis. Uzun, yatay divanlara uyğun panoramik ölçü.',
+    gift:'Düşüncəli, introspektiv insanlara – sükut hədiyyə et.',
+    metaDesc:'Qış yolu ağ meşə panorama tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'024', code:'VB-GAL-024', alt:'024',
+    title:'Qızıl Baxış – Qara Gözəl Portret',
+    artist:'Naməlum rəssam', cat:'portret',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Qara fonda tünd dərili qadın üzü, qızıl parıltılı dırnaqlar, kaş və göz makiyajı. Güclü müasir portret tablosu.',
+    emoDesc:'Əlləri arasından baxan o gözlər – müəmmalı, güclü, əzəmətli. Qızılın qara ilə dansı. Hər baxışda yeni bir hiss.',
+    interior:'Müasir, glamur interyerlər, butik, restoran. Tünd divanlarda dramatik effekt.',
+    gift:'Güclü, müstəqil, özünə inanan qadınlara ideal hədiyyə.',
+    metaDesc:'Qızıl baxış portret tablo parıltılı. Müasir divar tablosu Bakı.'
+  },
+  {
+    num:'025', code:'VB-GAL-025', alt:'025',
+    title:'London Telefon Kabinəsi – Qırmızı Simvol',
+    artist:'Naməlum rəssam', cat:'sheher',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Qara-ağ London küçəsində ikonik qırmızı telefon kabinəsi – gümüş parıltılı kənarlı divar tablosu.',
+    emoDesc:'Bütün dünya boz, yalnız o kabinə qırmızı. London əfsanəsinin simvolu – klassik, zamansız, unudulmaz.',
+    interior:'Müasir, ingilis üslublu, ofis, kafe interyeri. Ağ divanlarda möhtəşəm görünür.',
+    gift:'Londonu, Avropanı, ingilis mədəniyyətini sevənlərə ideal hədiyyə.',
+    metaDesc:'London telefon kabinəsi qırmızı tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'026', code:'VB-GAL-026', alt:'026',
+    title:'Kəbə – Qızıl Əzəmət',
+    artist:'Naməlum rəssam', cat:'hediyye',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Məkkə Kəbəsi dramatik qızıl-qara göy altında, həcc izdihamı. Parıltılı İslami divar tablosu.',
+    emoDesc:'Ruhun titrəyən o an – minlərin bir araya toplandığı müqəddəs məkan. Bu tablo evə ilahi bir atmosfer gətirir.',
+    interior:'Qonaq otağı, namaz otağı, dini məkanlara uyğun. İslami dekor üçün ən təsirli seçim.',
+    gift:'Həcc, Ramazan, toy, bayram hədiyyəsi – dindar insanlara ən mənalı hədiyyə.',
+    metaDesc:'Kəbə qızıl əzəmət İslami tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'027', code:'VB-GAL-027', alt:'027',
+    title:'Qız Qalası – Bənövşəyi Gecə Yolu',
+    artist:'Naməlum rəssam', cat:'sheher',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'İstanbul Qız Qalası bənövşəyi-mavi ulduzlu gecədə, fənərli körpü yolu, atəkəs, vintaj avtomobil. Parıltılı tablo.',
+    emoDesc:'Gecənin ən gözəl saatı – fənərlərin işığında bir körpü, uzaqda Qız Qalası. Romantizmin zirvəsi.',
+    interior:'Qonaq otağı, yataq otağı, romantik restoran. Tünd, romantik interyerlərə mükəmməl.',
+    gift:'Cütlüklərə, İstanbul sevgisi olan insanlara – romantizmi hədiyyə et.',
+    metaDesc:'Qız Qalası bənövşəyi gecə yolu tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'028', code:'VB-GAL-028', alt:'028',
+    title:'Məscidülhəram – Gecə Panoraması',
+    artist:'Naməlum rəssam', cat:'hediyye',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Məkkə Məscidülhəram gecə mavi ulduzlu göy altında havadan panorama – geniş format, parıltılı İslami tablo.',
+    emoDesc:'Min il ərzində minarələrin səsi göylərə yüksəlmiş bu müqəddəs məkən. Hər baxışda huşunu alır insanı.',
+    interior:'Qonaq otağı, namaz otağı, dini müəssisələr. İslami ev dekorunun tacı.',
+    gift:'Həcc yolunda olan ya da getmiş insanlara, Ramazan hədiyyəsi – ən müqəddəs hədiyyə.',
+    metaDesc:'Məscidülhəram gecə panorama İslami tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'029', code:'VB-GAL-029', alt:'029',
+    title:'Qırmızı Yarpaqlar – Romantik Cüt',
+    artist:'Leonid Afremov üslubu', cat:'menzere',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Qırmızı-çəhrayı yarpaqlar arasında uzaqlaşan cüt silueti, parlaq islaq yol. Afremov üslubu parıltılı tablo.',
+    emoDesc:'Həyatın ən gözəl anlarından biri – sevdiyinlə bir meşə yolunda addımlamaq. Bu tablo o hissi əbədiləşdirir.',
+    interior:'Yataq otağı, qonaq otağı. Qırmızı-bordo tonlu interyerlərə mükəmməl uyğun.',
+    gift:'Cütlüklərə, toy ildönümü hədiyyəsi – sevgini divarınıza asın.',
+    metaDesc:'Qırmızı yarpaqlar romantik cüt tablo Afremov. Divar tablosu Bakı.'
+  },
+  {
+    num:'030', code:'VB-GAL-030', alt:'030',
+    title:'Həyat Ağacı – Qızıl Budaqlar',
+    artist:'Naməlum rəssam', cat:'hediyye',
+    size:'80×50 sm', material:'Əl işi – Parıltılı',
+    seoDesc:'Mavi fonda qızıl parıltılı həyat ağacı, quşlar, dalğavari qızıl zəmin. 80×50 sm parıltılı tablo.',
+    emoDesc:'Kökləri yerə, budaqları göyə – həyatın simvolu. Evə bərəkət, sağlamlıq, uzunömürlülük gətirir inanışa görə.',
+    interior:'Qonaq otağı, yataq otağı, giriş hollu. Mavi aksan rəngi olan interyerlərə ideal.',
+    gift:'Yeni ev, toy, doğum günü – «həyat ağacı» hər mərasim üçün anlamlı hədiyyədir.',
+    metaDesc:'Həyat ağacı qızıl budaqlar tablo 80×50 sm. Parıltılı divar tablosu Bakı.'
+  },
+  {
+    num:'031', code:'VB-GAL-031', alt:'031',
+    title:'Mavi Gecə – Uçan Maral',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'80×50 sm', material:'Əl işi – Parıltılı',
+    seoDesc:'Mavi gecə mənzərəsində ağ maral silueti, dağ əksi, quşlar, qızıl dalğa naxışı. 80×50 sm parıltılı tablo.',
+    emoDesc:'Gecənin azadlığında sıçrayan maral – heç bir sınır tanımır. Bu tablo baxan hərə azadlıq hissi verir.',
+    interior:'Yataq otağı, qonaq otağı. Mavi-gümüş tonlu interyerlərə mükəmməl uyğun.',
+    gift:'Azadlığı sevənlərə, gənclərə, yeni başlanğıclar üçün – anlamlı hədiyyə.',
+    metaDesc:'Mavi gecə uçan maral tablo 80×50 sm. Parıltılı divar tablosu Bakı.'
+  },
+  {
+    num:'032', code:'VB-GAL-032', alt:'032',
+    title:'Rəngarəng Maral Silueti – Şəfəq',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'80×50 sm', material:'Əl işi – Parıltılı',
+    seoDesc:'Narıncı-yaşıl-qırmızı şəfəq fonunda maral silueti, ağac, uçan quş. 80×50 sm parıltılı tablo.',
+    emoDesc:'Rəngarəng şəfəqdə tək duran maral – cəsarət, azadlıq, güc. Hər sabah divarınızdan sizə enerji verir.',
+    interior:'Qonaq otağı, uşaq otağı, oyun otağı. Açıq, enerjili interyerlər üçün ideal.',
+    gift:'Enerji dolu, həyatsevər insanlara – rəngarəng bir hədiyyə.',
+    metaDesc:'Rəngarəng maral siluet tablo 80×50 sm. Parıltılı divar tablosu Bakı.'
+  },
+  {
+    num:'033', code:'VB-GAL-033', alt:'033',
+    title:'Rəngarəng Ərəb Xəttatlığı – Allah',
+    artist:'Naməlum rəssam', cat:'hediyye',
+    size:'Ölçü soruşun', material:'Əl işi',
+    seoDesc:'Pembe-mavi-qırmızı fonda rəngarəng ərəb xəttatlığı – Allah adı, inci bəzəkli, əl işi İslami tablo.',
+    emoDesc:'Cəlalət və gözəlliyin birliyi. Rəng var, həyat var, iman var. Evinizə bərəkət gətirən müasir İslami sənət.',
+    interior:'Qonaq otağı, namaz otağı. Rəngli, dinamik interyerlərə uyğun müasir İslami dekor.',
+    gift:'Müasir zövqlü dindar insanlara – ənənə ilə müasirliyin hədiyyəsi.',
+    metaDesc:'Rəngarəng ərəb xəttatlığı Allah tablo əl işi. Divar tablosu Bakı.'
+  },
+  {
+    num:'034', code:'VB-GAL-034', alt:'034',
+    title:'Fənərbaxça – Stadion Əzəməti',
+    artist:'Naməlum rəssam', cat:'diger',
+    size:'Ölçü soruşun', material:'Əl işi',
+    seoDesc:'Fənərbaxça Spor Kulübü 1907 əzəmətli stadion görüntüsü – klubun simvolu, fan tablosu.',
+    emoDesc:'Sarı-laciverdin eşqi – bu tablo otağını bir tribünaya çevirir. Hər baxanda o enerji canlanır.',
+    interior:'Uşaq otağı, gənclik otağı, futbol sevərlərin kabineti.',
+    gift:'Fənərbaxça fanlarına, futbol sevən gənclərə ən uyğun hədiyyə.',
+    metaDesc:'Fənərbaxça stadion tablo fan hədiyyəsi. Divar tablosu Bakı.'
+  },
+  {
+    num:'035', code:'VB-GAL-035', alt:'035',
+    title:'Od Parkı – Gecə Neon Ağacları',
+    artist:'Leonid Afremov üslubu', cat:'menzere',
+    size:'Ölçü soruşun', material:'Əl işi',
+    seoDesc:'Qırmızı-narıncı neon ağaclar arasında park yolu, uzaqda yalnız fiqur. Afremov üslubunda alovlu tablo.',
+    emoDesc:'Sanki ağaclar yandı, lakin tək insan addımlayır bu alov arasında. Dramatik, güclü, unudulmaz bir əsər.',
+    interior:'Qonaq otağı, restoran, ofis. Qırmızı-narıncı aksan tonlu interyerlərə ideal.',
+    gift:'Enerjili, güclü ruha sahib insanlara – dramı hədiyyə et.',
+    metaDesc:'Od parkı neon ağaclar Afremov tablo. Divar tablosu Bakı.'
+  },
+  {
+    num:'036', code:'VB-GAL-036', alt:'036',
+    title:'Hollandiya Buket – Klassik Natürmort',
+    artist:'Ambrosius Bosschaert üslubu', cat:'menzere',
+    size:'Ölçü soruşun', material:'Əl işi',
+    seoDesc:'Tünd fonda klassik Hollandiya natürmort – lalə, gül, mavi çiçəklər, kəpənək, üzüm. XVII əsr üslubunda tablo.',
+    emoDesc:'Çiçəklər ölür, amma sənətin içindəkilər əbədi qalır. Hər detala baxanda yeni bir şey kəşf edirsən.',
+    interior:'Klassik, avropalı üslublu interyerlər, yemək otağı, konservatoriya.',
+    gift:'İncəsənət bilicisi olanlara, klassik zövqə sahib insanlara – sənətin hədiyyəsi.',
+    metaDesc:'Hollandiya buket klassik natürmort tablo. Divar tablosu Bakı.'
+  },
+  {
+    num:'037', code:'VB-GAL-037', alt:'037',
+    title:'Rəngarəng Mandala Pişiklər',
+    artist:'Naməlum rəssam', cat:'diger',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Qara fonda iki rəngarəng mandala üslubunda pişik – mavi, narıncı, bənövşəyi nöqtə naxışları, parıltılı tablo.',
+    emoDesc:'Şən, oynaqlı, rəngarəng – bu pişiklər otağa gülüş gətirir. Hər baxanda insanı təbəssüm etdirir.',
+    interior:'Uşaq otağı, oyun otağı, gənc interyerlər. Rəngli, dinamik dekora uyğun.',
+    gift:'Pişik sevənlərə, uşaqlara, şən insanlara – rəngarəng bir sürpriz.',
+    metaDesc:'Rəngarəng mandala pişiklər tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'038', code:'VB-GAL-038', alt:'038',
+    title:'Sarı Meşə Yolu – Günəş Işığı',
+    artist:'Leonid Afremov üslubu', cat:'menzere',
+    size:'Ölçü soruşun', material:'Əl işi',
+    seoDesc:'Sarı-narıncı payız ağacları arasında günəşə doğru uzanan yol, tənha fiqur. Afremov üslubunda tablo.',
+    emoDesc:'Günəşə doğru addımlamaq – hər gün evdən çıxanda bu tablo sizi ilhamlandırır. Ümid, istilik, həyat.',
+    interior:'Qonaq otağı, yemək otağı. Sarı-narıncı tonlu interyerlərə əla uyğun.',
+    gift:'Optimist, həyatı sevən insanlara – işığı hədiyyə et.',
+    metaDesc:'Sarı meşə yolu günəş ışığı Afremov tablo. Divar tablosu Bakı.'
+  },
+  {
+    num:'039', code:'VB-GAL-039', alt:'039',
+    title:'Mədinə – Peyğəmbər Məscidi Gecə',
+    artist:'Naməlum rəssam', cat:'hediyye',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Mədinə Peyğəmbər Məscidi gecə mavi ulduzlu göy altında – işıqlı minarələr, parıltılı İslami tablo.',
+    emoDesc:'Minarələr gecəni aydınladır, ulduzlar isə səmada rəqs edir. Bu tablo evə ruhani hüzur gətirir.',
+    interior:'Qonaq otağı, namaz otağı, dini məkanlara uyğun. İslami ev dekorunun ən gözəl nümunəsi.',
+    gift:'Həcc-ümrə ziyarəti edənlərə, Ramazan hədiyyəsi, dindar dostlara – müqəddəs xatirə.',
+    metaDesc:'Mədinə Peyğəmbər Məscidi gecə tablo parıltılı. İslami divar tablosu Bakı.'
+  },
 ];
 
 /* ── Generate full artwork list ─────────────────────── */
