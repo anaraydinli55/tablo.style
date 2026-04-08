@@ -411,7 +411,7 @@ const ARTWORKS_DATA = [
     interior:'Qonaq otağı, namaz otağı, dini məkanlara uyğun. İslami ev dekorunun ən gözəl nümunəsi.',
     gift:'Həcc-ümrə ziyarəti edənlərə, Ramazan hədiyyəsi, dindar dostlara – müqəddəs xatirə.',
     metaDesc:'Mədinə Peyğəmbər Məscidi gecə tablo parıltılı. İslami divar tablosu Bakı.'
-  }
+  },
   {
     num:'037', code:'VB-GAL-037', alt:'037',
     title:'Hollandiya Buket – Klassik Natürmort',
