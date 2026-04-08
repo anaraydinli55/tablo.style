@@ -435,7 +435,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Rəngarəng mandala pişiklər tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'038', code:'VB-GAL-038', alt:'038',
+    num:'039', code:'VB-GAL-039', alt:'039',
     title:'Sarı Payız - Meşə Yolu',
     artist:'Leonid Afremov üslubu', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi',
@@ -445,6 +445,226 @@ const ARTWORKS_DATA = [
     gift:'Optimist, həyatı sevən insanlara – işığı hədiyyə et.',
     metaDesc:'Sarı meşə yolu günəş ışığı Afremov tablo. Divar tablosu Bakı.'
   },
+   {
+    num:'040', code:'VB-GAL-040', alt:'040',
+    title:'Payız Gecəsi – Ev, Göl, Ay',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'Ölçü soruşun', material:'Əl işi',
+    seoDesc:'Dolunay işığında payız ağacları arasında daş ev, sakit göl, kiçik qayıq. Romantik gecə mənzərəsi tablosu.',
+    emoDesc:'Dolunay hər şeyi gümüşə boyayır – qırmızı yarpaqlar, sakin göl, pəncərədən süzülən sarı işıq. Ürəyi ısıdan mənzərə.',
+    interior:'Qonaq otağı, yataq otağı. Tünd, romantik dekorlu interyerlərə mükəmməl uyğun.',
+    gift:'Sakin, təbiətsevər insanlara; ev açımına – gecənin hüzurunu hədiyyə et.',
+    metaDesc:'Payız gecəsi ev göl ay tablo. Divar tablosu Bakı – VəBo Gallery.'
+  },
+  {
+    num:'041', code:'VB-GAL-041', alt:'041',
+    title:'Çəhrayı Çiçəkli Tünel – Bahar Yolu',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Çəhrayı-pembe çiçəkli ağaclar arasında uzanan işıqlı yol – Yapon sakura üslubunda parıltılı tablo.',
+    emoDesc:'Çiçəklər tünel yaratmış, ortada sonsuz bir işıq. Ümid, bahar, yenilənmə. Bu tablo evə sevinc gətirir.',
+    interior:'Yataq otağı, qız otağı, koridor. Çəhrayı-bej tonlu interyerlərə ideal.',
+    gift:'Qadınlara, uşaqlara, Qadınlar Günü hədiyyəsi – baharın özünü hədiyyə et.',
+    metaDesc:'Çəhrayı çiçəkli tünel bahar yolu tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'042', code:'VB-GAL-042', alt:'042',
+    title:'Kəbə – Gecə Qalaktikası',
+    artist:'Naməlum rəssam', cat:'hediyye',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Kəbə ətrafında izdiham, mavi ulduzlu qalaktika göy, parıltılı tekstura. İslami divar tablosu.',
+    emoDesc:'Milyonların ürəyi bir yerdə döyünür. Ulduzların altında böyük dua – bu tablo ruhani bir hüzur gətirir.',
+    interior:'Qonaq otağı, namaz otağı. İslami dekor üçün ən möhtəşəm seçim.',
+    gift:'Həcc-ümrə ziyarətçilərinə, dindar insanlara – müqəddəs xatirə hədiyyəsi.',
+    metaDesc:'Kəbə gecə qalaktika İslami tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'043', code:'VB-GAL-043', alt:'043',
+    title:'Paris – Eyfel Qızıl Şəfəq',
+    artist:'Naməlum rəssam', cat:'sheher',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Eyfel qülləsi qızıl-mis şəfəq göydə, Sena çayı, körpü, mavi parıltılı su. Romantik Paris gecəsi tablosu.',
+    emoDesc:'Paris elə bir şəhərdir ki, hətta gecə şəfəqinin altında belə fərqlidir. Qızıl parıltı, mavi su – romantizmin şah əsəri.',
+    interior:'Qonaq otağı, yataq otağı, restoran. Qızıl-bej aksan tonlu interyerlərə ideal.',
+    gift:'Paris sevərlərə, romantik cütlüklərə, toy ildönümü hədiyyəsi kimi mükəmməl.',
+    metaDesc:'Paris Eyfel qızıl şəfəq tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'044', code:'VB-GAL-044', alt:'044',
+    title:'Good Morning – Çiçək və Saat',
+    artist:'Naməlum rəssam', cat:'diger',
+    size:'Ölçü soruşun', material:'Əl işi',
+    seoDesc:'Bənövşəyi limon çiçəkləri, çəhrayı köhnə saat, «Good Morning» yazısı. Şən sabah mövzulu tablo.',
+    emoDesc:'Hər sabah divardan sizi selamlayan bu tablo – günə pozitiv başlamaq üçün ən yaxşı xatırlatma.',
+    interior:'Mətbəx, yemək otağı, giriş hollu. Açıq, şən atmosferli interyerlərə mükəmməl.',
+    gift:'Optimist, həyatsevər insanlara; yeni evə köçənlərə – şən sabahlar hədiyyə et.',
+    metaDesc:'Good Morning çiçək saat tablo. Divar tablosu Bakı – VəBo Gallery.'
+  },
+  {
+    num:'045', code:'VB-GAL-045', alt:'045',
+    title:'Ərəb Atı – Şərq Naxışlı Mavi',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Mavi-qızıl Şərq naxışlı fonda ağ ərəb atının portret tablosu. Yaldızlı bəzəkli, parıltılı tekstura.',
+    emoDesc:'Yalı yellənir, gözləri dərindir – bu at cəsarətin, azadlığın simvoludur. Şərq naxışları isə köklərə işarədir.',
+    interior:'Qonaq otağı, kabinet, ən görkəmli divar üçün. Mavi-qızıl tonlu interyerlərə əla.',
+    gift:'Ata sevər insanlara, cəsarəti sevənlərə, hədiyyəlik lüks əsər.',
+    metaDesc:'Ərəb atı Şərq naxışlı mavi tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'046', code:'VB-GAL-046', alt:'046',
+    title:'Çiçək Başlıqlı Qadın – Gümüşü (Kiçik)',
+    artist:'Naməlum rəssam', cat:'portret',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Başında nəhəng ağ-gümüşü şəkofələr olan zərif qadın profil portreti. Parıltılı müasir tablo.',
+    emoDesc:'Çiçəklər üzünü gizlətmişdir – amma gözəllik hər ləçəkdə görünür. Müəmmalı, zərif, unudulmaz bir portret.',
+    interior:'Yataq otağı, qadın kabinetləri, butik. Bej-gümüşü interyerlərə mükəmməl.',
+    gift:'Zərif qadınlara, estetik zövqlü insanlara – müasir incəsənətin hədiyyəsi.',
+    metaDesc:'Çiçək başlıqlı qadın gümüşü portret tablo. Divar tablosu Bakı.'
+  },
+  {
+    num:'047', code:'VB-GAL-047', alt:'047',
+    title:'Qırmızı Şemsiyəli Qız – İki Köpəklə',
+    artist:'Naməlum rəssam', cat:'portret',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Qırmızı şemsiyəli moda qız, iki köpəklə paltarda yürüyüş. Qızıl parıltılı çərçivəli müasir tablo.',
+    emoDesc:'Küləkli gündə belə stillidir, inamlıdır. Bu tablo enerjini, əzəmətini divarınıza köçürür.',
+    interior:'Qadın kabinetləri, geyim mağazaları, müasir qonaq otaqları. Ağ-qızıl interyerlərə ideal.',
+    gift:'Moda sevər qadınlara, şən ruha sahib insanlara – üslubun hədiyyəsi.',
+    metaDesc:'Qırmızı şemsiyəli qız köpəklər tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'048', code:'VB-GAL-048', alt:'048',
+    title:'Çiçək Başlıqlı Qadın – Gümüşü (Böyük)',
+    artist:'Naməlum rəssam', cat:'portret',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Başında nəhəng ağ-mavi parıltılı şəkofələr olan qadın profil portreti. Böyük format, parıltılı müasir tablo.',
+    emoDesc:'Daha böyük formatta – daha güclü təsir. Çiçəklərin arxasında gizlənmiş zəriflik. Divarın ən görkəmli nöqtəsinə layiq.',
+    interior:'Qonaq otağı, ana divar. Neytral, minimalist interyerlərə dramatik effekt.',
+    gift:'Estetik zövqlü qadınlara lüks hədiyyə, toy hədiyyəsi kimi mükəmməl.',
+    metaDesc:'Çiçək başlıqlı qadın böyük format tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'049', code:'VB-GAL-049', alt:'049',
+    title:'Ayətəlkürsü – Sarı Qızıl Damla',
+    artist:'Naməlum rəssam', cat:'hediyye',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Sarı-qızıl fonda yaşıl parıltılı xəttatlıq ilə Ayətəlkürsü. Gümüş parıltılı kənarlı İslami tablo.',
+    emoDesc:'Qızıl fonun üzərindəki yaşıl hərflər – bu Ayətəlkürsü evi hər növ bəladan qoruyur inanışa görə. Evə nur gətirir.',
+    interior:'Qonaq otağı, namaz otağı. Sarı-qızıl tonlu interyerlərə ideal İslami dekor.',
+    gift:'Ev açımı, toy, doğum günü – dindar insanlara ən xeyirli hədiyyə.',
+    metaDesc:'Ayətəlkürsü sarı qızıl İslami tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'050', code:'VB-GAL-050', alt:'050',
+    title:'Ayətəlkürsü – Yaşıl Qızıl Damla',
+    artist:'Naməlum rəssam', cat:'hediyye',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Yaşıl-boz fonda qızıl-firuzəyi parıltılı xəttatlıq ilə Ayətəlkürsü. Qızıl kənarlı İslami tablo.',
+    emoDesc:'Yaşıl – cənnətin rəngi. Qızıl xərəkərlər isə gözü oxşayır, ruhu sakitləşdirir. Evə bərəkət gətirir.',
+    interior:'Qonaq otağı, namaz otağı. Yaşıl-qızıl aksan tonlu interyerlərə ideal İslami dekor.',
+    gift:'Ev açımı, toy, Ramazan hədiyyəsi – xeyirli İslami hədiyyə.',
+    metaDesc:'Ayətəlkürsü yaşıl qızıl İslami tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'051', code:'VB-GAL-051', alt:'051',
+    title:'Üç Ağ At – Rəngarəng Şəfəq',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'100×70 sm', material:'Kadife (Mexmer)',
+    seoDesc:'Rəngarəng şəfəq (qırmızı-sarı-mavi) fonunda üç ağ at koşur. 100×70 sm kadife tablo.',
+    emoDesc:'Azadlığın üç simvolu – dağılmaz güc, sonsuz enerji. Rəngarəng şəfəq fonunda at – heç bir divardan daha güclü görüntü.',
+    interior:'Qonaq otağı, kabinet, işgüzar ofis. Rəngarəng, enerjili interyerlərə mükəmməl.',
+    gift:'Güclü, enerjili insanlara, at sevərlərə – azadlığı hədiyyə et.',
+    metaDesc:'Üç ağ at rəngarəng şəfəq 100×70 sm kadife tablo. Divar tablosu Bakı.'
+  },
+  {
+    num:'052', code:'VB-GAL-052', alt:'052',
+    title:'İki Ağ At – Qızıl Çöl',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'100×70 sm', material:'Kadife (Mexmer)',
+    seoDesc:'Qızıl-sarı çöl fonunda iki ağ at qoşur. 100×70 sm kadife tablo.',
+    emoDesc:'Qızıl toz arasında qaçan iki at – güc, harmoniya, birlik. Bu tablo otağa müstəsna bir enerji verir.',
+    interior:'Qonaq otağı, işgüzar kabinet. Qızıl-bej tonlu interyerlərə əla.',
+    gift:'At sevərlərə, güclü insanlara, iş uğurunu simvolizə edən hədiyyə.',
+    metaDesc:'İki ağ at qızıl çöl 100×70 sm kadife tablo. Divar tablosu Bakı.'
+  },
+  {
+    num:'053', code:'VB-GAL-053', alt:'053',
+    title:'General At Üstündə – Tarixi Döyüş',
+    artist:'Naməlum rəssam', cat:'sheher',
+    size:'100×70 sm', material:'Kadife (Mexmer)',
+    seoDesc:'XVII–XVIII əsr üslubunda ağ at üstündə qırmızı paltarlı general, arxa planda döyüş. 100×70 sm kadife tablo.',
+    emoDesc:'Tarihin dönüm nöqtəsindəki o əzəmətli an – general, at, döyüşün tüstüsü. Güc və qürur dolu tarixi tablo.',
+    interior:'Kabinet, ofis, kişi otağı. Klassik, tarixi dekorlu interyerlərə ideal.',
+    gift:'Tarix sevər, lider ruha sahib insanlara – qüruru hədiyyə et.',
+    metaDesc:'General at üstündə tarixi döyüş 100×70 sm kadife tablo. Divar tablosu Bakı.'
+  },
+  {
+    num:'054', code:'VB-GAL-054', alt:'054',
+    title:'Şəki Xan Sarayı – Milli İrs',
+    artist:'Naməlum rəssam', cat:'sheher',
+    size:'70×50 sm', material:'Kadife (Mexmer)',
+    seoDesc:'Şəki Xan Sarayının rəngarəng şəbəkə pəncərəli, ornamentli fasadı. 70×50 sm kadife Azərbaycan milli irsi tablosu.',
+    emoDesc:'Azərbaycanın şah əsəri – Şəki Xan Sarayı. Hər ornament, hər rəng bu xalqın böyüklüyünü danışır. Milli qürur tablosu.',
+    interior:'Qonaq otağı, ofis, otel lobbisi. Şərq-Azərbaycan üslublu interyerlərə mükəmməl.',
+    gift:'Azərbaycanlılara, vətən sevgisi olanlara, xarici qonaqlara – milli hədiyyə.',
+    metaDesc:'Şəki Xan Sarayı Azərbaycan milli tablo 70×50 sm. Kadife divar tablosu Bakı.'
+  },
+  {
+    num:'055', code:'VB-GAL-055', alt:'055',
+    title:'Boğaz Körpüsü – Qızılı Şəfəq',
+    artist:'Naməlum rəssam', cat:'sheher',
+    size:'100×70 sm', material:'Kadife (Mexmer)',
+    seoDesc:'İstanbul Boğaz körpüsü qızıl-mis şəfəq fonunda, gecə işıqları. 100×70 sm kadife divar tablosu.',
+    emoDesc:'Gün batımının son işığında köprünün silueti – qızıl-qırmızı göy altında İstanbul. Hər baxışda nəfəs kəsilir.',
+    interior:'Qonaq otağı, yemək otağı. Qızıl-mis tonlu interyerlərə mükəmməl panoramik tablo.',
+    gift:'İstanbul sevgisi olan hər kəsə, yeni evə köçənlərə – möhtəşəm hədiyyə.',
+    metaDesc:'Boğaz körpüsü qızılı şəfəq 100×70 sm kadife tablo. Divar tablosu Bakı.'
+  },
+  {
+    num:'056', code:'VB-GAL-056', alt:'056',
+    title:'Dolomit Gölü – Dağ Macərası',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'100×70 sm', material:'Əl işi',
+    seoDesc:'İtaliya Dolomit dağları önündə firuzəyi göl, taxta körpü, kiçik qayıq. 100×70 sm tablo.',
+    emoDesc:'Havanın içindəki o sükut – dağların böyüklüyü, suyun saflığı. Bu tablo hər baxışda kəşfə çağırır.',
+    interior:'Qonaq otağı, kabinet. Mavi-firuzəyi aksan tonlu interyerlərə ideal.',
+    gift:'Səyahətsevərlərə, təbiətsevərlərə – dünyanın gözəlliyini hədiyyə et.',
+    metaDesc:'Dolomit gölü dağ mənzərəsi 100×70 sm tablo. Divar tablosu Bakı.'
+  },
+  {
+    num:'057', code:'VB-GAL-057', alt:'057',
+    title:'Payız Parkı – Çətirli Cüt',
+    artist:'Leonid Afremov üslubu', cat:'menzere',
+    size:'100×70 sm', material:'Kadife (Mexmer)',
+    seoDesc:'Sarı-narıncı payız parkında çətirli cüt silueti, sarı skamyalar, fənərlər. Afremov üslubunda 100×70 sm kadife tablo.',
+    emoDesc:'Payız yağışında belə birlikdədirlər. Fənərlərin isti işığı, skamyalar, sarı yarpaqlar – romantizmin ən güclü tablosu.',
+    interior:'Qonaq otağı, yataq otağı. Qızıl-sarı tonlu interyerlərə mükəmməl.',
+    gift:'Cütlüklərə, toy ildönümü, sevgililer günü – sevgini hədiyyə et.',
+    metaDesc:'Payız parkı çətirli cüt Afremov 100×70 sm kadife tablo. Divar tablosu Bakı.'
+  },
+  {
+    num:'058', code:'VB-GAL-058', alt:'058',
+    title:'Mədinə – Peyğəmbər Məscidi Gündüz',
+    artist:'Naməlum rəssam', cat:'hediyye',
+    size:'70×50 sm', material:'Kadife (Mexmer)',
+    seoDesc:'Mədinə Peyğəmbər Məscidi gündüz mavi göy altında havadan görüntü. 70×50 sm kadife İslami tablo.',
+    emoDesc:'İslamın ikinci müqəddəs şəhəri. Ağ minarələr göyə yüksəlir, etraf isə sakit nur içindədir.',
+    interior:'Qonaq otağı, namaz otağı, dini məkanlara uyğun. İslami dekorun klassik seçimi.',
+    gift:'Həcc-ümrə edənlərə, dindar insanlara, Ramazan hədiyyəsi.',
+    metaDesc:'Mədinə Peyğəmbər Məscidi gündüz 70×50 sm kadife tablo. İslami divar tablosu Bakı.'
+  },
+  {
+    num:'059', code:'VB-GAL-059', alt:'059',
+    title:'Mavi Gözəl – Brilyant Dodaqlar',
+    artist:'Naməlum rəssam', cat:'portret',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Mavi fonda gözləri yummuş qadın profili – mavi parıltılı göz kölgəsi, brilyant dodaqlar, kristal bəzəklər.',
+    emoDesc:'Gözləri yummuş lakin hər şeyi hiss edən bir gözəl. Brilyant dodaqlar, mavi parıltı – lüksün tərifi bu tablodan başlayır.',
+    interior:'Yataq otağı, qadın kabinetləri, spa, butik. Mavi-gümüşü interyerlərə ideal.',
+    gift:'Zərif, müasir qadınlara – lüksü hədiyyə et.',
+    metaDesc:'Mavi gözəl brilyant dodaqlar portret tablo parıltılı. Divar tablosu Bakı.'
+  }
 ];
 
 /* ── Generate full artwork list ─────────────────────── */
