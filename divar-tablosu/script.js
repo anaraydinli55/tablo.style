@@ -40,17 +40,6 @@ const ARTWORKS_DATA = [
   },
   {
     num:'003', code:'VB-GAL-003', alt:'003',
-    title:'Paris – Payız Küçəsi',
-    artist:'Naməlum rəssam', cat:'sheher',
-    size:'70×50 sm', material:'Kadife (Mexmer)',
-    seoDesc:'Paris küçəsinin payız mənzərəsi – Eyfel qülləsi, rəngli yarpaqlar, yol kənarında insanlar. 70×50 sm kadife tablo.',
-    emoDesc:'Payız yağışının ritmi, Paris küçəsinin işığı. Bu tablo hər baxanda bir Paris gündüzünü yaşadır sizi.',
-    interior:'Qonaq otağı, yemək otağı, restoran. İsti ton interyerlərə əla uyğun gəlir.',
-    gift:'Paris sevgini hədiyyə et – romantik atmosfer yaratmaq istəyənlər üçün ideal seçim.',
-    metaDesc:'Paris payız küçəsi Eyfel qülləsi tablo 70×50 sm. Kadife divar tablosu Bakı.'
-  },
-  {
-    num:'004', code:'VB-GAL-004', alt:'004',
     title:'Qız Qalası – Göy Səma',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'70×50 sm', material:'Kadife (Mexmer)',
@@ -61,40 +50,18 @@ const ARTWORKS_DATA = [
     metaDesc:'İstanbul Qız Qalası mavi göy tablo 70×50 sm. Kadife divar tablosu Bakı.'
   },
   {
-    num:'005', code:'VB-GAL-005', alt:'005',
-    title:'Qara Qızıl – Düşüncəli Qadın',
-    artist:'Naməlum rəssam', cat:'portret',
-    size:'70×50 sm', material:'Kadife (Mexmer)',
-    seoDesc:'Qara fonda qızıl tonlu düşüncəli qadın portreti. Müasir abstrakt-portret üslubunda 70×50 sm kadife tablo.',
-    emoDesc:'Qara ilə qızılın ziddiyyəti – güclü, qərarlaşmış, dərinlikli bir qadın. Hər baxışda yeni bir hiss.',
-    interior:'Müasir, minimalist interyerlər. Tünd rəngli divarlarda dramatik effekt yaradır.',
-    gift:'Güclü, müstəqil qadınlara ən uyğun hədiyyə. Unudulmaz seçim.',
-    metaDesc:'Qara qızıl qadın portreti tablo 70×50 sm. Kadife divar tablosu Bakı.'
-  },
-  {
-    num:'006', code:'VB-GAL-006', alt:'006',
-    title:'Kapadokya – Hava Balonları',
-    artist:'Naməlum rəssam', cat:'menzere',
-    size:'70×50 sm', material:'Kadife (Mexmer)',
-    seoDesc:'Kapadokya peri bacaları üzərində rəngli hava balonları. Türkiyənin ən məşhur mənzərəsi. 70×50 sm kadife tablo.',
-    emoDesc:'Azadlıq, macəra, səyahət həvəsi. Bu tablo hər gün bir xəyal dünyasına qapı açır.',
-    interior:'Uşaq otağı, qonaq otağı, səyahət mövzulu interyerlər üçün ideal.',
-    gift:'Səyahətsevərlərə, Türkiyə həvəslilərə mükəmməl hədiyyə.',
-    metaDesc:'Kapadokya hava balonları mənzərə tablo 70×50 sm. Kadife divar tablosu Bakı.'
-  },
-  {
-    num:'007', code:'VB-GAL-007', alt:'007',
-    title:'Viktorian Balo – Əzəmətli Məclis',
+    num:'004', code:'VB-GAL-004', alt:'004',
+    title:'Paris – Payız Küçəsi',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'70×50 sm', material:'Kadife (Mexmer)',
-    seoDesc:'XIX əsr Avropa bal gecəsi – şən libaslar, böyük salon, elegantlıq. Tarixi üslubda 70×50 sm kadife tablo.',
-    emoDesc:'Zamanı keçmiş bir əzəmət. Rəngarəng paltarlar, musikinin ritmi – bu tablo evi şüurla zənginləşdirir.',
-    interior:'Klassik, barokko üslublu interyerlər, restoran, mehmanxana lobbisi.',
-    gift:'Tarix və incəsənət həvəslisi dostlarınıza unikal hədiyyə.',
-    metaDesc:'Viktorian balo əzəmətli məclis tablo 70×50 sm. Kadife divar tablosu Bakı.'
+    seoDesc:'Paris küçəsinin payız mənzərəsi – Eyfel qülləsi, rəngli yarpaqlar, yol kənarında insanlar. 70×50 sm kadife tablo.',
+    emoDesc:'Payız yağışının ritmi, Paris küçəsinin işığı. Bu tablo hər baxanda bir Paris gündüzünü yaşadır sizi.',
+    interior:'Qonaq otağı, yemək otağı, restoran. İsti ton interyerlərə əla uyğun gəlir.',
+    gift:'Paris sevgini hədiyyə et – romantik atmosfer yaratmaq istəyənlər üçün ideal seçim.',
+    metaDesc:'Paris payız küçəsi Eyfel qülləsi tablo 70×50 sm. Kadife divar tablosu Bakı.'
   },
   {
-    num:'008', code:'VB-GAL-008', alt:'008',
+    num:'005', code:'VB-GAL-005', alt:'005',
     title:'Sultan Əhməd Məscidi – İstanbul',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'70×50 sm', material:'Kadife (Mexmer)',
@@ -105,7 +72,18 @@ const ARTWORKS_DATA = [
     metaDesc:'Sultan Əhməd Məscidi İstanbul tablo 70×50 sm. Kadife divar tablosu Bakı.'
   },
   {
-    num:'009', code:'VB-GAL-009', alt:'009',
+    num:'006', code:'VB-GAL-006', alt:'006',
+    title:'Viktorian Balo – Əzəmətli Məclis',
+    artist:'Naməlum rəssam', cat:'sheher',
+    size:'70×50 sm', material:'Kadife (Mexmer)',
+    seoDesc:'XIX əsr Avropa bal gecəsi – şən libaslar, böyük salon, elegantlıq. Tarixi üslubda 70×50 sm kadife tablo.',
+    emoDesc:'Zamanı keçmiş bir əzəmət. Rəngarəng paltarlar, musikinin ritmi – bu tablo evi şüurla zənginləşdirir.',
+    interior:'Klassik, barokko üslublu interyerlər, restoran, mehmanxana lobbisi.',
+    gift:'Tarix və incəsənət həvəslisi dostlarınıza unikal hədiyyə.',
+    metaDesc:'Viktorian balo əzəmətli məclis tablo 70×50 sm. Kadife divar tablosu Bakı.'
+  },
+  {
+    num:'007', code:'VB-GAL-007', alt:'007',
     title:'Allah Kəlamı – Qızıl Xəttat',
     artist:'Naməlum rəssam', cat:'hediyye',
     size:'70×50 sm', material:'Kadife (Mexmer)',
@@ -116,7 +94,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Allah xəttatlıq qızıl tablo 70×50 sm. İslami divar tablosu Bakı.'
   },
   {
-    num:'010', code:'VB-GAL-010', alt:'010',
+    num:'008', code:'VB-GAL-008', alt:'008',
     title:'Payız Meşəsi – Afremov Üslubu',
     artist:'Leonid Afremov üslubu', cat:'menzere',
     size:'70×50 sm', material:'Kadife (Mexmer)',
@@ -125,6 +103,28 @@ const ARTWORKS_DATA = [
     interior:'Qonaq otağı, yemək otağı, müasir interyerlər. Sarı-qəhvəyi tonlu dekorlara əla uyğun.',
     gift:'Doğum günü, ev açımı – payızı sevənlərə, incəsənət həvəslilərinə mükəmməl hədiyyə.',
     metaDesc:'Payız meşəsi Afremov üslubu tablo 70×50 sm. Kadife divar tablosu Bakı.'
+  },
+  {
+    num:'009', code:'VB-GAL-009', alt:'009',
+    title:'Qara Qızıl – Düşüncəli Qadın',
+    artist:'Naməlum rəssam', cat:'portret',
+    size:'70×50 sm', material:'Kadife (Mexmer)',
+    seoDesc:'Qara fonda qızıl tonlu düşüncəli qadın portreti. Müasir abstrakt-portret üslubunda 70×50 sm kadife tablo.',
+    emoDesc:'Qara ilə qızılın ziddiyyəti – güclü, qərarlaşmış, dərinlikli bir qadın. Hər baxışda yeni bir hiss.',
+    interior:'Müasir, minimalist interyerlər. Tünd rəngli divarlarda dramatik effekt yaradır.',
+    gift:'Güclü, müstəqil qadınlara ən uyğun hədiyyə. Unudulmaz seçim.',
+    metaDesc:'Qara qızıl qadın portreti tablo 70×50 sm. Kadife divar tablosu Bakı.'
+  },
+  {
+    num:'010', code:'VB-GAL-010', alt:'010',
+    title:'Kapadokya – Hava Balonları',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'70×50 sm', material:'Kadife (Mexmer)',
+    seoDesc:'Kapadokya peri bacaları üzərində rəngli hava balonları. Türkiyənin ən məşhur mənzərəsi. 70×50 sm kadife tablo.',
+    emoDesc:'Azadlıq, macəra, səyahət həvəsi. Bu tablo hər gün bir xəyal dünyasına qapı açır.',
+    interior:'Uşaq otağı, qonaq otağı, səyahət mövzulu interyerlər üçün ideal.',
+    gift:'Səyahətsevərlərə, Türkiyə həvəslilərə mükəmməl hədiyyə.',
+    metaDesc:'Kapadokya hava balonları mənzərə tablo 70×50 sm. Kadife divar tablosu Bakı.'
   },
   {
     num:'011', code:'VB-GAL-011', alt:'011',
@@ -150,14 +150,14 @@ const ARTWORKS_DATA = [
   },
   {
     num:'013', code:'VB-GAL-013', alt:'013',
-    title:'Bənövşəyi Küçə – Çiçəkli Cənnət',
-    artist:'Naməlum rəssam', cat:'menzere',
-    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
-    seoDesc:'Bənövşəyi çiçəklərlə örtülü Aralıq dənizi küçəsi, daş evlər, vintaj avtomobil. Parıltılı divar tablosu.',
-    emoDesc:'Yay istiləri, çiçəklərin ətrinin hiss edildiyi bir an. Bu tablo qışın ortasında belə evə bahar gətirir.',
-    interior:'Qonaq otağı, yemək otağı, hamam. Rəngli, şən interyerlər üçün mükəmməl.',
-    gift:'Çiçək sevənlərə, baharı hədiyyə etmək istəyənlərə – ən rəngarəng seçim.',
-    metaDesc:'Bənövşəyi çiçəkli küçə tablo parıltılı. Divar tablosu Bakı.'
+    title:'Ağ-Mavi Papatya Buketi',
+    artist:'Leonid Afremov üslubu', cat:'menzere',
+    size:'Ölçü soruşun', material:'Əl işi',
+    seoDesc:'Ağ və mavi papatya buketi şüşə vazada – Leonid Afremov üslubunda rəngarəng fon, enerjili fırça zərbələri.',
+    emoDesc:'Güllər solur, amma bu tablo əbədi qalır. Tazəlik, sevinc, bahar enerjisi – hər gün evə çiçək gətirir.',
+    interior:'Mətbəx, yemək otağı, koridor, hamam. İstənilən interyerə uyğun gəlir.',
+    gift:'Doğum günü, Qadınlar Günü, ana günü üçün mükəmməl çiçək tablosu.',
+    metaDesc:'Ağ mavi papatya buketi tablo Afremov üslubu. Divar tablosu Bakı.'
   },
   {
     num:'014', code:'VB-GAL-014', alt:'014',
@@ -172,14 +172,14 @@ const ARTWORKS_DATA = [
   },
   {
     num:'015', code:'VB-GAL-015', alt:'015',
-    title:'Ağ-Mavi Papatya Buketi',
-    artist:'Leonid Afremov üslubu', cat:'menzere',
-    size:'Ölçü soruşun', material:'Əl işi',
-    seoDesc:'Ağ və mavi papatya buketi şüşə vazada – Leonid Afremov üslubunda rəngarəng fon, enerjili fırça zərbələri.',
-    emoDesc:'Güllər solur, amma bu tablo əbədi qalır. Tazəlik, sevinc, bahar enerjisi – hər gün evə çiçək gətirir.',
-    interior:'Mətbəx, yemək otağı, koridor, hamam. İstənilən interyerə uyğun gəlir.',
-    gift:'Doğum günü, Qadınlar Günü, ana günü üçün mükəmməl çiçək tablosu.',
-    metaDesc:'Ağ mavi papatya buketi tablo Afremov üslubu. Divar tablosu Bakı.'
+    title:'Bənövşəyi Küçə – Çiçəkli Cənnət',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Bənövşəyi çiçəklərlə örtülü Aralıq dənizi küçəsi, daş evlər, vintaj avtomobil. Parıltılı divar tablosu.',
+    emoDesc:'Yay istiləri, çiçəklərin ətrinin hiss edildiyi bir an. Bu tablo qışın ortasında belə evə bahar gətirir.',
+    interior:'Qonaq otağı, yemək otağı, hamam. Rəngli, şən interyerlər üçün mükəmməl.',
+    gift:'Çiçək sevənlərə, baharı hədiyyə etmək istəyənlərə – ən rəngarəng seçim.',
+    metaDesc:'Bənövşəyi çiçəkli küçə tablo parıltılı. Divar tablosu Bakı.'
   },
   {
     num:'016', code:'VB-GAL-016', alt:'016',
