@@ -183,7 +183,7 @@ const ARTWORKS_DATA = [
   },
   {
     num:'016', code:'VB-GAL-016', alt:'016',
-    title:'Turna Quşu – Gün Batımı Silueti',
+    title:'Durna Quşu – Gün Batımı Silueti',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
     seoDesc:'Narıncı-sarı gün batımında turna quşunun qara silueti, uçan quşlar. Minimalist parıltılı divar tablosu.',
