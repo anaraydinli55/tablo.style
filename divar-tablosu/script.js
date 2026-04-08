@@ -235,8 +235,8 @@ const ARTWORKS_DATA = [
     interior:'Qonaq otağı, uşaq otağı, mətbəx. Açıq, şən atmosferli interyerlərə mükəmməl.',
     gift:'Optimist, həyat sevən insanlara, yeni evə köçənlərə ən rəngli hədiyyə.',
     metaDesc:'Sarı həyət rəngli küçə tablo parıltılı. Divar tablosu Bakı.'
-  }
-    {
+  },
+  {
     num:'021', code:'VB-GAL-021', alt:'021',
     title:'Nağıl Kotteci – Çiçəkli Bağ',
     artist:'Thomas Kinkade üslubu', cat:'menzere',
@@ -444,7 +444,7 @@ const ARTWORKS_DATA = [
     interior:'Qonaq otağı, namaz otağı, dini məkanlara uyğun. İslami ev dekorunun ən gözəl nümunəsi.',
     gift:'Həcc-ümrə ziyarəti edənlərə, Ramazan hədiyyəsi, dindar dostlara – müqəddəs xatirə.',
     metaDesc:'Mədinə Peyğəmbər Məscidi gecə tablo parıltılı. İslami divar tablosu Bakı.'
-  },
+  }
 ];
 
 /* ── Generate full artwork list ─────────────────────── */
