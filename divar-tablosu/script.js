@@ -502,7 +502,7 @@ const ARTWORKS_DATA = [
   },
   {
     num:'045', code:'VB-GAL-045', alt:'045',
-    title:'Ərəb Atı – Şərq Naxışlı Mavi',
+    title:'Ərəb Atı Ağ – Şərq Naxışlı',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
     seoDesc:'Mavi-qızıl Şərq naxışlı fonda ağ ərəb atının portret tablosu. Yaldızlı bəzəkli, parıltılı tekstura.',
@@ -513,7 +513,7 @@ const ARTWORKS_DATA = [
   },
   {
     num:'046', code:'VB-GAL-046', alt:'046',
-    title:'Çiçək Başlıqlı Qadın – Gümüşü (Kiçik)',
+    title:'Çiçək Başlıqlı Qadın – Gümüşü',
     artist:'Naməlum rəssam', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
     seoDesc:'Başında nəhəng ağ-gümüşü şəkofələr olan zərif qadın profil portreti. Parıltılı müasir tablo.',
@@ -524,7 +524,7 @@ const ARTWORKS_DATA = [
   },
   {
     num:'047', code:'VB-GAL-047', alt:'047',
-    title:'Qırmızı Şemsiyəli Qız – İki Köpəklə',
+    title:'Qırmızı Şəmsiyəli Qız – İki Köpəklə',
     artist:'Naməlum rəssam', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
     seoDesc:'Qırmızı şemsiyəli moda qız, iki köpəklə paltarda yürüyüş. Qızıl parıltılı çərçivəli müasir tablo.',
@@ -590,7 +590,7 @@ const ARTWORKS_DATA = [
   },
   {
     num:'053', code:'VB-GAL-053', alt:'053',
-    title:'General At Üstündə – Tarixi Döyüş',
+    title:'Napoleon At Üstündə – Tarixi Döyüş',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'100×70 sm', material:'Kadife (Mexmer)',
     seoDesc:'XVII–XVIII əsr üslubunda ağ at üstündə qırmızı paltarlı general, arxa planda döyüş. 100×70 sm kadife tablo.',
