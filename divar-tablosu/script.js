@@ -1,5 +1,312 @@
+// ═══════════════════════════════════════════════════════
+// Tablo Style Gallery – ARTWORK DATA: 001–020
+// script.js-dəki generateArtworks() funksiyasını
+// aşağıdakı ARTWORKS_DATA array ilə əvəz et
+// ═══════════════════════════════════════════════════════
+
+const ARTWORKS_DATA = [
+
+  {
+    num:'001', code:'VB-GAL-001',
+    title:'Qızıl Xanım – Şlyapalı Gözəl',
+    artist:'Naməlum rəssam',
+    cat:'portret',
+    size:'100×70 sm',
+    material:'Kadife (Mexmer)',
+    seoDesc:'Qızıl-tünd qırmızı tonda şlyapalı qadın portreti. Brilyant boyunbağı, qolbaq və sırğalarla bəzənmiş zərif siluet. 100×70 sm kadife tablo.',
+    emoDesc:'Zərif əlləri üzünü tutur, gözləri düşüncəlidir. Qızıl örtük altında gizlənmiş bir sirr var sanki. Evinizin ən görkəmli divarına layiq tablo.',
+    interior:'Qonaq otağı, yataq otağı, ofis. Tünd tonlu interyerlərlə mükəmməl uyğunlaşır.',
+    gift:'Doğum günü, toy ildönümü – zövqlü qadınlara ideal hədiyyə.',
+    metaDesc:'Şlyapalı qızıl qadın portreti, 100×70 sm kadife tablo. Bakıda divar tablosu sifarişi – VəBo Gallery.'
+  },
+
+  {
+    num:'002', code:'VB-GAL-002',
+    title:'Mavi Tovuzquşu – Çiçəklər Arasında',
+    artist:'Naməlum rəssam',
+    cat:'menzere',
+    size:'Ölçü soruşun',
+    material:'Əl işi tablo',
+    seoDesc:'Mavi tovuzquşu ağ çiçəklər arasında – relyef teksturlu, qızıl detallarla bəzədilmiş divar tablosu. Zəngin rəng palitrasında unikal əsər.',
+    emoDesc:'Sehirli bir bağda sanki donub qalmış an. Mavinin min çaları, ağ ləçəklər – hər baxanda yeni bir detal kəşf edirsən.',
+    interior:'Yaşayış otağı, koridor, otel lobbisi. Açıq rəngli divarlarda əsər son dərəcə effektlidir.',
+    gift:'Ev açımı, toy hədiyyəsi – zəngin görünüşlü lüks hədiyyə.',
+    metaDesc:'Mavi tovuzquşu çiçəkli divar tablosu. Əl işi relyef tablo Bakı – VəBo Gallery.'
+  },
+
+  {
+    num:'003', code:'VB-GAL-003',
+    title:'Paris – Payız Küçəsi',
+    artist:'Naməlum rəssam',
+    cat:'sheher',
+    size:'70×50 sm',
+    material:'Kadife (Mexmer)',
+    seoDesc:'Paris küçəsinin payız mənzərəsi – Eyfel qülləsi, rəngli yarpaqlar, yol kənarında insanlar. 70×50 sm kadife tablo.',
+    emoDesc:'Payız yağışının ritmi, Paris küçəsinin işığı. Bu tablo hər baxanda bir Paris gündüzünü yaşadır sizi.',
+    interior:'Qonaq otağı, yemək otağı, restoran. İsti ton interyerlərə əla uyğun gəlir.',
+    gift:'Paris sevgini hədiyyə et – romantik atmosfer yaratmaq istəyənlər üçün ideal seçim.',
+    metaDesc:'Paris payız küçəsi Eyfel qülləsi tablo 70×50 sm. Kadife divar tablosu Bakı – VəBo Gallery.'
+  },
+
+  {
+    num:'004', code:'VB-GAL-004',
+    title:'Qız Qalası – Göy Səma',
+    artist:'Naməlum rəssam',
+    cat:'sheher',
+    size:'70×50 sm',
+    material:'Kadife (Mexmer)',
+    seoDesc:'İstanbul Qız Qalası parlaq mavi göy fonunda, uçan qartallar ilə. 70×50 sm kadife divar tablosu.',
+    emoDesc:'Boğazın ortasında əzəmətlə duran Qız Qalası, ağ buludlar arasında qanadlanan quşlar – azadlıq hissi verən əsər.',
+    interior:'Qonaq otağı, kabinet, dəhliz. Mavi-ağ interyerlərə mükəmməl uyğun.',
+    gift:'Türkiyəni sevənlərə, İstanbul xatirəsi kimi ideal hədiyyə.',
+    metaDesc:'İstanbul Qız Qalası mavi göy tablo 70×50 sm. Kadife divar tablosu Bakı – VəBo Gallery.'
+  },
+
+  {
+    num:'005', code:'VB-GAL-005',
+    title:'Qara Qızıl – Düşüncəli Qadın',
+    artist:'Naməlum rəssam',
+    cat:'portret',
+    size:'70×50 sm',
+    material:'Kadife (Mexmer)',
+    seoDesc:'Qara fonda qızıl tonlu düşüncəli qadın portreti. Müasir abstrakt-portret üslubunda 70×50 sm kadife tablo.',
+    emoDesc:'Qara ilə qızılın ziddiyyəti – güclü, qərarlaşmış, dərinlikli bir qadın. Hər baxışda yeni bir hiss.',
+    interior:'Müasir, minimalist interyerlər. Tünd rəngli divarlarda dramatik effekt yaradır.',
+    gift:'Güclü, müstəqil qadınlara ən uyğun hədiyyə. Unudulmaz seçim.',
+    metaDesc:'Qara qızıl qadın portreti tablo 70×50 sm. Kadife divar tablosu Bakı – VəBo Gallery.'
+  },
+
+  {
+    num:'006', code:'VB-GAL-006',
+    title:'Kapadokya – Hava Balonları',
+    artist:'Naməlum rəssam',
+    cat:'menzere',
+    size:'70×50 sm',
+    material:'Kadife (Mexmer)',
+    seoDesc:'Kapadokya peri bacaları üzərində rəngli hava balonları. Türkiyənin ən məşhur mənzərəsi. 70×50 sm kadife tablo.',
+    emoDesc:'Azadlıq, macəra, səyahət həvəsi. Bu tablo hər gün bir xəyal dünyasına qapı açır.',
+    interior:'Uşaq otağı, qonaq otağı, səyahət mövzulu interyerlər üçün ideal.',
+    gift:'Səyahətsevərlərə, Türkiyə həvəslilərə mükəmməl hədiyyə.',
+    metaDesc:'Kapadokya hava balonları mənzərə tablo 70×50 sm. Kadife divar tablosu Bakı – VəBo Gallery.'
+  },
+
+  {
+    num:'007', code:'VB-GAL-007',
+    title:'Viktorian Balo – Əzəmətli Məclis',
+    artist:'Naməlum rəssam',
+    cat:'sheher',
+    size:'70×50 sm',
+    material:'Kadife (Mexmer)',
+    seoDesc:'XIX əsr Avropa bal gecəsi – şən libashlar, böyük salon, elegantlıq. Tarixi üslubda 70×50 sm kadife tablo.',
+    emoDesc:'Zamanı keçmiş bir əzəmət. Rəngarəng paltarlar, musikinin ritmi – bu tablo evi şüurla zənginləşdirir.',
+    interior:'Klassik, barokko üslublu interyerlər, restoran, mehmanxana lobbisi.',
+    gift:'Tarix və incəsənət həvəslisi dostlarınıza unikal hədiyyə.',
+    metaDesc:'Viktorian balo əzəmətli məclis tablo 70×50 sm. Kadife divar tablosu Bakı – VəBo Gallery.'
+  },
+
+  {
+    num:'008', code:'VB-GAL-008',
+    title:'Sultan Əhməd Məscidi – İstanbul',
+    artist:'Naməlum rəssam',
+    cat:'sheher',
+    size:'70×50 sm',
+    material:'Kadife (Mexmer)',
+    seoDesc:'İstanbul Sultan Əhməd (Mavi) Məscidi havadan mənzərəsi – yaşıl park, gəmilər, dəniz. 70×50 sm kadife tablo.',
+    emoDesc:'Əsrlərin şahidi bir şəhər. Minarələrin göyə uzandığı bu mənzərə sakitlik və ehtiram hissi oyadır.',
+    interior:'Qonaq otağı, dini məkanlara uyğun, ofis. İslam estetikasına müvafiq.',
+    gift:'Dini duyğuları olan insanlara, İstanbul sevgini hədiyyə etmək üçün ideal.',
+    metaDesc:'Sultan Əhməd Məscidi İstanbul tablo 70×50 sm. Kadife divar tablosu Bakı – VəBo Gallery.'
+  },
+
+  {
+    num:'009', code:'VB-GAL-009',
+    title:'Allah Kəlamı – Qızıl Xəttat',
+    artist:'Naməlum rəssam',
+    cat:'hediyye',
+    size:'70×50 sm',
+    material:'Kadife (Mexmer)',
+    seoDesc:'Allah yazısı ərəb xəttatlığı ilə qızıl fonda, məscid silüeti. İslami divar tablosu. 70×50 sm kadife.',
+    emoDesc:'Qızıl fon üzərində «Allah» kəlamı – evə bərəkət, sakitlik və ruhani atmosfer gətirir.',
+    interior:'Qonaq otağı, yataq otağı, namaz otağı. İslami dekor üçün ən uyğun seçim.',
+    gift:'Ramazan, Novruz, toy hədiyyəsi – dindar insanlara ən mənamlı hədiyyə.',
+    metaDesc:'Allah xəttatlıq qızıl tablo 70×50 sm. İslami divar tablosu Bakı – VəBo Gallery.'
+  },
+
+  {
+    num:'010', code:'VB-GAL-010',
+    title:'Payız Meşəsi – Leonid Afremov Üslubu',
+    artist:'Leonid Afremov üslubu',
+    cat:'menzere',
+    size:'70×50 sm',
+    material:'Kadife (Mexmer)',
+    seoDesc:'Sarı-narıncı payız meşəsi, islaq yol, çətirli adam. Leonid Afremov üslubunda rəngarəng tablo. 70×50 sm kadife.',
+    emoDesc:'Payızın isti rəng nəğməsi – sarı yarpaqlar, islaq asfalt, tənhalığın gözəlliyi. Hər baxanda şeir oxuyursun.',
+    interior:'Qonaq otağı, yemək otağı, müasir interyerlər. Sarı-qəhvəyi tonlu dekorlara əla uyğun.',
+    gift:'Doğum günü, ev açımı – payızı sevənlərə, incəsənət həvəslilərinə mükəmməl hədiyyə.',
+    metaDesc:'Payız meşəsi Afremov üslubu tablo 70×50 sm. Kadife divar tablosu Bakı – VəBo Gallery.'
+  },
+
+  {
+    num:'011', code:'VB-GAL-011',
+    title:'İstanbul Tramvayı – Taksim Küçəsi',
+    artist:'Naməlum rəssam',
+    cat:'sheher',
+    size:'100×70 sm',
+    material:'Əl işi – Parıltılı',
+    seoDesc:'İstanbul qırmızı tramvayı Taksim küçəsində – qızıl parıltılı, vintaj üslubda 100×70 sm divar tablosu.',
+    emoDesc:'Qırmızı tramvay, köhnə daş binalar, qızıl parıltı – İstanbulun ruhunu evinizdəki divara köçürən əsər.',
+    interior:'Qonaq otağı, restoran, kafe, otel. Böyük divanlara ideal ölçü.',
+    gift:'İstanbul sevgisi olan hər kəsə, yeni evə köçənlərə əla hədiyyə.',
+    metaDesc:'İstanbul tramvay Taksim tablo 100×70 sm parıltılı. Divar tablosu Bakı – VəBo Gallery.'
+  },
+
+  {
+    num:'012', code:'VB-GAL-012',
+    title:'Ağ Geyimli Qız – Arxa Silüet',
+    artist:'Naməlum rəssam',
+    cat:'portret',
+    size:'Ölçü soruşun',
+    material:'Əl işi – Parıltılı',
+    seoDesc:'Ağ baliklə geyimli qadın arxa silueti – portağal-mavi fon, parıltılı tekstura. Müasir portret tablo.',
+    emoDesc:'Arxası bizə dönmüş – gedirmi, yoxsa qayıdırmu? Bir an donmuş, cavabsız bir hiss. Emosional gücü yüksək əsər.',
+    interior:'Yataq otağı, qadın kabinetləri, butik interyerlər. Açıq rəngli divarlarda əsər.',
+    gift:'Estetik zövqlü qadınlara, balerin sevərlərə, toy hədiyyəsi üçün ideal.',
+    metaDesc:'Ağ geyimli qız arxa portret tablo parıltılı. Divar tablosu Bakı – VəBo Gallery.'
+  },
+
+  {
+    num:'013', code:'VB-GAL-013',
+    title:'Bənövşəyi Küçə – Çiçəkli Cənnət',
+    artist:'Naməlum rəssam',
+    cat:'menzere',
+    size:'Ölçü soruşun',
+    material:'Əl işi – Parıltılı',
+    seoDesc:'Bənövşəyi çiçəklərlə örtülü Aralıq dənizi küçəsi, daş evlər, vintaj avtomobil. Parıltılı divar tablosu.',
+    emoDesc:'Yay istiləri, çiçəklərin ətrinin hiss edildiyi bir an. Bu tablo qışın ortasında belə evə bahar gətirir.',
+    interior:'Qonaq otağı, yemək otağı, hamam. Rəngli, şən interyerlər üçün mükəmməl.',
+    gift:'Çiçək sevənlərə, baharı hədiyyə etmək istəyənlərə – ən rəngarəng seçim.',
+    metaDesc:'Bənövşəyi çiçəkli küçə tablo parıltılı. Divar tablosu Bakı – VəBo Gallery.'
+  },
+
+  {
+    num:'014', code:'VB-GAL-014',
+    title:'Qız Qalası – Gecə Fırtınası',
+    artist:'Naməlum rəssam',
+    cat:'sheher',
+    size:'Ölçü soruşun',
+    material:'Əl işi – Parıltılı',
+    seoDesc:'İstanbul Qız Qalası dramatik bulud altında, yük gəmisi, parıltılı ulduzlu səma. Gecə mənzərəsi tablo.',
+    emoDesc:'Fırtınalı göy, dənizin coşğusu, qüllənin əzəməti – dramatik gücü ilə insanı hipnoza salan tablo.',
+    interior:'Qonaq otağı, ofis, restoran. Tünd divanlarda möhtəşəm kontrast.',
+    gift:'Güclü estetik hissi olan insanlara, dəniz sevərlərə ideal hədiyyə.',
+    metaDesc:'Qız Qalası gecə fırtına tablo parıltılı. Divar tablosu Bakı – VəBo Gallery.'
+  },
+
+  {
+    num:'015', code:'VB-GAL-015',
+    title:'Ağ-Mavi Papatya Buketi',
+    artist:'Leonid Afremov üslubu',
+    cat:'menzere',
+    size:'Ölçü soruşun',
+    material:'Əl işi',
+    seoDesc:'Ağ və mavi papatya buketi şüşə vazada – Leonid Afremov üslubunda rəngarəng fon, enerjili fırça zərbələri.',
+    emoDesc:'Güllər solur, amma bu tablo əbədi qalır. Tazəlik, sevinc, bahar enerjisi – hər gün evə çiçək gətirir.',
+    interior:'Mətbəx, yemək otağı, koridor, hamam. İstənilən interyerə uyğun gəlir.',
+    gift:'Ən klassik hədiyyə – çiçək tablo. Doğum günü, Qadınlar Günü, ana günü üçün mükəmməl.',
+    metaDesc:'Ağ mavi papatya buketi tablo Afremov üslubu. Divar tablosu Bakı – VəBo Gallery.'
+  },
+
+  {
+    num:'016', code:'VB-GAL-016',
+    title:'Turna Quşu – Gün Batımı Silueti',
+    artist:'Naməlum rəssam',
+    cat:'menzere',
+    size:'Ölçü soruşun',
+    material:'Əl işi – Parıltılı',
+    seoDesc:'Narıncı-sarı gün batımında turna quşunun qara silueti, uçan quşlar. Minimalist parıltılı divar tablosu.',
+    emoDesc:'Günün son ışığında tək duran quş – azadlıq, sakitlik, heyranlıq hissi. Sadə amma dərin bir əsər.',
+    interior:'Yataq otağı, meditasiya otağı, korridor. Narıncı-sarı interyerlərə əla uyğun.',
+    gift:'Sakit, düşüncəli insanlara, təbiət sevərlərə uyğun hədiyyə.',
+    metaDesc:'Turna gün batımı siluet tablo parıltılı. Divar tablosu Bakı – VəBo Gallery.'
+  },
+
+  {
+    num:'017', code:'VB-GAL-017',
+    title:'Leylək Ailəsi – Yuva Sevinci',
+    artist:'Naməlum rəssam',
+    cat:'hediyye',
+    size:'Ölçü soruşun',
+    material:'Əl işi – Parıltılı',
+    seoDesc:'Leyləklər yuvada – ana, ata və balacalar. Ailə sevgisini simvolizə edən parıltılı divar tablosu.',
+    emoDesc:'Yuvanın isti qoynunda ailə sevgisi. Ata gəlir, balalar sevinir – evə hər baxanda ürək riqqətlənir.',
+    interior:'Qonaq otağı, uşaq otağı, ailə otağı. İsti ton interyerlərə uyğun.',
+    gift:'Yeni cütlüklərə, toy hədiyyəsi, körpə dünyaya gəldiyi ailələrə – mənamlı simvolik hədiyyə.',
+    metaDesc:'Leylək ailəsi yuva tablo parıltılı. Hədiyyəlik divar tablosu Bakı – VəBo Gallery.'
+  },
+
+  {
+    num:'018', code:'VB-GAL-018',
+    title:'Flaminqolar – Üç Gözəl',
+    artist:'Naməlum rəssam',
+    cat:'hediyye',
+    size:'Ölçü soruşun',
+    material:'Əl işi – Parıltılı',
+    seoDesc:'Üç flaminqo – narıncı, ağ-gümüşü tonlarda su kənarında. Parıltılı teksturlu müasir divar tablosu.',
+    emoDesc:'Zəriflik, estetika, harmoniya – bu üç flaminqo evinizə bir elegantlıq gətirir ki, sözlə ifadə etmək çətin.',
+    interior:'Qonaq otağı, yataq otağı, spa, butik. Pastel rəngli interyerlərə əla uyğun.',
+    gift:'Zərif qadınlara, modern ev sahiblərinə – ən estetik hədiyyə seçimlərdən biri.',
+    metaDesc:'Flaminqo üç quş tablo parıltılı. Divar tablosu Bakı – VəBo Gallery.'
+  },
+
+  {
+    num:'019', code:'VB-GAL-019',
+    title:'Boğaz Körpüsü – Gecə Panoraması',
+    artist:'Naməlum rəssam',
+    cat:'sheher',
+    size:'Ölçü soruşun',
+    material:'Əl işi – Parıltılı',
+    seoDesc:'İstanbul Boğaz körpüsü gecə işıqları panoraması – qızılı şəhər silüeti, parıltılı tekstura.',
+    emoDesc:'Gecənin qaranlığında parlayan körpü – iki qitəni birləşdirən əzəmət. Bu tablo evinizi genişləndirir.',
+    interior:'Qonaq otağı, yemək otağı, ofis. Uzun, yatay divanlara ideal panoramik ölçü.',
+    gift:'Şəhər həyatını sevənlərə, İstanbullulara, müasir interyersevərlərə ideal hədiyyə.',
+    metaDesc:'Boğaz körpüsü gecə panorama tablo parıltılı. Divar tablosu Bakı – VəBo Gallery.'
+  },
+
+  {
+    num:'020', code:'VB-GAL-020',
+    title:'Sarı Həyət – Rəngli Şəhər Küncü',
+    artist:'Naməlum rəssam',
+    cat:'sheher',
+    size:'Ölçü soruşun',
+    material:'Əl işi – Parıltılı',
+    seoDesc:'Sarı binalar, rəngli pəncərələr, çiçəkli balkonlar, sarı VW avtomobil – şən Aralıq dənizi həyəti tablosu.',
+    emoDesc:'Həyatın rəngarəng tərəfi – sarı, yaşıl, bənövşəyi. Bu tablo baxan hər kəsi təbəssüm etdirir.',
+    interior:'Qonaq otağı, uşaq otağı, mətbəx. Açıq, şən atmosferli interyerlərə mükəmməl.',
+    gift:'Optimist, həyat sevən insanlara, yeni evə köçənlərə ən rəngli hədiyyə.',
+    metaDesc:'Sarı həyət rəngli küçə tablo parıltılı. Divar tablosu Bakı – VəBo Gallery.'
+  }
+
+];
+
+// ═══════════════════════════════════════════════════════
+// script.js-ə necə tətbiq etməli:
+//
+// 1. script.js-i aç
+// 2. generateArtworks() funksiyasının içini tap:
+//    function generateArtworks() { ... }
+// 3. O funksiyanı TAM aşağıdakıla əvəz et:
+//
+// function generateArtworks() {
+//   return ARTWORKS_DATA;
+// }
+//
+// 4. ARTWORKS_DATA array-ini script.js-in yuxarısına əlavə et
+// ═══════════════════════════════════════════════════════
+
+
+
 /* ════════════════════════════════════════════════════════
-   VəBo Gallery – script.js
+   Tablo Style Gallery – script.js
    ════════════════════════════════════════════════════════ */
 
 'use strict';
@@ -20,6 +327,8 @@ const CONFIG = {
 // Add your real data here. Placeholders for now.
 
 function generateArtworks() {
+   return ARTWORKS_DATA;
+   }
   const artworks = [];
   for (let i = 1; i <= CONFIG.totalImages; i++) {
     const num = String(i).padStart(3, '0');
