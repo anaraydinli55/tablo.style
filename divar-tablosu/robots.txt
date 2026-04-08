@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://vebo-gallery.az/sitemap.xml
+Sitemap: https://tablo-style.vercel.app/sitemap.xml
 
 # Crawl-delay for aggressive bots
 User-agent: AhrefsBot
