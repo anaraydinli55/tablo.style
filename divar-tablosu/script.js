@@ -843,25 +843,25 @@ const ARTWORKS_DATA = [
   },
   {
     num:'078', code:'VB-GAL-078', alt:'078',
-    title:'Bəbir Yaxın Plan – Parıltılı Cəld Baxış',
-    artist:'Naməlum rəssam', cat:'diger',
+    title:'Qızıl Dodaqlar – Gözlər Örtülü',
+    artist:'Naməlum rəssam', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
-    seoDesc:'Tünd fonda yaxın planda bəbir – qızıl-gümüş parıltılı nöqtə bəzəkləri. Dramatik müasir heyvan tablosu.',
-    emoDesc:'Gözlərinin içindən baxır – düz sənə. Bəbirin o dərin, soyuq baxışı cəsarəti, gücü anladır.',
-    interior:'Qonaq otağı, müasir ofis. Tünd, güclü effektli interyerlərə ideal.',
-    gift:'Cəsarəti, gücü simvolizə edən hədiyyə – güclü insanlara uyğun.',
-    metaDesc:'Bəbir yaxın plan parıltılı tablo. Divar tablosu Bakı.'
+    seoDesc:'Tünd fonda qızıl parıltılı dırnaqlarla gözlərini örtən qadın, qızıl dodaqlar. Müasir dramatik portret.',
+    emoDesc:'Görmək istemiyər, amma hiss edir hər şeyi. Qızıl dodaqlar gizli bir söz söyləyir. Güclü emosional tablo.',
+    interior:'Müasir, minimalist interyerlər. Tünd divanlarda möhtəşəm effekt.',
+    gift:'Müasir zövqlü insanlara, güclü qadınlara – dərinliyi hədiyyə et.',
+    metaDesc:'Qızıl dodaqlar gözlər örtülü portret tablo. Divar tablosu Bakı.'
   },
   {
     num:'079', code:'VB-GAL-079', alt:'079',
-    title:'Mavi Gözlü Pişik – Fantaziya Portret',
-    artist:'Naməlum rəssam', cat:'diger',
-    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
-    seoDesc:'Tünd fonda mavi parıltılı gözlü tükendi pişik – mavi, qızıl, gümüş parıltılı fantaziya pişik tablosu.',
-    emoDesc:'O gözlər sizi görür – məsum, dərin, sehirli. Bu pişik sıradan pişik deyil; o, gecənin gözüdür.',
-    interior:'Yaşayış otağı, uşaq otağı, yaradıcı iş mühiti. Mavi-qara tonlu interyerlərə ideal.',
-    gift:'Pişik sevənlərə, fantaziya həvəslilərə – sehri hədiyyə et.',
-    metaDesc:'Mavi gözlü pişik fantaziya portret tablo parıltılı. Divar tablosu Bakı.'
+    title:'Qırmızı Şlyapa – Ağ-Qara Gözəl',
+    artist:'Naməlum rəssam', cat:'portret',
+    size:'Ölçü soruşun', material:'Əl işi',
+    seoDesc:'Ağ-qara fonda qırmızı geniş şlyapa və qırmızı dodaqlı müəmmalı qadın portreti. Kontrast müasir tablo.',
+    emoDesc:'Bütün dünya ağ-qaradır, yalnız dodaqlar və şlyapa qırmızıdır. Bu tablo gücü, elegantlığı, sirri anladır.',
+    interior:'Qonaq otağı, qadın kabinetləri, boutique. Ağ-qara tonlu interyerlərə mükəmməl.',
+    gift:'Güclü, elegantlığı sevən qadınlara – sirrli bir hədiyyə.',
+    metaDesc:'Qırmızı şlyapa ağ-qara qadın portret tablo. Divar tablosu Bakı.'
   },
   {
     num:'080', code:'VB-GAL-080', alt:'080',
