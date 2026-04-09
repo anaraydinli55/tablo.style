@@ -52,7 +52,7 @@ const ARTWORKS_DATA = [
   {
     num:'004', code:'VB-GAL-004', alt:'004',
     title:'Paris – Payız Küçəsi',
-    artist:'Naməlum rəssam', cat:'sheher',
+    artist:'Leonid Afremov üslubu', cat:'sheher',
     size:'70×50 sm', material:'Kadife (Mexmer)',
     seoDesc:'Paris küçəsinin payız mənzərəsi – Eyfel qülləsi, rəngli yarpaqlar, yol kənarında insanlar. 70×50 sm kadife tablo.',
     emoDesc:'Payız yağışının ritmi, Paris küçəsinin işığı. Bu tablo hər baxanda bir Paris gündüzünü yaşadır sizi.',
@@ -140,7 +140,7 @@ const ARTWORKS_DATA = [
   {
     num:'012', code:'VB-GAL-012', alt:'012',
     title:'Ağ Geyimli Qız – Arxa Silüet',
-    artist:'Naməlum rəssam', cat:'portret',
+    artist:'Leonid Afremov üslubu', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
     seoDesc:'Ağ baliklə geyimli qadın arxa silueti – portağal-mavi fon, parıltılı tekstura. Müasir portret tablo.',
     emoDesc:'Arxası bizə dönmüş – gedirmi, yoxsa qayıdırmı? Bir an donmuş, cavabsız bir hiss. Emosional gücü yüksək əsər.',
@@ -448,7 +448,7 @@ const ARTWORKS_DATA = [
    {
     num:'040', code:'VB-GAL-040', alt:'040',
     title:'Payız Gecəsi – Ev, Göl, Ay',
-    artist:'Naməlum rəssam', cat:'menzere',
+    artist:'Thomas Kinkade üslubu', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi',
     seoDesc:'Dolunay işığında payız ağacları arasında daş ev, sakit göl, kiçik qayıq. Romantik gecə mənzərəsi tablosu.',
     emoDesc:'Dolunay hər şeyi gümüşə boyayır – qırmızı yarpaqlar, sakin göl, pəncərədən süzülən sarı işıq. Ürəyi ısıdan mənzərə.',
@@ -701,7 +701,7 @@ const ARTWORKS_DATA = [
   {
     num:'065', code:'VB-GAL-065', alt:'065',
     title:'Fantaziya Qız – Qara Bulud Saçlar',
-    artist:'Naməlum rəssam', cat:'portret',
+    artist:'Hülya Özdemir üslubu', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
     seoDesc:'Teal fonda qara bulud saçlı, sarı yarpaq tutan qırmızı libaslı qız. Sürrealist müasir portret tablosu.',
     emoDesc:'Saçları buluddan, əlindəki dal ümiddən yapılmış. Düşüncəli, dərin, müəmmalı – hər baxışda yeni bir hiss.',
@@ -887,7 +887,7 @@ const ARTWORKS_DATA = [
   },
   {
     num:'081', code:'VB-GAL-081', alt:'081',
-    title:'Buxar Lokomotiви – Güc Simvolu',
+    title:'Buxar Lokomotivi – Güc Simvolu',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'100×70 sm', material:'Kadife (Mexmer)',
     seoDesc:'Qara-boz tüstülü buxar lokomotivi – qırmızı ulduz, dramatik tüstü buludu. 100×70 sm kadife tablo.',
@@ -943,7 +943,7 @@ const ARTWORKS_DATA = [
 {
   num:'096', code:'VB-GAL-096', alt:'096',
   title:'Yapon Evi Payız Yarpaqlarında – Kadife Tablo',
-  artist:'Naməlum rəssam', cat:'menzere',
+  artist:'Thomas Kinkade üslubu', cat:'menzere',
   size:'70×100 sm', material:'Kadife (Məxmər) çap',
   seoDesc:'Qırmızı yarpaqlar içində yapon evi – 70x100 sm kadife məxmər teksturalı tablo.',
   emoDesc:'Yaponiyanın sakit köşəsi – qırmızı yarpaqlar, daş, köhnə ev. Sakitlik arayanlara bu tablo cavab verir.',
@@ -964,7 +964,7 @@ const ARTWORKS_DATA = [
 },
 {
   num:'083', code:'VB-GAL-083', alt:'083',
-  title:'Firuzəyi Ağaclar – Qızıl Parıltılı Abstrakt Meşə',
+  title:'Firuzəyi Ağac – Qızıl Parıltılı Abstrakt Meşə',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
   seoDesc:'Mavi-firuzəyi abstrakt ağaclar, qızıl parıltı aksentləri – müasir kanvas tablo.',
@@ -975,7 +975,7 @@ const ARTWORKS_DATA = [
 },
 {
   num:'084', code:'VB-GAL-084', alt:'084',
-  title:'Qar Fırtınasında Buxar Lokomotivu – Qış Gücü',
+  title:'Qar Fırtınasında Buxar Lokomotivi – Qış Gücü',
   artist:'Naməlum rəssam', cat:'menzere',
   size:'Ölçü soruşun', material:'Kanvas çap',
   seoDesc:'Qar fırtınasında qara buxar lokomotivu – dramatik qış mənzərəsi kanvas tablo.',
@@ -987,7 +987,7 @@ const ARTWORKS_DATA = [
 {
   num:'085', code:'VB-GAL-085', alt:'085',
   title:'İşıqlı Qış Kəndi – Körpü və Qarlı Evlər',
-  artist:'Naməlum rəssam', cat:'menzere',
+  artist:'Thomas Kinkade üslubu', cat:'menzere',
   size:'Ölçü soruşun', material:'Kanvas çap',
   seoDesc:'Qarlı kənd, işıqlı evlər, daş körpü – nağıl havası yaradan rəngli kanvas tablo.',
   emoDesc:'Hər pəncərədən işıq süzülür. Soyuq havada isti ev. Bu tablo sizi içəriyə çəkir.',
@@ -1086,7 +1086,7 @@ const ARTWORKS_DATA = [
 {
   num:'095', code:'VB-GAL-095', alt:'095',
   title:'Alov Payız Xiyabanı – Fənərli Park Yolu',
-  artist:'Naməlum rəssam', cat:'menzere',
+  artist:'Leonid Afremov üslubu', cat:'menzere',
   size:'Ölçü soruşun', material:'Kanvas çap – Əl boyası üslubu',
   seoDesc:'Qırmızı-narıncı payız ağacları, fənərli xiyaban – ekspressiv əl boyası üslublu kanvas tablo.',
   emoDesc:'Qızıl fənərlər, alov rəngli yarpaqlar, uzaqda bir siluet. Payızın ən gözəl anı – bu tabloda dondurulub.',
@@ -1097,7 +1097,7 @@ const ARTWORKS_DATA = [
 {
   num:'101', code:'VB-GAL-101', alt:'101',
   title:'Kəmança Tutan Qadın – Mavi Işıqda Musiqi Ruhu',
-  artist:'Naməlum rəssam', cat:'musiqili',
+  artist:'Leonid Afremov üslubu', cat:'musiqili',
   size:'Ölçü soruşun', material:'Kanvas çap – Parıltılı',
   seoDesc:'Ağ köynəkli qadın əlində kəmança, mavi dumanlı fon – parıltılı musiqili kanvas tablo.',
   emoDesc:'Musiqi görünür burada – parıltılar nota kimidi. Bu xanım çalmır, musiqini yaşayır.',
@@ -1108,7 +1108,7 @@ const ARTWORKS_DATA = [
 {
   num:'102', code:'VB-GAL-102', alt:'102',
   title:'Violonçel Çalan Qadın – Rəngarəng Ekspressiv Portret',
-  artist:'Naməlum rəssam', cat:'musiqili',
+  artist:'Leonid Afremov üslubu', cat:'musiqili',
   size:'Ölçü soruşun', material:'Kanvas çap – Şaquli Format',
   seoDesc:'Mavi ətəkli qadın violonçel çalır – narıncı-mavi ekspressiv rəngarəng kanvas tablo.',
   emoDesc:'Musiqi alovla su arasında – narıncı istilik, mavi azadlıq. Bu tablo bir simfoniyadır.',
