@@ -754,7 +754,7 @@ const ARTWORKS_DATA = [
     metaDesc:'At qızıl əks olunma tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'070', code:'VB-GAL-070', alt:'070',
+    num:'078', code:'VB-GAL-078', alt:'078',
     title:'Qırmızı Şlyapa – Ağ-Qara Gözəl',
     artist:'Naməlum rəssam', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi',
@@ -765,7 +765,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Qırmızı şlyapa ağ-qara qadın portret tablo. Divar tablosu Bakı.'
   },
   {
-    num:'071', code:'VB-GAL-071', alt:'071',
+    num:'078', code:'VB-GAL-078', alt:'078',
     title:'Qızıl Dodaqlar – Gözlər Örtülü',
     artist:'Naməlum rəssam', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -776,7 +776,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Qızıl dodaqlar gözlər örtülü portret tablo. Divar tablosu Bakı.'
   },
   {
-    num:'072', code:'VB-GAL-072', alt:'072',
+    num:'077', code:'VB-GAL-077', alt:'077',
     title:'Atəşli Kəpənək – Tünd Gözəl',
     artist:'Naməlum rəssam', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -853,7 +853,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Bəbir yaxın plan parıltılı tablo. Divar tablosu Bakı.'
   },
   {
-    num:'079', code:'VB-GAL-079', alt:'079',
+    num:'071', code:'VB-GAL-071', alt:'071',
     title:'Mavi Gözlü Pişik – Fantaziya Portret',
     artist:'Naməlum rəssam', cat:'diger',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
