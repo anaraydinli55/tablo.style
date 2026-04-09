@@ -744,7 +744,7 @@ const ARTWORKS_DATA = [
   },
   {
     num:'069', code:'VB-GAL-069', alt:'069',
-    title:'At – Qızıl Əks Olunma',
+    title:'At – Gümüşü Əks Olunma',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
     seoDesc:'Qızıl şəfəqdə qaçan at, suda ağ at əksi – qızıl parıltılı kənarlı dramatik ikili tablo.',
