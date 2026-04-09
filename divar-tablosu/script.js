@@ -664,7 +664,227 @@ const ARTWORKS_DATA = [
     interior:'Yataq otağı, qadın kabinetləri, spa, butik. Mavi-gümüşü interyerlərə ideal.',
     gift:'Zərif, müasir qadınlara – lüksü hədiyyə et.',
     metaDesc:'Mavi gözəl brilyant dodaqlar portret tablo parıltılı. Divar tablosu Bakı.'
-  }
+  },
+     {
+    num:'061', code:'VB-GAL-061', alt:'061',
+    title:'Çəhrayı Güllər – Çay Süfrəsi',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Çəhrayı-pembe güllər buketi kristal vazada, yanında çay fincanı. Parıltılı natürmort divar tablosu.',
+    emoDesc:'Güllər çiçəkləmiş, çay dəmlənmiş – bu tablo evə həm gözəllik, həm istilik gətirir. Qonaqpərvərliyin simvolu.',
+    interior:'Mətbəx, yemək otağı, qonaq otağı. Çəhrayı-bej tonlu interyerlərə mükəmməl.',
+    gift:'Qadınlara, ana günü, doğum günü – çiçəkli bir hədiyyə ki, heç solmur.',
+    metaDesc:'Çəhrayı güllər çay süfrəsi tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'062', code:'VB-GAL-062', alt:'062',
+    title:'İngilis Kənd Evi – Tudor Üslubu',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Yaşıl çəmənlikdə payız ağacları arasında ağac-daş Tudor üslublu ingilis kənd evi. Parıltılı tablo.',
+    emoDesc:'İngiltərənin o sakit, xoşbəxt guşəsi – ağacların əhatəsindəki köhnə ev. Hər baxanda sakitlik hiss edirsən.',
+    interior:'Qonaq otağı, ofis, kafe. Klassik, ingilis üslublu interyerlərə ideal.',
+    gift:'Təbiət sevən, sakin həyatı arzulayan insanlara – sakitliyi hədiyyə et.',
+    metaDesc:'İngilis kənd evi Tudor üslubu tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'063', code:'VB-GAL-063', alt:'063',
+    title:'London – Qırmızı Kabinə, Çiçəkli Ağac',
+    artist:'Naməlum rəssam', cat:'sheher',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Çəhrayı çiçəkli ağac altında qırmızı telefon kabinəsi, qırmızı avtobus. Rəngarəng parıltılı London tablosu.',
+    emoDesc:'Qırmızı kabinə, qırmızı avtobus, pembe çiçəklər – Londonun ən rəngli anı. Şəhəri sevənlərə xüsusi tablo.',
+    interior:'Qonaq otağı, yeniyetmə otağı, kafe. Açıq, şən interyerlərə ideal.',
+    gift:'Londonu, Avropanı, şəhər həyatını sevənlərə – rəngləri hədiyyə et.',
+    metaDesc:'London qırmızı kabinə çiçəkli ağac tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'065', code:'VB-GAL-065', alt:'065',
+    title:'Fantaziya Qız – Qara Bulud Saçlar',
+    artist:'Naməlum rəssam', cat:'portret',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Teal fonda qara bulud saçlı, sarı yarpaq tutan qırmızı libaslı qız. Sürrealist müasir portret tablosu.',
+    emoDesc:'Saçları buluddan, əlindəki dal ümiddən yapılmış. Düşüncəli, dərin, müəmmalı – hər baxışda yeni bir hiss.',
+    interior:'Müasir, kreativ interyerlər, yeniyetmə otağı. Teal-yaşıl aksan tonlu dekora ideal.',
+    gift:'Kreativ, sənətsevər insanlara – müəmmanı hədiyyə et.',
+    metaDesc:'Fantaziya qız qara saçlar sürrealist tablo. Divar tablosu Bakı.'
+  },
+  {
+    num:'066', code:'VB-GAL-066', alt:'066',
+    title:'Qalata Qülləsi – Gecə Panoraması',
+    artist:'Naməlum rəssam', cat:'sheher',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'İstanbul Qalata qülləsi gecə havadan mavi-narıncı parıltılı şəhər işıqları panoraması. Parıltılı tablo.',
+    emoDesc:'Gecənin zirvəsindən bütün İstanbul görünür – işıqlar, körpü, dəniz. Şəhərin ruhu bu tablodadır.',
+    interior:'Qonaq otağı, ofis, restoran. Tünd interyerlərə möhtəşəm kontrast.',
+    gift:'İstanbul sevgisi olan hər kəsə – şəhərin ən gözəl gecəsini hədiyyə et.',
+    metaDesc:'Qalata qülləsi gecə panorama tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'067', code:'VB-GAL-067', alt:'067',
+    title:'Qanadlı Pələng – Ağ Qaplan',
+    artist:'Naməlum rəssam', cat:'diger',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Qırmızı bitkili tünd fonda qanadlı ağ qaplan – qızıl-gümüş parıltılı qanadlar, gümüş kənarlı tablo.',
+    emoDesc:'Güc ilə azadlığın birliyi – qanadlı pələng həm əzəmətli, həm də azaddır. Müstəsna fantaziya əsəri.',
+    interior:'Müasir, güclü effektli interyerlər. Tünd, dramatik dekorlu divanlara ideal.',
+    gift:'Güclü, cəsarətli, unikal insanlara – nadir fantaziya hədiyyəsi.',
+    metaDesc:'Qanadlı pələng ağ qaplan tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'068', code:'VB-GAL-068', alt:'068',
+    title:'Parıltılı Maral – Gecə Çəmənliyi',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Tünd gecə göyündə qızıl-gümüş parıltılı maral, yaşıl nöqtəli fon. Parıltılı fantaziya divar tablosu.',
+    emoDesc:'Gecənin qaranlığında parıldayan maral – sehirli, nağılvari, heyrətamiz. Hər baxanda xəyala dalar insan.',
+    interior:'Uşaq otağı, yataq otağı, koridor. Tünd, sehirli atmosferli interyerlərə ideal.',
+    gift:'Uşaqlara, nağıl sevən insanlara, yeni il hədiyyəsi – sehri hədiyyə et.',
+    metaDesc:'Parıltılı maral gecə çəmənliyi tablo. Divar tablosu Bakı.'
+  },
+  {
+    num:'069', code:'VB-GAL-069', alt:'069',
+    title:'At – Qızıl Əks Olunma',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Qızıl şəfəqdə qaçan at, suda ağ at əksi – qızıl parıltılı kənarlı dramatik ikili tablo.',
+    emoDesc:'Günəş kimi parlayan at yuxarıda, suda isə ağ ruhu var. Gerçəklik ilə xəyalın dansı – dərin, sehirli əsər.',
+    interior:'Qonaq otağı, kabinet. Qızıl-tünd tonlu interyerlərə effektli kontrast.',
+    gift:'At sevənlərə, dərin mənalı hədiyyə axtaranlara – sehrli bir əsər.',
+    metaDesc:'At qızıl əks olunma tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'070', code:'VB-GAL-070', alt:'070',
+    title:'Qırmızı Şlyapa – Ağ-Qara Gözəl',
+    artist:'Naməlum rəssam', cat:'portret',
+    size:'Ölçü soruşun', material:'Əl işi',
+    seoDesc:'Ağ-qara fonda qırmızı geniş şlyapa və qırmızı dodaqlı müəmmalı qadın portreti. Kontrast müasir tablo.',
+    emoDesc:'Bütün dünya ağ-qaradır, yalnız dodaqlar və şlyapa qırmızıdır. Bu tablo gücü, elegantlığı, sirri anladır.',
+    interior:'Qonaq otağı, qadın kabinetləri, boutique. Ağ-qara tonlu interyerlərə mükəmməl.',
+    gift:'Güclü, elegantlığı sevən qadınlara – sirrli bir hədiyyə.',
+    metaDesc:'Qırmızı şlyapa ağ-qara qadın portret tablo. Divar tablosu Bakı.'
+  },
+  {
+    num:'071', code:'VB-GAL-071', alt:'071',
+    title:'Qızıl Dodaqlar – Gözlər Örtülü',
+    artist:'Naməlum rəssam', cat:'portret',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Tünd fonda qızıl parıltılı dırnaqlarla gözlərini örtən qadın, qızıl dodaqlar. Müasir dramatik portret.',
+    emoDesc:'Görmək istemiyər, amma hiss edir hər şeyi. Qızıl dodaqlar gizli bir söz söyləyir. Güclü emosional tablo.',
+    interior:'Müasir, minimalist interyerlər. Tünd divanlarda möhtəşəm effekt.',
+    gift:'Müasir zövqlü insanlara, güclü qadınlara – dərinliyi hədiyyə et.',
+    metaDesc:'Qızıl dodaqlar gözlər örtülü portret tablo. Divar tablosu Bakı.'
+  },
+  {
+    num:'072', code:'VB-GAL-072', alt:'072',
+    title:'Atəşli Kəpənək – Tünd Gözəl',
+    artist:'Naməlum rəssam', cat:'portret',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Tünd-yaşıl dərili qadın portreti – narıncı-qızıl boya, qızıl dırnaqlar, əllərindəki qırmızı kəpənək. Qızıl kənarlı.',
+    emoDesc:'Əllərinin arasında bir kəpənək – incə, müəmmalı, güclü. Atəşin rəngi ilə tünd dərinin kontrastı unudulmaz.',
+    interior:'Müasir, glamur interyerlər. Tünd rəngli divanlarda dramatik effekt.',
+    gift:'Unikal, incəsənətsevər insanlara – nadir bir hədiyyə.',
+    metaDesc:'Atəşli kəpənək tünd gözəl portret tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'073', code:'VB-GAL-073', alt:'073',
+    title:'Qızıl Balıqlar – Sehirli Gecə',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'80×50 sm', material:'Əl işi – Parıltılı',
+    seoDesc:'Teal gecə göyündə qızıl balıq sürüsü, qızıl dalğalar, balıqlara baxan kiçik şəxs. 80×50 sm parıltılı tablo.',
+    emoDesc:'Balıqlar göydə üzür – sehirli, nağılvari, xəyal dünyasından gəlmiş bir an. Hər baxanda uşaqlığa qayıdır insan.',
+    interior:'Yataq otağı, uşaq otağı, yaradıcı iş otağı. Teal-qızıl tonlu interyerlərə ideal.',
+    gift:'Xəyal quran, kreativ insanlara; uşaqlara – sehrli hədiyyə.',
+    metaDesc:'Qızıl balıqlar sehirli gecə tablo 80×50 sm parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'074', code:'VB-GAL-074', alt:'074',
+    title:'Böyük Ağac – İki Maral, Qırmızı Günəş',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'80×50 sm', material:'Əl işi – Parıltılı',
+    seoDesc:'Ağ-yaşıl fonda nəhəng ağac, iki qızıl maral, qırmızı günəş, uçan quşlar. 80×50 sm parıltılı tablo.',
+    emoDesc:'Nəhəng ağacın kölgəsindəki iki maral – ailə, sevgi, sığınacaq. Sakit, harmonik, ümid dolu bir mənzərə.',
+    interior:'Qonaq otağı, yataq otağı. Ağ-yaşıl tonlu minimalist interyerlərə ideal.',
+    gift:'Ailə sevgisini simvolizə edən hədiyyə – ev açımı, toy üçün ideal.',
+    metaDesc:'Böyük ağac iki maral qırmızı günəş tablo 80×50 sm. Parıltılı divar tablosu Bakı.'
+  },
+  {
+    num:'075', code:'VB-GAL-075', alt:'075',
+    title:'Sıçrayan Maral – Dalğalı Dağlar',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'80×50 sm', material:'Əl işi – Parıltılı',
+    seoDesc:'Teal fonda qızıl dalğalı dağlar üzərindən sıçrayan narıncı maral, payız ağacı, quşlar. 80×50 sm parıltılı tablo.',
+    emoDesc:'Dalğalar kimi dağlar, üzərindən azad sıçrayan maral – cəsarət, hərəkət, həyat sevinci. Dinamik, enerjili əsər.',
+    interior:'Qonaq otağı, uşaq otağı. Teal-narıncı aksan tonlu interyerlərə ideal.',
+    gift:'Enerjili, cəsarətli insanlara – azadlığı hədiyyə et.',
+    metaDesc:'Sıçrayan maral dalğalı dağlar tablo 80×50 sm parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'076', code:'VB-GAL-076', alt:'076',
+    title:'Qırmızı Payız – Çay Qırağı',
+    artist:'Naməlum rəssam', cat:'menzere',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Qırmızı-narıncı payız yarpaqları, mavi-qızıl çay, daşlar, körpü. Parıltılı Kanada payız mənzərəsi tablosu.',
+    emoDesc:'Qırmızı yarpaqlar suya düşür, daşlar parıldayır – payızın ən dramatik andan. Enerji, qüvvət, rəng dolu əsər.',
+    interior:'Qonaq otağı, yemək otağı. Qırmızı-narıncı aksan tonlu interyerlərə ideal.',
+    gift:'Payızı sevən, güclü rənklərə həvəsli insanlara – payızı hədiyyə et.',
+    metaDesc:'Qırmızı payız çay qırağı tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'077', code:'VB-GAL-077', alt:'077',
+    title:'Qızıl Bəbir – Tam Boy, Qızıl Çərçivə',
+    artist:'Naməlum rəssam', cat:'diger',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Qara fonda tam boy qızıl-gümüş parıltılı bəbir – qızıl parıltılı çərçivəli müasir heyvan tablosu.',
+    emoDesc:'Tək addımla gəlir – sakin, güclü, əzəmətli. Qızıl bəzəklər onu bir padşah kimi göstərir. Güc simvolu.',
+    interior:'Kabinet, ofis, qonaq otağı. Qara-qızıl tonlu lüks interyerlərə mükəmməl.',
+    gift:'Güclü, lider ruha sahib insanlara – əzəməti hədiyyə et.',
+    metaDesc:'Qızıl bəbir tam boy qızıl çərçivə tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'078', code:'VB-GAL-078', alt:'078',
+    title:'Bəbir Yaxın Plan – Parıltılı Cəld Baxış',
+    artist:'Naməlum rəssam', cat:'diger',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Tünd fonda yaxın planda bəbir – qızıl-gümüş parıltılı nöqtə bəzəkləri. Dramatik müasir heyvan tablosu.',
+    emoDesc:'Gözlərinin içindən baxır – düz sənə. Bəbirin o dərin, soyuq baxışı cəsarəti, gücü anladır.',
+    interior:'Qonaq otağı, müasir ofis. Tünd, güclü effektli interyerlərə ideal.',
+    gift:'Cəsarəti, gücü simvolizə edən hədiyyə – güclü insanlara uyğun.',
+    metaDesc:'Bəbir yaxın plan parıltılı tablo. Divar tablosu Bakı.'
+  },
+  {
+    num:'079', code:'VB-GAL-079', alt:'079',
+    title:'Mavi Gözlü Pişik – Fantaziya Portret',
+    artist:'Naməlum rəssam', cat:'diger',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Tünd fonda mavi parıltılı gözlü tükendi pişik – mavi, qızıl, gümüş parıltılı fantaziya pişik tablosu.',
+    emoDesc:'O gözlər sizi görür – məsum, dərin, sehirli. Bu pişik sıradan pişik deyil; o, gecənin gözüdür.',
+    interior:'Yaşayış otağı, uşaq otağı, yaradıcı iş mühiti. Mavi-qara tonlu interyerlərə ideal.',
+    gift:'Pişik sevənlərə, fantaziya həvəslilərə – sehri hədiyyə et.',
+    metaDesc:'Mavi gözlü pişik fantaziya portret tablo parıltılı. Divar tablosu Bakı.'
+  },
+  {
+    num:'080', code:'VB-GAL-080', alt:'080',
+    title:'Afrika Gözəli – Rəngarəng Sarıq',
+    artist:'Naməlum rəssam', cat:'portret',
+    size:'Ölçü soruşun', material:'Əl işi',
+    seoDesc:'Qara fonda rəngarəng naxışlı sarıqlı Afrika qadını profil portreti – mavi-bənövşəyi makiyaj, qürurlu duruş.',
+    emoDesc:'Başındakı rəngarəng sarıq bir tacdır. Dik duruşu, soyuq baxışı – bu qadın özünə hörmət edir. Qürurun tablosu.',
+    interior:'Müasir, rəngli interyerlər. Qara fon ilə istənilən rəngli divara mükəmməl uyğun.',
+    gift:'Özünə güvənən, güclü qadınlara – qüruru hədiyyə et.',
+    metaDesc:'Afrika gözəli rəngarəng sarıq portret tablo. Divar tablosu Bakı.'
+  },
+  {
+    num:'081', code:'VB-GAL-081', alt:'081',
+    title:'Buxar Lokomotiви – Güc Simvolu',
+    artist:'Naməlum rəssam', cat:'sheher',
+    size:'100×70 sm', material:'Kadife (Mexmer)',
+    seoDesc:'Qara-boz tüstülü buxar lokomotivi – qırmızı ulduz, dramatik tüstü buludu. 100×70 sm kadife tablo.',
+    emoDesc:'Tüstü buludunu yararaq gəlir – heç bir şey onu saxlaya bilməz. Güc, sürət, iradə – tarixi bir an.',
+    interior:'Kabinet, kişi otağı, texniki mövzulu interyerlər. Tünd, güclü dekorlu divanlara ideal.',
+    gift:'Tarix sevər, mühəndis ruha sahib insanlara, kişilərə – gücü hədiyyə et.',
+    metaDesc:'Buxar lokomotivi güc simvolu 100×70 sm kadife tablo. Divar tablosu Bakı.'
+  },  
 ];
 
 /* ── Generate full artwork list ─────────────────────── */
