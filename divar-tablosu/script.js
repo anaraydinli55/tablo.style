@@ -1313,7 +1313,7 @@ const ARTWORKS_DATA = [
   interior:'Giriş hollu, böyük qonaq otağı, restoran, otel koridoru. Şaquli uzun divarlar üçün mükəmməl.',
   gift:'Böyük məkan sahiblərinə, otel/restoran üçün – əlamətdar hədiyyə.',
   metaDesc:'Firuzəyi dəhliya köhnə taxta fon böyük format 70x200 tablo. Divar tablosu Bakı.'
-}
+},
    {
   num:'060', code:'VB-GAL-060', alt:'060',
   title:'Qızıl Maral – Yaşıl Parıltılı Gecə Tablosu',
@@ -1346,7 +1346,7 @@ const ARTWORKS_DATA = [
   interior:'Giriş hollu, böyük qonaq otağı, restoran, otel koridoru. Uzun şaquli divarlar üçün yaradılmış.',
   gift:'Böyük məkan sahiblərinə, otel/restoran dizaynı üçün – diqqət çəkən əlamətdar tablo.',
   metaDesc:'Tünd bordo lalələr böyük format 70x200 parıltılı tablo. Divar tablosu Bakı.'
-}
+},
 
 ];
 
