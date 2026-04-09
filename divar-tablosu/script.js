@@ -1314,6 +1314,40 @@ const ARTWORKS_DATA = [
   gift:'Böyük məkan sahiblərinə, otel/restoran üçün – əlamətdar hədiyyə.',
   metaDesc:'Firuzəyi dəhliya köhnə taxta fon böyük format 70x200 tablo. Divar tablosu Bakı.'
 }
+   {
+  num:'060', code:'VB-GAL-060', alt:'060',
+  title:'Qızıl Maral – Yaşıl Parıltılı Gecə Tablosu',
+  artist:'Naməlum rəssam', cat:'abstrakt',
+  size:'Ölçü soruşun', material:'Əl işi – Qızıl çərçivəli, Parıltılı',
+  seoDesc:'Qara fonda qızıl parıltılı maral, yaşıl neon nöqtələr, qızıl çərçivə – əl işi parıltılı tablo.',
+  emoDesc:'Gecənin qaranlığında qızıl maral durur – yaşıl ulduzlar onu izləyir. Sehirli, nağılvari, əzəmətli. Qızıl çərçivə lüksü tamamlayır.',
+  interior:'Lüks qonaq otağı, yataq otağı, premium ofis. Qara-qızıl tonlu interyerlərə ideal.',
+  gift:'Xüsusi hədiyyə – lüks zövqlü insanlar, prestijli ev sahibləri üçün unudulmaz seçim.',
+  metaDesc:'Qızıl maral yaşıl parıltı qara fon qızıl çərçivəli əl işi tablo. Divar tablosu Bakı.'
+},
+{
+  num:'064', code:'VB-GAL-064', alt:'064',
+  title:'Dağlar və Quşlar – Qızıl Dalğalı Abstrakt Tablo',
+  artist:'Naməlum rəssam', cat:'abstrakt',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Boz dağlar, qızıl-narıncı üfüq, uçan quşlar – parıltılı minimalist abstrakt 50x80 sm tablo.',
+  emoDesc:'Dağlar üzərindən quşlar keçir, qızıl üfüq hər şeyi isidır. Sakitlik, azadlıq, uzaqlara baxmaq hissi.',
+  interior:'Minimalist qonaq otağı, iş otağı, ofis. Bej-qızıl-boz tonlu interyerlərə mükəmməl.',
+  gift:'Həyatı sadə görmək istəyənlərə, meditasiya edənlərə – sakit, dərin hədiyyə.',
+  metaDesc:'Dağlar quşlar qızıl üfüq abstrakt minimalist parıltılı tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'048', code:'VB-GAL-048', alt:'048',
+  title:'Tünd Lalələr – Böyük Format Parıltılı Tablo',
+  artist:'Naməlum rəssam', cat:'cicek',
+  size:'70×200 sm', material:'Kanvas çap – Parıltılı, Böyük Format',
+  seoDesc:'Narıncı-qəhvəyi fonda tünd bordo lalələr – rəngarəng parıltılı 70x200 sm böyük format tablo.',
+  emoDesc:'İki lalə yuxarı uzanır – iki metr boy. Böyüklük, cəsarət, həyat sevinci. Bu tablo otağın simvoludur.',
+  interior:'Giriş hollu, böyük qonaq otağı, restoran, otel koridoru. Uzun şaquli divarlar üçün yaradılmış.',
+  gift:'Böyük məkan sahiblərinə, otel/restoran dizaynı üçün – diqqət çəkən əlamətdar tablo.',
+  metaDesc:'Tünd bordo lalələr böyük format 70x200 parıltılı tablo. Divar tablosu Bakı.'
+}
+
 ];
 
 /* ── Generate full artwork list ─────────────────────── */
