@@ -1115,8 +1115,227 @@ const ARTWORKS_DATA = [
   interior:'Musiqi otaqları, yaradıcı iş mühiti, incəsənət qalereyaları, premium qonaq otaqları.',
   gift:'Musiqiçilər, rəssamlar, sənətsevərlər – emosional dərinlik axtaranlara ideal.',
   metaDesc:'Violonçel çalan qadın ekspressiv rəngarəng musiqili tablo. Divar tablosu Bakı.'
+},
+   {
+  num:'103', code:'VB-GAL-103', alt:'103',
+  title:'Mərmər Fonda Maral – Parıltılı Silüet Tablo',
+  artist:'Naməlum rəssam', cat:'abstrakt',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Ağ mərmər fonda qara maral silüeti – qalaktika parıltılı 50x80 sm kanvas tablo.',
+  emoDesc:'Mərmər sükutu, maralın azadlığı. Buynuzlar ağaca çevrilir – təbiət və sənət birləşir. Zərif, güclü, unudulmaz.',
+  interior:'Minimalist interyerlər, ağ-bej tonlu qonaq otaqları, yataq otağı, ofis.',
+  gift:'Zövqlü ev hədiyyəsi, toy hədiyyəsi – müasir dekor axtaranlara ideal.',
+  metaDesc:'Mərmər fonda maral silüeti parıltılı abstrakt tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'104', code:'VB-GAL-104', alt:'104',
+  title:'Payız Meşəsində Üç Maral – Qızıl Quşlar',
+  artist:'Naməlum rəssam', cat:'abstrakt',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı, 3D Quş bəzəkli',
+  seoDesc:'Qızılı payız meşəsi, üç maral, uçan quşlar – 3D elementli parıltılı 50x80 sm tablo.',
+  emoDesc:'Meşə yuxarı açılır, maralar aşağıda – quşlar azadlığa uçur. Hər baxanda hərəkət hiss olunur.',
+  interior:'Qonaq otağı, yataq otağı, uşaq otağı. İsti-narıncı tonlu interyerlərə ideal.',
+  gift:'Ailə üçün hədiyyə, ev açımı – canlı, enerjili, sevincli tablo.',
+  metaDesc:'Payız meşəsi üç maral qızıl quşlar 3D parıltılı tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'105', code:'VB-GAL-105', alt:'105',
+  title:'Ağ Maqnoliya – Boz Fonda Parıltılı Çiçək',
+  artist:'Naməlum rəssam', cat:'cicek',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Boz dumanlı fonda ağ maqnoliya çiçəkləri – parıltılı şaquli 50x80 sm kanvas tablo.',
+  emoDesc:'Boz dünya, ağ çiçək. Sükut içindən bahar qalxır. Bu tablo sakinləşdirir – içinizi yuyur.',
+  interior:'Yataq otağı, spa, meditasiya küncu, minimalist salon. Boz-ağ interyerlərə mükəmməl.',
+  gift:'Zərif qadınlara, ev açımı, ana günü – sakitlik hədiyyəsi.',
+  metaDesc:'Ağ maqnoliya boz fon parıltılı çiçək tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'106', code:'VB-GAL-106', alt:'106',
+  title:'Qızıl Dalğalar – Quşlar və Mavi Ağac Tablosu',
+  artist:'Naməlum rəssam', cat:'abstrakt',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı, 3D Quş bəzəkli',
+  seoDesc:'Rəngarəng qızıl dalğalar, mavi ağac, uçan quşlar – 3D elementli parıltılı 50x80 sm tablo.',
+  emoDesc:'Torpaq, su, göy – üç aləm bir tabloda. Quşlar dalğaların üzərindən keçir. Azadlıq bu görünür.',
+  interior:'Qonaq otağı, iş otağı, müasir minimalist interyerlər.',
+  gift:'Macərasevər, azadlıqsevər ruhlara – dinamik, güclü hədiyyə.',
+  metaDesc:'Qızıl dalğalar mavi ağac quşlar 3D parıltılı abstrakt tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'107', code:'VB-GAL-107', alt:'107',
+  title:'Bənövşəyi Çiçək Buludu – Ağ Sakura Tablosu',
+  artist:'Naməlum rəssam', cat:'cicek',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Bənövşəyi-çəhrayı fonda ağ sakura çiçəkləri – parıltılı şaquli 50x80 sm kanvas tablo.',
+  emoDesc:'Çiçəklər yağış kimi yağır. Bənövşəyi göy, ağ ləçəklər – sakit, romantik, zərif. Divarı nəfəs alır.',
+  interior:'Qadın otağı, yataq otağı, koridor, geyinmə otağı. Çəhrayı-bej interyerlərə ideal.',
+  gift:'Qadınlara, Qadınlar Günü, sevgiliyə – romantik bahar hədiyyəsi.',
+  metaDesc:'Bənövşəyi fonda ağ sakura çiçək buludu parıltılı tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'108', code:'VB-GAL-108', alt:'108',
+  title:'Qırmızı Gerbera – Mavi Yarpaqlar, Parıltılı',
+  artist:'Naməlum rəssam', cat:'cicek',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Ağ fonda iri qırmızı gerbera çiçəkləri, mavi yarpaqlar – parıltılı 50x80 sm kanvas tablo.',
+  emoDesc:'Qırmızı güc, mavi soyuqluq – ziddiyyətlər cəlbedici olur. Canlı, enerjili, həyat dolu.',
+  interior:'Mətbəx, qonaq otağı, ofis, kafe. Ağ interyerlərə rəng verir.',
+  gift:'Cheerful hədiyyə, ev açımı, bayram hədiyyəsi – həyat sevinci bağışlayır.',
+  metaDesc:'Qırmızı gerbera mavi yarpaqlar ağ fon parıltılı tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'109', code:'VB-GAL-109', alt:'109',
+  title:'Ağ Dəvəgözü – Boz Dumanlı Fon, Parıltılı',
+  artist:'Naməlum rəssam', cat:'cicek',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Boz-teal dumanlı fonda böyük ağ dəvəgözü çiçəyi – parıltılı şaquli 50x80 sm kanvas tablo.',
+  emoDesc:'Tək çiçək, bütün divarı tutur. Ağ ləçəklər, sarı mərkəz – sadəlik içindəki əzəmət.',
+  interior:'Yataq otağı, spa, minimalist salon. Hər rəng interyerinə uyğun – neytral dominant.',
+  gift:'Universal hədiyyə – sadəliyi sevənlər, zövqlü ev sahibləri üçün.',
+  metaDesc:'Ağ dəvəgözü boz dumanlı fon parıltılı çiçək tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'110', code:'VB-GAL-110', alt:'110',
+  title:'Qırmızı Güllər, Gümüş Yarpaqlar – Parıltılı Tablo',
+  artist:'Naməlum rəssam', cat:'cicek',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Bej fonda iki qırmızı gül, gümüş yarpaqlar – parıltılı şaquli 50x80 sm kanvas tablo.',
+  emoDesc:'Qırmızı ehtiras, gümüş zəriflik. Güllər divarınıza aşiq olur. Klassik, lakin fərqli.',
+  interior:'Yataq otağı, qonaq otağı, romantik köşələr. Bej-qəhvəyi interyerlərə mükəmməl.',
+  gift:'Sevgiliyə, toy ildönümü, Sevgililer Günü – romantik hədiyyə.',
+  metaDesc:'Qırmızı güllər gümüş yarpaqlar bej fon parıltılı tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'111', code:'VB-GAL-111', alt:'111',
+  title:'Qızıl-Gümüş Tropik Yarpaqlar – Plumeria Tablo',
+  artist:'Naməlum rəssam', cat:'cicek',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Ağ-gümüş fonda qızıl tropik xurma yarpaqları, sarı plumeria – parıltılı 50x80 sm tablo.',
+  emoDesc:'Qızıl yarpaqlar, gümüş parıltı – lüksün dili belədir. Tropik zəriflik, müasir estetika.',
+  interior:'Lüks qonaq otağı, hotel, ofis lobbisi, spa. Qızıl-bej tonlu interyerlərə ideal.',
+  gift:'Prestijli hədiyyə, iş ortağına, ev açımı – zövq simvolu.',
+  metaDesc:'Qızıl tropik yarpaqlar plumeria gümüş parıltılı tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'112', code:'VB-GAL-112', alt:'112',
+  title:'Qızıl Payız Ağacları – Mavi Ay Işığında Meşə',
+  artist:'Naməlum rəssam', cat:'menzere',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Mavi-ağ ay işığında qızıl payız ağacları – parıltılı şaquli 50x80 sm kanvas tablo.',
+  emoDesc:'Payız qızılı, gecə mavisi – iki fəsil bir anda. Ağaclar rəqs edir, ay baxır. Sehrli, sakit, dərin.',
+  interior:'Yataq otağı, qonaq otağı, meditasiya küncu. Mavi-qızıl tonlu interyerlərə ideal.',
+  gift:'Poetik ruhlu insanlara, ev hədiyyəsi – sərgi keyfiyyətli tablo.',
+  metaDesc:'Qızıl payız ağacları mavi ay işığı meşə parıltılı tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'113', code:'VB-GAL-113', alt:'113',
+  title:'Gecə Marali – Qızıl Ay, Uçan Quşlar',
+  artist:'Naməlum rəssam', cat:'abstrakt',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı, 3D Quş bəzəkli',
+  seoDesc:'Tünd mavi gecə, qızıl maral, böyük ay, uçan quşlar – 3D elementli parıltılı 50x80 sm tablo.',
+  emoDesc:'Gecə hər şeyi gizlədir – yalnız maral görünür. Qızıl işıq, mavi dərinlik. Sirr var bu tabloda.',
+  interior:'Yataq otağı, iş otağı, kişi köşəsi. Tünd tonlu interyerlərə güclü kontrast verir.',
+  gift:'Güclü xarakter sahiblərinə, kişilərə, macərasevənlərə – dərin simvolik hədiyyə.',
+  metaDesc:'Gecə marali qızıl ay uçan quşlar 3D parıltılı tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'114', code:'VB-GAL-114', alt:'114',
+  title:'Çəhrayı Sakura – Ay Işığında Budaqlar',
+  artist:'Naməlum rəssam', cat:'cicek',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Çəhrayı-bənövşəyi fonda ağ sakura çiçəkli budaqlar, ay işığı – parıltılı 50x80 sm tablo.',
+  emoDesc:'Ay arxada, çiçəklər önde. Yapon sükutu, çəhrayı bahar. Bu tablo gecə ən gözəl görünür.',
+  interior:'Yataq otağı, qız otağı, koridor. Çəhrayı-bənövşəyi interyerlərə mükəmməl.',
+  gift:'Qadınlara, gənclərə, Yapon estetikası sevənlərə – zərif romantik hədiyyə.',
+  metaDesc:'Çəhrayı sakura ay işığı budaqlar parıltılı tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'115', code:'VB-GAL-115', alt:'115',
+  title:'Qızıl Maral – Mavi Dalğa, Fantastik Mənzərə',
+  artist:'Naməlum rəssam', cat:'abstrakt',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Ağ fonda qızıl maral, mavi-firuzəyi dalğa axını, uçan quşlar – parıltılı 50x80 sm tablo.',
+  emoDesc:'Maral çağırır, dalğa cavab verir, quşlar şahiddir. Sözsüz bir nağıl. Hər baxanda yeni bir hiss.',
+  interior:'Qonaq otağı, yataq otağı, uşaq otağı. Açıq rəngli interyerlərə canlılıq verir.',
+  gift:'Xəyal dünyasını sevənlərə, sənətsevərlərə – unikal, poetik hədiyyə.',
+  metaDesc:'Qızıl maral mavi dalğa fantastik mənzərə parıltılı tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'116', code:'VB-GAL-116', alt:'116',
+  title:'Ağ Maral – Firuzəyi Kəpənək, Çiçəkli Fantaziya',
+  artist:'Naməlum rəssam', cat:'abstrakt',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Tünd teal fonda ağ sehirli maral, firuzəyi kəpənək, qızıl çiçəklər – parıltılı 50x80 sm tablo.',
+  emoDesc:'Bu maral gerçək deyil – o bir yuxudan gəlir. Kəpənəklər, mavi toplar, qızıl ağaclar. Sehrli dünya.',
+  interior:'Yataq otağı, uşaq otağı, yaradıcı studiyalar. Tünd-teal interyerlərə işıq verir.',
+  gift:'Romantik, xəyalpərəst ruhlara – möcüzəvi, unudulmaz hədiyyə.',
+  metaDesc:'Ağ sehirli maral firuzəyi kəpənək çiçəkli fantaziya parıltılı tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'117', code:'VB-GAL-117', alt:'117',
+  title:'Qalaktika Lotosları – Bənövşəyi Kosmik Çiçək',
+  artist:'Naməlum rəssam', cat:'cicek',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Bənövşəyi kosmik fonda iki böyük ağ lotos çiçəyi – parıltılı şaquli 50x80 sm kanvas tablo.',
+  emoDesc:'Lotos suda açır, bu isə kainatda açır. Ulduzlar arasında çiçək – sonsuzluğun simvolu.',
+  interior:'Yataq otağı, meditasiya otağı, spa, müasir salon. Bənövşəyi-mavi interyerlərə ideal.',
+  gift:'Mənəviyyat sevənlərə, lotosun simvolizminə inananlar üçün – dərin mənalı hədiyyə.',
+  metaDesc:'Qalaktika kosmik lotos çiçəyi bənövşəyi parıltılı tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'118', code:'VB-GAL-118', alt:'118',
+  title:'Firuzəyi Burulğan – İki Qızıl Maral Tablosu',
+  artist:'Naməlum rəssam', cat:'abstrakt',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Gümüş-boz fonda firuzəyi burulğan, iki qızıl maral, qızıl ağac – parıltılı 50x80 sm tablo.',
+  emoDesc:'Burulğan göyə qalxır, maralar yerə bağlıdır. İki ziddiyyət, bir harmoniya. Nəfis, dərin, müasir.',
+  interior:'Qonaq otağı, yataq otağı, ofis. Gümüş-boz interyerlərə rəng və həyat verir.',
+  gift:'Cüt hədiyyə, toy hədiyyəsi, ev açımı – birlikdə güclü simvol.',
+  metaDesc:'Firuzəyi burulğan iki qızıl maral parıltılı abstrakt tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'119', code:'VB-GAL-119', alt:'119',
+  title:'Narıncı Gül – Boz Taxta Fon, Parıltılı Tablo',
+  artist:'Naməlum rəssam', cat:'cicek',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Köhnə taxta fon üzərində narıncı-sarı böyük gül – parıltılı şaquli 50x80 sm kanvas tablo.',
+  emoDesc:'Köhnə taxta, canlı gül – keçmişlə həyat görüşür. Rustikal tekstura, müasir ruh. Güclü kontrast.',
+  interior:'Rustikal, vintage, loft interyerlər. Qonaq otağı, kafe, restoran.',
+  gift:'Fərqli zövqlü insanlara, rustikal ev sahiblərinə – originallıq axtaranlara.',
+  metaDesc:'Narıncı gül boz taxta fon rustikal parıltılı tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'120', code:'VB-GAL-120', alt:'120',
+  title:'Ağ Güllər – Qırmızı-Gümüş Abstrakt Fon',
+  artist:'Naməlum rəssam', cat:'cicek',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Qırmızı-gümüş abstrakt fonda ağ güllər – parıltılı şaquli 50x80 sm kanvas tablo.',
+  emoDesc:'Ağ güllər qırmızı fırtınada sakin dayanır. Güc və zəriflik bir anda. Dramatik, cəsarətli, gözəl.',
+  interior:'Müasir qonaq otağı, yaradıcı ofis, butik, restoran. Cəsarətli interyerlərə ideal.',
+  gift:'Güclü xarakter sahiblərinə – kontrast sevənlər, fərqli zövqlülər üçün.',
+  metaDesc:'Ağ güllər qırmızı gümüş abstrakt fon parıltılı tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'121', code:'VB-GAL-121', alt:'121',
+  title:'Qırmızı Çiçək – Boz Daş Fon, Parıltılı Tablo',
+  artist:'Naməlum rəssam', cat:'cicek',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Boz daş teksturalı fonda tək böyük qırmızı çiçək – parıltılı şaquli 50x80 sm kanvas tablo.',
+  emoDesc:'Tək qırmızı çiçək – boz dünyada bir alov. Sadə, amma nə qədər güclü. Bu tablo divarı canlandırır.',
+  interior:'Yataq otağı, qonaq otağı, ofis. Neytral boz interyerlərə canlılıq verir.',
+  gift:'Minimalist zövqlü insanlara – az ilə çoxu ifadə edən tablo.',
+  metaDesc:'Qırmızı çiçək boz daş fon parıltılı tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'122', code:'VB-GAL-122', alt:'122',
+  title:'Firuzəyi Dəhliya – Köhnə Taxta Fon, Böyük Format',
+  artist:'Naməlum rəssam', cat:'cicek',
+  size:'70×200 sm', material:'Kanvas çap – Böyük Format',
+  seoDesc:'Köhnə taxta fon üzərində böyük firuzəyi dəhliya çiçəyi – 70x200 sm böyük format kanvas tablo.',
+  emoDesc:'İki metr boy – bu tablo otağı dəyişir. Firuzəyi çiçək, vintage taxta fon. Girişdə görürsən, yadda qalır.',
+  interior:'Giriş hollu, böyük qonaq otağı, restoran, otel koridoru. Şaquli uzun divarlar üçün mükəmməl.',
+  gift:'Böyük məkan sahiblərinə, otel/restoran üçün – əlamətdar hədiyyə.',
+  metaDesc:'Firuzəyi dəhliya köhnə taxta fon böyük format 70x200 tablo. Divar tablosu Bakı.'
 }
-
 ];
 
 /* ── Generate full artwork list ─────────────────────── */
