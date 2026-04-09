@@ -876,17 +876,6 @@ const ARTWORKS_DATA = [
   },
   {
     num:'081', code:'VB-GAL-081', alt:'081',
-    title:'Buxar Lokomotiви – Güc Simvolu',
-    artist:'Naməlum rəssam', cat:'sheher',
-    size:'100×70 sm', material:'Kadife (Mexmer)',
-    seoDesc:'Qara-boz tüstülü buxar lokomotivi – qırmızı ulduz, dramatik tüstü buludu. 100×70 sm kadife tablo.',
-    emoDesc:'Tüstü buludunu yararaq gəlir – heç bir şey onu saxlaya bilməz. Güc, sürət, iradə – tarixi bir an.',
-    interior:'Kabinet, kişi otağı, texniki mövzulu interyerlər. Tünd, güclü dekorlu divanlara ideal.',
-    gift:'Tarix sevər, mühəndis ruha sahib insanlara, kişilərə – gücü hədiyyə et.',
-    metaDesc:'Buxar lokomotivi güc simvolu 100×70 sm kadife tablo. Divar tablosu Bakı.'
-  },
-  {
-    num:'081', code:'VB-GAL-081', alt:'081',
     title:'Buxar Lokomotivi – Güc Simvolu',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'100×70 sm', material:'Kadife (Mexmer)',
