@@ -534,17 +534,6 @@ const ARTWORKS_DATA = [
     metaDesc:'Qırmızı şemsiyəli qız köpəklər tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'048', code:'VB-GAL-048', alt:'048',
-    title:'Çiçək Başlıqlı Qadın – Gümüşü (Böyük)',
-    artist:'Naməlum rəssam', cat:'portret',
-    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
-    seoDesc:'Başında nəhəng ağ-mavi parıltılı şəkofələr olan qadın profil portreti. Böyük format, parıltılı müasir tablo.',
-    emoDesc:'Daha böyük formatta – daha güclü təsir. Çiçəklərin arxasında gizlənmiş zəriflik. Divarın ən görkəmli nöqtəsinə layiq.',
-    interior:'Qonaq otağı, ana divar. Neytral, minimalist interyerlərə dramatik effekt.',
-    gift:'Estetik zövqlü qadınlara lüks hədiyyə, toy hədiyyəsi kimi mükəmməl.',
-    metaDesc:'Çiçək başlıqlı qadın böyük format tablo parıltılı. Divar tablosu Bakı.'
-  },
-  {
     num:'049', code:'VB-GAL-049', alt:'049',
     title:'Ayətəlkürsü – Sarı Qızıl Damla',
     artist:'Naməlum rəssam', cat:'hediyye',
