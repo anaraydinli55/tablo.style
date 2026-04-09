@@ -754,37 +754,37 @@ const ARTWORKS_DATA = [
     metaDesc:'At qızıl əks olunma tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'078', code:'VB-GAL-078', alt:'078',
-    title:'Qırmızı Şlyapa – Ağ-Qara Gözəl',
-    artist:'Naməlum rəssam', cat:'portret',
-    size:'Ölçü soruşun', material:'Əl işi',
-    seoDesc:'Ağ-qara fonda qırmızı geniş şlyapa və qırmızı dodaqlı müəmmalı qadın portreti. Kontrast müasir tablo.',
-    emoDesc:'Bütün dünya ağ-qaradır, yalnız dodaqlar və şlyapa qırmızıdır. Bu tablo gücü, elegantlığı, sirri anladır.',
-    interior:'Qonaq otağı, qadın kabinetləri, boutique. Ağ-qara tonlu interyerlərə mükəmməl.',
-    gift:'Güclü, elegantlığı sevən qadınlara – sirrli bir hədiyyə.',
-    metaDesc:'Qırmızı şlyapa ağ-qara qadın portret tablo. Divar tablosu Bakı.'
+    num:'070', code:'VB-GAL-070', alt:'070',
+    title:'Bəbir Yaxın Plan – Parıltılı Cəld Baxış',
+    artist:'Naməlum rəssam', cat:'diger',
+    size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+    seoDesc:'Tünd fonda yaxın planda bəbir – qızıl-gümüş parıltılı nöqtə bəzəkləri. Dramatik müasir heyvan tablosu.',
+    emoDesc:'Gözlərinin içindən baxır – düz sənə. Bəbirin o dərin, soyuq baxışı cəsarəti, gücü anladır.',
+    interior:'Qonaq otağı, müasir ofis. Tünd, güclü effektli interyerlərə ideal.',
+    gift:'Cəsarəti, gücü simvolizə edən hədiyyə – güclü insanlara uyğun.',
+    metaDesc:'Bəbir yaxın plan parıltılı tablo. Divar tablosu Bakı.'
   },
   {
-    num:'078', code:'VB-GAL-078', alt:'078',
-    title:'Qızıl Dodaqlar – Gözlər Örtülü',
-    artist:'Naməlum rəssam', cat:'portret',
+    num:'071', code:'VB-GAL-071', alt:'071',
+    title:'Mavi Gözlü Pişik – Fantaziya Portret',
+    artist:'Naməlum rəssam', cat:'diger',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
-    seoDesc:'Tünd fonda qızıl parıltılı dırnaqlarla gözlərini örtən qadın, qızıl dodaqlar. Müasir dramatik portret.',
-    emoDesc:'Görmək istemiyər, amma hiss edir hər şeyi. Qızıl dodaqlar gizli bir söz söyləyir. Güclü emosional tablo.',
-    interior:'Müasir, minimalist interyerlər. Tünd divanlarda möhtəşəm effekt.',
-    gift:'Müasir zövqlü insanlara, güclü qadınlara – dərinliyi hədiyyə et.',
-    metaDesc:'Qızıl dodaqlar gözlər örtülü portret tablo. Divar tablosu Bakı.'
+    seoDesc:'Tünd fonda mavi parıltılı gözlü tükendi pişik – mavi, qızıl, gümüş parıltılı fantaziya pişik tablosu.',
+    emoDesc:'O gözlər sizi görür – məsum, dərin, sehirli. Bu pişik sıradan pişik deyil; o, gecənin gözüdür.',
+    interior:'Yaşayış otağı, uşaq otağı, yaradıcı iş mühiti. Mavi-qara tonlu interyerlərə ideal.',
+    gift:'Pişik sevənlərə, fantaziya həvəslilərə – sehri hədiyyə et.',
+    metaDesc:'Mavi gözlü pişik fantaziya portret tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'077', code:'VB-GAL-077', alt:'077',
-    title:'Atəşli Kəpənək – Tünd Gözəl',
-    artist:'Naməlum rəssam', cat:'portret',
+    num:'072', code:'VB-GAL-072', alt:'072',
+    title:'Qızıl Bəbir – Tam Boy, Qızıl Çərçivə',
+    artist:'Naməlum rəssam', cat:'diger',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
-    seoDesc:'Tünd-yaşıl dərili qadın portreti – narıncı-qızıl boya, qızıl dırnaqlar, əllərindəki qırmızı kəpənək. Qızıl kənarlı.',
-    emoDesc:'Əllərinin arasında bir kəpənək – incə, müəmmalı, güclü. Atəşin rəngi ilə tünd dərinin kontrastı unudulmaz.',
-    interior:'Müasir, glamur interyerlər. Tünd rəngli divanlarda dramatik effekt.',
-    gift:'Unikal, incəsənətsevər insanlara – nadir bir hədiyyə.',
-    metaDesc:'Atəşli kəpənək tünd gözəl portret tablo parıltılı. Divar tablosu Bakı.'
+    seoDesc:'Qara fonda tam boy qızıl-gümüş parıltılı bəbir – qızıl parıltılı çərçivəli müasir heyvan tablosu.',
+    emoDesc:'Tək addımla gəlir – sakin, güclü, əzəmətli. Qızıl bəzəklər onu bir padşah kimi göstərir. Güc simvolu.',
+    interior:'Kabinet, ofis, qonaq otağı. Qara-qızıl tonlu lüks interyerlərə mükəmməl.',
+    gift:'Güclü, lider ruha sahib insanlara – əzəməti hədiyyə et.',
+    metaDesc:'Qızıl bəbir tam boy qızıl çərçivə tablo parıltılı. Divar tablosu Bakı.'
   },
   {
     num:'073', code:'VB-GAL-073', alt:'073',
@@ -832,14 +832,14 @@ const ARTWORKS_DATA = [
   },
   {
     num:'077', code:'VB-GAL-077', alt:'077',
-    title:'Qızıl Bəbir – Tam Boy, Qızıl Çərçivə',
-    artist:'Naməlum rəssam', cat:'diger',
+    title:'Atəşli Kəpənək – Tünd Gözəl',
+    artist:'Naməlum rəssam', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
-    seoDesc:'Qara fonda tam boy qızıl-gümüş parıltılı bəbir – qızıl parıltılı çərçivəli müasir heyvan tablosu.',
-    emoDesc:'Tək addımla gəlir – sakin, güclü, əzəmətli. Qızıl bəzəklər onu bir padşah kimi göstərir. Güc simvolu.',
-    interior:'Kabinet, ofis, qonaq otağı. Qara-qızıl tonlu lüks interyerlərə mükəmməl.',
-    gift:'Güclü, lider ruha sahib insanlara – əzəməti hədiyyə et.',
-    metaDesc:'Qızıl bəbir tam boy qızıl çərçivə tablo parıltılı. Divar tablosu Bakı.'
+    seoDesc:'Tünd-yaşıl dərili qadın portreti – narıncı-qızıl boya, qızıl dırnaqlar, əllərindəki qırmızı kəpənək. Qızıl kənarlı.',
+    emoDesc:'Əllərinin arasında bir kəpənək – incə, müəmmalı, güclü. Atəşin rəngi ilə tünd dərinin kontrastı unudulmaz.',
+    interior:'Müasir, glamur interyerlər. Tünd rəngli divanlarda dramatik effekt.',
+    gift:'Unikal, incəsənətsevər insanlara – nadir bir hədiyyə.',
+    metaDesc:'Atəşli kəpənək tünd gözəl portret tablo parıltılı. Divar tablosu Bakı.'
   },
   {
     num:'078', code:'VB-GAL-078', alt:'078',
@@ -853,7 +853,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Bəbir yaxın plan parıltılı tablo. Divar tablosu Bakı.'
   },
   {
-    num:'071', code:'VB-GAL-071', alt:'071',
+    num:'079', code:'VB-GAL-079', alt:'079',
     title:'Mavi Gözlü Pişik – Fantaziya Portret',
     artist:'Naməlum rəssam', cat:'diger',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -873,6 +873,17 @@ const ARTWORKS_DATA = [
     interior:'Müasir, rəngli interyerlər. Qara fon ilə istənilən rəngli divara mükəmməl uyğun.',
     gift:'Özünə güvənən, güclü qadınlara – qüruru hədiyyə et.',
     metaDesc:'Afrika gözəli rəngarəng sarıq portret tablo. Divar tablosu Bakı.'
+  },
+  {
+    num:'081', code:'VB-GAL-081', alt:'081',
+    title:'Buxar Lokomotiви – Güc Simvolu',
+    artist:'Naməlum rəssam', cat:'sheher',
+    size:'100×70 sm', material:'Kadife (Mexmer)',
+    seoDesc:'Qara-boz tüstülü buxar lokomotivi – qırmızı ulduz, dramatik tüstü buludu. 100×70 sm kadife tablo.',
+    emoDesc:'Tüstü buludunu yararaq gəlir – heç bir şey onu saxlaya bilməz. Güc, sürət, iradə – tarixi bir an.',
+    interior:'Kabinet, kişi otağı, texniki mövzulu interyerlər. Tünd, güclü dekorlu divanlara ideal.',
+    gift:'Tarix sevər, mühəndis ruha sahib insanlara, kişilərə – gücü hədiyyə et.',
+    metaDesc:'Buxar lokomotivi güc simvolu 100×70 sm kadife tablo. Divar tablosu Bakı.'
   },
   {
     num:'081', code:'VB-GAL-081', alt:'081',
