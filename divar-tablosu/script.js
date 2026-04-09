@@ -896,6 +896,227 @@ const ARTWORKS_DATA = [
     gift:'Tarix sevər, mühəndis ruha sahib insanlara, kişilərə – gücü hədiyyə et.',
     metaDesc:'Buxar lokomotivi güc simvolu 100×70 sm kadife tablo. Divar tablosu Bakı.'
   },  
+   {
+  num:'098', code:'VB-GAL-098', alt:'098',
+  title:'Çiçəkli Ağac Altında Qayıq – Bahar Sakiti',
+  artist:'Naməlum rəssam', cat:'menzere',
+  size:'Ölçü soruşun', material:'Kanvas çap',
+  seoDesc:'Çəhrayı çiçəkli ağac altında ağ qayıq – sakit göl mənzərəsi, kanvas tablo.',
+  emoDesc:'Sükut, sakitlik, baharın ilk nəfəsi. Qayıq da gözləyir – sən də gözləyirsən bir şey. Bu tablo o hissi yaşadır.',
+  interior:'Qonaq otağı, yataq otağı, spa, istirahət küncleri.',
+  gift:'Romantik hədiyyə, ev açımı, ana günü – təbiəti sevənlər üçün ideal.',
+  metaDesc:'Çiçəkli ağac altında qayıq bahar mənzərəsi kanvas tablo. Divar tablosu Bakı.'
+},
+{
+  num:'097', code:'VB-GAL-097', alt:'097',
+  title:'Alov Rəngli Payız Meşəsi – Göl Üzərindəki Qayıq',
+  artist:'Naməlum rəssam', cat:'menzere',
+  size:'Ölçü soruşun', material:'Kanvas çap – Böyük Format',
+  seoDesc:'Qızıl-qırmızı payız meşəsi, gölün üzündə qayıq – parlaq rəngli böyük kanvas tablo.',
+  emoDesc:'Alov kimi yanan ağaclar, sakit su, tənha qayıq. Payızın bütün əzəməti bir tabloda. Divarı isidər.',
+  interior:'Geniş qonaq otaqları, ofis lobbisi, restoran, otel. Dominantlıq istəyən məkanlara.',
+  gift:'Ev açımı, böyük hədiyyə, iş yeri bəzəyi – təsir bağışlamaq istəyənlər üçün.',
+  metaDesc:'Payız meşəsi qayıq göl böyük kanvas tablo. Divar tablosu Bakı.'
+},
+{
+  num:'100', code:'VB-GAL-100', alt:'100',
+  title:'Dantel Əlcəkli Qadın – Sirli Baxış Portreti',
+  artist:'Naməlum rəssam', cat:'portret',
+  size:'Ölçü soruşun', material:'Kanvas çap',
+  seoDesc:'Dantel əlcəkli, sirli baxışlı qadın portreti – qaranlıq fon, dramatik kanvas tablo.',
+  emoDesc:'Gizli sirr var bu baxışda. Dantel, gözlər, dodaqlar – hamısı bir şey söyləyir. Güclü, müasir, unudulmaz.',
+  interior:'Studio, yaradıcı ofis, butik, parfümeriya, müasir salon.',
+  gift:'Sənətsevər dostlar, fotoqraflar, moda dünyasına yaxın insanlar üçün.',
+  metaDesc:'Dantel əlcəkli sirli qadın portreti kanvas tablo. Divar tablosu Bakı.'
+},
+{
+  num:'099', code:'VB-GAL-099', alt:'099',
+  title:'Bənövşəyi Kanyon – Firuzəyi Çay Mənzərəsi',
+  artist:'Naməlum rəssam', cat:'menzere',
+  size:'Ölçü soruşun', material:'Kanvas çap – Şaquli Format',
+  seoDesc:'Mor-bənövşəyi ağaclı kanyon, firuzəyi çay – fantastik rəngli şaquli kanvas tablo.',
+  emoDesc:'Dünyada bu rənglər mövcuddur – hər yerdə görünmür. Bu tablo sizi başqa bir gerçəkliyə aparır.',
+  interior:'Minimalist interyerlər, ağ divarlar, müasir qonaq otaqları. Şaquli darlığı geniş göstərər.',
+  gift:'Macərasevərlər, səyahətçilər, təbiəti fərqli görmək istəyənlər üçün.',
+  metaDesc:'Bənövşəyi kanyon firuzəyi çay fantastik mənzərə tablo. Divar tablosu Bakı.'
+},
+{
+  num:'096', code:'VB-GAL-096', alt:'096',
+  title:'Yapon Evi Payız Yarpaqlarında – Kadife Tablo',
+  artist:'Naməlum rəssam', cat:'menzere',
+  size:'70×100 sm', material:'Kadife (Məxmər) çap',
+  seoDesc:'Qırmızı yarpaqlar içində yapon evi – 70x100 sm kadife məxmər teksturalı tablo.',
+  emoDesc:'Yaponiyanın sakit köşəsi – qırmızı yarpaqlar, daş, köhnə ev. Sakitlik arayanlara bu tablo cavab verir.',
+  interior:'Yataq otağı, meditasiya küncu, zen üslublu interyerlər. Məxmər toxuma dərinlik verir.',
+  gift:'Yapon mədəniyyəti sevənlər, meditasiya edənlər, unikal hədiyyə axtaranlar üçün.',
+  metaDesc:'Yapon evi payız yarpaqları kadife məxmər tablo 70x100. Divar tablosu Bakı.'
+},
+{
+  num:'082', code:'VB-GAL-082', alt:'082',
+  title:'Qızıl Balıqlı Maral – Rüzgar Axını Tablosu',
+  artist:'Naməlum rəssam', cat:'abstrakt',
+  size:'50×80 sm', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Maral, qızıl ağac, uçan balıqlar – mavi rüzgar axınlı 50x80 abstrakt parıltılı tablo.',
+  emoDesc:'Rüzgar görünür burada. Maral zirvədə, balıqlar havada uçur. Sözsüz bir fantaziya – hər baxanda yeni bir şey görürsən.',
+  interior:'Yataq otağı, uşaq otağı, meditasiya köşəsi, müasir salon.',
+  gift:'Xüsusi, poetik, fantaziya sevənlər üçün – unutulmaz hədiyyə.',
+  metaDesc:'Maral qızıl ağac uçan balıqlar abstrakt parıltılı tablo 50x80. Divar tablosu Bakı.'
+},
+{
+  num:'083', code:'VB-GAL-083', alt:'083',
+  title:'Firuzəyi Ağaclar – Qızıl Parıltılı Abstrakt Meşə',
+  artist:'Naməlum rəssam', cat:'abstrakt',
+  size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
+  seoDesc:'Mavi-firuzəyi abstrakt ağaclar, qızıl parıltı aksentləri – müasir kanvas tablo.',
+  emoDesc:'Ağaclar mavi, qızıl parıltılar – bu meşə realdamı, yuxumdamı? Sülh və zəriflik.',
+  interior:'Qonaq otağı, yataq otağı, ofis. Açıq rəngli interyerlərə mükəmməl uyğun.',
+  gift:'Ev hədiyyəsi, toy hədiyyəsi – zövqlü interyerlər üçün universal seçim.',
+  metaDesc:'Firuzəyi mavi ağaclar qızıl parıltılı abstrakt meşə tablo. Divar tablosu Bakı.'
+},
+{
+  num:'084', code:'VB-GAL-084', alt:'084',
+  title:'Qar Fırtınasında Buxar Lokomotivu – Qış Gücü',
+  artist:'Naməlum rəssam', cat:'menzere',
+  size:'Ölçü soruşun', material:'Kanvas çap',
+  seoDesc:'Qar fırtınasında qara buxar lokomotivu – dramatik qış mənzərəsi kanvas tablo.',
+  emoDesc:'Güc, sürət, qış. Lokomotiv bütün qarı yarıb gəlir. Bu tablo enerjini hiss etdirir – oturaq olmayan məkanlara.',
+  interior:'İş otağı, ofis, qaraj, restoran, kafe, oğlan otağı.',
+  gift:'Texnika sevənlər, tarix maraqlananllar, güclü xarakter sahibləri üçün.',
+  metaDesc:'Buxar lokomotivu qar fırtınası qış mənzərəsi kanvas tablo. Divar tablosu Bakı.'
+},
+{
+  num:'085', code:'VB-GAL-085', alt:'085',
+  title:'İşıqlı Qış Kəndi – Körpü və Qarlı Evlər',
+  artist:'Naməlum rəssam', cat:'menzere',
+  size:'Ölçü soruşun', material:'Kanvas çap',
+  seoDesc:'Qarlı kənd, işıqlı evlər, daş körpü – nağıl havası yaradan rəngli kanvas tablo.',
+  emoDesc:'Hər pəncərədən işıq süzülür. Soyuq havada isti ev. Bu tablo sizi içəriyə çəkir.',
+  interior:'Qonaq otağı, yemək otağı, Milad dekorasiyası. İsti rəngli interyerlər üçün.',
+  gift:'Ailə hədiyyəsi, ev açımı, Yeni il hədiyyəsi – nostaljik ab-hava sevənlər üçün.',
+  metaDesc:'Qarlı kənd işıqlı evlər daş körpü nağıl tablo. Divar tablosu Bakı.'
+},
+{
+  num:'086', code:'VB-GAL-086', alt:'086',
+  title:'Azərbaycan Milli Alətləri – Saz, Nağara, Xalça',
+  artist:'Naməlum rəssam', cat:'milli',
+  size:'Ölçü soruşun', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Saz, nağara, xalça – Azərbaycan milli musiqi alətləri parıltılı kanvas tablo.',
+  emoDesc:'Muğam, Novruz, kök. Bu tablo Azərbaycanı hiss etdirir – hər ayrıntısında torpaq var.',
+  interior:'Ev qonaq otağı, milli üslublu interyerlər, mədəniyyət mərkəzləri, otellər.',
+  gift:'Azərbaycanlılara ən mənalı hədiyyə – xaricə gedənlər üçün yurd xatirəsi.',
+  metaDesc:'Saz nağara xalça Azərbaycan milli alətlər tablo parıltılı. Divar tablosu Bakı.'
+},
+{
+  num:'087', code:'VB-GAL-087', alt:'087',
+  title:'İstanbul Silueti – Süleymaniyyə və Boğaz',
+  artist:'Naməlum rəssam', cat:'shehir',
+  size:'Ölçü soruşun', material:'Kanvas çap',
+  seoDesc:'İstanbul panoraması – Süleymaniyyə məscidi, Boğaz ferryləri, ağ qağayılar kanvas tablo.',
+  emoDesc:'Qağayılar uçur, gəmilər keçir, minarələr göyə yüksəlir. İstanbul eyni zamanda həm güclü, həm zərif.',
+  interior:'Qonaq otağı, restoran, otel, ofis. Şəhər mənzərəli interyerlərə ideal.',
+  gift:'İstanbul sevənlər, səyahətçilər, türk mədəniyyəti maraqlananllar üçün.',
+  metaDesc:'İstanbul silueti Süleymaniyyə boğaz panorama kanvas tablo. Divar tablosu Bakı.'
+},
+{
+  num:'088', code:'VB-GAL-088', alt:'088',
+  title:'London Telefon Kabinası – Çiçəkli Bahar Küçəsi',
+  artist:'Naməlum rəssam', cat:'shehir',
+  size:'Ölçü soruşun', material:'Kanvas çap – Şaquli Format',
+  seoDesc:'London qırmızı telefon kabinası, çiçəkli ağac, ikimərtəbəli avtobus – şaquli kanvas tablo.',
+  emoDesc:'İngiltərənin ikonu – qırmızı kabina, pembe çiçəklər, mavi göy. Köhnə ilə yeninin görüşü.',
+  interior:'Müasir qonaq otağı, butik, kafe, ingilis üslublu interyerlər.',
+  gift:'Londonsevərlər, səyahətçilər, gənclər – dünyaya açılan pəncərə.',
+  metaDesc:'London telefon kabinası çiçəkli bahar küçəsi kanvas tablo. Divar tablosu Bakı.'
+},
+{
+  num:'089', code:'VB-GAL-089', alt:'089',
+  title:'Qız Qalası Qarşısında Mavi Köynəkli Xanım',
+  artist:'Naməlum rəssam', cat:'portret',
+  size:'Ölçü soruşun', material:'Kanvas çap – Şaquli Format',
+  seoDesc:'Bakı Qız Qalası qarşısında uzun mavi ətəkli qadın – dramatik göy Azərbaycan simvolu tablo.',
+  emoDesc:'Qala tarixin şahidi, xanım isə həyatın simvolu. İki qüdrət bir tabloda. Bakılı ruhun ifadəsi.',
+  interior:'Qonaq otağı, ofis, otel, milli mədəniyyəti vurğulayan məkanlara.',
+  gift:'Vətən sevgisi, Bakı hədiyyəsi, xaricə gedənlər üçün mənalı suvenir tablo.',
+  metaDesc:'Qız Qalası mavi ətəkli qadın Bakı simvolu kanvas tablo. Divar tablosu Bakı.'
+},
+{
+  num:'090', code:'VB-GAL-090', alt:'090',
+  title:'Qızıl Papaq, Kəpənək – Parıltılı Qadın Portreti',
+  artist:'Naməlum rəssam', cat:'portret',
+  size:'Ölçü soruşun', material:'Əl işi – Parıltılı, Daş bəzəkli',
+  seoDesc:'Qızıl papaq altında qadın, kəpənək, parıltılı daş bəzəkli portret tablo.',
+  emoDesc:'Qızıl işıq, kristal dodaqlar, rəngli kəpənək – bu qadın bir yuxudan çıxmış kimi. Hər baxışda yeni detal tapırsın.',
+  interior:'Bəzək otağı, geyim studiyası, lüks yaşayış, butik. Parıltı interyeri canlandırır.',
+  gift:'Özünü ifadə edən qadınlara – unikal, cəsarətli, unudulmaz hədiyyə.',
+  metaDesc:'Qızıl papaq kəpənək parıltılı daş bəzəkli qadın portreti tablo. Divar tablosu Bakı.'
+},
+{
+  num:'092', code:'VB-GAL-092', alt:'092',
+  title:'Bənövşəyi Lalə – Parıltılı Çiçək Tablosu',
+  artist:'Naməlum rəssam', cat:'menzere',
+  size:'Ölçü soruşun', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Sarı lalələr arasında bənövşəyi lalə – parıltılı yaxın plan çiçək kanvas tablo.',
+  emoDesc:'Hamı sarı, o isə bənövşəyi. Fərqli olmaq cəsarəti – bir çiçəyin dili ilə. Sevincli, canlı, enerjili.',
+  interior:'Qadın otağı, mətbəx, koridor, yataq otağı. Parlaq rəng interyerə həyat verir.',
+  gift:'Çiçəksevərlər, bahar hissi axtaranlar, xoş əhval hədiyyəsi üçün.',
+  metaDesc:'Bənövşəyi lalə sarı çiçəklər parıltılı yaxın plan tablo. Divar tablosu Bakı.'
+},
+{
+  num:'093', code:'VB-GAL-093', alt:'093',
+  title:'Qırmızı Paltarlı Uşaq – Çiçəyə Uzanan Əl',
+  artist:'Naməlum rəssam', cat:'portret',
+  size:'Ölçü soruşun', material:'Kanvas çap – Qara-ağ',
+  seoDesc:'Qara-ağ fonda qırmızı paltarlı uşaq çiçəyə uzanır – emosional sənət fotosu kanvas tablo.',
+  emoDesc:'Qara-ağ dünyada yalnız o qırmızı – körpənin ümidi, həyat sevinci. Hər baxanda ürək isınır.',
+  interior:'Uşaq otağı, qonaq otağı, ana-uşaq mərkəzləri, ofis. Emosional güclü kontrast.',
+  gift:'Yeni doğulan, uşaq hədiyyəsi, valideynlərə, humanist ruhlu insanlara.',
+  metaDesc:'Qara ağ qırmızı paltarlı uşaq çiçəyə uzanan emosional kanvas tablo. Divar tablosu Bakı.'
+},
+{
+  num:'094', code:'VB-GAL-094', alt:'094',
+  title:'Gecə Dənizində Yelkənli Gəmi – Parıltılı Kristal Bəzəkli',
+  artist:'Naməlum rəssam', cat:'menzere',
+  size:'Ölçü soruşun', material:'Əl işi – Parıltılı, Kristal daş bəzəkli',
+  seoDesc:'Gecə firuzəyi dənizidə yelkənli gəmi – parıltılı kristal daş bəzəkli kanvas tablo.',
+  emoDesc:'Ulduzlar suda, yelkənlər işıqda. Bu gəmi hara gedir? Azadlıq, macəra, dəniz ruhu.',
+  interior:'Qonaq otağı, kişi iş otağı, restoran, otel. Dərin mavi ton interyerə dərinlik verir.',
+  gift:'Dənizçilər, macərasevənlər, azadlıq sevənlər – güclü simvolik hədiyyə.',
+  metaDesc:'Gecə dənizdə yelkənli gəmi parıltılı kristal bəzəkli tablo. Divar tablosu Bakı.'
+},
+{
+  num:'095', code:'VB-GAL-095', alt:'095',
+  title:'Alov Payız Xiyabanı – Fənərli Park Yolu',
+  artist:'Naməlum rəssam', cat:'menzere',
+  size:'Ölçü soruşun', material:'Kanvas çap – Əl boyası üslubu',
+  seoDesc:'Qırmızı-narıncı payız ağacları, fənərli xiyaban – ekspressiv əl boyası üslublu kanvas tablo.',
+  emoDesc:'Qızıl fənərlər, alov rəngli yarpaqlar, uzaqda bir siluet. Payızın ən gözəl anı – bu tabloda dondurulub.',
+  interior:'Qonaq otağı, yemək otağı, otel koridoru. İsti-narıncı tonlu məkanlara mükəmməl.',
+  gift:'Rəssam zövqlü hədiyyə, payız sevənlər, ekspressiv sənət maraqlananllar üçün.',
+  metaDesc:'Payız xiyabanı fənərli park yolu alov rəngli ekspressiv tablo. Divar tablosu Bakı.'
+},
+{
+  num:'101', code:'VB-GAL-101', alt:'101',
+  title:'Kəmança Tutan Qadın – Mavi Işıqda Musiqi Ruhu',
+  artist:'Naməlum rəssam', cat:'musiqili',
+  size:'Ölçü soruşun', material:'Kanvas çap – Parıltılı',
+  seoDesc:'Ağ köynəkli qadın əlində kəmança, mavi dumanlı fon – parıltılı musiqili kanvas tablo.',
+  emoDesc:'Musiqi görünür burada – parıltılar nota kimidi. Bu xanım çalmır, musiqini yaşayır.',
+  interior:'Musiqi otağı, qonaq otağı, yaradıcı studiyalar, lüks interyerlər.',
+  gift:'Musiqiçilərə, sənətsevərlərə, zərif ruha sahib qadınlara – mükəmməl hədiyyə.',
+  metaDesc:'Kəmança tutan qadın mavi parıltılı musiqili tablo. Divar tablosu Bakı.'
+},
+{
+  num:'102', code:'VB-GAL-102', alt:'102',
+  title:'Violonçel Çalan Qadın – Rəngarəng Ekspressiv Portret',
+  artist:'Naməlum rəssam', cat:'musiqili',
+  size:'Ölçü soruşun', material:'Kanvas çap – Şaquli Format',
+  seoDesc:'Mavi ətəkli qadın violonçel çalır – narıncı-mavi ekspressiv rəngarəng kanvas tablo.',
+  emoDesc:'Musiqi alovla su arasında – narıncı istilik, mavi azadlıq. Bu tablo bir simfoniyadır.',
+  interior:'Musiqi otaqları, yaradıcı iş mühiti, incəsənət qalereyaları, premium qonaq otaqları.',
+  gift:'Musiqiçilər, rəssamlar, sənətsevərlər – emosional dərinlik axtaranlara ideal.',
+  metaDesc:'Violonçel çalan qadın ekspressiv rəngarəng musiqili tablo. Divar tablosu Bakı.'
+}
+
 ];
 
 /* ── Generate full artwork list ─────────────────────── */
