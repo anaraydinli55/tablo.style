@@ -1347,302 +1347,237 @@ const ARTWORKS_DATA = [
   gift:'Böyük məkan sahiblərinə, otel/restoran dizaynı üçün – diqqət çəkən əlamətdar tablo.',
   metaDesc:'Tünd bordo lalələr böyük format 70x200 parıltılı tablo. Divar tablosu Bakı.'
 },
-     {
-    num: '123',
-    code: 'VB-GAL-123',
-    img: '123.jpg',
-    alt: 'Mədinə Məscidi LED işıqlı tablo',
+  {
+    num: '123', code: 'VB-GAL-123', img: '123.jpg',
+    alt: 'Mədinə Peyğəmbər Məscidi LED işıqlı kətan tablo',
     title: 'Mədinə – LED İşıqlı Müqəddəs Gecə',
     artist: 'Fotoqrafik çap + LED texnologiyası',
     cat: 'islamik',
-    size: 'Ölçü soruşun',
-    material: 'Kətan + çoxrəngli LED işıqlar',
+    size: 'Ölçü soruşun', material: 'Kətan + çoxrəngli LED işıqlar',
     seoDesc: 'Peyğəmbər Məscidinin gecə görünüşü – ağ, mavi, yaşıl LED işıqlarla canlandırılmış böyük format kətan tablo. İslamik divar dekorasiyası.',
-    emoDesc: 'Gecənin dərinliyində Mədinə parlayır. Bu tablo hər baxışda o nur hissini evinizə gətirir – inanc, hüzur, mənəvi qüvvət.',
+    emoDesc: 'Gecənin dərinliyində Mədinə parlayır. Bu tablo hər baxışda o mənəvi nuru evinizə gətirir – inanc, hüzur, qüvvət.',
     interior: 'Salon, qonaq otağı, uşaq otağı. LED özəlliyi sayəsində qaranlıqda da möhtəşəm görünür.',
     gift: 'Dindar ailələrə, Həcc/Ümrə yapan əzizlərə, yeni evə köçənlərə – ən mənalı hədiyyə.',
     metaDesc: 'Mədinə Peyğəmbər Məscidi LED işıqlı kətan tablo. İslamik divar dekorasiyası Bakı.'
   },
 
-  // ── 125.jpg ── Buxar qatarı dramatik foto ─────
   {
-    num: '125',
-    code: 'VB-GAL-125',
-    img: '125.jpg',
-    alt: 'Buxar qatarı gecə meşə dramatik tablo',
+    num: '125', code: 'VB-GAL-125', img: '125.jpg',
+    alt: 'Buxar qatarı gecə tüstü dramatik foto kətan tablo',
     title: 'Buxar Qatarı – Gecənin Nəriltisi',
     artist: 'Sənət fotoqrafiyası',
     cat: 'sənaye',
-    size: 'Ölçü soruşun',
-    material: 'Kətan çap',
-    seoDesc: 'Tünd meşə arasından öndən gələn buxar qatarı – nəhəng tüstü buludları, tək yanıqlı sarı göz. Güclü sənaye fotoqrafiyası tablosu.',
-    emoDesc: 'Gecənin sükutunu yırtaraq gəlir – heç nə onu saxlaya bilməz. Hər baxışda iradə, güc və yola çıxmaq həvəsi hiss olunur.',
-    interior: 'Kabinet, iş otağı, dəhliz, restoran. Tünd rəngli, industrial dekorlara mükəmməl uyğun.',
+    size: 'Ölçü soruşun', material: 'Kətan çap',
+    seoDesc: 'Tünd meşə arasından öndən gələn buxar qatarı – nəhəng tüstü buludları, tək yanıqlı sarı işıq. Güclü sənaye fotoqrafiyası tablosu.',
+    emoDesc: 'Gecənin sükutunu yırtaraq gəlir – heç nə onu saxlaya bilməz. Hər baxışda iradə, güc, yola çıxmaq həvəsi hiss olunur.',
+    interior: 'Kabinet, iş otağı, dəhliz, restoran. Tünd, industrial dekorlara mükəmməl uyğun.',
     gift: 'Gücünü, dözümünü, inadını simvollaşdırmaq istəyənlərə – yola çıxanlar üçün hədiyyə.',
     metaDesc: 'Buxar qatarı gecə meşə tüstü sənaye tablo. Divar tablosu Bakı.'
   },
 
-  // ── 126.jpg ── Abstrakt triptix (şərab, ceyran, dalğa) ──
   {
-    num: '126',
-    code: 'VB-GAL-126',
-    img: '126.jpg',
-    alt: 'Abstrakt triptix ceyran şərab qədəhi dalğa',
+    num: '126', code: 'VB-GAL-126', img: '126.jpg',
+    alt: 'Abstrakt triptix şərab qədəhi ceyran rəng dalğası tablo',
     title: 'Ceyran və Dalğa – Modern Abstrakt Triptix',
     artist: 'Rəqəmsal abstrakt sənət',
     cat: 'abstrakt',
-    size: 'Ölçü soruşun (3-lü dəst)',
-    material: 'Kətan çap, çərçivəli, 3 panel',
-    seoDesc: 'Boz fonda şərab qədəhi, narıncı-mavi rəng dalğaları və qızıl ceyranlar – 3 panelli modern abstrakt triptix tablo dəsti.',
-    emoDesc: 'Zövq, axış, azadlıq – bir tablodan üçü bir arada. Otağa girən hər kəs dayanır, baxır, hiss edir. Dinamizm, elegantlıq.',
+    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, çərçivəli, 3 panel',
+    seoDesc: 'Boz fonda şərab qədəhi, narıncı-mavi rəng dalğaları, qızıl ceyranlar – 3 panelli modern abstrakt triptix tablo dəsti.',
+    emoDesc: 'Zövq, axış, azadlıq – bir tablodan üçü bir arada. Otağa girən hər kəs dayanır, baxır, hiss edir.',
     interior: 'Qonaq otağı, yemək otağı. Açıq, boz, ağ interyerlərə ideal. Dizaynerlər seçimi.',
     gift: 'Estetik zövqlü, modern yaşayan insanlara – ev dekorasiyasının tacı.',
     metaDesc: 'Abstrakt ceyran dalğa triptix tablo dəsti. Divar tablosu Bakı.'
   },
 
-  // ── 127.jpg ── Təbiət triptixası (payız meşəsi, qızıl ağac) ──
   {
-    num: '127',
-    code: 'VB-GAL-127',
-    img: '127.jpg',
-    alt: 'Payız meşəsi qızıl ağac abstrakt triptix tablo',
+    num: '127', code: 'VB-GAL-127', img: '127.jpg',
+    alt: 'Payız meşəsi qızıl ağac rəngli dalğa triptix tablo',
     title: 'Payız Meşəsi – Qızıl Ağac Triptixası',
     artist: 'Rəqəmsal mənzərə sənəti',
     cat: 'menzere',
-    size: 'Ölçü soruşun (3-lü dəst)',
-    material: 'Kətan çap, çərçivəli, 3 panel',
-    seoDesc: 'Qırmızı günəş, yaşıl nəhəng ağac, narıncı payız meşəsi və rəngli ipək dalğalar – 3 panelli abstrakt-naturalist triptix.',
-    emoDesc: 'Payızın qızılı, sükutu, bolluğu. Məkanınıza mövsümün ən gözəl anını asın – hər gün o köklü ağac kimi sabit hiss edin.',
+    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, çərçivəli, 3 panel',
+    seoDesc: 'Qırmızı günəş, yaşıl nəhəng ağac, narıncı payız meşəsi, rəngli ipək dalğalar – 3 panelli abstrakt-naturalist triptix.',
+    emoDesc: 'Payızın qızılı, sükutu, bolluğu. Məkanınıza mövsümün ən gözəl anını asın – o köklü ağac kimi sabit hiss edin.',
     interior: 'Qonaq otağı, yemək otağı. Ağ-boz interyerlərə canlılıq verir.',
     gift: 'Doğum günü, evə köçmə – təbiəti sevənlərə ən gözəl sürpriz.',
     metaDesc: 'Payız meşəsi qızıl ağac ceyran triptix tablo. Divar tablosu Bakı.'
   },
 
-  // ── 128.jpg ── Tünd fantaziya triptixası (Ay, qızıl ceyran, firuzəyi) ──
   {
-    num: '128',
-    code: 'VB-GAL-128',
-    img: '128.jpg',
-    alt: 'Gecə ay qızıl ceyran firuzəyi tablo triptix',
+    num: '128', code: 'VB-GAL-128', img: '128.jpg',
+    alt: 'Gecə ay qızıl ceyran firuzəyi dalğa tablo triptix',
     title: 'Gecə Ceyranı – Firuzəyi Fantaziya Triptixası',
     artist: 'Rəqəmsal fantaziya sənəti',
     cat: 'fantaziya',
-    size: 'Ölçü soruşun (3-lü dəst)',
-    material: 'Kətan çap, çərçivəli, 3 panel',
+    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, çərçivəli, 3 panel',
     seoDesc: 'Tünd gecə fonda dolunay, firuzəyi-qızıl dalğalar, qızıl ceyran silueti – misterik, lüks 3 panelli fantaziya triptixası.',
     emoDesc: 'Gecənin sirrini, ayın cazibəsini, ceyranın azadlığını bir arada yaşayın. Otağa girdikdə sanki başqa bir dünyaya keçirsiniz.',
-    interior: 'Qonaq otağı, yataq otağı. Tünd, navy-blue, antrasit interyerlərə mükəmməl.',
+    interior: 'Qonaq otağı, yataq otağı. Navy-blue, antrasit, tünd rəngli interyerlərə mükəmməl.',
     gift: 'Estetik, dramatik dekor sevənlərə; xüsusi doğum günü hədiyyəsi.',
     metaDesc: 'Gecə ay qızıl ceyran firuzəyi triptix tablo. Divar tablosu Bakı.'
   },
 
-  // ── 129.jpg ── Tünd lüks triptix (qızıl ağaclar, dolunay, maral) ──
   {
-    num: '129',
-    code: 'VB-GAL-129',
-    img: '129.jpg',
-    alt: 'Qızıl ağac dolunay maral gecə tablo triptix',
+    num: '129', code: 'VB-GAL-129', img: '129.jpg',
+    alt: 'Qızıl ağac dolunay maral gecə lüks tablo triptix',
     title: 'Qızıl Ağac – Dolunay Gecəsi Triptixası',
     artist: 'Rəqəmsal lüks illüstrasiya',
     cat: 'fantaziya',
-    size: 'Ölçü soruşun (3-lü dəst)',
-    material: 'Kətan çap, çərçivəli, 3 panel',
+    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, çərçivəli, 3 panel',
     seoDesc: 'Tünd göy fonda qızıl çiçəkli ağaclar, böyük parlaq dolunay, tullanmakda olan ağ ceyranlar – royal görünüşlü gecə triptixası.',
     emoDesc: 'Gecə göyünün altında qızıldan ağaclar açır. Bu tablo lüksü, gözəlliyi, romantikanı simvollaşdırır – xüsusi olanlar üçün.',
-    interior: 'Qonaq otağı, yataq otağı, otel tipli dekorlar. Mavi, lacivert sofalara möhtəşəm kontrast.',
-    gift: 'Yeni ev, nişan, nikah ili hədiyyəsi – "qızıl dövrün" simvolu.',
+    interior: 'Qonaq otağı, yataq otağı. Mavi, lacivert sofalara möhtəşəm kontrast.',
+    gift: 'Yeni ev, nişan, nikah ili hədiyyəsi – qızıl dövrün simvolu.',
     metaDesc: 'Qızıl ağac dolunay ceyran gecə tablo. Lüks divar tablosu Bakı.'
   },
 
-  // ── 130.jpg ── Firuzəyi fluid art triptixası ──
   {
-    num: '130',
-    code: 'VB-GAL-130',
-    img: '130.jpg',
-    alt: 'Firuzəyi fluid art qızıl balıq kəpənək triptix',
+    num: '130', code: 'VB-GAL-130', img: '130.jpg',
+    alt: 'Firuzəyi fluid art qızıl balıq kəpənək triptix tablo',
     title: 'Zümrüd Dalğa – Fluid Art Triptixası',
     artist: 'Fluid / liquid art',
     cat: 'abstrakt',
-    size: 'Ölçü soruşun (3-lü dəst)',
-    material: 'Şüşə üzərində kətan çap, ağ çərçivə, 3 panel',
-    seoDesc: 'Ağ fonda firuzəyi-zümrüd maye axınları, qızıl balıq sürüsü və qızıl kəpənəklər – premium şüşəli fluid art triptix dəsti.',
+    size: 'Ölçü soruşun (3-lü dəst)', material: 'Şüşəli kətan çap, ağ çərçivə, 3 panel',
+    seoDesc: 'Ağ fonda firuzəyi-zümrüd maye axınları, qızıl balıq sürüsü, qızıl kəpənəklər – premium şüşəli fluid art triptix dəsti.',
     emoDesc: 'Suyun axışı, qızılın parıltısı – bu triptix otağa baharı, təravəti, bolluğu gətirir. Hər baxışda canlanır.',
-    interior: 'Qonaq otağı, yemək otağı, mətbəx. Ağ-krem, açıq rəngli interyerlərə premium kontrast.',
+    interior: 'Qonaq otağı, yemək otağı. Ağ-krem, açıq rəngli interyerlərə premium kontrast.',
     gift: 'Yeni ev, ailə bayramları – fərqli, zövqlü, yadda qalan hədiyyə.',
     metaDesc: 'Firuzəyi fluid art qızıl balıq kəpənək triptix tablo. Divar tablosu Bakı.'
   },
 
-  // ── 131.jpg ── Qarışıq fantaziya triptixası (qızıl ceyran, rəngli mənzərə) ──
   {
-    num: '131',
-    code: 'VB-GAL-131',
-    img: '131.jpg',
-    alt: 'Qızıl ceyran rəngli mənzərə abstrakt triptix tablo',
+    num: '131', code: 'VB-GAL-131', img: '131.jpg',
+    alt: 'Qızıl ceyran mavi burulğan rəngli mənzərə abstrakt triptix',
     title: 'Qızıl Ceyran – Fantaziya Mənzərəsi Triptixası',
     artist: 'Rəqəmsal qarışıq texnika',
     cat: 'fantaziya',
-    size: 'Ölçü soruşun (3-lü dəst)',
-    material: 'Kətan çap, çərçivəli, 3 panel',
-    seoDesc: 'Mavi burulğanda uçan qızıl ceyran, rəngli çaylar-dağlar mənzərəsi, firuzəyi-qızıl ceyran silueti – 3 fərqli dünya, 1 harmoniya.',
+    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, çərçivəli, 3 panel',
+    seoDesc: 'Mavi burulğanda uçan qızıl ceyran, rəngli çay-dağ mənzərəsi, firuzəyi-qızıl ceyran silueti – 3 fərqli dünya, 1 harmoniya.',
     emoDesc: 'Azadlıq, axış, kəşf. Bu üç panel bir-birini tamamlayır – sanki hər panel ayrı bir nağılın fəslidir.',
     interior: 'Qonaq otağı, dəhliz, uşaq otağı. Açıq rəngli interyerlərə canlılıq qatır.',
-    gift: 'Yaradıcı, fərqli düşünən insanlara; tərcihli seçim.',
+    gift: 'Yaradıcı, fərqli düşünən insanlara; seçilmiş hədiyyə.',
     metaDesc: 'Qızıl ceyran mavi dalğa abstrakt triptix tablo. Divar tablosu Bakı.'
   },
 
-  // ── 132.jpg ── Şəffaf yarpaq triptixası ──────
   {
-    num: '132',
-    code: 'VB-GAL-132',
-    img: '132.jpg',
-    alt: 'Şəffaf yarpaq ceyran quş abstrakt triptix tablo',
+    num: '132', code: 'VB-GAL-132', img: '132.jpg',
+    alt: 'Şəffaf yarpaq ceyran quş botanik triptix tablo qızıl çərçivə',
     title: 'Şəffaf Yarpaqlar – Payız Triptixası',
     artist: 'Rəqəmsal botanik sənət',
     cat: 'abstrakt',
-    size: 'Ölçü soruşun (3-lü dəst)',
-    material: 'Kətan çap, qızıl çərçivə, 3 panel',
+    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, qızıl çərçivə, 3 panel',
     seoDesc: 'Boz-ağ fonda şəffaf rəngli yarpaqlar, qızıl ceyran fiquru, uçan quşlar – incə, minimalist botanik triptix tablo dəsti.',
     emoDesc: 'Yarpağın içindən işıq keçir – bu tablo sadəliyin dərinliyini göstərir. Həssas, estetik, sakit ruhlu interyerlər üçün.',
     interior: 'Qonaq otağı, yataq otağı, çalışma otağı. Krem, bej, gümüş rəngli dekorlara ideal.',
     gift: 'Minimalist estetik sevənlərə, ev açımına – zərif, unudulmaz hədiyyə.',
     metaDesc: 'Şəffaf yarpaq ceyran quş botanik triptix tablo. Divar tablosu Bakı.'
   },
-     {
-    num: '133',
-    code: 'VB-GAL-133',
-    img: '133.jpg',
-    alt: 'Dolunay göl qızıl ağac ceyran gecə tablo triptix',
+
+  {
+    num: '133', code: 'VB-GAL-133', img: '133.jpg',
+    alt: 'Gecə gölü dolunay qızıl ağac ağ ceyran tablo triptix',
     title: 'Gecə Gölü – Dolunay Yansıması Triptixası',
     artist: 'Rəqəmsal mənzərə illüstrasiyası',
     cat: 'menzere',
-    size: 'Ölçü soruşun (3-lü dəst)',
-    material: 'Kətan çap, çərçivəli, 3 panel',
-    seoDesc: 'Tünd mavi gecə göyündə dolunay, dağ əksi görünən sakit göl, qızıl yarpaqları olan ağac, ağ ceyran silueti – 3 panelli romantik gecə mənzərəsi.',
-    emoDesc: 'Göl sükutdur, ay umuddur, ceyran azadlıqdır. Bu üç element bir arada evinizə sakit bir gecənin hüzurunu gətirir.',
+    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, çərçivəli, 3 panel',
+    seoDesc: 'Tünd mavi gecə göyündə dolunay, dağ əksi görünən sakin göl, qızıl yarpaqları olan ağac, ağ ceyran silueti – 3 panelli romantik gecə mənzərəsi.',
+    emoDesc: 'Göl sükutdur, ay umuddur, ceyran azadlıqdır. Bu üç element bir arada evinizə sakin gecənin hüzurunu gətirir.',
     interior: 'Yataq otağı, qonaq otağı. Lacivert, tünd mavi sofa və dekorlara möhtəşəm uyğun.',
     gift: 'Romantik ruhlu, təbiətsevər cütlüklərə; ev açımına ideal seçim.',
     metaDesc: 'Gecə gölü dolunay qızıl ağac ceyran triptix tablo. Divar tablosu Bakı.'
   },
 
-  // ── 134.jpg ── Qızıl ipək dalğa + balıq triptixası ──
   {
-    num: '134',
-    code: 'VB-GAL-134',
-    img: '134.jpg',
-    alt: 'Qızıl ipək balıq ceyran firuzəyi tablo triptix',
+    num: '134', code: 'VB-GAL-134', img: '134.jpg',
+    alt: 'Qızıl ipək balıq sürüsü ceyran firuzəyi tablo triptix',
     title: 'Qızıl Dalğa – İpək və Balıq Triptixası',
     artist: 'Rəqəmsal lüks illüstrasiya',
     cat: 'abstrakt',
-    size: 'Ölçü soruşun (3-lü dəst)',
-    material: 'Kətan çap, çərçivəli, 3 panel',
-    seoDesc: 'Qızıl ipək parça qövsü altında firuzəyi göydə üzən qızıl balıq sürüsü, ceyran fiqurları – bolluq simvolu lüks triptix tablo.',
+    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, çərçivəli, 3 panel',
+    seoDesc: 'Qızıl ipək parça qövsü altında firuzəyi-teal göydə üzən qızıl balıq sürüsü, ceyran fiqurları – bolluq simvolu lüks triptix tablo.',
     emoDesc: 'Qızıl balıqlar bolluğu, ipək dalğalar rahatlığı simvollaşdırır. Evinizə uğur, rifah enerjisi gətirən tablo.',
     interior: 'Qonaq otağı, yemək otağı. Tünd, zəngin rəngli interyerlərə möhtəşəm kontrast.',
     gift: 'Yeni iş, yeni ev, yeni başlanğıc – bolluq diləyi ilə hədiyyə.',
     metaDesc: 'Qızıl ipək balıq ceyran triptix tablo bolluq simvolu. Divar tablosu Bakı.'
   },
 
-  // ── 135.jpg ── Boz-qızıl dağ + uçan maral triptixası ──
   {
-    num: '135',
-    code: 'VB-GAL-135',
-    img: '135.jpg',
-    alt: 'Boz qızıl dağ ay uçan maral triptix tablo',
+    num: '135', code: 'VB-GAL-135', img: '135.jpg',
+    alt: 'Boz qızıl dağ ay uçan maral minimalist triptix tablo',
     title: 'Qızıl Ay – Dağ Silueti Triptixası',
     artist: 'Rəqəmsal minimalist sənət',
     cat: 'abstrakt',
-    size: 'Ölçü soruşun (3-lü dəst)',
-    material: 'Kətan çap, çərçivəli, 3 panel',
-    seoDesc: 'Ağ-boz fonda dalğavari dağ silsilələri, böyük qızıl günəş/ay, uçaraq tullanmakda olan qızıl maral – minimalist zərif triptix.',
+    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, çərçivəli, 3 panel',
+    seoDesc: 'Ağ-boz fonda dalğavari dağ silsilələri, böyük qızıl günəş/ay, uçaraq tullanmakda olan qızıl maral – minimalist, zərif triptix.',
     emoDesc: 'Sadəlik içindəki qüdrət. Bu tablo ucalığı, saflığı, irəli atılmağı simvollaşdırır – uçmaq istəyənlər üçün.',
     interior: 'Qonaq otağı, kabinet, çalışma otağı. Sarı, bej, ağ interyerlərə ideal.',
-    gift: 'Yeni addım atan, yeni karyera başlayan insanlara – ilhamverici hədiyyə.',
+    gift: 'Yeni addım atan, karyera başlayan insanlara – ilhamverici hədiyyə.',
     metaDesc: 'Qızıl ay dağ silueti maral triptix tablo minimalist. Divar tablosu Bakı.'
   },
 
-  // ── 136.jpg ── Rəngli maral silueti triptixası ──
   {
-    num: '136',
-    code: 'VB-GAL-136',
-    img: '136.jpg',
-    alt: 'Rəngli maral silueti ağac quş akvarell triptix tablo',
+    num: '136', code: 'VB-GAL-136', img: '136.jpg',
+    alt: 'Rəngli maral silueti ağac gecə akvarell triptix tablo',
     title: 'Maral Nəğməsi – Rəngli Gecə Triptixası',
     artist: 'Rəqəmsal akvarell illüstrasiya',
     cat: 'fantaziya',
-    size: 'Ölçü soruşun (3-lü dəst)',
-    material: 'Kətan çap, çərçivəli, 3 panel',
+    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, çərçivəli, 3 panel',
     seoDesc: 'Narıncı-yaşıl dolunay işığında tünd maral siluetləri, rəngli ağaclar, uçan quşlar – canlı, enerjik akvarell üslublu triptix.',
     emoDesc: 'Gecənin rəngi var – narıncı, yaşıl, canlı. Bu tablo otağa hay-həyat, həyat sevinci, yenilik enerjisi gətirir.',
     interior: 'Qonaq otağı, uşaq otağı, restoran. Parlaq, rəngli dekorlara möhtəşəm tamamlayıcı.',
-    gift: 'Enerji dolu, optimist, canlı ruhlu insanlara – fərqli, yadda qalan hədiyyə.',
+    gift: 'Enerji dolu, optimist insanlara – fərqli, yadda qalan hədiyyə.',
     metaDesc: 'Rəngli maral silueti gecə ağac triptix tablo. Divar tablosu Bakı.'
   },
 
-  // ── 137.jpg ── Qızıl payız meşəsi triptixası ──
   {
-    num: '137',
-    code: 'VB-GAL-137',
-    img: '137.jpg',
-    alt: 'Qızıl payız meşəsi ceyran kətan triptix tablo',
+    num: '137', code: 'VB-GAL-137', img: '137.jpg',
+    alt: 'Qızıl payız meşəsi ceyran firuzəyi ağac triptix tablo',
     title: 'Qızıl Meşə – Payız Bolluğu Triptixası',
     artist: 'Rəqəmsal teksturalı illüstrasiya',
     cat: 'menzere',
-    size: 'Ölçü soruşun (3-lü dəst)',
-    material: 'Kətan çap, çərçivəli, 3 panel',
-    seoDesc: 'Qızıl-narıncı yarpaqlarla örtülü sıx meşə, firuzəyi nəhəng ağac gövdələri arasında qızıl ceyran – payız zənginliyinin simvolu triptix.',
+    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, çərçivəli, 3 panel',
+    seoDesc: 'Qızıl-narıncı yarpaqlarla örtülü sıx meşə, firuzəyi gövdəli nəhəng ağaclar arasında qızıl ceyran – payız zənginliyinin simvolu triptix.',
     emoDesc: 'Qızıl meşənin içindəsən – hər tərəf bolluq, zənginlik, istilik. Bu tablo payızın ən gözəl anını əbədiləşdirir.',
     interior: 'Qonaq otağı, yemək otağı. Narıncı, sarı, qızılı tonlu interyerlərə mükəmməl uyğun.',
     gift: 'Evə hərarət, bolluq enerjisi gətirmək istəyənlərə – payız mövsümündə ideal hədiyyə.',
     metaDesc: 'Qızıl payız meşəsi ceyran triptix tablo bolluq. Divar tablosu Bakı.'
   },
 
-  // ── 138.jpg ── Venesiya kanalı foto tablo ──
   {
-    num: '138',
-    code: 'VB-GAL-138',
-    img: '138.jpg',
-    alt: 'Venesiya kanalı körpü qondola foto tablo',
+    num: '138', code: 'VB-GAL-138', img: '138.jpg',
+    alt: 'Venesiya kanalı körpü qondola vintage foto kətan tablo',
     title: 'Venesiya – Kanal Kənarında Sehir',
     artist: 'Fotoqrafik sənət / vintage çap',
     cat: 'foto-senet',
-    size: 'Ölçü soruşun',
-    material: 'Kətan çap',
+    size: 'Ölçü soruşun', material: 'Kətan çap',
     seoDesc: 'Venesiya kanalında körpü, qondola, çiçəkli restoran, rəngli köhnə binalar – vintage əhval-ruhiyyəli fotoqrafik kətan tablo.',
     emoDesc: 'Hər baxışda Venesiya sehrini hiss edirsiniz – dar kanal, köhnə daşlar, romantikanın pıçıltısı. Uzağı yaxına gətirir.',
     interior: 'Qonaq otağı, dəhliz, kafe, restoran. Aralıq dənizi, Avropa üslublu dekorlara ideal.',
-    gift: 'Səyahətsevər, romantik ruhlara; Avropa həvəslilərə – dünyayı divara asın.',
+    gift: 'Səyahətsevər, romantik ruhlara – dünyayı divara asın.',
     metaDesc: 'Venesiya kanal körpü qondola foto kətan tablo. Divar tablosu Bakı.'
   },
 
-  // ── 139.jpg ── Liman gecəsi yağlı boya tablo ──
   {
-    num: '139',
-    code: 'VB-GAL-139',
-    img: '139.jpg',
-    alt: 'Liman gecəsi qayıq fener yağlı boya impressionist tablo',
+    num: '139', code: 'VB-GAL-139', img: '139.jpg',
+    alt: 'Liman gecəsi qayıq fənər impressionist yağlı boya tablo',
     title: 'Liman Gecəsi – İmpressionizm Işığı',
     artist: 'Leonid Afremov üslubu',
     cat: 'yagliboy',
-    size: 'Ölçü soruşun',
-    material: 'Kətan üzərində yağlı boya çap',
+    size: 'Ölçü soruşun', material: 'Kətan üzərində yağlı boya çap',
     seoDesc: 'Gecə limanında yanaşan ağ qayıqlar, əks olunan rəngli fənərlər, payız ağacları – klassik impressionist yağlı boya tablo.',
-    emoDesc: 'Gecə limanda sakitlik var. Bu tablo hər axşam sizi o sakit körfəzə aparır – işıqlar suya düşür, zaman yavaşlayır.',
+    emoDesc: 'Gecə limanda sakitlik var. Bu tablo hər axşam o sakit körfəzə aparır – işıqlar suya düşür, zaman yavaşlayır.',
     interior: 'Qonaq otağı, yemək otağı, kabinet. Klassik, zəngin rəngli interyerlərə əla.',
-    gift: 'Klassik sənəti sevənlərə, dəniz həvəslilərinə – kölgəsiz estetika.',
+    gift: 'Klassik sənəti sevənlərə, dəniz həvəslilərə – kölgəsiz estetika.',
     metaDesc: 'Liman gecəsi qayıq fənər impressionist yağlı boya tablo. Divar tablosu Bakı.'
   },
 
-  // ── 140.jpg ── Mandala pişik rəngli kətan ──
   {
-    num: '140',
-    code: 'VB-GAL-140',
-    img: '140.jpg',
-    alt: 'Rəngli mandala pişik çap kətan tablo',
+    num: '140', code: 'VB-GAL-140', img: '140.jpg',
+    alt: 'Rəngli mandala pişik mavi fon kətan tablo',
     title: 'Mandala Pişik – Rəngli Bəzək Tablosu',
     artist: 'Rəqəmsal mandala sənəti',
     cat: 'dekorativ',
-    size: 'Ölçü soruşun',
-    material: 'Kətan çap (soft velvet finish)',
+    size: 'Ölçü soruşun', material: 'Kətan çap (soft velvet finish)',
     seoDesc: 'Canlı mavi fonda mürəkkəb mandala naxışlarla bəzədilmiş pişik üzü – göy, çəhrayı, narıncı rənglərlə zəngin dekorativ kətan tablo.',
     emoDesc: 'Pişiyin sirli baxışı, mandalanın sonsuz simmetriyası. Bu tablo baxanı sakitləşdirir, otağa mistik bir enerji verir.',
     interior: 'Uşaq otağı, yataq otağı, gənc otağı. Rəngli, bohem, eklektik dekorlara mükəmməl.',
@@ -1650,17 +1585,13 @@ const ARTWORKS_DATA = [
     metaDesc: 'Mandala pişik rəngli kətan tablo dekorativ. Divar tablosu Bakı.'
   },
 
-  // ── 141.jpg ── Afrika qadını portret tablo ──
   {
-    num: '141',
-    code: 'VB-GAL-141',
-    img: '141.jpg',
-    alt: 'Afrika qadını portret sarı fon rəngli tablo',
+    num: '141', code: 'VB-GAL-141', img: '141.jpg',
+    alt: 'Afrika qadını portret sarı fon çəhrayı başlıq kətan tablo',
     title: 'Qızıl Qürur – Afrika Qadını Portreti',
     artist: 'Müasir rəqəmsal portret sənəti',
     cat: 'portret',
-    size: 'Ölçü soruşun',
-    material: 'Kətan çap (soft velvet finish)',
+    size: 'Ölçü soruşun', material: 'Kətan çap (soft velvet finish)',
     seoDesc: 'Parlaq sarı-qızılı fonda çəhrayı baş örtüklü, müdrik baxışlı Afrika qadını – güclü, zarif, özünəməxsus portret tablosu.',
     emoDesc: 'Güc gözlərindədir. Bu portret qüruru, müstəqilliyi, zəngin mədəniyyəti simvollaşdırır. Hər baxışda öz gücünüzü hiss edirsiniz.',
     interior: 'Qonaq otağı, dəhliz, yaradıcı studiya. Sarı, narıncı, torpaq tonlu dekorlara möhtəşəm.',
@@ -1668,23 +1599,23 @@ const ARTWORKS_DATA = [
     metaDesc: 'Afrika qadını portret sarı qızılı tablo. Divar tablosu Bakı.'
   },
 
-  // ── 144.jpg ── Osman Hamdi Bəy – Tısbağaçı ──
   {
-    num: '144',
-    code: 'VB-GAL-144',
-    img: '144.jpg',
-    alt: 'Tısbağaçı Osman Hamdi Bəy klassik tablo çap',
+    num: '144', code: 'VB-GAL-144', img: '144.jpg',
+    alt: 'Tısbağaçı Osmanlı klassik kətan tablo Osman Hamdi Bəy',
     title: 'Tısbağaçı – Klassik Şərq Tablosunun Çapı',
     artist: 'Osman Hamdi Bəy üslubu (klassik çap)',
     cat: 'klassik',
-    size: 'Ölçü soruşun',
-    material: 'Kətan çap',
-    seoDesc: 'Osmanlı dövrü arxitekturasında qırmızı libaslı fiqur, tısbağalar – Osman Hamdi Bəyin məşhur "Tısbağa Tərbiyəçisi" əsərinin yüksək keyfiyyətli kətan çapı.',
-    emoDesc: 'Tələsmə – bu tablonun mesajı budur. Tısbağalar səbirli, sakin, əzəmətlidir. Bu tablo evinizə klassik zaman anlayışını, dərinliyi gətirir.',
+    size: 'Ölçü soruşun', material: 'Kətan çap',
+    seoDesc: 'Osmanlı dövrü arxitekturasında qırmızı libaslı, sarıqlı fiqur, tısbağalar – Osman Hamdi Bəyin "Tısbağa Tərbiyəçisi" əsərinin yüksək keyfiyyətli kətan çapı.',
+    emoDesc: 'Tələsmə – bu tablonun mesajı budur. Tısbağalar səbirli, sakin, əzəmətlidir. Evinizə klassik zaman anlayışını, dərinliyi gətirir.',
     interior: 'Kabinet, kitabxana, qonaq otağı. Klassik, Osmanlı-Şərq üslublu dekorlara mükəmməl.',
     gift: 'Tarixi, klassik sənəti sevənlərə; kitab oxuyan, düşünən insanlara – mədəniyyəti hədiyyə et.',
-    metaDesc: 'Tısbağaçı Osman Hamdi Bəy klassik Osmanlı kətan tablo çap. Divar tablosu Bakı.'
+    metaDesc: 'Tısbağaçı Osman Hamdi Bəy klassik Osmanlı kətan tablo. Divar tablosu Bakı.'
   },
+];
+
+export default products;
+ 
 
 ];
 
