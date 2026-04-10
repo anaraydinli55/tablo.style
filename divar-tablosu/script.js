@@ -1545,8 +1545,7 @@ const ARTWORKS_DATA = [
   emoDesc:'Tropiklərin canlı rəngləri – mavi, sarı, yaşıl. Bu tablo evə ekzotik enerji və canlılıq gətirir.',
   interior:'Qonaq otağı, mətbəx, uşaq otağı, tropik üslublu interyerlər. Yaşıl bitkili mühitlərə ideal.',
   gift:'Quş sevənlərə, uşaqlara, tropik dekorasiya sevənlərə rəngarəng hədiyyə.',
-  metaDesc:'Tropik tutuquş mavi sarı quş tablo kanvas. Divar tablosu Bakı.' }
-   ```javascript
+  metaDesc:'Tropik tutuquş mavi sarı quş tablo kanvas. Divar tablosu Bakı.' },
 { num:'143', code:'VB-GAL-143', alt:'143',
   title:'Çiçək Dəsti – Firuzəyi Vazada Rəngli Buket',
   artist:'Naməlum rəssam', cat:'cicek',
