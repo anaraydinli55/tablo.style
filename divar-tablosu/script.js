@@ -1360,8 +1360,7 @@ const ARTWORKS_DATA = [
     gift: 'Dindar ailələrə, Həcc/Ümrə yapan əzizlərə, yeni evə köçənlərə – ən mənalı hədiyyə.',
     metaDesc: 'Mədinə Peyğəmbər Məscidi LED işıqlı kətan tablo. İslamik divar dekorasiyası Bakı.'
   },
-
-  {
+{
     num: '125', code: 'VB-GAL-125', img: '125.jpg',
     alt: 'Buxar qatarı gecə tüstü dramatik foto kətan tablo',
     title: 'Buxar Qatarı – Gecənin Nəriltisi',
@@ -1612,11 +1611,6 @@ const ARTWORKS_DATA = [
     gift: 'Tarixi, klassik sənəti sevənlərə; kitab oxuyan, düşünən insanlara – mədəniyyəti hədiyyə et.',
     metaDesc: 'Tısbağaçı Osman Hamdi Bəy klassik Osmanlı kətan tablo. Divar tablosu Bakı.'
   },
-];
-
-export default products;
- 
-
 ];
 
 /* ── Generate full artwork list ─────────────────────── */
