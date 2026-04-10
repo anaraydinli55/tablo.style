@@ -1347,423 +1347,205 @@ const ARTWORKS_DATA = [
   gift:'Böyük məkan sahiblərinə, otel/restoran dizaynı üçün – diqqət çəkən əlamətdar tablo.',
   metaDesc:'Tünd bordo lalələr böyük format 70x200 parıltılı tablo. Divar tablosu Bakı.'
 },
-     {
-    num: '123', code: 'VB-GAL-123', img: '123.jpg',
-    alt: 'Mədinə Peyğəmbər Məscidi LED işıqlı böyük format kətan tablo',
-    title: 'Mədinə Gecəsi – LED İşıqlı Müqəddəs Tablo',
-    artist: 'Fotoqrafik çap + LED texnologiyası',
-    cat: 'islamik',
-    size: 'Ölçü soruşun', material: 'Kətan + çoxrəngli LED işıqlar',
-    seoDesc: 'Peyğəmbər Məscidinin (Məscid-i Nəbəvi) gecə panoraması – minarələr, günbəzlər, meydanlar ağ, mavi və yaşıl LED işıqlarla canlandırılmış böyük format kətan tablo.',
-    emoDesc: 'Gecənin dərinliyində Mədinə parlayır. Bu tablo hər baxışda o mənəvi nuru evinizə daşıyır – inanc, hüzur, sükut.',
-    interior: 'Salon, qonaq otağı, dəhliz. LED özəlliyi sayəsində gecə qaranlıqda da möhtəşəm görünür.',
-    gift: 'Dindar ailələrə, Həcc/Ümrə yapan əzizlərə, yeni evə köçənlərə – ən mənalı hədiyyə.',
-    metaDesc: 'Mədinə Peyğəmbər Məscidi LED işıqlı kətan tablo. İslamik divar dekorasiyası Bakı.'
-  },
+ { num:'123', code:'VB-GAL-123', alt:'123',
+  title:'Mədinə Nuru – LED İşıqlı Məscid Tablosu',
+  artist:'Naməlum rəssam', cat:'din',
+  size:'Ölçü soruşun', material:'LED işıqlı kanvas çap',
+  seoDesc:'Məscidi-Nəbəvi gecə görünüşü, minarələr, LED işıqlar – parıldayan islami divar tablosu.',
+  emoDesc:'Gecənin qaranlığında parlayan bu müqəddəs məkan hər baxana hüzur və inam verir.',
+  interior:'Qonaq otağı, yataq otağı, dua küncü. İslami dəkorlu interyerlərə ideal.',
+  gift:'Həccə gedənlərə, dindar ailələrə, bayram hədiyyəsi olaraq mənalı seçim.',
+  metaDesc:'Mədinə Məscid LED işıqlı tablo kanvas. Divar tablosu Bakı.' },
 
-  // ─────────────────────────────────────────────────────────────────
-  // 125.jpg
-  // Görüntü: Gecə tünd meşədə qarşıdan gələn buxar lokomotivu,
-  //          başının üzərindən qalxan nəhəng boz tüstü buludu,
-  //          mərkəzdə tək yanıqlı narıncı baş işığı.
-  // ─────────────────────────────────────────────────────────────────
-  {
-    num: '125', code: 'VB-GAL-125', img: '125.jpg',
-    alt: 'Buxar lokomotivu gecə meşə dramatik tüstü foto kətan tablo',
-    title: 'Gecənin Nəriltisi – Buxar Lokomotivu',
-    artist: 'Sənət fotoqrafiyası – B&W drama',
-    cat: 'sənaye',
-    size: 'Ölçü soruşun', material: 'Kətan çap',
-    seoDesc: 'Gecə tünd meşə yolunda birbaşa kameraya doğru gələn buxar lokomotivu – nəhəng tüstü buludu, tək yanıqlı narıncı işıq. Güclü, dramatik sənaye fotoqrafiyası.',
-    emoDesc: 'Heç nə onu saxlaya bilməz. Hər baxışda iradə, güc, dönməzlik hiss olunur. Öz gücünüzü divarınıza asın.',
-    interior: 'Kabinet, iş otağı, dəhliz, restoran. Tünd, industrial, loft dekorlara mükəmməl.',
-    gift: 'İnadlı, güclü, öz yolunu gedən insanlara – xarakter hədiyyəsi.',
-    metaDesc: 'Buxar lokomotivu gecə meşə tüstü dramatik foto tablo. Divar tablosu Bakı.'
-  },
+{ num:'124', code:'VB-GAL-124', alt:'124',
+  title:'Qış Quşu – Qırmızı Cardinal Tablo',
+  artist:'Naməlum rəssam', cat:'tebiet',
+  size:'70x100 sm', material:'Çərçivəli kanvas çap',
+  seoDesc:'Qarlı quş evi üzərində oturmuş qırmızı cardinal quşu – qış mövzulu vertikal divar tablosu.',
+  emoDesc:'Soyuq bir qış gününün sakitliyi – qırmızı quş, ağ qar, boz fon. Sakit və estetik.',
+  interior:'Koridor, yataq otağı, oxu bucağı. Minimalist və skandinav üslublu interyerlərə uyğun.',
+  gift:'Təbiət sevənlərə, quş sevənlərə, evə yeni köçənlərə gözəl hədiyyə.',
+  metaDesc:'Qırmızı cardinal quş qış tablo 70x100 kanvas. Divar tablosu Bakı.' },
 
-  // ─────────────────────────────────────────────────────────────────
-  // 126.jpg
-  // Görüntü: 3 panelli triptix, tünd divarda asılı.
-  //          Sol panel: qırmızı şərab qədəhi içindən sarı dalğalar çıxır, quşlar uçur.
-  //          Orta panel: narıncı rəng lenti üzərində qızılı maral.
-  //          Sağ panel: mavi rəng lenti üzərində qızılı maral, yelkənli gəmi.
-  //          Arxa fon: açıq boz. Çərçivə: tünd boz.
-  // ─────────────────────────────────────────────────────────────────
-  {
-    num: '126', code: 'VB-GAL-126', img: '126.jpg',
-    alt: 'Abstrakt triptix şərab qədəhi maral narıncı mavi dalğa boz fon',
-    title: 'Rəng Dalğası – Abstrakt Modern Triptix',
-    artist: 'Rəqəmsal abstrakt sənət',
-    cat: 'abstrakt',
-    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, tünd boz çərçivə, 3 panel',
-    seoDesc: 'Açıq boz fonda 3 panelli abstrakt triptix: qırmızı şərab qədəhi və quşlar, narıncı dalğa üzərində qızılı maral, mavi dalğa üzərində yelkənli gəmi – modern ev dekorasiyası.',
-    emoDesc: 'Zövq, hərəkət, azadlıq – üç fərqli hiss, üç fərqli rəng, bir harmoniya. Otağa girən hər kəsin diqqətini çəkir.',
-    interior: 'Qonaq otağı, yemək otağı. Açıq rəngli, boz, ağ interyerlərə ideal. Minimalist dizayn üçün.',
-    gift: 'Modern estetik sevənlərə, yeni ev açımına – zövqlü, fərqli seçim.',
-    metaDesc: 'Abstrakt triptix şərab qədəhi maral dalğa boz fon tablo. Divar tablosu Bakı.'
-  },
+{ num:'125', code:'VB-GAL-125', alt:'125',
+  title:'Dalğa Rəqsi – Maral və Yelkənli Abstrakt Triptix',
+  artist:'Naməlum rəssam', cat:'abstrakt',
+  size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
+  seoDesc:'Şərab qədəhi, narıncı-mavi dalğalar, maral fiqurları, yelkənli gəmi – müasir abstrakt triptix tablo.',
+  emoDesc:'Hərəkət, azadlıq, estetika. Bu üç panel birlikdə divara dinamik enerji verir.',
+  interior:'Qonaq otağı, ofis, müasir üslublu interyerlər. Boz-ağ divarlarla mükəmməl.',
+  gift:'Müasir zövqlü insanlara, ofis açılışına, evlilik hədiyyəsi kimi ideal.',
+  metaDesc:'Abstrakt dalğa maral yelkənli triptix tablo kanvas. Divar tablosu Bakı.' },
 
-  // ─────────────────────────────────────────────────────────────────
-  // 127.jpg
-  // Görüntü: 3 panelli triptix, kərpic divarda asılı.
-  //          Sol panel: yaşıl nəhəng ağac, qırmızı günəş, dağ silueti, marallar.
-  //          Orta panel: narıncı payız meşəsi, quşlar, aşağıda marallar.
-  //          Sağ panel: firuzəyi, sarı, boz rəngli sıx burulğan xətlər, sağda qızıl yarpaqlar.
-  //          Arxa fon: açıq ağ. Çərçivə: tünd boz.
-  // ─────────────────────────────────────────────────────────────────
-  {
-    num: '127', code: 'VB-GAL-127', img: '127.jpg',
-    alt: 'Yaşıl ağac qırmızı günəş payız meşəsi rəngli burulğan triptix',
-    title: 'Mövsümün Üç Üzü – Təbiət Triptixası',
-    artist: 'Rəqəmsal mənzərə sənəti',
-    cat: 'menzere',
-    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, tünd boz çərçivə, 3 panel',
-    seoDesc: '3 panelli mənzərə triptixası: yaşıl nəhəng ağac qırmızı günəşlə, narıncı payız meşəsi quşlarla, rəngli spiral burulğanlar – təbiətin üç fərqli mövsümü bir arada.',
-    emoDesc: 'Hər panel ayrı bir nəfəs alır. Yaşıl köklülük, narıncı istilik, rəngli dinamizm – üçü bir yerdə otağı canlı tutur.',
-    interior: 'Qonaq otağı, yemək otağı. Ağ, açıq boz interyerlərə rəng və həyat gətirir.',
-    gift: 'Təbiəti sevənlərə, ev açımına, doğum gününə – hər yaşa uyğun hədiyyə.',
-    metaDesc: 'Yaşıl ağac payız meşəsi rəngli triptix mənzərə tablo. Divar tablosu Bakı.'
-  },
+{ num:'126', code:'VB-GAL-126', alt:'126',
+  title:'Payız Nəfəsi – Qızıl Meşə və Rəngli Lent Triptix',
+  artist:'Naməlum rəssam', cat:'tebiet',
+  size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
+  seoDesc:'Qırmızı günəş, yaşıl ağac, sarı payız meşəsi, marallar, qızıl-firuzəyi lent – üç panelli tablo.',
+  emoDesc:'Payızın zəngin rəng palitrasını evinizə gətirin. Hər panel ayrıca bir hiss, birlikdə tam bir şeir.',
+  interior:'Qonaq otağı, yataq otağı. Ağ, bej, açıq rəngli divarlara əla uyğun.',
+  gift:'Təbiət sevənlərə, sənətsevər dostlara, ev hədiyyəsi kimi sevindirir.',
+  metaDesc:'Payız meşə maral qızıl triptix tablo kanvas. Divar tablosu Bakı.' },
 
-  // ─────────────────────────────────────────────────────────────────
-  // 128.jpg
-  // Görüntü: 3 panelli triptix, narıncı divanın üzərində.
-  //          Ümumi: tünd gecə mövzusu – qara/tünd göy fon.
-  //          Sol panel: çılpaq ağaclar, qızıl quşlar, teal dalğalı dağlar, qızıl qum.
-  //          Orta panel: böyük dolunay, qızıl maral silueti.
-  //          Sağ panel: çılpaq ağaclar, qızıl quşlar, eyni landşaft.
-  //          Çərçivə: tünd boz.
-  // ─────────────────────────────────────────────────────────────────
-  {
-    num: '128', code: 'VB-GAL-128', img: '128.jpg',
-    alt: 'Tünd gecə maral dolunay teal dağlar qızıl quşlar triptix tablo',
-    title: 'Gecənin Qızılı – Dolunay Maral Triptixası',
-    artist: 'Rəqəmsal fantaziya sənəti',
-    cat: 'fantaziya',
-    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, tünd boz çərçivə, 3 panel',
-    seoDesc: 'Tünd gecə fonunda 3 panelli triptix: teal-qızıl dalğalı dağlar, çılpaq qışlıq ağaclar, böyük dolunay, qızıl maral silueti – dramatik gecə mənzərəsi.',
-    emoDesc: 'Gecənin sükutunda qızıl parıltı. Tünd fon işığı daha gözəl göstərir – bu tablo otağa dərinlik, sirr, elegantlıq verir.',
-    interior: 'Qonaq otağı, yataq otağı. Narıncı, mis, tünd sarı sofalara mükəmməl kontrast.',
-    gift: 'Dramatik dekor sevənlərə, xüsusi ev hədiyyəsi – yadda qalan seçim.',
-    metaDesc: 'Gecə maral dolunay teal dağlar qızıl triptix tablo. Divar tablosu Bakı.'
-  },
+{ num:'127', code:'VB-GAL-127', alt:'127',
+  title:'Gecə Maralı – Tünd Göy-Qızıl Fantaziya Triptix',
+  artist:'Naməlum rəssam', cat:'abstrakt',
+  size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
+  seoDesc:'Tünd göy fon, qızıl quşlar, tam ay, qızıl maral, firuzəyi-qızıl dağ mənzərəsi triptix tablo.',
+  emoDesc:'Gecənin mistik gözəlliyi – qızıl və firuzəyi rənglər divarda dərinlik yaradır.',
+  interior:'Qonaq otağı, yataq otağı. Tünd, lüks üslublu interyerlərə mükəmməl uyğun.',
+  gift:'Estetika sevənlərə, lüks ev dekorasiyası hədiyyəsi kimi əla seçim.',
+  metaDesc:'Gecə maral ay qızıl firuzəyi triptix tablo kanvas. Divar tablosu Bakı.' },
 
-  // ─────────────────────────────────────────────────────────────────
-  // 129.jpg
-  // Görüntü: 3 panelli triptix, parlaq mavi divanın üzərində.
-  //          Ümumi: tünd mavi-yaşıl gecə fonu.
-  //          Sol panel: qızıl çiçəkli ağac, kiçik ağ maral, tünd çayır.
-  //          Orta panel: böyük parlaq ağ/sarı dolunay, ortada ikinci qızıl ağac.
-  //          Sağ panel: tullanmakda olan ağ maral, quşlar, dağ silueti.
-  //          Çərçivə: tünd boz.
-  // ─────────────────────────────────────────────────────────────────
-  {
-    num: '129', code: 'VB-GAL-129', img: '129.jpg',
-    alt: 'Qızıl çiçəkli ağac dolunay ağ maral gecə mavi triptix tablo',
-    title: 'Qızıl Çiçək – Dolunay Gecəsi Triptixası',
-    artist: 'Rəqəmsal lüks illüstrasiya',
-    cat: 'fantaziya',
-    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, tünd boz çərçivə, 3 panel',
-    seoDesc: 'Tünd mavi-yaşıl gecə fonunda qızıl çiçəkli ağaclar, böyük parlaq dolunay, tullanmakda olan ağ maral – lüks, royal görünüşlü 3 panelli gecə triptixası.',
-    emoDesc: 'Qızıl çiçəklər gecə açır – bu sehrli anlara ev dekorasiyasında yer verin. Romantika, lüks, xüsusilik bir tablodan.',
-    interior: 'Qonaq otağı, yataq otağı. Parlaq mavi, lacivert sofalara möhtəşəm kontrast.',
-    gift: 'Yeni ev, nişan, nikah ili – "qızıl gecə"nin simvolu.',
-    metaDesc: 'Qızıl çiçəkli ağac dolunay ağ maral gecə triptix tablo. Divar tablosu Bakı.'
-  },
+{ num:'128', code:'VB-GAL-128', alt:'128',
+  title:'Qızıl Ağac Cənnəti – Ay İşığında Triptix',
+  artist:'Naməlum rəssam', cat:'abstrakt',
+  size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
+  seoDesc:'Qızıl çiçəkli ağaclar, zıplayan marallar, dolunay, firuzəyi dalğalı dağlar – üç panelli lüks tablo.',
+  emoDesc:'Nağıl kimi bir mənzərə – qızıl ağaclar, ay işığı, azad marallar. Divara sehr qatır.',
+  interior:'Qonaq otağı, yataq otağı. Göy, tünd mavi, lacivert divarlar ilə əla görünür.',
+  gift:'Ev açımına, toy hədiyyəsinə, dekorasiya sevənlərə ideal seçim.',
+  metaDesc:'Qızıl ağac maral ay triptix tablo kanvas. Divar tablosu Bakı.' },
 
-  // ─────────────────────────────────────────────────────────────────
-  // 130.jpg
-  // Görüntü: 3 panelli triptix, ağ divanın üzərindəki açıq boz divarda.
-  //          Ümumi fon: ağ/krem.
-  //          Sol panel: firuzəyi maye dalğa içindəki qızıl balıq sürüsü.
-  //          Orta panel: firuzəyi-teal spiral içindəki qızıl kəpənəklər.
-  //          Sağ panel: firuzəyi dalğa, uçan qızıl quşlar/kəpənəklər.
-  //          Çərçivə: parlaq gümüş/ağ.
-  // ─────────────────────────────────────────────────────────────────
-  {
-    num: '130', code: 'VB-GAL-130', img: '130.jpg',
-    alt: 'Firuzəyi maye dalğa qızıl balıq kəpənək fluid art triptix ağ çərçivə',
-    title: 'Zümrüd Dalğa – Fluid Art Triptixası',
-    artist: 'Fluid art / maye sənəti',
-    cat: 'abstrakt',
-    size: 'Ölçü soruşun (3-lü dəst)', material: 'Şüşəli kətan çap, ağ çərçivə, 3 panel',
-    seoDesc: 'Ağ fonda firuzəyi-zümrüd maye axınları – sol paneldə qızıl balıq sürüsü, orta paneldə teal spiral içindəki qızıl kəpənəklər, sağ paneldə uçan kəpənəklər.',
-    emoDesc: 'Su axır, qızıl parıldayır – bu triptix otağa baharı, azadlığı, bolluğu gətirir. Ağ interyerlər üçün premium seçim.',
-    interior: 'Qonaq otağı, yemək otağı, ofis. Ağ, krem, açıq rəngli interyerlərə mükəmməl.',
-    gift: 'Yeni ev, ailə bayramı, doğum günü – zövqlü, unudulmaz hədiyyə.',
-    metaDesc: 'Firuzəyi fluid art qızıl balıq kəpənək triptix ağ çərçivə tablo. Divar tablosu Bakı.'
-  },
+{ num:'129', code:'VB-GAL-129', alt:'129',
+  title:'Firuzəyi Axın – Qızıl Balıq Mərməri Triptix',
+  artist:'Naməlum rəssam', cat:'abstrakt',
+  size:'Ölçü soruşun', material:'3 hissəli şüşəli/kanvas çap',
+  seoDesc:'Firuzəyi mərməri axın, qızıl balıqlar, qızıl kəpənəklər, ağ fon – müasir lüks triptix tablo.',
+  emoDesc:'Su kimi axan rənglər, qızılın parıltısı. Bu tablo otağa sakitlik və zənginlik enerjisi gətirir.',
+  interior:'Qonaq otağı, yataq otağı, korporativ məkan. Ağ və açıq tonlu interyerlərə ideal.',
+  gift:'Lüks ev hədiyyəsi, ofis açılışı, toy hədiyyəsi kimi seçilən əsər.',
+  metaDesc:'Firuzəyi mərməri qızıl balıq triptix tablo kanvas. Divar tablosu Bakı.' },
 
-  // ─────────────────────────────────────────────────────────────────
-  // 131.jpg
-  // Görüntü: 3 panelli triptix, tünd antrasit divanın üzərində.
-  //          Sol panel: açıq göy-gümüş burulğan, içindən çıxan qızıl maral.
-  //          Orta panel: rəngli üfüqi çay/dağ lentləri (mavi, yaşıl, qızılı, qırmızı).
-  //          Sağ panel: firuzəyi spiral-burulğan içindəki yaşıl/şəffaf maral.
-  //          Çərçivə: tünd boz.
-  // ─────────────────────────────────────────────────────────────────
-  {
-    num: '131', code: 'VB-GAL-131', img: '131.jpg',
-    alt: 'Qızıl maral mavi burulğan rəngli landşaft firuzəyi spiral triptix',
-    title: 'Sehrli Axış – Maral Dünyaları Triptixası',
-    artist: 'Rəqəmsal qarışıq texnika',
-    cat: 'fantaziya',
-    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, tünd boz çərçivə, 3 panel',
-    seoDesc: '3 panelli fantaziya triptixası: göy burulğandan çıxan qızıl maral, rəngli horizontal çay-dağ lentləri, firuzəyi spiral içindəki şəffaf maral.',
-    emoDesc: 'Üç ayrı dünya, üç ayrı hiss – amma hamısı hərəkətdədir. Yaradıcı, dinamik, az görünən bir triptix.',
-    interior: 'Qonaq otağı, dəhliz, gənc otağı. Tünd antrasit, boz sofalara enerjik kontrast.',
-    gift: 'Yaradıcı, fərqli düşünən insanlara – adi olmayan hədiyyə.',
-    metaDesc: 'Maral burulğan rəngli landşaft fantaziya triptix tablo. Divar tablosu Bakı.'
-  },
+{ num:'130', code:'VB-GAL-130', alt:'130',
+  title:'Üç Dünya – Maral, Dağ və Burulğan Triptix',
+  artist:'Naməlum rəssam', cat:'abstrakt',
+  size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
+  seoDesc:'Qızıl maral mavi burulğanda, rəngli qatlı dağ mənzərəsi, firuzəyi burulğan maral – müasir triptix.',
+  emoDesc:'Hər panel fərqli bir dünya – üçü birləşdikdə heyrətamiz bir harmonia yaranır.',
+  interior:'Qonaq otağı, yataq otağı, müasir minimalist interyerlərə uyğun.',
+  gift:'Sənətsevərlərə, kreativ insanlara, ev dekorasiyası üçün unikal hədiyyə.',
+  metaDesc:'Maral dağ burulğan abstrakt triptix tablo kanvas. Divar tablosu Bakı.' },
 
-  // ─────────────────────────────────────────────────────────────────
-  // 132.jpg
-  // Görüntü: 3 panelli triptix, ağ divanın üzərindəki açıq divarda.
-  //          Ümumi fon: açıq boz-ağ, yüngül duman effekti.
-  //          Sol panel: qızıl maral fiquru üstündə dayandığı şəffaf yarpaq.
-  //          Orta panel: qızıl ağac silueti, üst-üstə gəlmiş rəngli şəffaf yarpaqlar.
-  //          Sağ panel: tünd, şabalıdı, firuzəyi şəffaf yarpaqlar.
-  //          Çərçivə: qızıl/mis rəngdə incə çərçivə.
-  // ─────────────────────────────────────────────────────────────────
-  {
-    num: '132', code: 'VB-GAL-132', img: '132.jpg',
-    alt: 'Şəffaf rəngli yarpaq qızıl maral ağac silueti triptix qızıl çərçivə',
-    title: 'Şəffaf Yarpaqlar – Zərif Botanik Triptix',
-    artist: 'Rəqəmsal botanik illüstrasiya',
-    cat: 'abstrakt',
-    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, qızıl çərçivə, 3 panel',
-    seoDesc: 'Açıq boz-ağ fonda üst-üstə gəlmiş şəffaf rəngli yarpaqlar (mis, firuzəyi, şabalıdı), qızıl maral fiquru, qızıl ağac silueti – incə botanik triptix.',
-    emoDesc: 'Yarpağın içindən işıq süzülür. Bu tablo sadəliyin içindəki dərinliyi göstərir – dinc, incə, estetik.',
-    interior: 'Yataq otağı, qonaq otağı, çalışma otağı. Ağ, krem, bej interyerlərə mükəmməl.',
-    gift: 'Minimalist zövqlü insanlara, ev açımına – zərif, unudulmaz seçim.',
-    metaDesc: 'Şəffaf yarpaq qızıl maral botanik triptix qızıl çərçivə tablo. Divar tablosu Bakı.'
-  },
+{ num:'131', code:'VB-GAL-131', alt:'131',
+  title:'Şəffaf Yarpaqlar – Maral və Ağac Triptix',
+  artist:'Naməlum rəssam', cat:'tebiet',
+  size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
+  seoDesc:'Şəffaf qızıl-qəhvəyi yarpaqlar, çılpaq ağac, qızıl maral, quşlar – açıq tonda üç panelli tablo.',
+  emoDesc:'Yüngül, şəffaf, sakit. Bu triptix otağa işıq və zəriflik gətirir.',
+  interior:'Qonaq otağı, yataq otağı, koridor. Bej, krem, açıq rəngli interyerlərə ideal.',
+  gift:'Zərif zövqlü insanlara, ev hədiyyəsi, yeni evə köçənlərə mükəmməl.',
+  metaDesc:'Şəffaf yarpaq maral ağac triptix tablo kanvas. Divar tablosu Bakı.' },
 
-  // ─────────────────────────────────────────────────────────────────
-  // 133.jpg
-  // Görüntü: 3 panelli triptix, lacivert divanın üzərindəki kərpic divarda.
-  //          Ümumi: tünd lacivert/mavi gecə fonu.
-  //          Sol panel: dolunay solda, dağ silueti, göl, qızıl otlar.
-  //          Orta panel: qızıl yarpaqları olan böyük ağac, suya yansıması.
-  //          Sağ panel: tullanmakda olan ağ maral, quşlar, dağ.
-  //          Çərçivə: tünd boz.
-  // ─────────────────────────────────────────────────────────────────
-  {
-    num: '133', code: 'VB-GAL-133', img: '133.jpg',
-    alt: 'Lacivert gecə göl dolunay qızıl ağac ağ maral triptix tablo',
-    title: 'Gecə Gölü – Yansıma Triptixası',
-    artist: 'Rəqəmsal mənzərə illüstrasiyası',
-    cat: 'menzere',
-    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, tünd boz çərçivə, 3 panel',
-    seoDesc: 'Tünd lacivert gecə fonunda 3 panelli triptix: dolunay işığında dağ-göl mənzərəsi, qızıl yarpaqları suya yansıyan ağac, tullanmakda olan ağ maral.',
-    emoDesc: 'Göl sükutdur, yansıma isə həyatın özüdür. Bu tablo evinizə gecənin dərin hüzurunu gətirir.',
-    interior: 'Yataq otağı, qonaq otağı. Lacivert, tünd mavi sofalara möhtəşəm uyğun.',
-    gift: 'Romantik, təbiətsevər cütlüklərə; ev açımına ideal.',
-    metaDesc: 'Gecə gölü dolunay qızıl ağac maral triptix lacivert tablo. Divar tablosu Bakı.'
-  },
+{ num:'132', code:'VB-GAL-132', alt:'132',
+  title:'Gecə Gölü – Mavi Dağ və Qızıl Ağac Triptix',
+  artist:'Naməlum rəssam', cat:'tebiet',
+  size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
+  seoDesc:'Tam ay, dağ gölü, qızıl yarpaq ağacı, atlayan maral – tünd mavi gecə mənzərəsi triptix tablo.',
+  emoDesc:'Gecə sükutunda parıldayan göl və qızıl ağac – bu tablo hər axşam xəyala aparır.',
+  interior:'Qonaq otağı, yataq otağı. Mavi, lacivert, tünd rəngli interyerlərə əla uyğun.',
+  gift:'Romantik ruhlulara, gözəl mənzərə sevənlərə, ev açımı hədiyyəsi kimi ideal.',
+  metaDesc:'Gecə gölü maral qızıl ağac triptix tablo kanvas. Divar tablosu Bakı.' },
 
-  // ─────────────────────────────────────────────────────────────────
-  // 134.jpg
-  // Görüntü: 3 panelli triptix, tünd antrasit divanın üzərindəki kərpic divarda.
-  //          Ümumi: yuxarıdan sarkan qızıl ipək parça + aşağıda teal/firuzəyi su.
-  //          Sol panel: qızıl ipək qövsü, altında bal rəngi sıçrayan qızıl balıq, sol aşağıda ceyran.
-  //          Orta panel: qızıl ipək mərkəzdədir, ətrafda çox sayda qızıl balıq sürüsü uçur.
-  //          Sağ panel: qızıl ipək qövsü, sağ aşağıda ikinci ceyran.
-  //          Çərçivə: tünd boz.
-  // ─────────────────────────────────────────────────────────────────
-  {
-    num: '134', code: 'VB-GAL-134', img: '134.jpg',
-    alt: 'Qızıl ipək parça balıq sürüsü ceyran firuzəyi teal triptix tablo',
-    title: 'Qızıl İpək – Bolluq Triptixası',
-    artist: 'Rəqəmsal lüks illüstrasiya',
-    cat: 'abstrakt',
-    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, tünd boz çərçivə, 3 panel',
-    seoDesc: 'Yuxarıdan sarkan qızıl ipək parça qövsü altında firuzəyi fonda uçan qızıl balıq sürüsü, iki ceyran fiquru – bolluq, uğur simvolu lüks triptix.',
-    emoDesc: 'Qızıl balıqlar bolluğu, ipək dalğalar həzzi simvollaşdırır. Evinizə rifah, uğur enerjisi gətirir.',
-    interior: 'Qonaq otağı, yemək otağı. Tünd, zəngin rəngli interyerlərə möhtəşəm kontrast.',
-    gift: 'Yeni iş, yeni ev, yeni başlanğıc – bolluq diləyi ilə ən uyğun hədiyyə.',
-    metaDesc: 'Qızıl ipək balıq ceyran triptix bolluq simvolu tablo. Divar tablosu Bakı.'
-  },
+{ num:'133', code:'VB-GAL-133', alt:'133',
+  title:'Qızıl Balıq Yağışı – Parça Altında Maral Triptix',
+  artist:'Naməlum rəssam', cat:'abstrakt',
+  size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
+  seoDesc:'Qızıl parça çətiri, sürü qızıl balıqlar, yaşıl fon, qızıl marallar – lüks fantaziya triptix tablo.',
+  emoDesc:'Qızılın axını, balıqların cərəyanı – bu tablo bolluq və həyat enerjisi ilə dolu.',
+  interior:'Qonaq otağı, yemək otağı. Tünd yaşıl, zümrüd, qızıl aksentli interyerlərə ideal.',
+  gift:'Uğur və bolluq istəyənlərə, iş yeri açılışına, toy hədiyyəsi kimi seçilir.',
+  metaDesc:'Qızıl balıq parça maral triptix tablo kanvas. Divar tablosu Bakı.' },
 
-  // ─────────────────────────────────────────────────────────────────
-  // 135.jpg
-  // Görüntü: 3 panelli triptix, sarı divanın üzərindəki kərpic divarda.
-  //          Ümumi fon: ağ-açıq boz.
-  //          Sol panel: tünd boz siluetli üst-üstə dalğalı dağlar, quşlar.
-  //          Orta panel: böyük qızıl dairə (günəş/ay), etrafında tünd fırça xətləri, qızıl maral uçur.
-  //          Sağ panel: sol panelin aynası – dağlar, quşlar.
-  //          Çərçivə: tünd boz.
-  // ─────────────────────────────────────────────────────────────────
-  {
-    num: '135', code: 'VB-GAL-135', img: '135.jpg',
-    alt: 'Boz dağ silueti qızıl günəş uçan maral ağ fon minimalist triptix tablo',
-    title: 'Qızıl Günəş – Dağ Silueti Triptixası',
-    artist: 'Rəqəmsal minimalist sənət',
-    cat: 'abstrakt',
-    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, tünd boz çərçivə, 3 panel',
-    seoDesc: 'Ağ fonda boz dalğavari dağ silsilələri, mərkəzdə böyük qızıl günəş/ay dairəsi, uçan qızıl maral – minimalist, simmetrik, modern triptix.',
-    emoDesc: 'Sadəliyin içindəki əzəmət. Qızıl günəş ucalığı, maral azadlığı simvollaşdırır – öz zirvənizə uçun.',
-    interior: 'Qonaq otağı, kabinet. Sarı, bej, ağ interyerlərə ideal kontrast.',
-    gift: 'Yeni addım atan, karyera başlayan insanlara – ilham verici seçim.',
-    metaDesc: 'Boz dağ qızıl günəş uçan maral minimalist triptix tablo. Divar tablosu Bakı.'
-  },
+{ num:'134', code:'VB-GAL-134', alt:'134',
+  title:'Qızıl Günəş – Qara-Gümüş Dağ Triptix',
+  artist:'Naməlum rəssam', cat:'abstrakt',
+  size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
+  seoDesc:'Gümüşü dağlar, qara fon, qızıl günəş/ay, uçan maral silueti, quş sürüləri – kontrast triptix tablo.',
+  emoDesc:'Qara ilə qızılın dramatik kontrastı – güclü, cəsarətli, lüks. Divarda güc simvolu.',
+  interior:'Qonaq otağı, ofis, müasir lüks interyerlər. Qara, ağ, gümüşü tonlarla ideal.',
+  gift:'Lider ruhlulara, iş adamlarına, müasir ofis dekorasiyası üçün prestijli seçim.',
+  metaDesc:'Qızıl günəş qara dağ maral triptix tablo kanvas. Divar tablosu Bakı.' },
 
-  // ─────────────────────────────────────────────────────────────────
-  // 136.jpg
-  // Görüntü: 3 panelli triptix, parlaq yaşıl divanın üzərindəki kərpic divarda.
-  //          Ümumi: canlı narıncı-yaşıl qarışıq rəngli göy (akvarell effekti).
-  //          Sol panel: tünd sıldırım qayanın üstündə böyük erkək maral silueti.
-  //          Orta panel: iki ağac arasında iki kiçik maral.
-  //          Sağ panel: tünd qayanın üstündə tək böyük erkək maral silueti.
-  //          Çərçivə: tünd boz.
-  // ─────────────────────────────────────────────────────────────────
-  {
-    num: '136', code: 'VB-GAL-136', img: '136.jpg',
-    alt: 'Tünd maral erkək silueti narıncı yaşıl rəngli göy akvarell triptix tablo',
-    title: 'Canlı Gecə – Maral Silueti Triptixası',
-    artist: 'Rəqəmsal akvarell illüstrasiya',
-    cat: 'fantaziya',
-    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, tünd boz çərçivə, 3 panel',
-    seoDesc: 'Canlı narıncı-yaşıl akvarell göy fonunda qayanın üstündəki böyük erkək maral siluetləri – dinamik, enerjik, rəngli triptix tablo.',
-    emoDesc: 'Canlı rənglər, güclü siluetlər. Bu tablo otağa canlılıq, enerji, həyat sevinci gətirir.',
-    interior: 'Qonaq otağı, gənc otağı, restoran. Parlaq, rəngli dekorlara tamamlayıcı.',
-    gift: 'Enerji dolu, optimist insanlara – fərqli, yadda qalan hədiyyə.',
-    metaDesc: 'Maral silueti narıncı yaşıl rəngli göy triptix tablo. Divar tablosu Bakı.'
-  },
+{ num:'135', code:'VB-GAL-135', alt:'135',
+  title:'Rəngbərəng Gecə – Maral Siluetləri Triptix',
+  artist:'Naməlum rəssam', cat:'tebiet',
+  size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
+  seoDesc:'Narıncı-yaşıl göy, dolunay, qara maral siluetləri, şaxəli ağaclar – canlı rəngli triptix tablo.',
+  emoDesc:'Gecənin vəhşi gözəlliyi – yanıb sönən rənglər, əzəmətli marallar. Coşqun və enerjili.',
+  interior:'Qonaq otağı, gənclər otağı. Yaşıl, narıncı, canlı rəngli interyerlərə uyğun.',
+  gift:'Həyat sevənlərə, enerjik insanlara, gənclərə rəngarəng hədiyyə.',
+  metaDesc:'Maral siluet rəngli gecə triptix tablo kanvas. Divar tablosu Bakı.' },
 
-  // ─────────────────────────────────────────────────────────────────
-  // 137.jpg
-  // Görüntü: 3 panelli triptix, narıncı divanın üzərindəki kərpic divarda.
-  //          Ümumi: sıx qızıl-mis yarpaqlarla örtülü meşə tavanı, firuzəyi ağac gövdələri.
-  //          Sol panel: qızıl yarpaq örtüyü, firuzəyi gövdə, zeytun yaşılı zəmin.
-  //          Orta panel: eyni meşə içindən kiçik qızıl ceyran baxır.
-  //          Sağ panel: sol panelin davamı.
-  //          Çərçivə: tünd boz.
-  // ─────────────────────────────────────────────────────────────────
-  {
-    num: '137', code: 'VB-GAL-137', img: '137.jpg',
-    alt: 'Qızıl yarpaq meşə tavanı firuzəyi gövdə qızıl ceyran triptix tablo',
-    title: 'Qızıl Meşə – Payız Bolluğu Triptixası',
-    artist: 'Rəqəmsal teksturalı illüstrasiya',
-    cat: 'menzere',
-    size: 'Ölçü soruşun (3-lü dəst)', material: 'Kətan çap, tünd boz çərçivə, 3 panel',
-    seoDesc: 'Sıx qızıl-mis rəngli yarpaq tavanı, firuzəyi ağac gövdələri, meşə içindəki qızıl ceyran – payızın bolluğunu simvollaşdıran 3 panelli triptix.',
-    emoDesc: 'Qızıl meşənin altındasınız – baş qaldırdıqda sırf qızıl var. Bu tablo istilik, bolluq, güc verir.',
-    interior: 'Qonaq otağı, yemək otağı. Narıncı, sarı, qızılı divanlara möhtəşəm uyğun.',
-    gift: 'Evə bolluq enerjisi gətirmək istəyənlərə – payız hədiyyəsi.',
-    metaDesc: 'Qızıl meşə payız firuzəyi gövdə ceyran triptix tablo. Divar tablosu Bakı.'
-  },
+{ num:'136', code:'VB-GAL-136', alt:'136',
+  title:'Qızıl Meşə Körpüsü – Firuzəyi Çay Triptix',
+  artist:'Naməlum rəssam', cat:'tebiet',
+  size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
+  seoDesc:'Qızıl yarpaq ağaclar, firuzəyi çay/göl, dalgalı tünd cizgilər, qızıl maral – meşə triptix tablo.',
+  emoDesc:'Qızıl yarpaqların altında sakit axan çay. Bu tablo gözəllik və zənginliyi eyni anda verir.',
+  interior:'Qonaq otağı, yataq otağı. Narıncı, qızılı, firuzəyi aksent rəngli interyerlərə mükəmməl.',
+  gift:'Təbiət sevənlərə, ev açımına, yeni evliləre gözəl hədiyyə.',
+  metaDesc:'Qızıl meşə maral firuzəyi çay triptix tablo kanvas. Divar tablosu Bakı.' },
 
-  // ─────────────────────────────────────────────────────────────────
-  // 138.jpg
-  // Görüntü: Tək kətan tablo, mağaza rafında dayanır.
-  //          Venesiya kanalı: ensiz su yolu, qondola, daş körpü,
-  //          köhnə rəngli binalar, pəncərə çiçəkləri, "PATTORI / SEMPIONI"
-  //          yazılı restoran lövhəsi. Rəng: soyuq, vintage foto effekti.
-  // ─────────────────────────────────────────────────────────────────
-  {
-    num: '138', code: 'VB-GAL-138', img: '138.jpg',
-    alt: 'Venesiya kanalı qondola körpü köhnə binalar foto kətan tablo',
-    title: 'Venesiya – Kanal Kənarında Sehir',
-    artist: 'Fotoqrafik sənət, vintage çap',
-    cat: 'foto-senet',
-    size: 'Ölçü soruşun', material: 'Kətan çap',
-    seoDesc: 'Venesiya ensiz kanalında daş körpü, qondola, çiçəkli pəncərəli köhnə binalar – vintage soyuq tonlu fotoqrafik kətan tablo.',
-    emoDesc: 'Daşların içindən keçən su, qayığın sükutu, tarihin nəfəsi. Bu tablo Venesiyaya açılan pəncərədir.',
-    interior: 'Qonaq otağı, dəhliz, kafe, restoran. Aralıq dənizi, Avropa üslublu dekorlara ideal.',
-    gift: 'Səyahətsevər, romantik ruhlara – dünyayı divara asın.',
-    metaDesc: 'Venesiya kanal qondola körpü vintage foto kətan tablo. Divar tablosu Bakı.'
-  },
+{ num:'137', code:'VB-GAL-137', alt:'137',
+  title:'Venesiya Kanalı – İtaliya Şəhər Mənzərəsi',
+  artist:'Naməlum rəssam', cat:'sheher',
+  size:'Ölçü soruşun', material:'Kanvas çap',
+  seoDesc:'Venesiya kanalı, qondola, körpü, rəngli binalar, çiçəkli kafe – italyan şəhər mənzərəsi tablo.',
+  emoDesc:'Venesiyada bir gün – kanal, qondola, həyatın axışı. Bu tablo evə İtaliya ruhu gətirir.',
+  interior:'Qonaq otağı, yemək otağı, kafe, restoran. Aralıq dənizi üslublu interyerlərə ideal.',
+  gift:'Səyahətsevənlərə, İtaliya heyranlarına, restoran/kafe dekorasiyası üçün mükəmməl.',
+  metaDesc:'Venesiya kanal qondola tablo kanvas. Divar tablosu Bakı.' },
 
-  // ─────────────────────────────────────────────────────────────────
-  // 139.jpg
-  // Görüntü: Tək kətan tablo, boz fonda (məhsul mock-up).
-  //          Gecə liman mənzərəsi, yağlı boya impressionist üslub.
-  //          Sağda-solda fənər dirəkləri, üst sol küncdə narıncı-qırmızı payız ağacı,
-  //          mərkəzdə sakit su körfəzinə bağlı ağ gəmilər,
-  //          ön planda böyük taxta qayıq, arxa planda binalar.
-  // ─────────────────────────────────────────────────────────────────
-  {
-    num: '139', code: 'VB-GAL-139', img: '139.jpg',
-    alt: 'Gecə liman qayıq fənər yağlı boya impressionist kətan tablo',
-    title: 'Liman Gecəsi – İmpressionizm Işığı',
-    artist: 'Leonid Afremov üslubu – yağlı boya',
-    cat: 'yagliboy',
-    size: 'Ölçü soruşun', material: 'Kətan üzərində yağlı boya çap',
-    seoDesc: 'Gecə sakin limanında sürüklənən rəngli işıqlar, fənər dirəkləri, bağlı ağ gəmilər, payız ağacı – impressionist üslubda canlı yağlı boya tablo.',
-    emoDesc: 'İşıqlar suya düşür, zaman yavaşlayır. Hər axşam bu tablo sizi sakit limana aparır.',
-    interior: 'Qonaq otağı, yemək otağı, kabinet. Klassik, zəngin rəngli interyerlərə ideal.',
-    gift: 'Klassik sənəti sevənlərə, dəniz həvəslilərinə – əsil estetika.',
-    metaDesc: 'Gecə liman qayıq fənər impressionist yağlı boya tablo. Divar tablosu Bakı.'
-  },
+{ num:'138', code:'VB-GAL-138', alt:'138',
+  title:'Liman Gecəsi – İmpressionist Yağlı Boya Tablo',
+  artist:'Naməlum rəssam', cat:'sheher',
+  size:'Ölçü soruşun', material:'Yağlı boya üslubu kanvas',
+  seoDesc:'Gecə limanı, qayıqlar, küçə fənərləri, rəngli ağaclar, su əksi – impressionist üslub yağlı boya tablo.',
+  emoDesc:'Van Gogh enerjisi – qalın fırça zərbələri, parıldayan su, gecənin sehri. Klassik və güclü.',
+  interior:'Qonaq otağı, ofis, kafe, restoran. İstənilən interyer üslubuna uyğun universal tablo.',
+  gift:'Sənətsevərlərə, klassik zövqlü insanlara, prestijli hədiyyə axtaranlara.',
+  metaDesc:'Liman gecə qayıq impressionist yağlı boya tablo kanvas. Divar tablosu Bakı.' },
 
-  // ─────────────────────────────────────────────────────────────────
-  // 140.jpg
-  // Görüntü: Tək kətan tablo, mağazada çiçəklər arasında.
-  //          Canlı mavi fonda böyük pişik üzü.
-  //          Pişiyin bütün üzü mürəkkəb mandala naxışlarla bəzədilib:
-  //          göy, çəhrayı, bənövşəyi, narıncı, sarı.
-  //          Naxışlar arasında kiçik çiçəklər, dairəvi medalyonlar.
-  //          Gözlər: tünd boz-yaşıl iris.
-  // ─────────────────────────────────────────────────────────────────
-  {
-    num: '140', code: 'VB-GAL-140', img: '140.jpg',
-    alt: 'Mandala naxışlı rəngli pişik üzü mavi fon dekorativ kətan tablo',
-    title: 'Mandala Pişik – Rəngli Dekorativ Tablo',
-    artist: 'Rəqəmsal mandala sənəti',
-    cat: 'dekorativ',
-    size: 'Ölçü soruşun', material: 'Kətan çap (soft velvet finish)',
-    seoDesc: 'Canlı mavi fonda bütün üzü mürəkkəb mandala naxışlarla bəzədilmiş böyük pişik portreti – göy, çəhrayı, narıncı, bənövşəyi rənglərlə zəngin dekorativ tablo.',
-    emoDesc: 'Pişiyin sirli baxışı, mandalanın sonsuz simmetriyası. Hər baxışda yeni detal kəşf edirsiniz.',
-    interior: 'Uşaq otağı, gənc otağı, yaradıcı studiya. Rəngli, bohem, eklektik dekorlara mükəmməl.',
-    gift: 'Pişik sevənlərə, gənclərə, yaradıcı ruhlara – özünəməxsus hədiyyə.',
-    metaDesc: 'Mandala pişik rəngli dekorativ kətan tablo. Divar tablosu Bakı.'
-  },
+{ num:'139', code:'VB-GAL-139', alt:'139',
+  title:'Mandala Pişik – Rəngli Ornamental Tablo',
+  artist:'Naməlum rəssam', cat:'haivan',
+  size:'Ölçü soruşun', material:'Kanvas çap',
+  seoDesc:'Mavi fonda rəngarəng mandala naxışlı pişik üzü – gözəl gözlər, çiçəklər, ornamental divar tablosu.',
+  emoDesc:'Mistik, rəngli, unikal. Bu pişik tablo baxanı hipnoz edir – incə naxışlar, canlı rənglər.',
+  interior:'Uşaq otağı, gənclər otağı, yaradıcı iş məkanı. Canlı, bohem üslublu interyerlərə uyğun.',
+  gift:'Pişik sevənlərə, uşaqlara, yaradıcı ruhlulara əyləncəli və rəngarəng hədiyyə.',
+  metaDesc:'Mandala pişik rəngli ornament tablo kanvas. Divar tablosu Bakı.' },
 
-  // ─────────────────────────────────────────────────────────────────
-  // 141.jpg
-  // Görüntü: Tək kətan tablo, pəncərə/divarda.
-  //          B&W (ağ-qara) qadın portreti – saçları qısaldılmış, gümüş rəngdə.
-  //          Gözlər bağlı, sol gözün üzərindəki böyük canlı narıncı-qızıl kəpənək.
-  //          Əl çənəyə dəyir, dırnaqlar canlı narıncı rəngdə.
-  //          Ön planda solda çəhrayı orkide çiçəkləri var.
-  // ─────────────────────────────────────────────────────────────────
-  {
-    num: '141', code: 'VB-GAL-141', img: '141.jpg',
-    alt: 'Qara ağ qadın portreti narıncı kəpənək gözlər bağlı kətan tablo',
-    title: 'Kəpənək Arzusu – B&W Qadın Portreti',
-    artist: 'Müasir fotoqrafik kolaj sənəti',
-    cat: 'portret',
-    size: 'Ölçü soruşun', material: 'Kətan çap',
-    seoDesc: 'Ağ-qara fonda gözlərini bağlamış gümüş saçlı qadın – sol gözünün üzərindəki böyük narıncı-qızıl kəpənək, narıncı dırnaqlı əl. Müasir fotoqrafik kolaj tablo.',
-    emoDesc: 'Ağ-qara dünyada bir kəpənək parıldayır. Dəyişim, azadlıq, içdəki rəngin kəşfi – bu tablo sizi düşündürür.',
-    interior: 'Yataq otağı, dəhliz, yaradıcı studiya. Neytral, boz, ağ interyerlərə canlı kontrast.',
-    gift: 'Sənətsevər, güclü qadınlara, yaradıcı ruhlara – fərqli, mənalı hədiyyə.',
-    metaDesc: 'Qara ağ qadın portreti narıncı kəpənək kolaj tablo. Divar tablosu Bakı.'
-  },
+{ num:'140', code:'VB-GAL-140', alt:'140',
+  title:'Afrika Gözəli – Çalmalı Qadın Portreti',
+  artist:'Naməlum rəssam', cat:'portret',
+  size:'Ölçü soruşun', material:'Kanvas çap',
+  seoDesc:'Qızılı fonda çalmalı Afrika qadını profil portreti, çiyinlər, güclü siluet – divar tablo.',
+  emoDesc:'Güc, qürur, zəriflik – bir anda. Bu portret otağa mədəniyyət və estetika gətirir.',
+  interior:'Qonaq otağı, yataq otağı, ofis. Narıncı, qızılı, sarı aksentli interyerlərə mükəmməl.',
+  gift:'Güclü qadınlara, sənətsevərlərə, etnik dekorasiya sevənlərə unikal hədiyyə.',
+  metaDesc:'Afrika qadın portret çalma qızılı tablo kanvas. Divar tablosu Bakı.' },
 
-  // ─────────────────────────────────────────────────────────────────
-  // 144.jpg
-  // Görüntü: Tək kətan tablo, ağ pərdəli fonda (möhtəşəm klassik əsər).
-  //          Osman Hamdi Bəy – "Tısbağa Tərbiyəçisi" (1906) çapı.
-  //          Qırmızı libaslı, sarıqlı, əlindəki fleyta ilə əyilmiş kişi fiquru
-  //          Osmanlı dövrü arxitekturasında (mozaika, tağ, kərpic divar)
-  //          ayaqları önündə dörd tısbağa var.
-  // ─────────────────────────────────────────────────────────────────
-  {
-    num: '144', code: 'VB-GAL-144', img: '144.jpg',
-    alt: 'Tısbağa Tərbiyəçisi Osman Hamdi Bəy klassik Osmanlı kətan tablo çap',
-    title: 'Tısbağa Tərbiyəçisi – Klassik Osmanlı Tablosu',
-    artist: 'Osman Hamdi Bəy (1906) – yüksək keyfiyyətli çap',
-    cat: 'klassik',
-    size: 'Ölçü soruşun', material: 'Kətan çap',
-    seoDesc: 'Osman Hamdi Bəyin "Tısbağa Tərbiyəçisi" (1906) əsərinin kətan çapı – qırmızı libaslı, sarıqlı kişi fiquru, fleyta, Osmanlı arxitekturası, dörd tısbağa.',
-    emoDesc: 'Tələsmə – bu tablonun mesajı budur. Tısbağalar sabirsizliyimizə cavab verir. Klassik, dərin, mənalı.',
-    interior: 'Kabinet, kitabxana, qonaq otağı. Klassik, Osmanlı-Şərq üslublu dekorlara mükəmməl.',
-    gift: 'Tarixi, klassik sənəti sevənlərə, kitab oxuyan insanlara – mədəniyyəti hədiyyə et.',
-    metaDesc: 'Tısbağa Tərbiyəçisi Osman Hamdi Bəy Osmanlı klassik kətan tablo. Divar tablosu Bakı.'
-  },
+{ num:'141', code:'VB-GAL-141', alt:'141',
+  title:'Kəpənək Qadın – Qara-Ağ Portret Tablo',
+  artist:'Naməlum rəssam', cat:'portret',
+  size:'Ölçü soruşun', material:'Kanvas çap',
+  seoDesc:'Qara-ağ qadın üzü üzərindəki narıncı kəpənək, qızıl dırnaqlar – müasir pop-art portret tablo.',
+  emoDesc:'Kontrast möcüzəsi – ağ-qara dərin sakitlik, narıncı kəpənək isə həyat. Heyrətamiz effekt.',
+  interior:'Yataq otağı, tualet otağı, koridor, gözəllik salonu. Müasir, stil sahibi interyerlərə ideal.',
+  gift:'Müasir qadınlara, gözəllik salonuna, kreativ iş məkanına dekorasiya hədiyyəsi.',
+  metaDesc:'Kəpənək qadın portret qara ağ tablo kanvas. Divar tablosu Bakı.' },
 
+{ num:'142', code:'VB-GAL-142', alt:'142',
+  title:'Tropik Tutuquşular – Mavi-Sarı Ara Tablo',
+  artist:'Naməlum rəssam', cat:'haivan',
+  size:'Ölçü soruşun', material:'Kanvas çap',
+  seoDesc:'İki mavi-sarı ara tutuquşusu xurma yarpaqları arasında – canlı tropik quş divar tablosu.',
+  emoDesc:'Tropiklərin canlı rəngləri – mavi, sarı, yaşıl. Bu tablo evə ekzotik enerji və canlılıq gətirir.',
+  interior:'Qonaq otağı, mətbəx, uşaq otağı, tropik üslublu interyerlər. Yaşıl bitkili mühitlərə ideal.',
+  gift:'Quş sevənlərə, uşaqlara, tropik dekorasiya sevənlərə rəngarəng hədiyyə.',
+  metaDesc:'Tropik tutuquş mavi sarı quş tablo kanvas. Divar tablosu Bakı.' }
 ];
 
 /* ── Generate full artwork list ─────────────────────── */
