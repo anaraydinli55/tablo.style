@@ -1744,8 +1744,7 @@ const ARTWORKS_DATA = [
   emoDesc:'Payızın qızıl gözəlliyi – körpü, çətir, sarı yarpaqlar. Bu tablo baxana nostaljik bir xəyal yaşadır.',
   interior:'Qonaq otağı, yataq otağı, koridor. Sarı, narıncı, payız tonlu interyerlərə ideal.',
   gift:'Romantik ruhlulara, payız sevənlərə, sənətsevərlərə gözəl hədiyyə.',
-  metaDesc:'Payız körpü çətirli qadın impressionist tablo kanvas. Divar tablosu Bakı.' }
-```
+  metaDesc:'Payız körpü çətirli qadın impressionist tablo kanvas. Divar tablosu Bakı.' },
 ];
 
 /* ── Generate full artwork list ─────────────────────── */
