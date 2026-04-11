@@ -1956,7 +1956,7 @@ const ARTWORKS_DATA = [
 
 { num:'184', code:'VB-GAL-184', alt:'184',
   title:'Pop-Art Qadın – Mavi Fonda Rəngli Paltar Portreti',
-  artist:'Naməlum rəssam', cat:'portret',
+  artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
   seoDesc:'Mavi nöqtəli fonda qara afro saçlı qadın, rəngli həndəsi naxışlı paltar, qırmızı yanaq – pop-art portret.',
   emoDesc:'Cəsarətli, rəngarəng, unikal. Bu pop-art portret hər baxana enerji və özgüvən verir.',
@@ -1966,7 +1966,7 @@ const ARTWORKS_DATA = [
 
 { num:'185', code:'VB-GAL-185', alt:'185',
   title:'Rəngli Papaq Xanım – Tünd Mavi Portret Tablo',
-  artist:'Naməlum rəssam', cat:'portret',
+  artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
   seoDesc:'Tünd mavi fonda rəngarəng ornamental papaq, inci boyunbağı, bənövşəyi paltar – müasir qadın portreti.',
   emoDesc:'Rəng, zəriflik, özünəinam. Bu portret qadın estetikasının ən cəsarətli ifadəsidir.',
@@ -1976,7 +1976,7 @@ const ARTWORKS_DATA = [
 
 { num:'186', code:'VB-GAL-186', alt:'186',
   title:'Çiçək Taclı Maskalı Xanım – Bənövşəyi Portret',
-  artist:'Naməlum rəssam', cat:'portret',
+  artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
   seoDesc:'Bənövşəyi nöqtəli fonda çəhrayı çiçək taclı, qırmızı maskalı qadın, muncuq boyunbağılar – portret tablo.',
   emoDesc:'Mistik, güclü, müəmmalı. Maskalı gözlər, çiçək tacı – bu portret baxanı heyran edir.',
@@ -1986,7 +1986,7 @@ const ARTWORKS_DATA = [
 
 { num:'187', code:'VB-GAL-187', alt:'187',
   title:'Quş Tutan Xanım – Qırmızı Çiçəkli Saç Portret',
-  artist:'Naməlum rəssam', cat:'portret',
+  artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
   seoDesc:'Bənövşəyi fonda qırmızı çiçəkli qara saçlı qadın, əlindəki yaşıl quş, qırmızı çiçəkli paltar – portret.',
   emoDesc:'Sakit, həssas, poetik. Kiçik quş, çiçəkli dünya – bu portret yumşaq enerji ilə dolu.',
@@ -1996,7 +1996,7 @@ const ARTWORKS_DATA = [
 
 { num:'188', code:'VB-GAL-188', alt:'188',
   title:'Kəpənəkli Xanım – Qırmızı Afro Saç Portret Tablo',
-  artist:'Naməlum rəssam', cat:'portret',
+  artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
   seoDesc:'Qara nöqtəli fonda qırmızı afro saçlı qadın, mavi-narıncı kəpənəklər, narlı naxışlı paltar – portret.',
   emoDesc:'Azadlıq, canlılıq, güc. Qırmızı saç, kəpənəklər – bu portret divara coşqun enerji gətirir.',
@@ -2006,7 +2006,7 @@ const ARTWORKS_DATA = [
 
 { num:'189', code:'VB-GAL-189', alt:'189',
   title:'Bənövşəyi Çiçəkli Xanım – Mavi Nöqtəli Portret',
-  artist:'Naməlum rəssam', cat:'portret',
+  artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
   seoDesc:'Mavi nöqtəli fonda qara uzun saçlı qadın, bənövşəyi-çəhrayı çiçəklər, rəngli naxışlı ətək – portret.',
   emoDesc:'Sakit, zərif, romantik. Bənövşəyi çiçəklər, qara saç – bu portret zərifliyin simvoludur.',
@@ -2016,7 +2016,7 @@ const ARTWORKS_DATA = [
 
 { num:'190', code:'VB-GAL-190', alt:'190',
   title:'Qırmızı Lale Qadın – Bənövşəyi-Qırmızı Portret',
-  artist:'Naməlum rəssam', cat:'portret',
+  artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
   seoDesc:'Bənövşəyi-qırmızı nöqtəli fonda qara saçlı qadın, qırmızı lale çiçəyi, xal-xal paltar – portret tablo.',
   emoDesc:'Dramatik kontrast, güclü rənglər, sirli baxış. Bu portret divara cəsarət və güc verir.',
@@ -2026,7 +2026,7 @@ const ARTWORKS_DATA = [
 
 { num:'191', code:'VB-GAL-191', alt:'191',
   title:'Ürək Tutan Xanım – Yaşıl Fonda Qadın Portreti',
-  artist:'Naməlum rəssam', cat:'portret',
+  artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
   seoDesc:'Yaşıl nöqtəli fonda qırmızı paltarlı qadın, əlindəki quşlu ürək, yaşıl budaqlar – portret tablo.',
   emoDesc:'Sevgi, həssaslıq, sülh. Ürəyin içindəki quş – bu portret qəlbə doğrudan toxunur.',
@@ -2036,7 +2036,7 @@ const ARTWORKS_DATA = [
 
 { num:'192', code:'VB-GAL-192', alt:'192',
   title:'Xəyallı Xanım – Tünd Mavi Afro Saç Portret',
-  artist:'Naməlum rəssam', cat:'portret',
+  artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
   seoDesc:'Tünd mavi nöqtəli fonda qara afro saçlı qadın, qırmızı çiçəkli paltar, əli üzündə xəyali baxış – portret.',
   emoDesc:'Xəyal, merak, dərinlik. Qırmızı çiçəklər, bənövşəyi fon – bu portret baxanı düşündürür.',
@@ -2046,7 +2046,7 @@ const ARTWORKS_DATA = [
 
 { num:'193', code:'VB-GAL-193', alt:'193',
   title:'Çiçək Taclı Xanım – Mavi Gecə Portreti',
-  artist:'Naməlum rəssam', cat:'portret',
+  artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
   seoDesc:'Mavi gecə fonunda qara saçlı qadın başında rəngarəng çiçək tacı, rəngli naxışlı paltar – portret tablo.',
   emoDesc:'Gecənin içindəki çiçək bağçası – bu portret zəriflik, rəng və gözəlliyi eyni anda verir.',
@@ -2056,7 +2056,7 @@ const ARTWORKS_DATA = [
 
 { num:'194', code:'VB-GAL-194', alt:'194',
   title:'Balinalar Dünyası – Saçında Balina Qadın Portreti',
-  artist:'Naməlum rəssam', cat:'portret',
+  artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
   seoDesc:'Mavi nöqtəli fonda qadın saçında mavi balina, rəngli yarpaqlar, qırmızı çiçəkli paltar – sürreal portret.',
   emoDesc:'Xəyal aləmi – balinalar, yarpaqlar, hər şey bir insanın içindədir. Dərin, sürreal, heyrətamiz.',
@@ -2066,7 +2066,7 @@ const ARTWORKS_DATA = [
 
 { num:'195', code:'VB-GAL-195', alt:'195',
   title:'Düşüncəli Xanım – Qara Afro Narıncı Çiçək Portret',
-  artist:'Naməlum rəssam', cat:'portret',
+  artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
   seoDesc:'Qara-mavi nöqtəli fonda böyük afro saçlı qadın, narıncı çiçək, rəngli naxışlı paltar, əli çənəsində.',
   emoDesc:'Güclü, düşüncəli, müəmmalı. Böyük qara saç, narıncı çiçək – dramatik kontrast, dərin hiss.',
@@ -2076,7 +2076,7 @@ const ARTWORKS_DATA = [
 
 { num:'196', code:'VB-GAL-196', alt:'196',
   title:'Gülən Xanım – Qırmızı Saç Mavi Quş Yaşıl Portret',
-  artist:'Naməlum rəssam', cat:'portret',
+  artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
   seoDesc:'Yaşıl nöqtəli fonda qırmızı saçlı gülən qadın, mavi quş, çiçəkli budaqlar, mavi yarpaq paltarı – portret.',
   emoDesc:'Sevinc, azadlıq, həyat. Gülüşün içindəki quş – bu portret hər baxana xoşbəxtlik verir.',
