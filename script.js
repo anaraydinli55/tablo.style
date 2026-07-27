@@ -2314,7 +2314,7 @@ const BLOG_POSTS = [
   icon:'🖼',
   title:'Eviniz Üçün Doğru Divar Tablosu Necə Seçilir?',
   preview:'Divar tablosu seçimi bir çox insan üçün çətin görünür. Ölçü, rəng və üslub kimi amilləri nəzərə alaraq eviniz üçün ən uyğun tabloyu seçməyin yollarını öyrənin.',
-  date:'2026-01-15',
+  date:'2026-04-15',
   readMin:5,
   full:`
     <h2>Niyə Doğru Divar Tablosu Seçmək Vacibdir?</h2>
@@ -2340,23 +2340,149 @@ const BLOG_POSTS = [
   `
 },
   {
-    id:'dogum-gunu-hediyyesi', tag:'🎁 Hədiyyə', icon:'🎂',
-    title:'Doğum Günü Hədiyyəsi: Niyə Tablo Mükəmməl Seçimdir?',
-    preview:'"Doğum günü hədiyyəsi nə alım?" sualına ən gözəl cavab: əl işi tablo. Bu yazıda niyə tablonun unudulmaz hədiyyəyə çevrildiyini izah edirik.',
-    date:'2026-02-03', readMin:4,
-    full:`<h2>Şəxsi və Unikal</h2><p>Əl işi tablo heç bir başqa nüsxəsi olmayan bir əsərdir.</p>
-    <h2>Ömürlük Xatirə</h2><p>Çiçək solar, lakin gözəl bir tablo on illər boyu divarında asılı qalar.</p>
-    <h2>Ev Dekorasiyası Ehtiyacı</h2><p>Hər ev sahibi öz evini gözəlləşdirmək istəyir. Tablo bu ehtiyacı ən estetik şəkildə ödəyir.</p>`
-  },
+  id:'dogum-gunu-hediyyesi',
+  tag:'🎁 Hədiyyə',
+  icon:'🎂',
+  title:'Doğum Günü Hədiyyəsi: Niyə Əl İşi Tablo Ən Yaxşı Hədiyyə Seçimidir?',
+  preview:'Doğum günü hədiyyəsi seçməkdə çətinlik çəkirsiniz? Şəxsi, estetik və uzunömürlü əl işi tablolar sevdikləriniz üçün unudulmaz hədiyyəyə çevrilir. Bu məqalədə niyə tablonun ən dəyərli doğum günü hədiyyələrindən biri olduğunu öyrənin.',
+  date:'2026-06-03',
+  readMin:8,
+  full:`
+    <h2>Doğum Günü Hədiyyəsi Seçərkən Nələrə Diqqət Etmək Lazımdır?</h2>
+    <p>Doğum günü hədiyyəsi yalnız bir əşya deyil, həm də qarşı tərəfə verilən dəyərin və sevginin ifadəsidir. Hədiyyə seçərkən onun uzunömürlü, faydalı, estetik və şəxsi olması vacibdir. Azərbaycanda son illərdə fərdi və əl işi hədiyyələrə maraq sürətlə artır. Xüsusilə Bakı, Sumqayıt, Gəncə, Şəki, Mingəçevir, Lənkəran, Quba və digər şəhərlərdə insanlar standart hədiyyələr əvəzinə xatirə dəyəri yüksək olan məhsullara üstünlük verirlər.</p>
+
+    <h2>Niyə Tablolar Ən Yaxşı Doğum Günü Hədiyyəsidir?</h2>
+    <p>Tablolar həm dekorativ, həm də emosional dəyərə malikdir. Hər tablo əl zəhməti ilə hazırlanır və özünəməxsus xüsusiyyətlər daşıyır. Bu səbəbdən eyni tablonun tam oxşarı olmur və hədiyyəniz daha xüsusi görünür.</p>
+
+    <h2>1. Tamamilə Şəxsi və Unikal Hədiyyə</h2>
+    <p>Tablolar insanlarda fərdilik hissi yaradır. Sevdiyiniz insanın zövqünə uyğun abstrakt sənət, təbiət mənzərəsi, şəhər görüntüsü, çiçək kompozisiyası və ya müasir dekorativ tablo seçə bilərsiniz. Bu isə hədiyyəni daha mənalı edir.</p>
+
+    <h2>2. Uzun İllər Xatirə Olaraq Qalır</h2>
+    <p>Şokolad yeyilir, çiçəklər solur, amma keyfiyyətli tablo uzun illər divarda qalaraq həmin xüsusi günü xatırladır. Hər dəfə tabloya baxıldıqda doğum günü və onu hədiyyə edən insan yada düşür.</p>
+
+    <h2>3. Ev Dekorasiyasını Tamamlayır</h2>
+    <p>Müasir ev dekorasiyasında divar tabloları interyerin əsas elementlərindən biridir. Qonaq otağı, yataq otağı, ofis və ya dəhliz üçün seçilən uyğun tablo məkanın görünüşünü tamamilə dəyişə bilər.</p>
+
+    <h2>4. Hər Yaş Üçün Uyğundur</h2>
+    <p>Divar tabloları qadınlar, kişilər, valideynlər, dostlar, müəllimlər və iş yoldaşları üçün ideal doğum günü hədiyyəsi ola bilər. Yaş məhdudiyyəti olmadan hər kəsə uyğun dizayn tapmaq mümkündür.</p>
+
+    <h2>5. Hər Büdcəyə Uyğun Variantlar</h2>
+    <p>Kiçik dekorativ tablolar, orta ölçülü kətan rəsmlər və böyük premium sənət əsərləri arasında seçim etmək mümkündür. Bu səbəbdən müxtəlif büdcələr üçün uyğun alternativlər mövcuddur.</p>
+
+    <h2>Kimlər Üçün Ən Yaxşı Hədiyyədir?</h2>
+    <ul>
+      <li>Sevgili üçün romantik doğum günü hədiyyəsi</li>
+      <li>Həyat yoldaşı üçün xüsusi hədiyyə</li>
+      <li>Ana və ata üçün mənalı hədiyyə</li>
+      <li>Bacı və qardaş üçün fərqli seçim</li>
+      <li>Dost və rəfiqə üçün unikal hədiyyə</li>
+      <li>Müəllim və həmkar üçün zərif hədiyyə</li>
+      <li>Yeni evə köçən yaxınlar üçün dekorativ hədiyyə</li>
+    </ul>
+
+    <h2>Azərbaycanda Doğum Günü Hədiyyəsi Kimi Tablo</h2>
+    <p>Azərbaycanda əl işi dekor məhsullarına maraq ildən-ilə artır. Bakı, Sumqayıt, Gəncə, Şəki, Qəbələ, İsmayıllı, Mingəçevir, Lənkəran, Naxçıvan və digər bölgələrə çatdırılan tablolar həm fərdi evlərdə, həm də ofislərdə dekorasiya məqsədilə istifadə olunur. Onlayn sifariş imkanları sayəsində istədiyiniz tabloyu rahatlıqla seçmək mümkündür.</p>
+
+    <h2>Tablo Seçərkən Bunlara Diqqət Edin</h2>
+    <ul>
+      <li>Hədiyyə alacağınız şəxsin zövqü.</li>
+      <li>Evin və ya otağın dekorasiya üslubu.</li>
+      <li>Divarın ölçüsünə uyğun tablo seçilməsi.</li>
+      <li>Keyfiyyətli material və davamlı boya istifadəsi.</li>
+      <li>Əl işi və orijinal dizayn olması.</li>
+    </ul>
+
+    <h2>Tez-tez Verilən Suallar</h2>
+
+    <h3>Doğum günü üçün ən fərqli hədiyyə nədir?</h3>
+    <p>Şəxsi zövqə uyğun seçilmiş əl işi tablo həm estetik, həm də uzunömürlü olduğu üçün ən fərqli hədiyyələrdən hesab olunur.</p>
+
+    <h3>Tablo hansı otaqlar üçün uyğundur?</h3>
+    <p>Qonaq otağı, yataq otağı, iş otağı, dəhliz, ofis və studiyalar üçün müxtəlif ölçü və üslubda tablolar seçilə bilər.</p>
+
+    <h3>Əl işi tablo niyə daha dəyərlidir?</h3>
+    <p>Çünki hər bir əsər fərdi şəkildə hazırlanır və eyni dizaynın tam surəti olmur. Bu da onu eksklüziv və xüsusi edir.</p>
+
+    <h2>Nəticə</h2>
+    <p>Əgər "doğum günü üçün nə hədiyyə alım?" sualına həm estetik, həm mənalı, həm də uzunömürlü cavab axtarırsınızsa, əl işi tablo ən uğurlu seçimlərdən biridir. O, yalnız divarı bəzəmir, həm də illərlə davam edən gözəl xatirəyə çevrilir və hər baxışda həmin xüsusi günü yenidən xatırladır.</p>
+  `
+},
   {
-    id:'ev-dekorasiyasi-fikirleri', tag:'🏠 İnteryer', icon:'✨',
-    title:'Ev Dekorasiyası: 2026-cı İlin Ən Populyar Tablo Trendləri',
-    preview:'Bu il ev dekorasiyasında nə populyardır? Botanik motivlər, abstrakt ekspressizm, yoxsa Şərq incəsənəti?',
-    date:'2026-03-10', readMin:6,
-    full:`<h2>Botanik Motivlər</h2><p>Yaşıl bitkilər, çiçəklər – 2026-cı ildə botanik tablolar hər interyerdə görünür.</p>
-    <h2>Abstrakt Ekspressizm</h2><p>Rəngarəng fırça cizgiləri müasir evlərə enerji verir.</p>
-    <h2>Şərq Estetikası</h2><p>Azərbaycan, İran, Osmanlı motivlərindən ilhamlanan tablolar populyarlaşır.</p>`
-  }
+  id:'ev-dekorasiyasi-fikirleri',
+  tag:'🏠 İnteryer',
+  icon:'✨',
+  title:'Ev Dekorasiyası: 2026-cı İlin Ən Populyar Tablo Trendləri',
+  preview:'2026-cı ildə ev dekorasiyasında hansı tablo modelləri dəbdədir? Müasir abstrakt rəsmlər, botanik tablolar, minimalist dizaynlar və Azərbaycan motivli əl işi əsərlər haqqında ətraflı məlumat əldə edin.',
+  date:'2026-07-10',
+  readMin:9,
+  full:`
+    <h2>2026-cı İldə Ev Dekorasiyasında Hansı Tablo Trendləri Populyardır?</h2>
+    <p>Ev dekorasiyası hər il dəyişən dizayn tendensiyalarına uyğun inkişaf edir. 2026-cı ildə interyer dizaynında diqqət çəkən əsas elementlərdən biri divar tablolarıdır. Düzgün seçilmiş tablo yalnız boş divarı doldurmur, həm də otağa xarakter, istilik və estetik görünüş qazandırır. Azərbaycanda, xüsusilə Bakı, Sumqayıt, Gəncə, Şəki, Qəbələ, Lənkəran, Mingəçevir və digər şəhərlərdə müasir interyerlərdə dekorativ tablolar getdikcə daha çox istifadə olunur.</p>
+
+    <h2>Niyə Divar Tablosu Ev Dekorasiyasında Vacibdir?</h2>
+    <p>İnteryer dizaynerlərinin fikrincə, otağın atmosferini dəyişməyin ən asan yollarından biri doğru tablo seçimidir. Rənglər, ölçü, kompozisiya və mövzu otağın ümumi dizaynına uyğun olduqda məkan daha geniş, işıqlı və zövqlü görünür.</p>
+
+    <h2>1. Botanik Motivlər</h2>
+    <p>2026-cı ildə yaşıl tonlar və təbiətdən ilham alan dekorasiya ön plandadır. Yarpaqlar, tropik bitkilər, zeytun budaqları, lavanda sahələri və çiçək kompozisiyaları həm Skandinaviya, həm də müasir interyerlər üçün ideal seçim hesab olunur. Botanik tablolar sakit və rahat atmosfer yaradır.</p>
+
+    <h2>2. Abstrakt Ekspressizm</h2>
+    <p>Böyük ölçülü abstrakt tablolar 2026-cı ilin ən güclü dekorasiya trendlərindən biridir. Güclü rəng keçidləri, teksturalı fırça izləri və müasir kompozisiyalar minimalist evlərə dinamika qatır. Xüsusilə ağ, boz və bej rəngli interyerlərdə abstrakt tablolar diqqət mərkəzinə çevrilir.</p>
+
+    <h2>3. Minimalist Divar Tabloları</h2>
+    <p>Sadə xətlər, neytral rənglər və təmiz kompozisiyalar müasir mənzillərdə geniş istifadə olunur. Minimalist tablolar kiçik otaqları daha geniş göstərir və interyerə sakitlik hissi bəxş edir.</p>
+
+    <h2>4. Azərbaycan və Şərq Motivləri</h2>
+    <p>Milli ornamentlər, xalça naxışları, qədim memarlıq elementləri, Şəki, İçərişəhər və Qız Qalası kimi mövzular əsasında hazırlanmış əl işi tablolar son illərdə böyük maraq qazanır. Azərbaycan mədəniyyətini əks etdirən dekorativ əsərlər həm yerli, həm də xarici alıcılar tərəfindən seçilir.</p>
+
+    <h2>5. Teksturalı Əl İşi Tablolar</h2>
+    <p>Həcmli tekstura ilə hazırlanmış kətan tablolar premium interyerlərin ayrılmaz hissəsinə çevrilib. İşığın düşmə bucağından asılı olaraq fərqli görünüş yaradan bu əsərlər müasir ev dekorasiyasında lüks hissi yaradır.</p>
+
+    <h2>6. Böyük Ölçülü Statement Tablolar</h2>
+    <p>Bir böyük tablo bəzən bir neçə kiçik rəsmdən daha təsirli görünür. Xüsusilə qonaq otağı, ofis və yemək otaqlarında iri ölçülü kətan tablolar interyerin əsas diqqət nöqtəsinə çevrilir.</p>
+
+    <h2>2026-cı İldə Ən Dəbdə Olan Rənglər</h2>
+    <ul>
+      <li>Torpaq tonları</li>
+      <li>Zeytun yaşılı</li>
+      <li>Terrakota</li>
+      <li>Qum və bej çalarları</li>
+      <li>Dərin mavi</li>
+      <li>Krem və fil sümüyü rəngi</li>
+      <li>Qızılı detallarla neytral rənglər</li>
+    </ul>
+
+    <h2>Otaqlara Görə Tablo Seçimi</h2>
+
+    <h3>Qonaq otağı</h3>
+    <p>Böyük abstrakt və ya panoramik tablolar interyerə prestijli görünüş verir.</p>
+
+    <h3>Yataq otağı</h3>
+    <p>Sakit rənglərə malik təbiət və botanik motivli tablolar rahat atmosfer yaradır.</p>
+
+    <h3>Mətbəx</h3>
+    <p>Minimalist və açıq rəngli dekorativ tablolar mətbəxi daha işıqlı göstərir.</p>
+
+    <h3>Ofis</h3>
+    <p>Motivasiya verən müasir abstrakt sənət əsərləri iş mühitinə enerji qatır.</p>
+
+    <h2>Azərbaycanda Ev Dekorasiyası Trendləri</h2>
+    <p>Azərbaycanda son illər interyer dizaynına maraq əhəmiyyətli dərəcədə artıb. Bakı, Sumqayıt, Gəncə, Şəki, Quba, Qəbələ, Lənkəran, Mingəçevir, Naxçıvan və digər bölgələrdə yeni tikililər və fərdi evlər üçün dekorativ əl işi tablolar ən çox seçilən divar aksesuarlarından biridir. Onlayn sifariş və ölkə üzrə çatdırılma imkanları sayəsində istənilən üslubda tablo əldə etmək mümkündür.</p>
+
+    <h2>Tez-tez Verilən Suallar</h2>
+
+    <h3>2026-cı ildə hansı tablolar dəbdədir?</h3>
+    <p>Botanik motivlər, abstrakt sənət, minimalist dizaynlar, teksturalı əl işi tablolar və Azərbaycan motivli dekorativ əsərlər ən populyar seçimlərdir.</p>
+
+    <h3>Kiçik otaq üçün hansı tablo daha uyğundur?</h3>
+    <p>Açıq rəngli, minimalist və orta ölçülü tablolar kiçik məkanları daha geniş göstərir.</p>
+
+    <h3>Müasir ev üçün hansı tablo seçilməlidir?</h3>
+    <p>Minimalist, abstrakt və neytral rəng palitrasına malik kətan tablolar müasir interyerlə daha yaxşı uyğunlaşır.</p>
+
+    <h2>Nəticə</h2>
+    <p>2026-cı ilin ev dekorasiyası trendləri göstərir ki, divar tabloları interyer dizaynının ən vacib elementlərindən biri olaraq qalır. Botanik motivlər, abstrakt sənət, teksturalı əl işi əsərlər və Azərbaycan mədəniyyətindən ilhamlanan tablolar həm estetik görünüş, həm də fərdi üslub yaratmaq üçün ideal seçimdir. Evinizin ölçüsünə, rəng palitrasına və dekorasiya üslubuna uyğun tablo seçərək məkanınıza tamamilə yeni bir atmosfer qazandıra bilərsiniz.</p>
+  `
+}
 ];
 
 function initBlog() {
