@@ -2309,14 +2309,36 @@ function handleKeyboard(e) {
 /* ── Blog Data ───────────────────────────────────────── */
 const BLOG_POSTS = [
   {
-    id:'divar-tablosu-secimi', tag:'🎨 Dekor', icon:'🖼',
-    title:'Eviniz Üçün Doğru Divar Tablosu Necə Seçilir?',
-    preview:'Divar tablosu seçimi bir çox insan üçün çətin görünür. Ölçü, rəng, üslub – hər şey önəmlidir. Bu məqalədə sizə addım-addım mükəmməl tabloyu necə tapacağınızı izah edirik.',
-    date:'2026-01-15', readMin:5,
-    full:`<h2>Ölçünü Düzgün Seçin</h2><p>Tablo asacağınız divarın ölçüsünü əvvəlcədən ölçün. Ümumi qayda: tablonun eni divarın 2/3-nü tutmalıdır.</p>
-    <h2>Rəng Uyumuna Diqqət Edin</h2><p>Otağın hakim rəngləri ilə tablonun rəng palitrasını uyğunlaşdırın.</p>
-    <h2>Üslub Seçimi</h2><p>Müasir interyerlər üçün abstrakt; klassik interyerlər üçün mənzərə daha uyğundur.</p>`
-  },
+  id:'divar-tablosu-secimi',
+  tag:'🎨 Dekor',
+  icon:'🖼',
+  title:'Eviniz Üçün Doğru Divar Tablosu Necə Seçilir?',
+  preview:'Divar tablosu seçimi bir çox insan üçün çətin görünür. Ölçü, rəng və üslub kimi amilləri nəzərə alaraq eviniz üçün ən uyğun tabloyu seçməyin yollarını öyrənin.',
+  date:'2026-01-15',
+  readMin:5,
+  full:`
+    <h2>Niyə Doğru Divar Tablosu Seçmək Vacibdir?</h2>
+    <p>Divar tablosu ev dekorasiyasının ən diqqətçəkən elementlərindən biridir. Düzgün seçilmiş tablo otağa xarakter, istilik və estetik görünüş qazandırır. Yanlış ölçü və ya rəng seçimi isə interyerin balansını poza bilər.</p>
+
+    <h2>1. Divarın Ölçüsünü Nəzərə Alın</h2>
+    <p>Tablo almadan əvvəl divarın enini və hündürlüyünü ölçün. Dizaynerlər tablonun eninin divarın təxminən 60–75%-ni əhatə etməsini tövsiyə edirlər. Kiçik tablo böyük divarda itib görünə bilər, həddindən artıq böyük tablo isə məkanı dar göstərə bilər.</p>
+
+    <h2>2. Rəng Uyğunluğunu Seçin</h2>
+    <p>Otaqda istifadə olunan əsas rəngləri nəzərə alın. Tablo divan, xalça, pərdə və dekorativ yastıqlarla harmoniyada olduqda daha estetik görünür. Kontrast rənglər diqqət çəkir, oxşar tonlar isə sakit atmosfer yaradır.</p>
+
+    <h2>3. İnteryer Üslubuna Uyğun Tablo Seçin</h2>
+    <p>Müasir interyerlər üçün abstrakt və minimal əsərlər, klassik evlər üçün isə mənzərə, natura və ya klassik rəsmlər daha uyğun seçim hesab olunur. Skandinaviya üslubunda isə sadə və açıq tonlu tablolar üstünlük təşkil edir.</p>
+
+    <h2>4. Asılma Hündürlüyü</h2>
+    <p>Tablonun mərkəzi təxminən göz səviyyəsində olmalıdır. Divan və ya yataq üzərində yerləşdirildikdə mebel ilə tablo arasında 15–25 sm məsafə saxlanılması tövsiyə olunur.</p>
+
+    <h2>5. Bir Neçə Tablo Birlikdə</h2>
+    <p>Qalereya divarı yaratmaq istəyirsinizsə, çərçivələrin ölçülərini və aralarındakı məsafəni əvvəlcədən planlaşdırın. Adətən 5–8 sm boşluq vizual olaraq daha balanslı görünür.</p>
+
+    <h2>Nəticə</h2>
+    <p>Divar tablosu seçərkən ölçü, rəng, üslub və yerləşdirmə qaydalarını nəzərə almaq evinizin görünüşünü tamamilə dəyişə bilər. Düzgün seçilmiş tablo yalnız dekor elementi deyil, həm də məkanın atmosferini tamamlayan vacib bir dizayn detalıdır.</p>
+  `
+},
   {
     id:'dogum-gunu-hediyyesi', tag:'🎁 Hədiyyə', icon:'🎂',
     title:'Doğum Günü Hədiyyəsi: Niyə Tablo Mükəmməl Seçimdir?',
