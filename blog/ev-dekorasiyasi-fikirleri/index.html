@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ev Dekorasiyası: 2026-cı İlin Ən Populyar Tablo Trendləri | Tablo Style Gallery</title>
+    <meta name="description" content="2026-cı ildə ev dekorasiyasında öndə olan divar tablosu trendləri, rəng çalarları və otaqlara uyğun əl işi parça dizaynları haqqında ətraflı məlumat alın.">
+    <link rel="canonical" href="https://tablo-style.vercel.app/blog/ev-dekorasiyasi-fikirleri.html">
+    <meta name="robots" content="index, follow">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Təməl Rənglər və Üslub */
+        :root {
+            --ink:       #1a1612;
+            --ink-soft:  #4a4340;
+            --gold:      #b8860b;
+            --gold-lt:   #d4a017;
+            --pastel-blue: #ebf3f9; /* Açıq Mavi Background */
+            --font-body: 'DM Sans', sans-serif;
+            --font-head: 'Cormorant Garamond', Georgia, serif;
+            --trans:     all .25s ease-in-out;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: var(--pastel-blue);
+            color: var(--ink);
+            line-height: 1.75;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Naviqasiya Barı */
+        .blog-header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(235, 243, 249, 0.95);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid rgba(184, 134, 11, 0.12);
+            padding: 16px 20px;
+        }
+
+        .header-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .btn-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.88rem;
+            font-weight: 500;
+            color: var(--ink-soft);
+            text-decoration: none;
+            transition: var(--trans);
+        }
+
+        .btn-back:hover {
+            color: var(--gold);
+            transform: translateX(-3px);
+        }
+
+        .logo-text {
+            font-family: var(--font-head);
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--ink);
+            text-decoration: none;
+        }
+
+        .logo-text em {
+            font-style: italic;
+            color: var(--gold);
+            font-weight: 300;
+        }
+
+        /* Məqalə Kapsayıcısı */
+        .article-container {
+            max-width: 800px;
+            margin: 50px auto 100px;
+            padding: 0 20px;
+        }
+
+        .article-card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 50px 40px;
+            box-shadow: 0 10px 40px rgba(26, 22, 18, 0.05);
+            border: 1px solid rgba(184, 134, 11, 0.06);
+        }
+
+        @media (max-width: 580px) {
+            .article-card {
+                padding: 30px 20px;
+            }
+        }
+
+        /* Meta Məlumatlar */
+        .meta-wrap {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 20px;
+            font-size: 0.82rem;
+            color: var(--ink-soft);
+            font-weight: 500;
+            letter-spacing: 0.03em;
+        }
+
+        .meta-tag {
+            padding: 4px 12px;
+            background: var(--pastel-blue);
+            color: var(--ink);
+            border-radius: 30px;
+            font-size: 0.78rem;
+        }
+
+        /* Başlıq */
+        .article-title {
+            font-family: var(--font-head);
+            font-size: clamp(1.8rem, 4.5vw, 2.6rem);
+            font-weight: 400;
+            font-style: italic;
+            line-height: 1.25;
+            color: var(--ink);
+            margin-bottom: 24px;
+        }
+
+        .divider {
+            height: 1px;
+            background: rgba(184, 134, 11, 0.15);
+            margin: 32px 0;
+        }
+
+        /* Məqalə Mətni */
+        .article-content h2 {
+            font-family: var(--font-head);
+            font-size: clamp(1.3rem, 3.2vw, 1.7rem);
+            font-weight: 400;
+            font-style: italic;
+            color: var(--ink);
+            margin-top: 40px;
+            margin-bottom: 16px;
+            position: relative;
+        }
+
+        .article-content h2::after {
+            content: '';
+            position: absolute;
+            bottom: -6px;
+            left: 0;
+            width: 30px;
+            height: 1.5px;
+            background: var(--gold);
+        }
+
+        .article-content h3 {
+            font-family: var(--font-head);
+            font-size: 1.25rem;
+            font-weight: 600;
+            font-style: italic;
+            color: var(--ink);
+            margin-top: 28px;
+            margin-bottom: 10px;
+        }
+
+        .article-content p {
+            color: var(--ink-soft);
+            font-size: 1.05rem;
+            line-height: 1.85;
+            margin-bottom: 24px;
+        }
+
+        .article-content ul {
+            list-style: none;
+            margin-bottom: 24px;
+            padding-left: 5px;
+        }
+
+        .article-content ul li {
+            position: relative;
+            padding-left: 24px;
+            margin-bottom: 10px;
+            color: var(--ink-soft);
+            font-size: 1.02rem;
+        }
+
+        .article-content ul li::before {
+            content: '✦';
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+            font-size: 0.9rem;
+        }
+
+        /* WhatsApp Sifariş Bloku */
+        .cta-box {
+            background: var(--pastel-blue);
+            border: 1px solid rgba(184, 134, 11, 0.15);
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .cta-box h3 {
+            font-family: var(--font-head);
+            font-size: 1.45rem;
+            font-weight: 400;
+            font-style: italic;
+            margin-bottom: 12px;
+            color: var(--ink);
+        }
+
+        .cta-box p {
+            font-size: 0.92rem;
+            color: var(--ink-soft);
+            margin-bottom: 20px;
+        }
+
+        .btn-whatsapp {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: #25D366;
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 6px;
+            font-size: 0.88rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: var(--trans);
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.25);
+        }
+
+        .btn-whatsapp:hover {
+            background: #1fb855;
+            transform: translateY(-1px);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35);
+        }
+
+        /* Footer */
+        .blog-footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid rgba(184, 134, 11, 0.1);
+            color: var(--ink-soft);
+            font-size: 0.82rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ═══════════════════════════════════ HEADER ════════ -->
+    <header class="blog-header">
+        <div class="header-container">
+            <a href="../divar-tablosu/index.html" class="btn-back" aria-label="Geri qayıt">
+                ← Ana Səhifə
+            </a>
+            <a href="../divar-tablosu/index.html" class="logo-text">
+                Tablo Style <em>Gallery</em>
+            </a>
+        </div>
+    </header>
+
+    <!-- ═══════════════════════════════════ CONTENT ═══════ -->
+    <main class="article-container">
+        <article class="article-card">
+            
+            <!-- Meta məlumatlar -->
+            <div class="meta-wrap">
+                <span class="meta-tag">🏠 İnteryer</span>
+                <span>📅 10 İyul 2026</span>
+                <span>⏱ 9 dəqiqə oxu</span>
+            </div>
+
+            <!-- Başlıq -->
+            <h1 class="article-title">Ev Dekorasiyası: 2026-cı İlin Ən Populyar Tablo Trendləri</h1>
+            
+            <div class="divider"></div>
+
+            <!-- Məqalə mətni -->
+            <section class="article-content">
+                <h2>2026-cı İldə Ev Dekorasiyasında Hansı Tablo Trendləri Populyardır?</h2>
+                <p>Ev dekorasiyası hər il dəyişən dizayn tendensiyalarına uyğun inkişaf edir. 2026-cı ildə interyer dizaynında diqqət çəkən əsas elementlərdən biri divar tablolarıdır. Düzgün seçilmiş tablo yalnız boş divarı doldurmur, həm də otağa xarakter, istilik və estetik görünüş qazandırır. Azərbaycanda, xüsusilə Bakı, Sumqayıt, Gəncə, Şəki, Qəbələ, Lənkəran, Mingəçevir və digər şəhərlərdə müasir interyerlərdə dekorativ tablolar getdikcə daha çox istifadə olunur.</p>
+
+                <h2>Niyə Divar Tablosu Ev Dekorasiyasında Vacibdir?</h2>
+                <p>İnteryer dizaynerlərinin fikrincə, otağın atmosferini dəyişməyin ən asan yollarından biri doğru tablo seçimidir. Rənglər, ölçü, kompozisiya və mövzu otağın ümumi dizaynına uyğun olduqda məkan daha geniş, işıqlı və zövqlü görünür.</p>
+
+                <h2>1. Botanik Motivlər</h2>
+                <p>2026-cı ildə yaşıl tonlar və təbiətdən ilham alan dekorasiya ön plandadır. Yarpaqlar, tropik bitkilər, zeytun budaqları, lavanda sahələri və çiçək kompozisiyaları həm Skandinaviya, həm də müasir interyerlər üçün ideal seçim hesab olunur. Botanik tablolar sakit və rahat atmosfer yaradır.</p>
+
+                <h2>2. Abstrakt Ekspressizm</h2>
+                <p>Böyük ölçülü abstrakt tablolar 2026-cı ilin ən güclü dekorasiya trendlərindən biridir. Güclü rəng keçidləri, teksturalı fırça izləri və müasir kompozisiyalar minimalist evlərə dinamika qatır. Xüsusilə ağ, boz və bej rəngli interyerlərdə abstrakt tablolar diqqət mərkəzinə çevrilir.</p>
+
+                <h2>3. Minimalist Divar Tabloları</h2>
+                <p>Sadə xətlər, neytral rənglər və təmiz kompozisiyalar müasir mənzillərdə geniş istifadə olunur. Minimalist tablolar kiçik otaqları daha geniş göstərir və interyerə sakitlik hissi bəxş edir.</p>
+
+                <h2>4. Azərbaycan və Şərq Motivləri</h2>
+                <p>Milli ornamentlər, xalça naxışları, qədim memarlıq elementləri, Şəki, İçərişəhər və Qız Qalası gibi mövzular əsasında hazırlanmış əl işi tablolar son illərdə böyük maraq qazanır. Azərbaycan mədəniyyətini əks etdirən dekorativ əsərlər həm yerli, həm də xarici alıcılar tərəfindən seçilir.</p>
+
+                <h2>5. Teksturalı Əl İşi Tablolar</h2>
+                <p>Həcmli tekstura ilə hazırlanmış kətan tablolar premium interyerlərin ayrılmaz hissəsinə çevrilib. İşığın düşmə bucağından asılı olaraq fərqli görünüş yaradan bu əsərlər müasir ev dekorasiyasında lüks hissi yaradır.</p>
+
+                <h2>6. Böyük Ölçülü Statement Tablolar</h2>
+                <p>Bir böyük tablo bəzən bir neçə kiçik rəsmdən daha təsirli görünür. Xüsusilə qonaq otağı, ofis və yemək otaqlarında iri ölçülü kətan tablolar interyerin əsas diqqət nöqtəsinə çevrilir.</p>
+
+                <h2>2026-cı İldə Ən Dəbdə Olan Rənglər</h2>
+                <ul>
+                    <li>Torpaq tonları</li>
+                    <li>Zeytun yaşılı</li>
+                    <li>Terrakota</li>
+                    <li>Qum və bej çalarları</li>
+                    <li>Dərin mavi</li>
+                    <li>Krem və fil sümüyü rəngi</li>
+                    <li>Qızılı detallarla neytral rənglər</li>
+                </ul>
+
+                <h2>Otaqlara Görə Tablo Seçimi</h2>
+
+                <h3>Qonaq otağı</h3>
+                <p>Böyük abstrakt və ya panoramik tablolar interyerə prestijli görünüş verir.</p>
+
+                <h3>Yataq otağı</h3>
+                <p>Sakit rənglərə malik təbiət və botanik motivli tablolar rahat atmosfer yaradır.</p>
+
+                <h3>Mətbəx</h3>
+                <p>Minimalist və açıq rəngli dekorativ tablolar mətbəxi daha işıqlı göstərir.</p>
+
+                <h3>Ofis</h3>
+                <p>Motivasiya verən müasir abstrakt sənət əsərləri iş mühitinə enerji qatır.</p>
+
+                <h2>Azərbaycanda Ev Dekorasiyası Trendləri</h2>
+                <p>Azərbaycanda son illər interyer dizaynına maraq əhəmiyyətli dərəcədə artıb. Bakı, Sumqayıt, Gəncə, Şəki, Quba, Qəbələ, Lənkəran, Mingəçevir, Naxçıvan və digər bölgələrdə yeni tikililər və fərdi evlər üçün dekorativ əl işi tablolar ən çox seçilən divar aksesuarlarından biridir. Onlayn sifariş və ölkə üzrə çatdırılma imkanları sayəsində istənilən üslubda tablo əldə etmək mümkündür.</p>
+
+                <h2>Tez-tez Verilən Suallar</h2>
+
+                <h3>2026-cı ildə hansı tablolar dəbdədir?</h3>
+                <p>Botanik motivlər, abstrakt sənət, minimalist dizaynlar, teksturalı əl işi tablolar və Azərbaycan motivli dekorativ əsərlər ən populyar seçimlərdir.</p>
+
+                <h3>Kiçik otaq üçün hansı tablo daha uyğundur?</h3>
+                <p>Açıq rəngli, minimalist və orta ölçülü tablolar kiçik məkanları daha geniş göstərir.</p>
+
+                <h3>Müasir ev üçün hansı tablo seçilməlidir?</h3>
+                <p>Minimalist, abstrakt və neytral rəng palitrasına malik kətan tablolar müasir interyerlə daha yaxşı uyğunlaşır.</p>
+
+                <h2>Nəticə</h2>
+                <p>2026-cı ilin ev dekorasiyası trendləri göstərir ki, divar tabloları interyer dizaynının ən vacib elementlərindən biri olaraq qalır. Botanik motivlər, abstrakt sənət, teksturalı əl işi əsərlər və Azərbaycan mədəniyyətindən ilhamlanan tablolar həm estetik görünüş, həm də fərdi üslub yaratmaq üçün ideal seçimdir. Evinizin ölçüsünə, rəng palitrasına və dekorasiya üslubuna uyğun tablo seçərək məkanınıza tamamilə yeni bir atmosfer qazandıra bilərsiniz.</p>
+            </section>
+
+            <!-- CTA - WhatsApp Sifariş -->
+            <section class="cta-box">
+                <h3>Evinizdə Müasir 2026 Trendlərini Yaradın</h3>
+                <p>Dizaynerlərimizlə əlaqə saxlayaraq otağınızın üslubuna, işıqlandırmasına və ölçülərinə ən uyğun olan müasir tablo dizaynlarını pulsuz məsləhətlərlə seçə bilərsiniz.</p>
+                <a href="https://wa.me/905540183188?text=Salam%2C%20evimin%20dekorasiyas%C4%B1%20%C3%BC%C3%A7%C3%BCn%202026%20tablo%20trendl%C9%99rin%C9%99%20uy%C4%9Fun%20se%C3%A7im%20etm%C9%99kd%C9%99%20k%C3%B6m%C9%99k%20ed%C9%99%20bil%C9%99rsiniz%3F" target="_blank" rel="noopener" class="btn-whatsapp">
+                    🟢 WhatsApp ilə Məsləhət Al
+                </a>
+            </section>
+
+        </article>
+    </main>
+
+    <!-- ═══════════════════════════════════ FOOTER ════════ -->
+    <footer class="blog-footer">
+        <p>© 2026 Tablo Style Gallery · Bütün hüquqlar qorunur</p>
+    </footer>
+
+</body>
+</html>
