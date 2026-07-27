@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doğum Günü Hədiyyəsi: Niyə Əl İşi Tablo Ən Yaxşı Hədiyyə Seçimidir? | Tablo Style Gallery</title>
+    <meta name="description" content="Doğum günü üçün unikal, şəxsi və uzunömürlü hədiyyə axtarırsınız? Niyə əl işi tabloların ən doğru hədiyyə seçimi olduğunu dizayner tövsiyələri ilə öyrənin.">
+    <link rel="canonical" href="https://tablo-style.vercel.app/blog/dogum-gunu-hediyyesi.html">
+    <meta name="robots" content="index, follow">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Təməl Rənglər və Üslub */
+        :root {
+            --ink:       #1a1612;
+            --ink-soft:  #4a4340;
+            --gold:      #b8860b;
+            --gold-lt:   #d4a017;
+            --pastel-blue: #ebf3f9; /* Açıq Mavi Background */
+            --font-body: 'DM Sans', sans-serif;
+            --font-head: 'Cormorant Garamond', Georgia, serif;
+            --trans:     all .25s ease-in-out;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: var(--pastel-blue);
+            color: var(--ink);
+            line-height: 1.75;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Naviqasiya Barı */
+        .blog-header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(235, 243, 249, 0.95);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid rgba(184, 134, 11, 0.12);
+            padding: 16px 20px;
+        }
+
+        .header-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .btn-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.88rem;
+            font-weight: 500;
+            color: var(--ink-soft);
+            text-decoration: none;
+            transition: var(--trans);
+        }
+
+        .btn-back:hover {
+            color: var(--gold);
+            transform: translateX(-3px);
+        }
+
+        .logo-text {
+            font-family: var(--font-head);
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--ink);
+            text-decoration: none;
+        }
+
+        .logo-text em {
+            font-style: italic;
+            color: var(--gold);
+            font-weight: 300;
+        }
+
+        /* Məqalə Kapsayıcısı */
+        .article-container {
+            max-width: 800px;
+            margin: 50px auto 100px;
+            padding: 0 20px;
+        }
+
+        .article-card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 50px 40px;
+            box-shadow: 0 10px 40px rgba(26, 22, 18, 0.05);
+            border: 1px solid rgba(184, 134, 11, 0.06);
+        }
+
+        @media (max-width: 580px) {
+            .article-card {
+                padding: 30px 20px;
+            }
+        }
+
+        /* Meta Məlumatlar */
+        .meta-wrap {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 20px;
+            font-size: 0.82rem;
+            color: var(--ink-soft);
+            font-weight: 500;
+            letter-spacing: 0.03em;
+        }
+
+        .meta-tag {
+            padding: 4px 12px;
+            background: var(--pastel-blue);
+            color: var(--ink);
+            border-radius: 30px;
+            font-size: 0.78rem;
+        }
+
+        /* Başlıq */
+        .article-title {
+            font-family: var(--font-head);
+            font-size: clamp(1.8rem, 4.5vw, 2.6rem);
+            font-weight: 400;
+            font-style: italic;
+            line-height: 1.25;
+            color: var(--ink);
+            margin-bottom: 24px;
+        }
+
+        .divider {
+            height: 1px;
+            background: rgba(184, 134, 11, 0.15);
+            margin: 32px 0;
+        }
+
+        /* Məqalə Mətni */
+        .article-content h2 {
+            font-family: var(--font-head);
+            font-size: clamp(1.3rem, 3.2vw, 1.7rem);
+            font-weight: 400;
+            font-style: italic;
+            color: var(--ink);
+            margin-top: 40px;
+            margin-bottom: 16px;
+            position: relative;
+        }
+
+        .article-content h2::after {
+            content: '';
+            position: absolute;
+            bottom: -6px;
+            left: 0;
+            width: 30px;
+            height: 1.5px;
+            background: var(--gold);
+        }
+
+        .article-content h3 {
+            font-family: var(--font-head);
+            font-size: 1.25rem;
+            font-weight: 600;
+            font-style: italic;
+            color: var(--ink);
+            margin-top: 28px;
+            margin-bottom: 10px;
+        }
+
+        .article-content p {
+            color: var(--ink-soft);
+            font-size: 1.05rem;
+            line-height: 1.85;
+            margin-bottom: 24px;
+        }
+
+        .article-content ul {
+            list-style: none;
+            margin-bottom: 24px;
+            padding-left: 5px;
+        }
+
+        .article-content ul li {
+            position: relative;
+            padding-left: 24px;
+            margin-bottom: 10px;
+            color: var(--ink-soft);
+            font-size: 1.02rem;
+        }
+
+        .article-content ul li::before {
+            content: '✦';
+            position: absolute;
+            left: 0;
+            color: var(--gold);
+            font-size: 0.9rem;
+        }
+
+        /* WhatsApp Sifariş Bloku */
+        .cta-box {
+            background: var(--pastel-blue);
+            border: 1px solid rgba(184, 134, 11, 0.15);
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .cta-box h3 {
+            font-family: var(--font-head);
+            font-size: 1.45rem;
+            font-weight: 400;
+            font-style: italic;
+            margin-bottom: 12px;
+            color: var(--ink);
+        }
+
+        .cta-box p {
+            font-size: 0.92rem;
+            color: var(--ink-soft);
+            margin-bottom: 20px;
+        }
+
+        .btn-whatsapp {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: #25D366;
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 6px;
+            font-size: 0.88rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: var(--trans);
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.25);
+        }
+
+        .btn-whatsapp:hover {
+            background: #1fb855;
+            transform: translateY(-1px);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35);
+        }
+
+        /* Footer */
+        .blog-footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid rgba(184, 134, 11, 0.1);
+            color: var(--ink-soft);
+            font-size: 0.82rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ═══════════════════════════════════ HEADER ════════ -->
+    <header class="blog-header">
+        <div class="header-container">
+            <a href="../divar-tablosu/index.html" class="btn-back" aria-label="Geri qayıt">
+                ← Ana Səhifə
+            </a>
+            <a href="../divar-tablosu/index.html" class="logo-text">
+                Tablo Style <em>Gallery</em>
+            </a>
+        </div>
+    </header>
+
+    <!-- ═══════════════════════════════════ CONTENT ═══════ -->
+    <main class="article-container">
+        <article class="article-card">
+            
+            <!-- Meta məlumatlar -->
+            <div class="meta-wrap">
+                <span class="meta-tag">🎁 Hədiyyə</span>
+                <span>📅 3 İyun 2026</span>
+                <span>⏱ 8 dəqiqə oxu</span>
+            </div>
+
+            <!-- Başlıq -->
+            <h1 class="article-title">Doğum Günü Hədiyyəsi: Niyə Əl İşi Tablo Ən Yaxşı Hədiyyə Seçimidir?</h1>
+            
+            <div class="divider"></div>
+
+            <!-- Məqalə mətni -->
+            <section class="article-content">
+                <h2>Doğum Günü Hədiyyəsi Seçərkən Nələrə Diqqət Etmək Lazımdır?</h2>
+                <p>Doğum günü hədiyyəsi yalnız bir əşya deyil, həm də qarşı tərəfə verilən dəyərin və sevginin ifadəsidir. Hədiyyə seçərkən onun uzunömürlü, faydalı, estetik və şəxsi olması vacibdir. Azərbaycanda son illərdə fərdi və əl işi hədiyyələrə maraq sürətlə artır. Xüsusilə Bakı, Sumqayıt, Gəncə, Şəki, Mingəçevir, Lənkəran, Quba və digər şəhərlərdə insanlar standart hədiyyələr əvəzinə xatirə dəyəri yüksək olan məhsullara üstünlük verirlər.</p>
+
+                <h2>Niyə Tablolar Ən Yaxşı Doğum Günü Hədiyyəsidir?</h2>
+                <p>Tablolar həm dekorativ, həm də emosional dəyərə malikdir. Hər tablo əl zəhməti ilə hazırlanır və özünəməxsus xüsusiyyətlər daşıyır. Bu səbəbdən eyni tablonun tam oxşarı olmur və hədiyyəniz daha xüsusi görünür.</p>
+
+                <h2>1. Tamamilə Şəxsi və Unikal Hədiyyə</h2>
+                <p>Tablolar insanlarda fərdilik hissi yaradır. Sevdiyiniz insanın zövqünə uyğun abstrakt sənət, təbiət mənzərəsi, şəhər görüntüsü, çiçək kompozisiyası və ya müasir dekorativ tablo seçə bilərsiniz. Bu isə hədiyyəni daha mənalı edir.</p>
+
+                <h2>2. Uzun İllər Xatirə Olaraq Qalır</h2>
+                <p>Şokolad yeyilir, çiçəklər solur, amma keyfiyyətli tablo uzun illər divarda qalaraq həmin xüsusi günü xatırladır. Hər dəfə tabloya baxıldıqda doğum günü və onu hədiyyə edən insan yada düşür.</p>
+
+                <h2>3. Ev Dekorasiyasını Tamamlayır</h2>
+                <p>Müasir ev dekorasiyasında divar tabloları interyerin əsas elementlərindən biridir. Qonaq otağı, yataq otağı, ofis və ya dəhliz üçün seçilən uyğun tablo məkanın görünüşünü tamamilə dəyişə bilər.</p>
+
+                <h2>4. Hər Yaş Üçün Uyğundur</h2>
+                <p>Divar tabloları qadınlar, kişilər, valideynlər, dostlar, müəllimlər və iş yoldaşları üçün ideal doğum günü hədiyyəsi ola bilər. Yaş məhdudiyyəti olmadan hər kəsə uyğun dizayn tapmaq mümkündür.</p>
+
+                <h2>5. Hər Büdcəyə Uyğun Variantlar</h2>
+                <p>Kiçik dekorativ tablolar, orta ölçülü kətan rəsmlər və böyük premium sənət əsərləri arasında seçim etmək mümkündür. Bu səbəbdən müxtəlif büdcələr üçün uyğun alternativlər mövcuddur.</p>
+
+                <h2>Kimlər Üçün Ən Yaxşı Hədiyyədir?</h2>
+                <ul>
+                    <li>Sevgili üçün romantik doğum günü hədiyyəsi</li>
+                    <li>Həyat yoldaşı üçün xüsusi hədiyyə</li>
+                    <li>Ana və ata üçün mənalı hədiyyə</li>
+                    <li>Bacı və qardaş üçün fərqli seçim</li>
+                    <li>Dost və rəfiqə üçün unikal hədiyyə</li>
+                    <li>Müəllim və həmkar üçün zərif hədiyyə</li>
+                    <li>Yeni evə köçən yaxınlar üçün dekorativ hədiyyə</li>
+                </ul>
+
+                <h2>Azərbaycanda Doğum Günü Hədiyyəsi Kimi Tablo</h2>
+                <p>Azərbaycanda əl işi dekor məhsullarına maraq ildən-ilə artır. Bakı, Sumqayıt, Gəncə, Şəki, Qəbələ, İsmayıllı, Mingəçevir, Lənkəran, Naxçıvan və digər bölgələrə çatdırılan tablolar həm fərdi evlərdə, həm də ofislərdə dekorasiya məqsədilə istifadə olunur. Onlayn sifariş imkanları sayəsində istədiyiniz tabloyu rahatlıqla seçmək mümkündür.</p>
+
+                <h2>Tablo Seçərkən Bunlara Diqqət Edin</h2>
+                <ul>
+                    <li>Hədiyyə alacağınız şəxsin zövqü.</li>
+                    <li>Evin və ya otağın dekorasiya üslubu.</li>
+                    <li>Divarın ölçüsünə uyğun tablo seçilməsi.</li>
+                    <li>Keyfiyyətli material və davamlı boya istifadəsi.</li>
+                    <li>Əl işi və orijinal dizayn olması.</li>
+                </ul>
+
+                <h2>Tez-tez Verilən Suallar</h2>
+
+                <h3>Doğum günü üçün ən fərqli hədiyyə nədir?</h3>
+                <p>Şəxsi zövqə uyğun seçilmiş əl işi tablo həm estetik, həm də uzunömürlü olduğu üçün ən fərqli hədiyyələrdən hesab olunur.</p>
+
+                <h3>Tablo hansı otaqlar üçün uyğundur?</h3>
+                <p>Qonaq otağı, yataq otağı, iş otağı, dəhliz, ofis və studiyalar üçün müxtəlif ölçü və üslubda tablolar seçilə bilər.</p>
+
+                <h3>Əl işi tablo niyə daha dəyərlidir?</h3>
+                <p>Çünki hər bir əsər fərdi şəkildə hazırlanır və eyni dizaynın tam surəti olmur. Bu da onu eksklüziv və xüsusi edir.</p>
+
+                <h2>Nəticə</h2>
+                <p>Əgər "doğum günü üçün nə hədiyyə alım?" sualına həm estetik, həm mənalı, həm də uzunömürlü cavab axtarırsınızsa, əl işi tablo ən uğurlu seçimlərdən biridir. O, yalnız divarı bəzəmir, həm də illərlə davam edən gözəl xatirəyə çevrilir və hər baxışda həmin xüsusi günü yenidən xatırladır.</p>
+            </section>
+
+            <!-- CTA - WhatsApp Sifariş -->
+            <section class="cta-box">
+                <h3>Xüsusi Bir Doğum Günü Hədiyyəsi Seçməkdə Kömək Edək?</h3>
+                <p>WhatsApp vasitəsilə bizə yazın, zövqünüzə və büdcənizə uyğun, sevdiyiniz şəxsi heyran edəcək ən mükəmməl tablonu birlikdə seçək.</p>
+                <a href="https://wa.me/905540183188?text=Salam%2C%20yax%C4%B1n%C4%B1m%20%C3%BC%C3%A7%C3%BCn%20do%C4%9Fum%20g%C3%BCn%C3%BC%20h%C9%99diyy%C9%99si%20olaraq%20%C9%99l%20i%C5%9Fi%20tablo%20se%C3%A7m%C9%99kd%C9%99%20k%C3%B6m%C9%99k%20ed%C9%99%20bil%C9%99rsiniz%3F" target="_blank" rel="noopener" class="btn-whatsapp">
+                    🟢 WhatsApp ilə Sifariş Et
+                </a>
+            </section>
+
+        </article>
+    </main>
+
+    <!-- ═══════════════════════════════════ FOOTER ════════ -->
+    <footer class="blog-footer">
+        <p>© 2026 Tablo Style Gallery · Bütün hüquqlar qorunur</p>
+    </footer>
+
+</body>
+</html>
