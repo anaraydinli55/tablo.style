@@ -2497,7 +2497,7 @@ function initBlog() {
         <div class="blog-tag">${post.tag}</div>
         <h3>${post.title}</h3>
         <p>${post.preview.substring(0,140)}…</p>
-        <a href="blog.html#${post.id}" class="blog-read-more">ardı →</a>
+        <a href="blog/#${post.id}" class="blog-read-more">ardı →</a>
       </div>`;
     grid.appendChild(card);
   });
