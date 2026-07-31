@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist Tablo Nədir və Kimlər Üçün Uyğundur? | Tablo Style Gallery</title>
+    <meta name="description" content="Minimalist tablo nədir, xüsusiyyətləri hansılardır və kimlər üçün uyğundur? Eviniz üçün ən doğru minimalist divar tablosu seçimi yollarını öyrənin.">
+    <link rel="canonical" href="https://tablo-style.vercel.app/blog/minimalist-tablo-nedir.html">
+    <meta name="robots" content="index, follow">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Təməl Rənglər və Üslub */
+        :root {
+            --ink:       #1a1612;
+            --ink-soft:  #4a4340;
+            --gold:      #b8860b;
+            --gold-lt:   #d4a017;
+            --pastel-blue: #ebf3f9; /* Açıq Mavi Background */
+            --font-body: 'DM Sans', sans-serif;
+            --font-head: 'Cormorant Garamond', Georgia, serif;
+            --trans:     all .25s ease-in-out;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: var(--pastel-blue); /* Açıq Mavi Arxa Plan */
+            color: var(--ink);
+            line-height: 1.75;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Naviqasiya Barı */
+        .blog-header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(235, 243, 249, 0.95); /* Arka plan rəngi ilə uyumlu şəffaf bar */
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid rgba(184, 134, 11, 0.12);
+            padding: 16px 20px;
+        }
+
+        .header-container {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .btn-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.88rem;
+            font-weight: 500;
+            color: var(--ink-soft);
+            text-decoration: none;
+            transition: var(--trans);
+        }
+
+        .btn-back:hover {
+            color: var(--gold);
+            transform: translateX(-3px);
+        }
+
+        .logo-text {
+            font-family: var(--font-head);
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--ink);
+            text-decoration: none;
+        }
+
+        .logo-text em {
+            font-style: italic;
+            color: var(--gold);
+            font-weight: 300;
+        }
+
+        /* Məqalə Kapsayıcısı */
+        .article-container {
+            max-width: 800px;
+            margin: 50px auto 100px;
+            padding: 0 20px;
+        }
+
+        .article-card {
+            background: #ffffff; /* Ağ rəngli yazı kartı */
+            border-radius: 20px;
+            padding: 50px 40px;
+            box-shadow: 0 10px 40px rgba(26, 22, 18, 0.05);
+            border: 1px solid rgba(184, 134, 11, 0.06);
+        }
+
+        @media (max-width: 580px) {
+            .article-card {
+                padding: 30px 20px;
+            }
+        }
+
+        /* Meta Məlumatlar */
+        .meta-wrap {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 20px;
+            font-size: 0.82rem;
+            color: var(--ink-soft);
+            font-weight: 500;
+            letter-spacing: 0.03em;
+        }
+
+        .meta-tag {
+            padding: 4px 12px;
+            background: var(--pastel-blue);
+            color: var(--ink);
+            border-radius: 30px;
+            font-size: 0.78rem;
+        }
+
+        /* Başlıq */
+        .article-title {
+            font-family: var(--font-head);
+            font-size: clamp(2rem, 5vw, 2.8rem);
+            font-weight: 400;
+            font-style: italic;
+            line-height: 1.25;
+            color: var(--ink);
+            margin-bottom: 24px;
+        }
+
+        .divider {
+            height: 1px;
+            background: rgba(184, 134, 11, 0.15);
+            margin: 32px 0;
+        }
+
+        /* Məqalə Mətni */
+        .article-content h2 {
+            font-family: var(--font-head);
+            font-size: clamp(1.4rem, 3.5vw, 1.8rem);
+            font-weight: 400;
+            font-style: italic;
+            color: var(--ink);
+            margin-top: 40px;
+            margin-bottom: 16px;
+            position: relative;
+        }
+
+        .article-content h2::after {
+            content: '';
+            position: absolute;
+            bottom: -6px;
+            left: 0;
+            width: 30px;
+            height: 1.5px;
+            background: var(--gold);
+        }
+
+        .article-content p {
+            color: var(--ink-soft);
+            font-size: 1.05rem;
+            line-height: 1.85;
+            margin-bottom: 24px;
+        }
+
+        /* WhatsApp Sifariş Bloku */
+        .cta-box {
+            background: var(--pastel-blue);
+            border: 1px solid rgba(184, 134, 11, 0.15);
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .cta-box h3 {
+            font-family: var(--font-head);
+            font-size: 1.45rem;
+            font-weight: 400;
+            font-style: italic;
+            margin-bottom: 12px;
+            color: var(--ink);
+        }
+
+        .cta-box p {
+            font-size: 0.92rem;
+            color: var(--ink-soft);
+            margin-bottom: 20px;
+        }
+
+        .btn-whatsapp {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            background: #25D366;
+            color: #fff;
+            padding: 12px 28px;
+            border-radius: 6px;
+            font-size: 0.88rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: var(--trans);
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.25);
+        }
+
+        .btn-whatsapp:hover {
+            background: #1fb855;
+            transform: translateY(-1px);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35);
+        }
+
+        /* Footer */
+        .blog-footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid rgba(184, 134, 11, 0.1);
+            color: var(--ink-soft);
+            font-size: 0.82rem;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════ HEADER ════════ -->
+    <header class="blog-header">
+        <div class="header-container">
+            <a href="/" class="btn-back" aria-label="Geri qayıt">
+                ← Ana Səhifə
+            </a>
+            <a href="/" class="logo-text">
+                Tablo Style <em>Gallery</em>
+            </a>
+        </div>
+    </header>
+
+    <!-- ═══════════════════════════════════ CONTENT ═══════ -->
+    <main class="article-container">
+        <article class="article-card">
+            
+            <!-- Meta məlumatlar -->
+            <div class="meta-wrap">
+                <span class="meta-tag">✨ Minimalizm</span>
+                <span>📅 31 İyul 2026</span>
+                <span>⏱ 3 dəqiqə oxu</span>
+            </div>
+
+            <!-- Başlıq -->
+            <h1 class="article-title">Minimalist Tablo Nədir və Kimlər Üçün Uyğundur?</h1>
+            
+            <div class="divider"></div>
+
+            <!-- Məqalə mətni -->
+            <section class="article-content">
+                <h2>Minimalist Tablo Nədir?</h2>
+                <p>Minimalist tablo sadə formalar, az rəng istifadəsi və aydın kompozisiya ilə seçilən dekorativ sənət növüdür. Bu tabloların əsas məqsədi diqqəti yormadan məkana estetik harmoniya qatmaqdır. Son illərdə Azərbaycanda, xüsusilə Bakı şəhərində minimalist interyer dizaynına maraq artdıqca minimalist tablolar ev və ofis dekorasiyasında geniş istifadə olunmağa başlayıb.</p>
+
+                <h2>Məkana Sakitlik və Balans Hissi</h2>
+                <p>Minimalist tablolar adətən neytral rənglər, geometrik fiqurlar, abstrakt xətlər və təkrarlanmayan sadə dizaynlarla hazırlanır. Bu üslub divarları boş və ruhsuz göstərmir, əksinə, məkana sakitlik və balans hissi bəxş edir. Bakıdakı müasir mənzillər, studio tipli evlər və yeni tikili binalar üçün minimalist divar tabloları ideal seçim hesab olunur.</p>
+
+                <h2>Minimalist Tablolar Kimlər Üçün Uyğundur?</h2>
+                <p>Bu tip tablolar daha çox sadəliyi sevən, qarışıqlıqdan uzaq durmaq istəyən insanlar üçün uyğundur. Minimalist həyat tərzini mənimsəyən şəxslər, yaradıcı sahədə çalışanlar, dizaynerlər və ofis mühitində çalışanlar bu tabloları tez-tez seçirlər. Eyni zamanda, kiçik ölçülü otaqlarda minimalist kanvas tablolar məkanı vizual olaraq daha geniş göstərir.</p>
+
+                <h2>İnteryer Üslubları ilə Uyğunluq</h2>
+                <p>Minimalist tabloların digər üstünlüyü isə istənilən interyer üslubu ile uyğunlaşmasıdır. İstər skandinav, istər modern, istərsə də loft üslublu evlərdə rahatlıqla istifadə oluna bilər. Keyfiyyətli kanvas üzərində çap olunan minimalist tablolar uzunömürlü olur, rənglərini itirmir və divarda peşəkar görünüş yaradır.</p>
+
+                <h2>Nəticə</h2>
+                <p>Nəticə olaraq, minimalist tablo seçimi Bakı və ümumilikdə Azərbaycan üçün həm estetik, həm də funksional baxımdan uğurlu seçimdir. Sadə dizayn, düzgün ölçü və keyfiyyətli material ilə seçilmiş minimalist divar tablosu yaşayış məkanınıza dəyər qatacaq və zövqlü atmosfer yaradacaq.</p>
+            </section>
+
+            <!-- CTA - WhatsApp Sifariş -->
+            <section class="cta-box">
+                <h3>Evinizə Uyğun Minimalist Tablo Seçməkdə Kömək Edək?</h3>
+                <p>Bizə otağınızın şəklini göndərin, dizaynerlərimiz pulsuz olaraq sizə ən ideal minimalist tablo ölçüsünü və dizaynını tövsiyə etsinlər.</p>
+                <a href="https://wa.me/905540183188?text=Salam%2C%20evim%20%C3%BC%C3%A7%C3%BCn%20minimalist%20tablo%20se%C3%A7imind%C9%99%20dizayner%20m%C9%99sl%C9%99h%C9%99ti%20almaq%20ist%C9%99yir%C9%99m" target="_blank" rel="noopener" class="btn-whatsapp">
+                    🟢 WhatsApp ilə Məsləhət Al
+                </a>
+            </section>
+
+        </article>
+    </main>
+
+    <!-- ═══════════════════════════════════ FOOTER ════════ -->
+    <footer class="blog-footer">
+        <p>© 2026 Tablo Style Gallery · Bütün hüquqlar qorunur</p>
+    </footer>
+
+</body>
+</html>
