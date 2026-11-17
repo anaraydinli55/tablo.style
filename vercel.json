@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "tablo-style.vercel.app"
+        }
+      ],
+      "destination": "https://www.tablo-style.shop/:path*",
+      "permanent": true
+    }
+  ]
+}
