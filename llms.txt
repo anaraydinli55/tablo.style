@@ -1,40 +1,43 @@
-# Tablo Style
+# TabloStyle Galleri (Tablo Style Gallery)
 
-Tablo Style is an Azerbaijani online wall art and canvas printing website.
+TabloStyle Galleri is an Azerbaijani online wall art, canvas, and velvet (məxmər) painting gallery and printing store based in Baku.
 
 ## Website
 
-https://www.tablo-style.shop
+https://www.tablo-style.shop/
 
 ## Purpose
 
-The website provides decorative wall art, personalized canvas prints, home decoration inspiration, pricing information, and blog articles related to interior design and gift ideas.
+The website offers 202+ curated wall art designs (codes TS-GAL-001 to TS-GAL-202), custom photo canvas printing, transparent AZN pricing, interior design guides, and gift ideas across Azerbaijan.
 
 ## Main Pages
 
 - https://www.tablo-style.shop/
 - https://www.tablo-style.shop/qiymetler
-- https://www.tablo-style.shop/bloq.html
+- https://www.tablo-style.shop/blog.html
+- https://www.tablo-style.shop/hareketli.html
 
-## Articles
+## Guides & Articles
 
-- https://www.tablo-style.shop/blog/divar-tablosu-secimi
-- https://www.tablo-style.shop/blog/dogum-gunu-hediyyesi
 - https://www.tablo-style.shop/blog/ev-dekorasiyasi-fikirleri
+- https://www.tablo-style.shop/blog/ev-ucun-divar-tablosu-nece-secilmelidir
+- https://www.tablo-style.shop/blog/minimalist-tablo-nedir
+- https://www.tablo-style.shop/blog/dogum-gunu-hediyyesi
+- https://www.tablo-style.shop/tablo-olcusu
+- https://www.tablo-style.shop/bloq4.html
 
-## Topics
+## Pricing Summary (AZN)
 
-Wall Art
-Canvas Prints
-Interior Design
-Home Decoration
-Gift Ideas
-Personalized Gifts
+- Canvas (Kanvas): 15 AZN (45x30 cm, 40x40 cm), 25 AZN (45x75 cm, 50x70 cm), 50 AZN (70x100 cm), 100 AZN (100x150 cm)
+- Thick Canvas (Kanvas Qalın 60x180 cm): 100 AZN
+- 3-Piece Canvas (Kanvas 3-lü 45x75 cm): 70 AZN
+- Velvet (Məxmər): 40 AZN (45x30 cm, 40x40 cm), 70 AZN (45x75 cm, 50x70 cm), 120 AZN (70x100 cm), 200 AZN (100x150 cm)
 
-## Audience
+## Ordering & Delivery
 
-Customers in Azerbaijan looking for decorative wall art and personalized gifts.
+- WhatsApp Order: +905540183188
+- Delivery across Azerbaijan: Baku, Sumgayit, Ganja, Sheki, Lankaran, Mingachevir, Nakhchivan.
 
 ## License
 
-Public website information may be summarized with attribution.
+Public website information may be summarized and cited with attribution to https://www.tablo-style.shop/.
