@@ -2416,10 +2416,10 @@ window.renderBlogPage = function() {
       "@context":"https://schema.org","@type":"BlogPosting",
       "headline":post.title,"description":post.preview,
       "datePublished":post.date,"dateModified":post.date,
-      "url":`https://tablo-style.vercel.app/blog.html#${post.id}`,
+      "url":`https://www.tablo-style.shop/blog.html#${post.id}`,
       "publisher":{"@type":"Organization","name":"Tablo Style Gallery",
-        "logo":{"@type":"ImageObject","url":"https://tablo-style.vercel.app/images/logo.png"}},
-      "mainEntityOfPage":`https://tablo-style.vercel.app/blog.html#${post.id}`
+        "logo":{"@type":"ImageObject","url":"https://www.tablo-style.shop/images/logo.png"}},
+      "mainEntityOfPage":`https://www.tablo-style.shop/blog.html#${post.id}`
     });
     document.head.appendChild(s);
   });

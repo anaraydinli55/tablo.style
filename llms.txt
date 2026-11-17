@@ -4,7 +4,7 @@ Tablo Style is an Azerbaijani online wall art and canvas printing website.
 
 ## Website
 
-https://tablo-style.vercel.app
+https://www.tablo-style.shop
 
 ## Purpose
 
@@ -12,15 +12,15 @@ The website provides decorative wall art, personalized canvas prints, home decor
 
 ## Main Pages
 
-- https://tablo-style.vercel.app/
-- https://tablo-style.vercel.app/qiymetler
-- https://tablo-style.vercel.app/bloq.html
+- https://www.tablo-style.shop/
+- https://www.tablo-style.shop/qiymetler
+- https://www.tablo-style.shop/bloq.html
 
 ## Articles
 
-- https://tablo-style.vercel.app/blog/divar-tablosu-secimi
-- https://tablo-style.vercel.app/blog/dogum-gunu-hediyyesi
-- https://tablo-style.vercel.app/blog/ev-dekorasiyasi-fikirleri
+- https://www.tablo-style.shop/blog/divar-tablosu-secimi
+- https://www.tablo-style.shop/blog/dogum-gunu-hediyyesi
+- https://www.tablo-style.shop/blog/ev-dekorasiyasi-fikirleri
 
 ## Topics
 

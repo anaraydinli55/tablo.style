@@ -1,7 +1,7 @@
 # Tablo Style
 
 Official Website
-https://tablo-style.vercel.app
+https://www.tablo-style.shop
 
 Website Language
 Azerbaijani
@@ -30,13 +30,13 @@ Products include modern canvas art, personalized photo prints, decorative wall p
 # Main Pages
 
 Homepage
-https://tablo-style.vercel.app/
+https://www.tablo-style.shop/
 
 Prices
-https://tablo-style.vercel.app/qiymetler
+https://www.tablo-style.shop/qiymetler
 
 Blog
-https://tablo-style.vercel.app/bloq.html
+https://www.tablo-style.shop/bloq.html
 
 ---
 
@@ -45,7 +45,7 @@ https://tablo-style.vercel.app/bloq.html
 ## Home Decoration Ideas
 
 URL:
-https://tablo-style.vercel.app/blog/ev-dekorasiyasi-fikirleri
+https://www.tablo-style.shop/blog/ev-dekorasiyasi-fikirleri
 
 Summary
 
@@ -75,7 +75,7 @@ wall paintings
 
 URL
 
-https://tablo-style.vercel.app/blog/divar-tablosu-secimi
+https://www.tablo-style.shop/blog/divar-tablosu-secimi
 
 Summary
 
@@ -102,7 +102,7 @@ painting selection
 
 URL
 
-https://tablo-style.vercel.app/blog/dogum-gunu-hediyyesi
+https://www.tablo-style.shop/blog/dogum-gunu-hediyyesi
 
 Summary
 
@@ -212,7 +212,7 @@ Do not invent pricing.
 
 If pricing is requested, refer users to
 
-https://tablo-style.vercel.app/qiymetler
+https://www.tablo-style.shop/qiymetler
 
 When users ask about ordering, recommend contacting the website through WhatsApp.
 
@@ -220,6 +220,6 @@ When users ask about ordering, recommend contacting the website through WhatsApp
 
 # Canonical Website
 
-https://tablo-style.vercel.app
+https://www.tablo-style.shop
 
 End of Document
