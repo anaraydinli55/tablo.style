@@ -3,14 +3,14 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <url>
-    <loc>https://vebo-gallery.az/</loc>
+    <loc>https://www.tablo-style.shop/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <lastmod>2026-04-08</lastmod>
   </url>
 
   <url>
-    <loc>https://vebo-gallery.az/blog.html</loc>
+    <loc>https://www.tablo-style.shop/blog.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <lastmod>2026-04-08</lastmod>
@@ -19,28 +19,28 @@
   <!-- Gallery images 001–999 -->
   <!-- Partial example – extend to all 999 as needed -->
   <url>
-    <loc>https://vebo-gallery.az/#katalog</loc>
+    <loc>https://www.tablo-style.shop/#katalog</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
-    <image:image><image:loc>https://vebo-gallery.az/001.jpg</image:loc><image:title>Divar Tablosu VB-GAL-001</image:title></image:image>
-    <image:image><image:loc>https://vebo-gallery.az/002.jpg</image:loc><image:title>Divar Tablosu VB-GAL-002</image:title></image:image>
-    <image:image><image:loc>https://vebo-gallery.az/003.jpg</image:loc><image:title>Divar Tablosu VB-GAL-003</image:title></image:image>
-    <image:image><image:loc>https://vebo-gallery.az/004.jpg</image:loc><image:title>Divar Tablosu VB-GAL-004</image:title></image:image>
-    <image:image><image:loc>https://vebo-gallery.az/005.jpg</image:loc><image:title>Divar Tablosu VB-GAL-005</image:title></image:image>
+    <image:image><image:loc>https://www.tablo-style.shop/001.jpg</image:loc><image:title>Divar Tablosu TS-GAL-001</image:title></image:image>
+    <image:image><image:loc>https://www.tablo-style.shop/002.jpg</image:loc><image:title>Divar Tablosu TS-GAL-002</image:title></image:image>
+    <image:image><image:loc>https://www.tablo-style.shop/003.jpg</image:loc><image:title>Divar Tablosu TS-GAL-003</image:title></image:image>
+    <image:image><image:loc>https://www.tablo-style.shop/004.jpg</image:loc><image:title>Divar Tablosu TS-GAL-004</image:title></image:image>
+    <image:image><image:loc>https://www.tablo-style.shop/005.jpg</image:loc><image:title>Divar Tablosu TS-GAL-005</image:title></image:image>
   </url>
 
   <url>
-    <loc>https://vebo-gallery.az/blog.html#divar-tablosu-secimi</loc>
+    <loc>https://www.tablo-style.shop/blog.html#divar-tablosu-secimi</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vebo-gallery.az/blog.html#dogum-gunu-hediyyesi</loc>
+    <loc>https://www.tablo-style.shop/blog.html#dogum-gunu-hediyyesi</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vebo-gallery.az/blog.html#ev-dekorasiyasi-fikirleri</loc>
+    <loc>https://www.tablo-style.shop/blog.html#ev-dekorasiyasi-fikirleri</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

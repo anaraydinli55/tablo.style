@@ -17,7 +17,7 @@ const CONFIG = {
 /* ── ARTWORK DATA: 001–020 (real data) ──────────────── */
 const ARTWORKS_DATA = [
   {
-    num:'001', code:'VB-GAL-001', alt:'001',
+    num:'001', code:'TS-GAL-001', alt:'001',
     title:'Qızıl Xanım – Şlyapalı Gözəl',
     artist:'Naməlum rəssam', cat:'portret',
     size:'100×70 sm', material:'Kadife (Mexmer)',
@@ -28,7 +28,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Şlyapalı qızıl qadın portreti, 100×70 sm kadife tablo. Bakıda divar tablosu sifarişi.'
   },
   {
-    num:'002', code:'VB-GAL-002', alt:'002',
+    num:'002', code:'TS-GAL-002', alt:'002',
     title:'Mavi Tovuzquşu – Çiçəklər Arasında',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi tablo',
@@ -39,7 +39,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Mavi tovuzquşu çiçəkli divar tablosu. Əl işi relyef tablo Bakı.'
   },
   {
-    num:'003', code:'VB-GAL-003', alt:'003',
+    num:'003', code:'TS-GAL-003', alt:'003',
     title:'Qız Qalası – Göy Səma',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'70×50 sm', material:'Kadife (Mexmer)',
@@ -50,7 +50,7 @@ const ARTWORKS_DATA = [
     metaDesc:'İstanbul Qız Qalası mavi göy tablo 70×50 sm. Kadife divar tablosu Bakı.'
   },
   {
-    num:'004', code:'VB-GAL-004', alt:'004',
+    num:'004', code:'TS-GAL-004', alt:'004',
     title:'Paris – Payız Küçəsi',
     artist:'Leonid Afremov üslubu', cat:'sheher',
     size:'70×50 sm', material:'Kadife (Mexmer)',
@@ -61,7 +61,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Paris payız küçəsi Eyfel qülləsi tablo 70×50 sm. Kadife divar tablosu Bakı.'
   },
   {
-    num:'005', code:'VB-GAL-005', alt:'005',
+    num:'005', code:'TS-GAL-005', alt:'005',
     title:'Sultan Əhməd Məscidi – İstanbul',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'70×50 sm', material:'Kadife (Mexmer)',
@@ -72,7 +72,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Sultan Əhməd Məscidi İstanbul tablo 70×50 sm. Kadife divar tablosu Bakı.'
   },
   {
-    num:'006', code:'VB-GAL-006', alt:'006',
+    num:'006', code:'TS-GAL-006', alt:'006',
     title:'Viktorian Balo – Əzəmətli Məclis',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'70×50 sm', material:'Kadife (Mexmer)',
@@ -83,7 +83,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Viktorian balo əzəmətli məclis tablo 70×50 sm. Kadife divar tablosu Bakı.'
   },
   {
-    num:'007', code:'VB-GAL-007', alt:'007',
+    num:'007', code:'TS-GAL-007', alt:'007',
     title:'Allah Kəlamı – Qızıl Xəttat',
     artist:'Naməlum rəssam', cat:'hediyye',
     size:'70×50 sm', material:'Kadife (Mexmer)',
@@ -94,7 +94,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Allah xəttatlıq qızıl tablo 70×50 sm. İslami divar tablosu Bakı.'
   },
   {
-    num:'008', code:'VB-GAL-008', alt:'008',
+    num:'008', code:'TS-GAL-008', alt:'008',
     title:'Payız Meşəsi – Afremov Üslubu',
     artist:'Leonid Afremov üslubu', cat:'menzere',
     size:'70×50 sm', material:'Kadife (Mexmer)',
@@ -105,7 +105,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Payız meşəsi Afremov üslubu tablo 70×50 sm. Kadife divar tablosu Bakı.'
   },
   {
-    num:'009', code:'VB-GAL-009', alt:'009',
+    num:'009', code:'TS-GAL-009', alt:'009',
     title:'Qara Qızıl – Düşüncəli Qadın',
     artist:'Naməlum rəssam', cat:'portret',
     size:'70×50 sm', material:'Kadife (Mexmer)',
@@ -116,7 +116,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Qara qızıl qadın portreti tablo 70×50 sm. Kadife divar tablosu Bakı.'
   },
   {
-    num:'010', code:'VB-GAL-010', alt:'010',
+    num:'010', code:'TS-GAL-010', alt:'010',
     title:'Kapadokya – Hava Balonları',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'70×50 sm', material:'Kadife (Mexmer)',
@@ -127,7 +127,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Kapadokya hava balonları mənzərə tablo 70×50 sm. Kadife divar tablosu Bakı.'
   },
   {
-    num:'011', code:'VB-GAL-011', alt:'011',
+    num:'011', code:'TS-GAL-011', alt:'011',
     title:'İstanbul Tramvayı – Taksim Küçəsi',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'100×70 sm', material:'Əl işi – Parıltılı',
@@ -138,7 +138,7 @@ const ARTWORKS_DATA = [
     metaDesc:'İstanbul tramvay Taksim tablo 100×70 sm parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'012', code:'VB-GAL-012', alt:'012',
+    num:'012', code:'TS-GAL-012', alt:'012',
     title:'Ağ Geyimli Qız – Arxa Silüet',
     artist:'Leonid Afremov üslubu', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -149,7 +149,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Ağ geyimli qız arxa portret tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'013', code:'VB-GAL-013', alt:'013',
+    num:'013', code:'TS-GAL-013', alt:'013',
     title:'Ağ-Mavi Papatya Buketi',
     artist:'Leonid Afremov üslubu', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi',
@@ -160,7 +160,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Ağ mavi papatya buketi tablo Afremov üslubu. Divar tablosu Bakı.'
   },
   {
-    num:'014', code:'VB-GAL-014', alt:'014',
+    num:'014', code:'TS-GAL-014', alt:'014',
     title:'Qız Qalası – Gecə Fırtınası',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -171,7 +171,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Qız Qalası gecə fırtına tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'015', code:'VB-GAL-015', alt:'015',
+    num:'015', code:'TS-GAL-015', alt:'015',
     title:'Bənövşəyi Küçə – Çiçəkli Cənnət',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -182,7 +182,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Bənövşəyi çiçəkli küçə tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'016', code:'VB-GAL-016', alt:'016',
+    num:'016', code:'TS-GAL-016', alt:'016',
     title:'Durna Quşu – Gün Batımı Silueti',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -193,7 +193,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Turna gün batımı siluet tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'017', code:'VB-GAL-017', alt:'017',
+    num:'017', code:'TS-GAL-017', alt:'017',
     title:'Leylək Ailəsi – Yuva Sevinci',
     artist:'Naməlum rəssam', cat:'hediyye',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -204,7 +204,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Leylək ailəsi yuva tablo parıltılı. Hədiyyəlik divar tablosu Bakı.'
   },
   {
-    num:'018', code:'VB-GAL-018', alt:'018',
+    num:'018', code:'TS-GAL-018', alt:'018',
     title:'Flaminqolar – Üç Gözəl',
     artist:'Naməlum rəssam', cat:'hediyye',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -215,7 +215,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Flaminqo üç quş tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'019', code:'VB-GAL-019', alt:'019',
+    num:'019', code:'TS-GAL-019', alt:'019',
     title:'Boğaz Körpüsü – Gecə Panoraması',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -226,7 +226,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Boğaz körpüsü gecə panorama tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'020', code:'VB-GAL-020', alt:'020',
+    num:'020', code:'TS-GAL-020', alt:'020',
     title:'Sarı Həyət – Rəngli Şəhər Küncü',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -237,7 +237,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Sarı həyət rəngli küçə tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'021', code:'VB-GAL-021', alt:'021',
+    num:'021', code:'TS-GAL-021', alt:'021',
     title:'Nağıl Kotteci – Çiçəkli Bağ',
     artist:'Thomas Kinkade üslubu', cat:'menzere',
     size:'100×70 sm', material:'Əl işi – Parıltılı',
@@ -248,7 +248,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Nağıl kottec çiçəkli bağ tablo 100×70 sm. Parıltılı divar tablosu Bakı.'
   },
   {
-    num:'022', code:'VB-GAL-022', alt:'022',
+    num:'022', code:'TS-GAL-022', alt:'022',
     title:'Mavi Ağac – Boz Dünyada Rəng',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -259,7 +259,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Mavi ağac boz mənzərə tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'023', code:'VB-GAL-023', alt:'023',
+    num:'023', code:'TS-GAL-023', alt:'023',
     title:'Qış Yolu – Ağ Meşə Panoraması',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -270,7 +270,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Qış yolu ağ meşə panorama tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'024', code:'VB-GAL-024', alt:'024',
+    num:'024', code:'TS-GAL-024', alt:'024',
     title:'Qızıl Baxış – Qara Gözəl Portreti',
     artist:'Naməlum rəssam', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -281,7 +281,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Qızıl baxış portret tablo parıltılı. Müasir divar tablosu Bakı.'
   },
   {
-    num:'025', code:'VB-GAL-025', alt:'025',
+    num:'025', code:'TS-GAL-025', alt:'025',
     title:'London Telefon Kabinəsi – Qırmızı Simvol',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -292,7 +292,7 @@ const ARTWORKS_DATA = [
     metaDesc:'London telefon kabinəsi qırmızı tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'026', code:'VB-GAL-026', alt:'026',
+    num:'026', code:'TS-GAL-026', alt:'026',
     title:'Kəbə – Qızıl Əzəmət',
     artist:'Naməlum rəssam', cat:'hediyye',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -303,7 +303,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Kəbə qızıl əzəmət İslami tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'027', code:'VB-GAL-027', alt:'027',
+    num:'027', code:'TS-GAL-027', alt:'027',
     title:'Qız Qalası – Bənövşəyi Gecə Yolu',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -314,7 +314,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Qız Qalası bənövşəyi gecə yolu tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'028', code:'VB-GAL-028', alt:'028',
+    num:'028', code:'TS-GAL-028', alt:'028',
     title:'Məscidülhəram – Gecə Panoraması',
     artist:'Naməlum rəssam', cat:'hediyye',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -325,7 +325,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Məscidülhəram gecə panorama İslami tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'029', code:'VB-GAL-029', alt:'029',
+    num:'029', code:'TS-GAL-029', alt:'029',
     title:'Qırmızı Yarpaqlar – Romantik Cüt',
     artist:'Leonid Afremov üslubu', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -336,7 +336,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Qırmızı yarpaqlar romantik cüt tablo Afremov. Divar tablosu Bakı.'
   },
   {
-    num:'030', code:'VB-GAL-030', alt:'030',
+    num:'030', code:'TS-GAL-030', alt:'030',
     title:'Həyat Ağacı – Qızıl Budaqlar',
     artist:'Naməlum rəssam', cat:'hediyye',
     size:'80×50 sm', material:'Əl işi – Parıltılı',
@@ -347,7 +347,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Həyat ağacı qızıl budaqlar tablo 80×50 sm. Parıltılı divar tablosu Bakı.'
   },
   {
-    num:'031', code:'VB-GAL-031', alt:'031',
+    num:'031', code:'TS-GAL-031', alt:'031',
     title:'Mavi Gecə – Uçan Maral',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'80×50 sm', material:'Əl işi – Parıltılı',
@@ -358,7 +358,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Mavi gecə uçan maral tablo 80×50 sm. Parıltılı divar tablosu Bakı.'
   },
   {
-    num:'032', code:'VB-GAL-032', alt:'032',
+    num:'032', code:'TS-GAL-032', alt:'032',
     title:'Rəngarəng Maral Silueti – Şəfəq',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'80×50 sm', material:'Əl işi – Parıltılı',
@@ -369,7 +369,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Rəngarəng maral siluet tablo 80×50 sm. Parıltılı divar tablosu Bakı.'
   },
   {
-    num:'033', code:'VB-GAL-033', alt:'033',
+    num:'033', code:'TS-GAL-033', alt:'033',
     title:'Rəngarəng Ərəb Xəttatlığı – Allah',
     artist:'Naməlum rəssam', cat:'hediyye',
     size:'Ölçü soruşun', material:'Əl işi',
@@ -380,7 +380,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Rəngarəng ərəb xəttatlığı Allah tablo əl işi. Divar tablosu Bakı.'
   },
   {
-    num:'034', code:'VB-GAL-034', alt:'034',
+    num:'034', code:'TS-GAL-034', alt:'034',
     title:'Fənərbaxça – Stadion Əzəməti',
     artist:'Naməlum rəssam', cat:'diger',
     size:'Ölçü soruşun', material:'Əl işi',
@@ -391,7 +391,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Fənərbaxça stadion tablo fan hədiyyəsi. Divar tablosu Bakı.'
   },
   {
-    num:'035', code:'VB-GAL-035', alt:'035',
+    num:'035', code:'TS-GAL-035', alt:'035',
     title:'Od Parkı – Gecə Neon Ağacları',
     artist:'Leonid Afremov üslubu', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi',
@@ -402,7 +402,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Od parkı neon ağaclar Afremov tablo. Divar tablosu Bakı.'
   },
   {
-    num:'036', code:'VB-GAL-036', alt:'036',
+    num:'036', code:'TS-GAL-036', alt:'036',
     title:'Mədinə – Peyğəmbər Məscidi Gecə',
     artist:'Naməlum rəssam', cat:'hediyye',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -413,7 +413,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Mədinə Peyğəmbər Məscidi gecə tablo parıltılı. İslami divar tablosu Bakı.'
   },
   {
-    num:'037', code:'VB-GAL-037', alt:'037',
+    num:'037', code:'TS-GAL-037', alt:'037',
     title:'Hollandiya Buket – Klassik Natürmort',
     artist:'Ambrosius Bosschaert üslubu', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi',
@@ -424,7 +424,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Hollandiya buket klassik natürmort tablo. Divar tablosu Bakı.'
   },
   {
-    num:'038', code:'VB-GAL-038', alt:'038',
+    num:'038', code:'TS-GAL-038', alt:'038',
     title:'Rəngarəng Mandala Pişiklər',
     artist:'Naməlum rəssam', cat:'diger',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -435,7 +435,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Rəngarəng mandala pişiklər tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'039', code:'VB-GAL-039', alt:'039',
+    num:'039', code:'TS-GAL-039', alt:'039',
     title:'Sarı Payız - Meşə Yolu',
     artist:'Leonid Afremov üslubu', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi',
@@ -446,7 +446,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Sarı meşə yolu günəş ışığı Afremov tablo. Divar tablosu Bakı.'
   },
    {
-    num:'040', code:'VB-GAL-040', alt:'040',
+    num:'040', code:'TS-GAL-040', alt:'040',
     title:'Payız Gecəsi – Ev, Göl, Ay',
     artist:'Thomas Kinkade üslubu', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi',
@@ -454,10 +454,10 @@ const ARTWORKS_DATA = [
     emoDesc:'Dolunay hər şeyi gümüşə boyayır – qırmızı yarpaqlar, sakin göl, pəncərədən süzülən sarı işıq. Ürəyi ısıdan mənzərə.',
     interior:'Qonaq otağı, yataq otağı. Tünd, romantik dekorlu interyerlərə mükəmməl uyğun.',
     gift:'Sakin, təbiətsevər insanlara; ev açımına – gecənin hüzurunu hədiyyə et.',
-    metaDesc:'Payız gecəsi ev göl ay tablo. Divar tablosu Bakı – VəBo Gallery.'
+    metaDesc:'Payız gecəsi ev göl ay tablo. Divar tablosu Bakı – TabloStyle Galleri.'
   },
   {
-    num:'041', code:'VB-GAL-041', alt:'041',
+    num:'041', code:'TS-GAL-041', alt:'041',
     title:'Çəhrayı Çiçəkli Tünel – Bahar Yolu',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -468,7 +468,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Çəhrayı çiçəkli tünel bahar yolu tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'042', code:'VB-GAL-042', alt:'042',
+    num:'042', code:'TS-GAL-042', alt:'042',
     title:'Kəbə – Gecə Qalaktikası',
     artist:'Naməlum rəssam', cat:'hediyye',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -479,7 +479,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Kəbə gecə qalaktika İslami tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'043', code:'VB-GAL-043', alt:'043',
+    num:'043', code:'TS-GAL-043', alt:'043',
     title:'Paris – Eyfel Qızıl Şəfəq',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -490,7 +490,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Paris Eyfel qızıl şəfəq tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'044', code:'VB-GAL-044', alt:'044',
+    num:'044', code:'TS-GAL-044', alt:'044',
     title:'Good Morning – Çiçək və Saat',
     artist:'Naməlum rəssam', cat:'diger',
     size:'Ölçü soruşun', material:'Əl işi',
@@ -498,10 +498,10 @@ const ARTWORKS_DATA = [
     emoDesc:'Hər sabah divardan sizi selamlayan bu tablo – günə pozitiv başlamaq üçün ən yaxşı xatırlatma.',
     interior:'Mətbəx, yemək otağı, giriş hollu. Açıq, şən atmosferli interyerlərə mükəmməl.',
     gift:'Optimist, həyatsevər insanlara; yeni evə köçənlərə – şən sabahlar hədiyyə et.',
-    metaDesc:'Good Morning çiçək saat tablo. Divar tablosu Bakı – VəBo Gallery.'
+    metaDesc:'Good Morning çiçək saat tablo. Divar tablosu Bakı – TabloStyle Galleri.'
   },
   {
-    num:'045', code:'VB-GAL-045', alt:'045',
+    num:'045', code:'TS-GAL-045', alt:'045',
     title:'Ərəb Atı Ağ – Şərq Naxışlı',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -512,7 +512,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Ərəb atı Şərq naxışlı mavi tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'046', code:'VB-GAL-046', alt:'046',
+    num:'046', code:'TS-GAL-046', alt:'046',
     title:'Çiçək Başlıqlı Qadın – Gümüşü',
     artist:'Naməlum rəssam', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -523,7 +523,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Çiçək başlıqlı qadın gümüşü portret tablo. Divar tablosu Bakı.'
   },
   {
-    num:'047', code:'VB-GAL-047', alt:'047',
+    num:'047', code:'TS-GAL-047', alt:'047',
     title:'Qırmızı Şəmsiyəli Qız – İki Köpəklə',
     artist:'Naməlum rəssam', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -534,7 +534,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Qırmızı şemsiyəli qız köpəklər tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'049', code:'VB-GAL-049', alt:'049',
+    num:'049', code:'TS-GAL-049', alt:'049',
     title:'Ayətəlkürsü – Sarı Qızıl Damla',
     artist:'Naməlum rəssam', cat:'hediyye',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -545,7 +545,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Ayətəlkürsü sarı qızıl İslami tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'050', code:'VB-GAL-050', alt:'050',
+    num:'050', code:'TS-GAL-050', alt:'050',
     title:'Ayətəlkürsü – Yaşıl Qızıl Damla',
     artist:'Naməlum rəssam', cat:'hediyye',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -556,7 +556,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Ayətəlkürsü yaşıl qızıl İslami tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'051', code:'VB-GAL-051', alt:'051',
+    num:'051', code:'TS-GAL-051', alt:'051',
     title:'Üç Ağ At – Rəngarəng Şəfəq',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'100×70 sm', material:'Kadife (Məxmər)',
@@ -567,7 +567,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Üç ağ at rəngarəng şəfəq 100×70 sm kadife tablo. Divar tablosu Bakı.'
   },
   {
-    num:'052', code:'VB-GAL-052', alt:'052',
+    num:'052', code:'TS-GAL-052', alt:'052',
     title:'Ağ Atlar – Qızıl Çöl',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'100×70 sm', material:'Kadife (Məxmər)',
@@ -578,7 +578,7 @@ const ARTWORKS_DATA = [
     metaDesc:'İki ağ at qızıl çöl 100×70 sm kadife tablo. Divar tablosu Bakı.'
   },
   {
-    num:'053', code:'VB-GAL-053', alt:'053',
+    num:'053', code:'TS-GAL-053', alt:'053',
     title:'Napoleon At Üstündə – Tarixi Döyüş',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'100×70 sm', material:'Kadife (Mexmer)',
@@ -589,7 +589,7 @@ const ARTWORKS_DATA = [
     metaDesc:'General at üstündə tarixi döyüş 100×70 sm kadife tablo. Divar tablosu Bakı.'
   },
   {
-    num:'054', code:'VB-GAL-054', alt:'054',
+    num:'054', code:'TS-GAL-054', alt:'054',
     title:'Şəki Xan Sarayı – Milli İrs',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'70×50 sm', material:'Kadife (Mexmer)',
@@ -600,7 +600,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Şəki Xan Sarayı Azərbaycan milli tablo 70×50 sm. Kadife divar tablosu Bakı.'
   },
   {
-    num:'055', code:'VB-GAL-055', alt:'055',
+    num:'055', code:'TS-GAL-055', alt:'055',
     title:'Boğaz Körpüsü – Qızılı Şəfəq',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'100×70 sm', material:'Kadife (Mexmer)',
@@ -611,7 +611,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Boğaz körpüsü qızılı şəfəq 100×70 sm kadife tablo. Divar tablosu Bakı.'
   },
   {
-    num:'056', code:'VB-GAL-056', alt:'056',
+    num:'056', code:'TS-GAL-056', alt:'056',
     title:'Dolomit Gölü – Dağ Macərası',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'100×70 sm', material:'Əl işi',
@@ -622,7 +622,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Dolomit gölü dağ mənzərəsi 100×70 sm tablo. Divar tablosu Bakı.'
   },
   {
-    num:'057', code:'VB-GAL-057', alt:'057',
+    num:'057', code:'TS-GAL-057', alt:'057',
     title:'Payız Parkı – Çətirli Cüt',
     artist:'Leonid Afremov üslubu', cat:'menzere',
     size:'100×70 sm', material:'Kadife (Mexmer)',
@@ -633,7 +633,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Payız parkı çətirli cüt Afremov 100×70 sm kadife tablo. Divar tablosu Bakı.'
   },
   {
-    num:'058', code:'VB-GAL-058', alt:'058',
+    num:'058', code:'TS-GAL-058', alt:'058',
     title:'Mədinə – Peyğəmbər Məscidi Gündüz',
     artist:'Naməlum rəssam', cat:'hediyye',
     size:'70×50 sm', material:'Kadife (Mexmer)',
@@ -644,7 +644,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Mədinə Peyğəmbər Məscidi gündüz 70×50 sm kadife tablo. İslami divar tablosu Bakı.'
   },
   {
-    num:'059', code:'VB-GAL-059', alt:'059',
+    num:'059', code:'TS-GAL-059', alt:'059',
     title:'Mavi Gözəl – Brilyant Dodaqlar',
     artist:'Naməlum rəssam', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -655,7 +655,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Mavi gözəl brilyant dodaqlar portret tablo parıltılı. Divar tablosu Bakı.'
   },
      {
-    num:'061', code:'VB-GAL-061', alt:'061',
+    num:'061', code:'TS-GAL-061', alt:'061',
     title:'Çəhrayı Güllər – Çay Süfrəsi',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -666,7 +666,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Çəhrayı güllər çay süfrəsi tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'062', code:'VB-GAL-062', alt:'062',
+    num:'062', code:'TS-GAL-062', alt:'062',
     title:'İngilis Kənd Evi – Tudor Üslubu',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -677,7 +677,7 @@ const ARTWORKS_DATA = [
     metaDesc:'İngilis kənd evi Tudor üslubu tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'063', code:'VB-GAL-063', alt:'063',
+    num:'063', code:'TS-GAL-063', alt:'063',
     title:'London – Qırmızı Kabinə, Çiçəkli Ağac',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -688,7 +688,7 @@ const ARTWORKS_DATA = [
     metaDesc:'London qırmızı kabinə çiçəkli ağac tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'065', code:'VB-GAL-065', alt:'065',
+    num:'065', code:'TS-GAL-065', alt:'065',
     title:'Fantaziya Qız – Qara Bulud Saçlar',
     artist:'Hülya Özdemir üslubu', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -699,7 +699,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Fantaziya qız qara saçlar sürrealist tablo. Divar tablosu Bakı.'
   },
   {
-    num:'066', code:'VB-GAL-066', alt:'066',
+    num:'066', code:'TS-GAL-066', alt:'066',
     title:'Qalata Qülləsi – Gecə Panoraması',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -710,7 +710,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Qalata qülləsi gecə panorama tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'067', code:'VB-GAL-067', alt:'067',
+    num:'067', code:'TS-GAL-067', alt:'067',
     title:'Qanadlı Pələng – Ağ Qaplan',
     artist:'Naməlum rəssam', cat:'diger',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -721,7 +721,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Qanadlı pələng ağ qaplan tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'068', code:'VB-GAL-068', alt:'068',
+    num:'068', code:'TS-GAL-068', alt:'068',
     title:'Parıltılı Maral – Gecə Çəmənliyi',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -732,7 +732,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Parıltılı maral gecə çəmənliyi tablo. Divar tablosu Bakı.'
   },
   {
-    num:'069', code:'VB-GAL-069', alt:'069',
+    num:'069', code:'TS-GAL-069', alt:'069',
     title:'At – Gümüşü Əks Olunma',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -743,7 +743,7 @@ const ARTWORKS_DATA = [
     metaDesc:'At qızıl əks olunma tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'070', code:'VB-GAL-070', alt:'070',
+    num:'070', code:'TS-GAL-070', alt:'070',
     title:'Bəbir Yaxın Plan – Parıltılı Cəld Baxış',
     artist:'Naməlum rəssam', cat:'diger',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -754,7 +754,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Bəbir yaxın plan parıltılı tablo. Divar tablosu Bakı.'
   },
   {
-    num:'071', code:'VB-GAL-071', alt:'071',
+    num:'071', code:'TS-GAL-071', alt:'071',
     title:'Mavi Gözlü Pişik – Fantaziya Portret',
     artist:'Naməlum rəssam', cat:'diger',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -765,7 +765,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Mavi gözlü pişik fantaziya portret tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'072', code:'VB-GAL-072', alt:'072',
+    num:'072', code:'TS-GAL-072', alt:'072',
     title:'Qızıl Bəbir – Tam Boy, Qızıl Çərçivə',
     artist:'Naməlum rəssam', cat:'diger',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -776,7 +776,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Qızıl bəbir tam boy qızıl çərçivə tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'073', code:'VB-GAL-073', alt:'073',
+    num:'073', code:'TS-GAL-073', alt:'073',
     title:'Qızıl Balıqlar – Sehirli Gecə',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'80×50 sm', material:'Əl işi – Parıltılı',
@@ -787,7 +787,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Qızıl balıqlar sehirli gecə tablo 80×50 sm parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'074', code:'VB-GAL-074', alt:'074',
+    num:'074', code:'TS-GAL-074', alt:'074',
     title:'Böyük Ağac – İki Maral, Qırmızı Günəş',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'80×50 sm', material:'Əl işi – Parıltılı',
@@ -798,7 +798,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Böyük ağac iki maral qırmızı günəş tablo 80×50 sm. Parıltılı divar tablosu Bakı.'
   },
   {
-    num:'075', code:'VB-GAL-075', alt:'075',
+    num:'075', code:'TS-GAL-075', alt:'075',
     title:'Sıçrayan Maral – Dalğalı Dağlar',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'80×50 sm', material:'Əl işi – Parıltılı',
@@ -809,7 +809,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Sıçrayan maral dalğalı dağlar tablo 80×50 sm parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'076', code:'VB-GAL-076', alt:'076',
+    num:'076', code:'TS-GAL-076', alt:'076',
     title:'Qırmızı Payız – Çay Qırağı',
     artist:'Naməlum rəssam', cat:'menzere',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -820,7 +820,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Qırmızı payız çay qırağı tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'077', code:'VB-GAL-077', alt:'077',
+    num:'077', code:'TS-GAL-077', alt:'077',
     title:'Atəşli Kəpənək – Tünd Gözəl',
     artist:'Naməlum rəssam', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -831,7 +831,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Atəşli kəpənək tünd gözəl portret tablo parıltılı. Divar tablosu Bakı.'
   },
   {
-    num:'078', code:'VB-GAL-078', alt:'078',
+    num:'078', code:'TS-GAL-078', alt:'078',
     title:'Qızıl Dodaqlar – Gözlər Örtülü',
     artist:'Naməlum rəssam', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -842,7 +842,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Qızıl dodaqlar gözlər örtülü portret tablo. Divar tablosu Bakı.'
   },
   {
-    num:'079', code:'VB-GAL-079', alt:'079',
+    num:'079', code:'TS-GAL-079', alt:'079',
     title:'Qırmızı Şlyapa – Ağ-Qara Gözəl',
     artist:'Naməlum rəssam', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi',
@@ -853,7 +853,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Qırmızı şlyapa ağ-qara qadın portret tablo. Divar tablosu Bakı.'
   },
   {
-    num:'080', code:'VB-GAL-080', alt:'080',
+    num:'080', code:'TS-GAL-080', alt:'080',
     title:'Afrika Gözəli – Rəngarəng Sarıq',
     artist:'Naməlum rəssam', cat:'portret',
     size:'Ölçü soruşun', material:'Əl işi',
@@ -864,7 +864,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Afrika gözəli rəngarəng sarıq portret tablo. Divar tablosu Bakı.'
   },
   {
-    num:'081', code:'VB-GAL-081', alt:'081',
+    num:'081', code:'TS-GAL-081', alt:'081',
     title:'Buxar Lokomotivi – Güc Simvolu',
     artist:'Naməlum rəssam', cat:'sheher',
     size:'100×70 sm', material:'Kadife (Mexmer)',
@@ -875,7 +875,7 @@ const ARTWORKS_DATA = [
     metaDesc:'Buxar lokomotivi güc simvolu 100×70 sm kadife tablo. Divar tablosu Bakı.'
   },  
    {
-  num:'098', code:'VB-GAL-098', alt:'098',
+  num:'098', code:'TS-GAL-098', alt:'098',
   title:'Çiçəkli Ağac Altında Qayıq – Bahar Sakiti',
   artist:'Naməlum rəssam', cat:'menzere',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -886,7 +886,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Çiçəkli ağac altında qayıq bahar mənzərəsi kanvas tablo. Divar tablosu Bakı.'
 },
 {
-  num:'097', code:'VB-GAL-097', alt:'097',
+  num:'097', code:'TS-GAL-097', alt:'097',
   title:'Alov Rəngli Payız Meşəsi – Göl Üzərindəki Qayıq',
   artist:'Naməlum rəssam', cat:'menzere',
   size:'Ölçü soruşun', material:'Kanvas çap – Böyük Format',
@@ -897,7 +897,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Payız meşəsi qayıq göl böyük kanvas tablo. Divar tablosu Bakı.'
 },
 {
-  num:'100', code:'VB-GAL-100', alt:'100',
+  num:'100', code:'TS-GAL-100', alt:'100',
   title:'Dantel Əlcəkli Qadın – Sirli Baxış Portreti',
   artist:'Naməlum rəssam', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -908,7 +908,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Dantel əlcəkli sirli qadın portreti kanvas tablo. Divar tablosu Bakı.'
 },
 {
-  num:'099', code:'VB-GAL-099', alt:'099',
+  num:'099', code:'TS-GAL-099', alt:'099',
   title:'Bənövşəyi Kanyon – Firuzəyi Çay Mənzərəsi',
   artist:'Naməlum rəssam', cat:'menzere',
   size:'Ölçü soruşun', material:'Kanvas çap – Şaquli Format',
@@ -919,7 +919,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Bənövşəyi kanyon firuzəyi çay fantastik mənzərə tablo. Divar tablosu Bakı.'
 },
 {
-  num:'096', code:'VB-GAL-096', alt:'096',
+  num:'096', code:'TS-GAL-096', alt:'096',
   title:'Yapon Evi Payız Yarpaqlarında – Kadife Tablo',
   artist:'Thomas Kinkade üslubu', cat:'menzere',
   size:'70×100 sm', material:'Kadife (Məxmər) çap',
@@ -930,7 +930,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Yapon evi payız yarpaqları kadife məxmər tablo 70x100. Divar tablosu Bakı.'
 },
 {
-  num:'082', code:'VB-GAL-082', alt:'082',
+  num:'082', code:'TS-GAL-082', alt:'082',
   title:'Qızıl Balıqlı Maral – Rüzgar Axını Tablosu',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı',
@@ -941,7 +941,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Maral qızıl ağac uçan balıqlar abstrakt parıltılı tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'083', code:'VB-GAL-083', alt:'083',
+  num:'083', code:'TS-GAL-083', alt:'083',
   title:'Firuzəyi Ağac – Qızıl Parıltılı Abstrakt Meşə',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'Ölçü soruşun', material:'Əl işi – Parıltılı',
@@ -952,7 +952,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Firuzəyi mavi ağaclar qızıl parıltılı abstrakt meşə tablo. Divar tablosu Bakı.'
 },
 {
-  num:'084', code:'VB-GAL-084', alt:'084',
+  num:'084', code:'TS-GAL-084', alt:'084',
   title:'Qar Fırtınasında Buxar Lokomotivi – Qış Gücü',
   artist:'Naməlum rəssam', cat:'menzere',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -963,7 +963,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Buxar lokomotivu qar fırtınası qış mənzərəsi kanvas tablo. Divar tablosu Bakı.'
 },
 {
-  num:'085', code:'VB-GAL-085', alt:'085',
+  num:'085', code:'TS-GAL-085', alt:'085',
   title:'İşıqlı Qış Kəndi – Körpü və Qarlı Evlər',
   artist:'Thomas Kinkade üslubu', cat:'menzere',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -974,7 +974,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Qarlı kənd işıqlı evlər daş körpü nağıl tablo. Divar tablosu Bakı.'
 },
 {
-  num:'086', code:'VB-GAL-086', alt:'086',
+  num:'086', code:'TS-GAL-086', alt:'086',
   title:'Azərbaycan Milli Alətləri – Saz, Nağara, Xalça',
   artist:'Naməlum rəssam', cat:'milli',
   size:'Ölçü soruşun', material:'Kanvas çap – Parıltılı',
@@ -985,7 +985,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Saz nağara xalça Azərbaycan milli alətlər tablo parıltılı. Divar tablosu Bakı.'
 },
 {
-  num:'087', code:'VB-GAL-087', alt:'087',
+  num:'087', code:'TS-GAL-087', alt:'087',
   title:'İstanbul Silueti – Süleymaniyyə və Boğaz',
   artist:'Naməlum rəssam', cat:'shehir',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -996,7 +996,7 @@ const ARTWORKS_DATA = [
   metaDesc:'İstanbul silueti Süleymaniyyə boğaz panorama kanvas tablo. Divar tablosu Bakı.'
 },
 {
-  num:'088', code:'VB-GAL-088', alt:'088',
+  num:'088', code:'TS-GAL-088', alt:'088',
   title:'London Telefon Kabinası – Çiçəkli Bahar Küçəsi',
   artist:'Naməlum rəssam', cat:'shehir',
   size:'Ölçü soruşun', material:'Kanvas çap – Şaquli Format',
@@ -1007,7 +1007,7 @@ const ARTWORKS_DATA = [
   metaDesc:'London telefon kabinası çiçəkli bahar küçəsi kanvas tablo. Divar tablosu Bakı.'
 },
 {
-  num:'089', code:'VB-GAL-089', alt:'089',
+  num:'089', code:'TS-GAL-089', alt:'089',
   title:'Qız Qalası Qarşısında Mavi Köynəkli Xanım',
   artist:'Naməlum rəssam', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap – Şaquli Format',
@@ -1018,7 +1018,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Qız Qalası mavi ətəkli qadın Bakı simvolu kanvas tablo. Divar tablosu Bakı.'
 },
 {
-  num:'090', code:'VB-GAL-090', alt:'090',
+  num:'090', code:'TS-GAL-090', alt:'090',
   title:'Qızıl Papaq, Kəpənək – Parıltılı Qadın Portreti',
   artist:'Naməlum rəssam', cat:'portret',
   size:'Ölçü soruşun', material:'Əl işi – Parıltılı, Daş bəzəkli',
@@ -1029,7 +1029,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Qızıl papaq kəpənək parıltılı daş bəzəkli qadın portreti tablo. Divar tablosu Bakı.'
 },
 {
-  num:'092', code:'VB-GAL-092', alt:'092',
+  num:'092', code:'TS-GAL-092', alt:'092',
   title:'Bənövşəyi Lalə – Parıltılı Çiçək Tablosu',
   artist:'Naməlum rəssam', cat:'menzere',
   size:'Ölçü soruşun', material:'Kanvas çap – Parıltılı',
@@ -1040,7 +1040,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Bənövşəyi lalə sarı çiçəklər parıltılı yaxın plan tablo. Divar tablosu Bakı.'
 },
 {
-  num:'093', code:'VB-GAL-093', alt:'093',
+  num:'093', code:'TS-GAL-093', alt:'093',
   title:'Qırmızı Paltarlı Uşaq – Çiçəyə Uzanan Əl',
   artist:'Naməlum rəssam', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap – Qara-ağ',
@@ -1051,7 +1051,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Qara ağ qırmızı paltarlı uşaq çiçəyə uzanan emosional kanvas tablo. Divar tablosu Bakı.'
 },
 {
-  num:'094', code:'VB-GAL-094', alt:'094',
+  num:'094', code:'TS-GAL-094', alt:'094',
   title:'Gecə Dənizində Yelkənli Gəmi – Parıltılı Kristal Bəzəkli',
   artist:'Naməlum rəssam', cat:'menzere',
   size:'Ölçü soruşun', material:'Əl işi – Parıltılı, Kristal daş bəzəkli',
@@ -1062,7 +1062,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Gecə dənizdə yelkənli gəmi parıltılı kristal bəzəkli tablo. Divar tablosu Bakı.'
 },
 {
-  num:'095', code:'VB-GAL-095', alt:'095',
+  num:'095', code:'TS-GAL-095', alt:'095',
   title:'Alov Payız Xiyabanı – Fənərli Park Yolu',
   artist:'Leonid Afremov üslubu', cat:'menzere',
   size:'Ölçü soruşun', material:'Kanvas çap – Əl boyası üslubu',
@@ -1073,7 +1073,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Payız xiyabanı fənərli park yolu alov rəngli ekspressiv tablo. Divar tablosu Bakı.'
 },
 {
-  num:'101', code:'VB-GAL-101', alt:'101',
+  num:'101', code:'TS-GAL-101', alt:'101',
   title:'Kəmança Tutan Qadın – Mavi Işıqda Musiqi Ruhu',
   artist:'Leonid Afremov üslubu', cat:'musiqili',
   size:'Ölçü soruşun', material:'Kanvas çap – Parıltılı',
@@ -1084,7 +1084,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Kəmança tutan qadın mavi parıltılı musiqili tablo. Divar tablosu Bakı.'
 },
 {
-  num:'102', code:'VB-GAL-102', alt:'102',
+  num:'102', code:'TS-GAL-102', alt:'102',
   title:'Violonçel Çalan Qadın – Rəngarəng Ekspressiv Portret',
   artist:'Leonid Afremov üslubu', cat:'musiqili',
   size:'Ölçü soruşun', material:'Kanvas çap – Şaquli Format',
@@ -1095,7 +1095,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Violonçel çalan qadın ekspressiv rəngarəng musiqili tablo. Divar tablosu Bakı.'
 },
    {
-  num:'103', code:'VB-GAL-103', alt:'103',
+  num:'103', code:'TS-GAL-103', alt:'103',
   title:'Mərmər Fonda Maral – Parıltılı Silüet Tablo',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı',
@@ -1106,7 +1106,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Mərmər fonda maral silüeti parıltılı abstrakt tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'104', code:'VB-GAL-104', alt:'104',
+  num:'104', code:'TS-GAL-104', alt:'104',
   title:'Payız Meşəsində Üç Maral – Qızıl Quşlar',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı, 3D Quş bəzəkli',
@@ -1117,7 +1117,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Payız meşəsi üç maral qızıl quşlar 3D parıltılı tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'105', code:'VB-GAL-105', alt:'105',
+  num:'105', code:'TS-GAL-105', alt:'105',
   title:'Ağ Maqnoliya – Boz Fonda Parıltılı Çiçək',
   artist:'Naməlum rəssam', cat:'cicek',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı',
@@ -1128,7 +1128,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Ağ maqnoliya boz fon parıltılı çiçək tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'106', code:'VB-GAL-106', alt:'106',
+  num:'106', code:'TS-GAL-106', alt:'106',
   title:'Qızıl Dalğalar – Quşlar və Mavi Ağac Tablosu',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı, 3D Quş bəzəkli',
@@ -1139,7 +1139,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Qızıl dalğalar mavi ağac quşlar 3D parıltılı abstrakt tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'107', code:'VB-GAL-107', alt:'107',
+  num:'107', code:'TS-GAL-107', alt:'107',
   title:'Bənövşəyi Çiçək Buludu – Ağ Sakura Tablosu',
   artist:'Naməlum rəssam', cat:'cicek',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı',
@@ -1150,7 +1150,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Bənövşəyi fonda ağ sakura çiçək buludu parıltılı tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'108', code:'VB-GAL-108', alt:'108',
+  num:'108', code:'TS-GAL-108', alt:'108',
   title:'Qırmızı Gerbera – Mavi Yarpaqlar, Parıltılı',
   artist:'Naməlum rəssam', cat:'cicek',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı',
@@ -1161,7 +1161,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Qırmızı gerbera mavi yarpaqlar ağ fon parıltılı tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'109', code:'VB-GAL-109', alt:'109',
+  num:'109', code:'TS-GAL-109', alt:'109',
   title:'Ağ Dəvəgözü – Boz Dumanlı Fon, Parıltılı',
   artist:'Naməlum rəssam', cat:'cicek',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı',
@@ -1172,7 +1172,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Ağ dəvəgözü boz dumanlı fon parıltılı çiçək tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'110', code:'VB-GAL-110', alt:'110',
+  num:'110', code:'TS-GAL-110', alt:'110',
   title:'Qırmızı Güllər, Gümüş Yarpaqlar – Parıltılı Tablo',
   artist:'Naməlum rəssam', cat:'cicek',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı',
@@ -1183,7 +1183,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Qırmızı güllər gümüş yarpaqlar bej fon parıltılı tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'111', code:'VB-GAL-111', alt:'111',
+  num:'111', code:'TS-GAL-111', alt:'111',
   title:'Qızıl-Gümüş Tropik Yarpaqlar – Plumeria Tablo',
   artist:'Naməlum rəssam', cat:'cicek',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı',
@@ -1194,7 +1194,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Qızıl tropik yarpaqlar plumeria gümüş parıltılı tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'112', code:'VB-GAL-112', alt:'112',
+  num:'112', code:'TS-GAL-112', alt:'112',
   title:'Qızıl Payız Ağacları – Mavi Ay Işığında Meşə',
   artist:'Naməlum rəssam', cat:'menzere',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı',
@@ -1205,7 +1205,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Qızıl payız ağacları mavi ay işığı meşə parıltılı tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'113', code:'VB-GAL-113', alt:'113',
+  num:'113', code:'TS-GAL-113', alt:'113',
   title:'Gecə Marali – Qızıl Ay, Uçan Quşlar',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı, 3D Quş bəzəkli',
@@ -1216,7 +1216,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Gecə marali qızıl ay uçan quşlar 3D parıltılı tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'114', code:'VB-GAL-114', alt:'114',
+  num:'114', code:'TS-GAL-114', alt:'114',
   title:'Çəhrayı Sakura – Ay Işığında Budaqlar',
   artist:'Naməlum rəssam', cat:'cicek',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı',
@@ -1227,7 +1227,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Çəhrayı sakura ay işığı budaqlar parıltılı tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'115', code:'VB-GAL-115', alt:'115',
+  num:'115', code:'TS-GAL-115', alt:'115',
   title:'Qızıl Maral – Mavi Dalğa, Fantastik Mənzərə',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı',
@@ -1238,7 +1238,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Qızıl maral mavi dalğa fantastik mənzərə parıltılı tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'116', code:'VB-GAL-116', alt:'116',
+  num:'116', code:'TS-GAL-116', alt:'116',
   title:'Ağ Maral – Firuzəyi Kəpənək, Çiçəkli Fantaziya',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı',
@@ -1249,7 +1249,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Ağ sehirli maral firuzəyi kəpənək çiçəkli fantaziya parıltılı tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'117', code:'VB-GAL-117', alt:'117',
+  num:'117', code:'TS-GAL-117', alt:'117',
   title:'Qalaktika Lotosları – Bənövşəyi Kosmik Çiçək',
   artist:'Naməlum rəssam', cat:'cicek',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı',
@@ -1260,7 +1260,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Qalaktika kosmik lotos çiçəyi bənövşəyi parıltılı tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'118', code:'VB-GAL-118', alt:'118',
+  num:'118', code:'TS-GAL-118', alt:'118',
   title:'Firuzəyi Burulğan – İki Qızıl Maral Tablosu',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı',
@@ -1271,7 +1271,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Firuzəyi burulğan iki qızıl maral parıltılı abstrakt tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'119', code:'VB-GAL-119', alt:'119',
+  num:'119', code:'TS-GAL-119', alt:'119',
   title:'Narıncı Gül – Boz Taxta Fon, Parıltılı Tablo',
   artist:'Naməlum rəssam', cat:'cicek',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı',
@@ -1282,7 +1282,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Narıncı gül boz taxta fon rustikal parıltılı tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'120', code:'VB-GAL-120', alt:'120',
+  num:'120', code:'TS-GAL-120', alt:'120',
   title:'Ağ Güllər – Qırmızı-Gümüş Abstrakt Fon',
   artist:'Naməlum rəssam', cat:'cicek',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı',
@@ -1293,7 +1293,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Ağ güllər qırmızı gümüş abstrakt fon parıltılı tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'121', code:'VB-GAL-121', alt:'121',
+  num:'121', code:'TS-GAL-121', alt:'121',
   title:'Qırmızı Çiçək – Boz Daş Fon, Parıltılı Tablo',
   artist:'Naməlum rəssam', cat:'cicek',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı',
@@ -1304,7 +1304,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Qırmızı çiçək boz daş fon parıltılı tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'122', code:'VB-GAL-122', alt:'122',
+  num:'122', code:'TS-GAL-122', alt:'122',
   title:'Firuzəyi Dəhliya – Köhnə Taxta Fon, Böyük Format',
   artist:'Naməlum rəssam', cat:'cicek',
   size:'70×200 sm', material:'Kanvas çap – Böyük Format',
@@ -1315,7 +1315,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Firuzəyi dəhliya köhnə taxta fon böyük format 70x200 tablo. Divar tablosu Bakı.'
 },
    {
-  num:'060', code:'VB-GAL-060', alt:'060',
+  num:'060', code:'TS-GAL-060', alt:'060',
   title:'Qızıl Maral – Yaşıl Parıltılı Gecə Tablosu',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'Ölçü soruşun', material:'Əl işi – Qızıl çərçivəli, Parıltılı',
@@ -1326,7 +1326,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Qızıl maral yaşıl parıltı qara fon qızıl çərçivəli əl işi tablo. Divar tablosu Bakı.'
 },
 {
-  num:'064', code:'VB-GAL-064', alt:'064',
+  num:'064', code:'TS-GAL-064', alt:'064',
   title:'Dağlar və Quşlar – Qızıl Dalğalı Abstrakt Tablo',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'50×80 sm', material:'Kanvas çap – Parıltılı',
@@ -1337,7 +1337,7 @@ const ARTWORKS_DATA = [
   metaDesc:'Dağlar quşlar qızıl üfüq abstrakt minimalist parıltılı tablo 50x80. Divar tablosu Bakı.'
 },
 {
-  num:'048', code:'VB-GAL-048', alt:'048',
+  num:'048', code:'TS-GAL-048', alt:'048',
   title:'Tünd Lalələr – Böyük Format Parıltılı Tablo',
   artist:'Naməlum rəssam', cat:'cicek',
   size:'70×200 sm', material:'Kanvas çap – Parıltılı, Böyük Format',
@@ -1347,7 +1347,7 @@ const ARTWORKS_DATA = [
   gift:'Böyük məkan sahiblərinə, otel/restoran dizaynı üçün – diqqət çəkən əlamətdar tablo.',
   metaDesc:'Tünd bordo lalələr böyük format 70x200 parıltılı tablo. Divar tablosu Bakı.'
 },
-{ num:'123', code:'VB-GAL-123', alt:'123',
+{ num:'123', code:'TS-GAL-123', alt:'123',
   title:'Mədinə Nuru – LED İşıqlı Məscid Tablosu',
   artist:'Naməlum rəssam', cat:'din',
   size:'Ölçü soruşun', material:'LED işıqlı kanvas çap',
@@ -1357,7 +1357,7 @@ const ARTWORKS_DATA = [
   gift:'Həccə gedənlərə, dindar ailələrə, bayram hədiyyəsi olaraq mənalı seçim.',
   metaDesc:'Mədinə Məscid LED işıqlı tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'124', code:'VB-GAL-124', alt:'124',
+{ num:'124', code:'TS-GAL-124', alt:'124',
   title:'Qış Quşu – Qırmızı Cardinal Tablo',
   artist:'Naməlum rəssam', cat:'tebiet',
   size:'70x100 sm', material:'Çərçivəli kanvas çap',
@@ -1367,7 +1367,7 @@ const ARTWORKS_DATA = [
   gift:'Təbiət sevənlərə, quş sevənlərə, evə yeni köçənlərə gözəl hədiyyə.',
   metaDesc:'Qırmızı cardinal quş qış tablo 70x100 kanvas. Divar tablosu Bakı.' },
 
-{ num:'125', code:'VB-GAL-125', alt:'125',
+{ num:'125', code:'TS-GAL-125', alt:'125',
   title:'Dalğa Rəqsi – Maral və Yelkənli Abstrakt Triptix',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
@@ -1377,7 +1377,7 @@ const ARTWORKS_DATA = [
   gift:'Müasir zövqlü insanlara, ofis açılışına, evlilik hədiyyəsi kimi ideal.',
   metaDesc:'Abstrakt dalğa maral yelkənli triptix tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'126', code:'VB-GAL-126', alt:'126',
+{ num:'126', code:'TS-GAL-126', alt:'126',
   title:'Payız Nəfəsi – Qızıl Meşə və Rəngli Lent Triptix',
   artist:'Naməlum rəssam', cat:'tebiet',
   size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
@@ -1387,7 +1387,7 @@ const ARTWORKS_DATA = [
   gift:'Təbiət sevənlərə, sənətsevər dostlara, ev hədiyyəsi kimi sevindirir.',
   metaDesc:'Payız meşə maral qızıl triptix tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'127', code:'VB-GAL-127', alt:'127',
+{ num:'127', code:'TS-GAL-127', alt:'127',
   title:'Gecə Maralı – Tünd Göy-Qızıl Fantaziya Triptix',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
@@ -1397,7 +1397,7 @@ const ARTWORKS_DATA = [
   gift:'Estetika sevənlərə, lüks ev dekorasiyası hədiyyəsi kimi əla seçim.',
   metaDesc:'Gecə maral ay qızıl firuzəyi triptix tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'128', code:'VB-GAL-128', alt:'128',
+{ num:'128', code:'TS-GAL-128', alt:'128',
   title:'Qızıl Ağac Cənnəti – Ay İşığında Triptix',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
@@ -1407,7 +1407,7 @@ const ARTWORKS_DATA = [
   gift:'Ev açımına, toy hədiyyəsinə, dekorasiya sevənlərə ideal seçim.',
   metaDesc:'Qızıl ağac maral ay triptix tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'129', code:'VB-GAL-129', alt:'129',
+{ num:'129', code:'TS-GAL-129', alt:'129',
   title:'Firuzəyi Axın – Qızıl Balıq Mərməri Triptix',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'Ölçü soruşun', material:'3 hissəli şüşəli/kanvas çap',
@@ -1417,7 +1417,7 @@ const ARTWORKS_DATA = [
   gift:'Lüks ev hədiyyəsi, ofis açılışı, toy hədiyyəsi kimi seçilən əsər.',
   metaDesc:'Firuzəyi mərməri qızıl balıq triptix tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'130', code:'VB-GAL-130', alt:'130',
+{ num:'130', code:'TS-GAL-130', alt:'130',
   title:'Üç Dünya – Maral, Dağ və Burulğan Triptix',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
@@ -1427,7 +1427,7 @@ const ARTWORKS_DATA = [
   gift:'Sənətsevərlərə, kreativ insanlara, ev dekorasiyası üçün unikal hədiyyə.',
   metaDesc:'Maral dağ burulğan abstrakt triptix tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'131', code:'VB-GAL-131', alt:'131',
+{ num:'131', code:'TS-GAL-131', alt:'131',
   title:'Şəffaf Yarpaqlar – Maral və Ağac Triptix',
   artist:'Naməlum rəssam', cat:'tebiet',
   size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
@@ -1437,7 +1437,7 @@ const ARTWORKS_DATA = [
   gift:'Zərif zövqlü insanlara, ev hədiyyəsi, yeni evə köçənlərə mükəmməl.',
   metaDesc:'Şəffaf yarpaq maral ağac triptix tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'132', code:'VB-GAL-132', alt:'132',
+{ num:'132', code:'TS-GAL-132', alt:'132',
   title:'Gecə Gölü – Mavi Dağ və Qızıl Ağac Triptix',
   artist:'Naməlum rəssam', cat:'tebiet',
   size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
@@ -1447,7 +1447,7 @@ const ARTWORKS_DATA = [
   gift:'Romantik ruhlulara, gözəl mənzərə sevənlərə, ev açımı hədiyyəsi kimi ideal.',
   metaDesc:'Gecə gölü maral qızıl ağac triptix tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'133', code:'VB-GAL-133', alt:'133',
+{ num:'133', code:'TS-GAL-133', alt:'133',
   title:'Qızıl Balıq Yağışı – Parça Altında Maral Triptix',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
@@ -1457,7 +1457,7 @@ const ARTWORKS_DATA = [
   gift:'Uğur və bolluq istəyənlərə, iş yeri açılışına, toy hədiyyəsi kimi seçilir.',
   metaDesc:'Qızıl balıq parça maral triptix tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'134', code:'VB-GAL-134', alt:'134',
+{ num:'134', code:'TS-GAL-134', alt:'134',
   title:'Qızıl Günəş – Qara-Gümüş Dağ Triptix',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
@@ -1467,7 +1467,7 @@ const ARTWORKS_DATA = [
   gift:'Lider ruhlulara, iş adamlarına, müasir ofis dekorasiyası üçün prestijli seçim.',
   metaDesc:'Qızıl günəş qara dağ maral triptix tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'135', code:'VB-GAL-135', alt:'135',
+{ num:'135', code:'TS-GAL-135', alt:'135',
   title:'Rəngbərəng Gecə – Maral Siluetləri Triptix',
   artist:'Naməlum rəssam', cat:'tebiet',
   size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
@@ -1477,7 +1477,7 @@ const ARTWORKS_DATA = [
   gift:'Həyat sevənlərə, enerjik insanlara, gənclərə rəngarəng hədiyyə.',
   metaDesc:'Maral siluet rəngli gecə triptix tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'136', code:'VB-GAL-136', alt:'136',
+{ num:'136', code:'TS-GAL-136', alt:'136',
   title:'Qızıl Meşə Körpüsü – Firuzəyi Çay Triptix',
   artist:'Naməlum rəssam', cat:'tebiet',
   size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
@@ -1487,7 +1487,7 @@ const ARTWORKS_DATA = [
   gift:'Təbiət sevənlərə, ev açımına, yeni evlilərə gözəl hədiyyə.',
   metaDesc:'Qızıl meşə maral firuzəyi çay triptix tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'137', code:'VB-GAL-137', alt:'137',
+{ num:'137', code:'TS-GAL-137', alt:'137',
   title:'Venesiya Kanalı – İtaliya Şəhər Mənzərəsi',
   artist:'Naməlum rəssam', cat:'sheher',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1497,7 +1497,7 @@ const ARTWORKS_DATA = [
   gift:'Səyahətsevənlərə, İtaliya heyranlarına, restoran/kafe dekorasiyası üçün mükəmməl.',
   metaDesc:'Venesiya kanal qondola tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'138', code:'VB-GAL-138', alt:'138',
+{ num:'138', code:'TS-GAL-138', alt:'138',
   title:'Liman Gecəsi – İmpressionist Yağlı Boya Tablo',
   artist:'Naməlum rəssam', cat:'sheher',
   size:'Ölçü soruşun', material:'Yağlı boya üslubu kanvas',
@@ -1507,7 +1507,7 @@ const ARTWORKS_DATA = [
   gift:'Sənətsevərlərə, klassik zövqlü insanlara, prestijli hədiyyə axtaranlara.',
   metaDesc:'Liman gecə qayıq impressionist yağlı boya tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'139', code:'VB-GAL-139', alt:'139',
+{ num:'139', code:'TS-GAL-139', alt:'139',
   title:'Mandala Pişik – Rəngli Ornamental Tablo',
   artist:'Naməlum rəssam', cat:'haivan',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1517,7 +1517,7 @@ const ARTWORKS_DATA = [
   gift:'Pişik sevənlərə, uşaqlara, yaradıcı ruhlulara əyləncəli və rəngarəng hədiyyə.',
   metaDesc:'Mandala pişik rəngli ornament tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'140', code:'VB-GAL-140', alt:'140',
+{ num:'140', code:'TS-GAL-140', alt:'140',
   title:'Afrika Gözəli – Çalmalı Qadın Portreti',
   artist:'Naməlum rəssam', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1527,7 +1527,7 @@ const ARTWORKS_DATA = [
   gift:'Güclü qadınlara, sənətsevərlərə, etnik dekorasiya sevənlərə unikal hədiyyə.',
   metaDesc:'Afrika qadın portret çalma qızılı tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'141', code:'VB-GAL-141', alt:'141',
+{ num:'141', code:'TS-GAL-141', alt:'141',
   title:'Kəpənək Qadın – Qara-Ağ Portret Tablo',
   artist:'Naməlum rəssam', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1537,7 +1537,7 @@ const ARTWORKS_DATA = [
   gift:'Müasir qadınlara, gözəllik salonuna, kreativ iş məkanına dekorasiya hədiyyəsi.',
   metaDesc:'Kəpənək qadın portret qara ağ tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'142', code:'VB-GAL-142', alt:'142',
+{ num:'142', code:'TS-GAL-142', alt:'142',
   title:'Tropik Tutuquşular – Mavi-Sarı Ara Tablo',
   artist:'Naməlum rəssam', cat:'haivan',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1546,7 +1546,7 @@ const ARTWORKS_DATA = [
   interior:'Qonaq otağı, mətbəx, uşaq otağı, tropik üslublu interyerlər. Yaşıl bitkili mühitlərə ideal.',
   gift:'Quş sevənlərə, uşaqlara, tropik dekorasiya sevənlərə rəngarəng hədiyyə.',
   metaDesc:'Tropik tutuquş mavi sarı quş tablo kanvas. Divar tablosu Bakı.' },
-{ num:'143', code:'VB-GAL-143', alt:'143',
+{ num:'143', code:'TS-GAL-143', alt:'143',
   title:'Çiçək Dəsti – Firuzəyi Vazada Rəngli Buket',
   artist:'Naməlum rəssam', cat:'cicek',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1556,7 +1556,7 @@ const ARTWORKS_DATA = [
   gift:'Çiçək sevənlərə, qadınlara, doğum günü hədiyyəsi kimi sevindirir.',
   metaDesc:'Firuzəyi vaza rəngli çiçək buket natürmort tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'144', code:'VB-GAL-144', alt:'144',
+{ num:'144', code:'TS-GAL-144', alt:'144',
   title:'Tısbağa Ustası – Osmanlı Klassik Tablo',
   artist:'Osman Hamdi Bəy üslubu', cat:'klassik',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1566,7 +1566,7 @@ const ARTWORKS_DATA = [
   gift:'Tarix sevənlərə, incəsənət bilicilərinə, prestijli hədiyyə axtaranlara.',
   metaDesc:'Osmanlı tısbağa ustası klassik Şərq tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'145', code:'VB-GAL-145', alt:'145',
+{ num:'145', code:'TS-GAL-145', alt:'145',
   title:'Bahar Nəğməsi – Sarı Quşlar Çiçəkli Budaqda',
   artist:'Naməlum rəssam', cat:'tebiet',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1576,7 +1576,7 @@ const ARTWORKS_DATA = [
   gift:'Quş sevənlərə, zərif zövqlü qadınlara, bahar hədiyyəsi kimi mükəmməl.',
   metaDesc:'Sarı quş çiçəkli budaq bahar tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'146', code:'VB-GAL-146', alt:'146',
+{ num:'146', code:'TS-GAL-146', alt:'146',
   title:'Bakı Üfüqü – Alov Qüllələri Gün Batımı Tablosu',
   artist:'Naməlum rəssam', cat:'sheher',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1586,7 +1586,7 @@ const ARTWORKS_DATA = [
   gift:'Vətənsevərlərə, Bakı həsrəti çəkənlərə, xarici qonaqlara ən mənalı hədiyyə.',
   metaDesc:'Bakı Alov Qüllələri gün batımı tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'147', code:'VB-GAL-147', alt:'147',
+{ num:'147', code:'TS-GAL-147', alt:'147',
   title:'Qız Qülləsi – İstanbul Fənər və Martılar Tablosu',
   artist:'Naməlum rəssam', cat:'sheher',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1596,7 +1596,7 @@ const ARTWORKS_DATA = [
   gift:'Türkiyə sevənlərə, səyahətsevərlərə, romantik ruhlulara ideal hədiyyə.',
   metaDesc:'Qız Qülləsi İstanbul Boğaz martı tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'148', code:'VB-GAL-148', alt:'148',
+{ num:'148', code:'TS-GAL-148', alt:'148',
   title:'Meşə Yolu – Sevgililər İmpressionist Tablo',
   artist:'Leonid Afremov üslubu', cat:'romantik',
   size:'Ölçü soruşun', material:'Yağlı boya üslubu kanvas',
@@ -1606,7 +1606,7 @@ const ARTWORKS_DATA = [
   gift:'Cütlüklərə, toy hədiyyəsinə, romantik ruhlulara ən mənalı seçim.',
   metaDesc:'Meşə yolu sevgililər impressionist tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'149', code:'VB-GAL-149', alt:'149',
+{ num:'149', code:'TS-GAL-149', alt:'149',
   title:'Sarı Günəş – Dəniz Sahili İmpressionist Tablo',
   artist:'Naməlum rəssam', cat:'tebiet',
   size:'70x100 sm', material:'Yağlı boya üslubu kanvas',
@@ -1616,7 +1616,7 @@ const ARTWORKS_DATA = [
   gift:'Dəniz sevənlərə, enerjik insanlara, ev açımı hədiyyəsi kimi mükəmməl.',
   metaDesc:'Sarı günəş dəniz sahil impressionist tablo 70x100 kanvas. Divar tablosu Bakı.' },
 
-{ num:'150', code:'VB-GAL-150', alt:'150',
+{ num:'150', code:'TS-GAL-150', alt:'150',
   title:'Bənövşəyi VW – Çiçəkli Meşədə Retro Avtomobil',
   artist:'Naməlum rəssam', cat:'retro',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1626,7 +1626,7 @@ const ARTWORKS_DATA = [
   gift:'Avtomobil sevənlərə, retro üslub heyranlarına, gənclərə rəngarəng hədiyyə.',
   metaDesc:'Bənövşəyi VW Beetle çiçəkli meşə retro tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'151', code:'VB-GAL-151', alt:'151',
+{ num:'151', code:'TS-GAL-151', alt:'151',
   title:'Tropik Cənnət – Strelitzia və Anthurium Tablo',
   artist:'Naməlum rəssam', cat:'cicek',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1636,7 +1636,7 @@ const ARTWORKS_DATA = [
   gift:'Çiçək sevənlərə, tropik dekorasiya istəyənlərə, restoran/otel üçün əla seçim.',
   metaDesc:'Tropik strelitzia anthurium çiçək tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'152', code:'VB-GAL-152', alt:'152',
+{ num:'152', code:'TS-GAL-152', alt:'152',
   title:'Rəngli Papatyalar – Canlı Çiçək Makro Tablo',
   artist:'Naməlum rəssam', cat:'cicek',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1646,7 +1646,7 @@ const ARTWORKS_DATA = [
   gift:'Optimist insanlara, çiçək sevənlərə, şən ev dekorasiyası istəyənlərə.',
   metaDesc:'Rəngli papatya makro çiçək tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'153', code:'VB-GAL-153', alt:'153',
+{ num:'153', code:'TS-GAL-153', alt:'153',
   title:'Şərq Antikası – Milli Qab-Qacaq Triptix',
   artist:'Naməlum rəssam', cat:'klassik',
   size:'Ölçü soruşun', material:'3 hissəli çərçivəli kanvas',
@@ -1656,7 +1656,7 @@ const ARTWORKS_DATA = [
   gift:'Tarix sevənlərə, koleksiyonerlərə, antik zövqlü insanlara prestijli hədiyyə.',
   metaDesc:'Milli Şərq çaynik antik qab triptix tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'154', code:'VB-GAL-154', alt:'154',
+{ num:'154', code:'TS-GAL-154', alt:'154',
   title:'Rəngli Park Gecəsi – İmpressionist Meşə Yolu',
   artist:'Leonid Afremov üslubu', cat:'romantik',
   size:'Ölçü soruşun', material:'Yağlı boya üslubu kanvas',
@@ -1666,7 +1666,7 @@ const ARTWORKS_DATA = [
   gift:'Sənətsevərlərə, impressionist üslub heyranlarına, ev açımı hədiyyəsi kimi.',
   metaDesc:'Rəngli park gecəsi impressionist meşə yolu tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'155', code:'VB-GAL-155', alt:'155',
+{ num:'155', code:'TS-GAL-155', alt:'155',
   title:'Rokoko Musiqisi – Sarayda Fortepiano Cütlüyü',
   artist:'Naməlum rəssam', cat:'klassik',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1676,7 +1676,7 @@ const ARTWORKS_DATA = [
   gift:'Musiqi sevənlərə, klassik zövqlü insanlara, prestijli ev hədiyyəsi kimi.',
   metaDesc:'Rokoko fortepiano saray cütlük klassik tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'156', code:'VB-GAL-156', alt:'156',
+{ num:'156', code:'TS-GAL-156', alt:'156',
   title:'Hörüklü Gözəl – Müasir Afrika Qadın Portreti',
   artist:'Naməlum rəssam', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1686,7 +1686,7 @@ const ARTWORKS_DATA = [
   gift:'Müasir qadınlara, gözəllik salonuna, zərif zövqlü insanlara ideal hədiyyə.',
   metaDesc:'Hörüklü qadın portret çəhrayı baş bandı tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'157', code:'VB-GAL-157', alt:'157',
+{ num:'157', code:'TS-GAL-157', alt:'157',
   title:'Rəngli Çiçək – Abstrakt Kolaj Tablo',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1696,7 +1696,7 @@ const ARTWORKS_DATA = [
   gift:'Kreativ insanlara, uşaqlara, rəngarəng dekorasiya sevənlərə sevindirir.',
   metaDesc:'Abstrakt rəngli çiçək kolaj folk tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'158', code:'VB-GAL-158', alt:'158',
+{ num:'158', code:'TS-GAL-158', alt:'158',
   title:'Sehrli Maral – Psixedelik Fantaziya Tablo',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1706,7 +1706,7 @@ const ARTWORKS_DATA = [
   gift:'Fantaziya sevənlərə, yaradıcı ruhlulara, unikal hədiyyə axtaranlara.',
   metaDesc:'Psixedelik sehrli maral fantaziya tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'159', code:'VB-GAL-159', alt:'159',
+{ num:'159', code:'TS-GAL-159', alt:'159',
   title:'Mavi Maral – Mistik Meşə Fantaziya Tablosu',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1716,7 +1716,7 @@ const ARTWORKS_DATA = [
   gift:'Fantaziya sevənlərə, gənclərə, mistik dünya heyranlarına unikal hədiyyə.',
   metaDesc:'Mavi maral mistik meşə fantaziya tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'160', code:'VB-GAL-160', alt:'160',
+{ num:'160', code:'TS-GAL-160', alt:'160',
   title:'Şam İşığı – Dəmir Şamdanda Yanan Şamlar Tablosu',
   artist:'Naməlum rəssam', cat:'romantik',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1726,7 +1726,7 @@ const ARTWORKS_DATA = [
   gift:'Romantik cütlüklərə, ev açımına, sakit atmosfer istəyənlərə isti hədiyyə.',
   metaDesc:'Şam işığı dəmir şamdan romantik tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'161', code:'VB-GAL-161', alt:'161',
+{ num:'161', code:'TS-GAL-161', alt:'161',
   title:'Mavi Lotus – Qızıl Xətli Çiçək Tablosu',
   artist:'Naməlum rəssam', cat:'cicek',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1736,7 +1736,7 @@ const ARTWORKS_DATA = [
   gift:'Sakitlik axtaranlara, meditasiya sevənlərə, zərif zövqlü insanlara mənalı hədiyyə.',
   metaDesc:'Mavi lotus qızıl xətli çiçək tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'162', code:'VB-GAL-162', alt:'162',
+{ num:'162', code:'TS-GAL-162', alt:'162',
   title:'Payız Körpüsü – Çətirli Qadın İmpressionist Tablo',
   artist:'Naməlum rəssam', cat:'romantik',
   size:'Ölçü soruşun', material:'Yağlı boya üslubu kanvas',
@@ -1745,7 +1745,7 @@ const ARTWORKS_DATA = [
   interior:'Qonaq otağı, yataq otağı, koridor. Sarı, narıncı, payız tonlu interyerlərə ideal.',
   gift:'Romantik ruhlulara, payız sevənlərə, sənətsevərlərə gözəl hədiyyə.',
   metaDesc:'Payız körpü çətirli qadın impressionist tablo kanvas. Divar tablosu Bakı.' },
-{ num:'163', code:'VB-GAL-163', alt:'163',
+{ num:'163', code:'TS-GAL-163', alt:'163',
   title:'Çiçəkli Paris – Eiffel Qülləsi Çəhrayı Ağaclar Tablosu',
   artist:'Naməlum rəssam', cat:'sheher',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1755,7 +1755,7 @@ const ARTWORKS_DATA = [
   gift:'Paris sevənlərə, romantik ruhlulara, qadınlara ən gözəl hədiyyə.',
   metaDesc:'Eiffel qülləsi çəhrayı ağac Paris tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'164', code:'VB-GAL-164', alt:'164',
+{ num:'164', code:'TS-GAL-164', alt:'164',
   title:'Musiqi Otağı – Fortepiano və Violonçel Klassik Tablo',
   artist:'Naməlum rəssam', cat:'klassik',
   size:'Ölçü soruşun', material:'Yağlı boya üslubu kanvas',
@@ -1765,7 +1765,7 @@ const ARTWORKS_DATA = [
   gift:'Musiqi sevənlərə, klassik zövqlü insanlara, prestijli hədiyyə axtaranlara.',
   metaDesc:'Fortepiano violonçel musiqi otağı klassik tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'165', code:'VB-GAL-165', alt:'165',
+{ num:'165', code:'TS-GAL-165', alt:'165',
   title:'Yeddi Ağ At – Dolunay Altında Çapan Atlar Tablosu',
   artist:'Naməlum rəssam', cat:'haivan',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1775,7 +1775,7 @@ const ARTWORKS_DATA = [
   gift:'Uğur diləyənlərə, at sevənlərə, iş adamlarına güclü və mənalı hədiyyə.',
   metaDesc:'Yeddi ağ at dolunay çapan tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'166', code:'VB-GAL-166', alt:'166',
+{ num:'166', code:'TS-GAL-166', alt:'166',
   title:'Fantaziya Ağacı – Çiçəkli Ağac Uçurum Üzərində Tablo',
   artist:'Naməlum rəssam', cat:'abstrakt',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1785,7 +1785,7 @@ const ARTWORKS_DATA = [
   gift:'Fantaziya sevənlərə, gənclərə, unikal dekorasiya istəyənlərə.',
   metaDesc:'Fantaziya çiçəkli ağac uçurum lava tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'167', code:'VB-GAL-167', alt:'167',
+{ num:'167', code:'TS-GAL-167', alt:'167',
   title:'İstiklal Tramvayı – Qarlı İstanbul Qara-Ağ Tablo',
   artist:'Naməlum rəssam', cat:'sheher',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1795,7 +1795,7 @@ const ARTWORKS_DATA = [
   gift:'İstanbul sevənlərə, nostaljik ruhlulara, kafe/restoran dekorasiyası üçün mükəmməl.',
   metaDesc:'İstanbul İstiklal tramvay qar qara ağ tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'168', code:'VB-GAL-168', alt:'168',
+{ num:'168', code:'TS-GAL-168', alt:'168',
   title:'Paris Qara-Ağ – Eiffel Qülləsi Qırmızı Avtobus Tablo',
   artist:'Naməlum rəssam', cat:'sheher',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1805,7 +1805,7 @@ const ARTWORKS_DATA = [
   gift:'Paris sevənlərə, şəhər dekorasiyası istəyənlərə, müasir zövqlü insanlara.',
   metaDesc:'Eiffel qülləsi qara ağ qırmızı avtobus Paris tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'169', code:'VB-GAL-169', alt:'169',
+{ num:'169', code:'TS-GAL-169', alt:'169',
   title:'Qız Qülləsi Romantikası – Qara-Ağ Cütlük Qırmızı Çətir',
   artist:'Naməlum rəssam', cat:'romantik',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1815,7 +1815,7 @@ const ARTWORKS_DATA = [
   gift:'Cütlüklərə, toy hədiyyəsinə, İstanbul sevənlərə ən romantik seçim.',
   metaDesc:'Qız Qülləsi qara ağ cütlük qırmızı çətir tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'170', code:'VB-GAL-170', alt:'170',
+{ num:'170', code:'TS-GAL-170', alt:'170',
   title:'Payız Skamyası – Sarı Meşə Fənər İmpressionist Tablo',
   artist:'Leonid Afremov üslubu', cat:'tebiet',
   size:'Ölçü soruşun', material:'Yağlı boya üslubu kanvas',
@@ -1825,7 +1825,7 @@ const ARTWORKS_DATA = [
   gift:'Təbiət sevənlərə, payız heyranlarına, romantik ruhlulara gözəl hədiyyə.',
   metaDesc:'Payız skamya sarı meşə fənər impressionist tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'171', code:'VB-GAL-171', alt:'171',
+{ num:'171', code:'TS-GAL-171', alt:'171',
   title:'Qız Qülləsi Gündüzü – Mavi Göy Martılar İstanbul Tablosu',
   artist:'Naməlum rəssam', cat:'sheher',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1835,7 +1835,7 @@ const ARTWORKS_DATA = [
   gift:'İstanbul sevənlərə, Türkiyə heyranlarına, şəhər dekorasiyası üçün ideal.',
   metaDesc:'Qız Qülləsi mavi göy martı Boğaz İstanbul tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'172', code:'VB-GAL-172', alt:'172',
+{ num:'172', code:'TS-GAL-172', alt:'172',
   title:'Qızıl Halo – Mavi-Qızıl Afrika Kraliçası Portreti',
   artist:'Naməlum rəssam', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1845,7 +1845,7 @@ const ARTWORKS_DATA = [
   gift:'Güclü qadınlara, sənətsevərlərə, etnik lüks dekorasiya istəyənlərə prestijli hədiyyə.',
   metaDesc:'Afrika kraliçası qızıl halo mavi portret tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'173', code:'VB-GAL-173', alt:'173',
+{ num:'173', code:'TS-GAL-173', alt:'173',
   title:'Azərbaycan Musiqisi – Saz, Nağara, Kamança Milli Tablo',
   artist:'Naməlum rəssam', cat:'milli',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1855,7 +1855,7 @@ const ARTWORKS_DATA = [
   gift:'Vətənsevərlərə, musiqi sevənlərə, xarici qonaqlara ən mənalı Azərbaycan hədiyyəsi.',
   metaDesc:'Azərbaycan saz nağara kamança milli musiqi tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'174', code:'VB-GAL-174', alt:'174',
+{ num:'174', code:'TS-GAL-174', alt:'174',
   title:'Şərq Gözəli – Ənənəvi Paltarda Çiçəkli Xanım Portreti',
   artist:'Naməlum rəssam', cat:'klassik',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1865,7 +1865,7 @@ const ARTWORKS_DATA = [
   gift:'Tarix sevənlərə, klassik zövqlü insanlara, Şərq mədəniyyəti heyranlarına.',
   metaDesc:'Şərq gözəli ənənəvi paltar çiçək klassik portret tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'175', code:'VB-GAL-175', alt:'175',
+{ num:'175', code:'TS-GAL-175', alt:'175',
   title:'Payız Yolu – Sarı-Qırmızı Meşə Siluet Tablo',
   artist:'Naməlum rəssam', cat:'tebiet',
   size:'Ölçü soruşun', material:'Yağlı boya üslubu kanvas',
@@ -1875,7 +1875,7 @@ const ARTWORKS_DATA = [
   gift:'Payız sevənlərə, sənətsevərlərə, romantik ruhlulara gözəl hədiyyə.',
   metaDesc:'Payız meşə yolu sarı qırmızı siluet impressionist tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'176', code:'VB-GAL-176', alt:'176',
+{ num:'176', code:'TS-GAL-176', alt:'176',
   title:'Bakı Gecəsi – Alov Qüllələri LED Panorama Tablosu',
   artist:'Naməlum rəssam', cat:'sheher',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1885,7 +1885,7 @@ const ARTWORKS_DATA = [
   gift:'Bakı sevənlərə, vətənsevərlərə, xarici qonaqlara ən mənalı Azərbaycan hədiyyəsi.',
   metaDesc:'Bakı gecə Alov Qüllələri körfəz LED panorama tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'177', code:'VB-GAL-177', alt:'177',
+{ num:'177', code:'TS-GAL-177', alt:'177',
   title:'Mavi Lotus Vertikal – Qızıl Saplaqlı Çiçək Tablosu',
   artist:'Naməlum rəssam', cat:'cicek',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1895,7 +1895,7 @@ const ARTWORKS_DATA = [
   gift:'Sakitlik axtaranlara, meditasiya sevənlərə, zərif zövqlü insanlara mənalı hədiyyə.',
   metaDesc:'Mavi lotus qızıl sap vertikal çiçək tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'178', code:'VB-GAL-178', alt:'178',
+{ num:'178', code:'TS-GAL-178', alt:'178',
   title:'Flamenko Atəşi – Qırmızı Paltarlı Rəqqasə Tablo',
   artist:'Naməlum rəssam', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1905,7 +1905,7 @@ const ARTWORKS_DATA = [
   gift:'Rəqs sevənlərə, enerjik insanlara, restoran/kafe dekorasiyası üçün əla seçim.',
   metaDesc:'Flamenko qırmızı rəqqasə gitara İspan tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'179', code:'VB-GAL-179', alt:'179',
+{ num:'179', code:'TS-GAL-179', alt:'179',
   title:'Şam Dairəsi – Çoxlu Kub Şamlar Qızıl İşıq Tablosu',
   artist:'Naməlum rəssam', cat:'romantik',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1915,7 +1915,7 @@ const ARTWORKS_DATA = [
   gift:'Romantik cütlüklərə, sakit atmosfer sevənlərə, spa/restoran dekorasiyası üçün.',
   metaDesc:'Kub şamlar dairə qızıl işıq romantik tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'180', code:'VB-GAL-180', alt:'180',
+{ num:'180', code:'TS-GAL-180', alt:'180',
   title:'İstanbul Şamı – Şam Üzərində Şəhər Silueti Tablo',
   artist:'Naməlum rəssam', cat:'sheher',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1925,7 +1925,7 @@ const ARTWORKS_DATA = [
   gift:'İstanbul sevənlərə, romantik ruhlulara, unikal hədiyyə axtaranlara.',
   metaDesc:'İstanbul siluet şam romantik tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'181', code:'VB-GAL-181', alt:'181',
+{ num:'181', code:'TS-GAL-181', alt:'181',
   title:'Spa Şamları – Çəhrayı Şamlar və Çiçəklər Tablo',
   artist:'Naməlum rəssam', cat:'romantik',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1935,7 +1935,7 @@ const ARTWORKS_DATA = [
   gift:'Özünə qulluq sevənlərə, spa heyranlarına, sakitlik istəyən qadınlara gözəl hədiyyə.',
   metaDesc:'Spa çəhrayı şamlar çiçəklər romantik tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'182', code:'VB-GAL-182', alt:'182',
+{ num:'182', code:'TS-GAL-182', alt:'182',
   title:'Ağ Şamlar – Poinsetiya Çiçəkli Qış Tablosu',
   artist:'Naməlum rəssam', cat:'romantik',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1944,7 +1944,7 @@ const ARTWORKS_DATA = [
   interior:'Yataq otağı, qonaq otağı, koridor. Ağ, krem, bej, açıq rəngli interyerlərə mükəmməl.',
   gift:'Qış hədiyyəsi, yeni il, ev açımı – ağ estetika sevənlərə ideal seçim.',
   metaDesc:'Ağ şamlar poinsetiya qış çiçək tablo kanvas. Divar tablosu Bakı.' },
-{ num:'183', code:'VB-GAL-183', alt:'183',
+{ num:'183', code:'TS-GAL-183', alt:'183',
   title:'Qırmızı Ağac – Qara-Ağ Kənd Mənzərəsi Tablo',
   artist:'Naməlum rəssam', cat:'tebiet',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1954,7 +1954,7 @@ const ARTWORKS_DATA = [
   gift:'Güclü estetika sevənlərə, müasir dekorasiya istəyənlərə, ev açımı hədiyyəsi kimi.',
   metaDesc:'Qırmızı ağac qara ağ kənd kontrast tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'184', code:'VB-GAL-184', alt:'184',
+{ num:'184', code:'TS-GAL-184', alt:'184',
   title:'Pop-Art Qadın – Mavi Fonda Rəngli Paltar Portreti',
   artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1964,7 +1964,7 @@ const ARTWORKS_DATA = [
   gift:'Müasir sənətsevərlərə, pop-art heyranlarına, kreativ insanlara unikal hədiyyə.',
   metaDesc:'Pop-art qadın mavi afro rəngli paltar portret tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'185', code:'VB-GAL-185', alt:'185',
+{ num:'185', code:'TS-GAL-185', alt:'185',
   title:'Rəngli Papaq Xanım – Tünd Mavi Portret Tablo',
   artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1974,7 +1974,7 @@ const ARTWORKS_DATA = [
   gift:'Zövqlü qadınlara, sənətsevərlərə, moda heyranlarına mükəmməl hədiyyə.',
   metaDesc:'Rəngli papaq inci qadın portret tünd mavi tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'186', code:'VB-GAL-186', alt:'186',
+{ num:'186', code:'TS-GAL-186', alt:'186',
   title:'Çiçək Taclı Maskalı Xanım – Bənövşəyi Portret',
   artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1984,7 +1984,7 @@ const ARTWORKS_DATA = [
   gift:'Güclü qadınlara, mistik sənət sevənlərə, unikal hədiyyə axtaranlara.',
   metaDesc:'Çiçək tac maskali qadın bənövşəyi portret tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'187', code:'VB-GAL-187', alt:'187',
+{ num:'187', code:'TS-GAL-187', alt:'187',
   title:'Quş Tutan Xanım – Qırmızı Çiçəkli Saç Portret',
   artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -1994,7 +1994,7 @@ const ARTWORKS_DATA = [
   gift:'Zərif qadınlara, quş sevənlərə, poetik ruhlulara gözəl hədiyyə.',
   metaDesc:'Quş tutan qadın qırmızı çiçək saç portret tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'188', code:'VB-GAL-188', alt:'188',
+{ num:'188', code:'TS-GAL-188', alt:'188',
   title:'Kəpənəkli Xanım – Qırmızı Afro Saç Portret Tablo',
   artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -2004,7 +2004,7 @@ const ARTWORKS_DATA = [
   gift:'Enerjik qadınlara, azadlıq sevənlərə, canlı dekorasiya istəyənlərə.',
   metaDesc:'Qırmızı afro saç kəpənək qadın portret tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'189', code:'VB-GAL-189', alt:'189',
+{ num:'189', code:'TS-GAL-189', alt:'189',
   title:'Bənövşəyi Çiçəkli Xanım – Mavi Nöqtəli Portret',
   artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -2014,7 +2014,7 @@ const ARTWORKS_DATA = [
   gift:'Zərif qadınlara, çiçək sevənlərə, romantik ruhlulara gözəl hədiyyə.',
   metaDesc:'Bənövşəyi çiçək qara saç qadın mavi portret tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'190', code:'VB-GAL-190', alt:'190',
+{ num:'190', code:'TS-GAL-190', alt:'190',
   title:'Qırmızı Lale Qadın – Bənövşəyi-Qırmızı Portret',
   artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -2024,7 +2024,7 @@ const ARTWORKS_DATA = [
   gift:'Cəsarətli qadınlara, güclü estetika sevənlərə, unikal hədiyyə istəyənlərə.',
   metaDesc:'Qırmızı lale qara saç bənövşəyi qadın portret tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'191', code:'VB-GAL-191', alt:'191',
+{ num:'191', code:'TS-GAL-191', alt:'191',
   title:'Ürək Tutan Xanım – Yaşıl Fonda Qadın Portreti',
   artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -2034,7 +2034,7 @@ const ARTWORKS_DATA = [
   gift:'Həssas ruhlulara, sevgi sevənlərə, romantik insanlara mənalı hədiyyə.',
   metaDesc:'Ürək quş tutan qadın yaşıl portret tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'192', code:'VB-GAL-192', alt:'192',
+{ num:'192', code:'TS-GAL-192', alt:'192',
   title:'Xəyallı Xanım – Tünd Mavi Afro Saç Portret',
   artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -2044,7 +2044,7 @@ const ARTWORKS_DATA = [
   gift:'Düşüncəli qadınlara, dərin estetika sevənlərə, unikal hədiyyə axtaranlara.',
   metaDesc:'Xəyallı afro saç qadın tünd mavi portret tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'193', code:'VB-GAL-193', alt:'193',
+{ num:'193', code:'TS-GAL-193', alt:'193',
   title:'Çiçək Taclı Xanım – Mavi Gecə Portreti',
   artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -2054,7 +2054,7 @@ const ARTWORKS_DATA = [
   gift:'Çiçək sevən qadınlara, romantik ruhlulara, sənətsevərlərə gözəl hədiyyə.',
   metaDesc:'Çiçək taclı qadın mavi gecə portret tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'194', code:'VB-GAL-194', alt:'194',
+{ num:'194', code:'TS-GAL-194', alt:'194',
   title:'Balinalar Dünyası – Saçında Balina Qadın Portreti',
   artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -2064,7 +2064,7 @@ const ARTWORKS_DATA = [
   gift:'Fantaziya sevənlərə, sürreal sənət heyranlarına, unikal dekorasiya istəyənlərə.',
   metaDesc:'Saçında balina qadın sürreal portret mavi tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'195', code:'VB-GAL-195', alt:'195',
+{ num:'195', code:'TS-GAL-195', alt:'195',
   title:'Düşüncəli Xanım – Qara Afro Narıncı Çiçək Portret',
   artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -2074,7 +2074,7 @@ const ARTWORKS_DATA = [
   gift:'Güclü qadınlara, dərin estetika sevənlərə, pop-art heyranlarına.',
   metaDesc:'Afro saç narıncı çiçək düşüncəli qadın portret tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'196', code:'VB-GAL-196', alt:'196',
+{ num:'196', code:'TS-GAL-196', alt:'196',
   title:'Gülən Xanım – Qırmızı Saç Mavi Quş Yaşıl Portret',
   artist:'Hülya Özdemir üslubu', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -2084,7 +2084,7 @@ const ARTWORKS_DATA = [
   gift:'Optimist insanlara, həyat sevənlərə, şən dekorasiya istəyənlərə.',
   metaDesc:'Gülən qırmızı saç mavi quş yaşıl qadın portret tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'197', code:'VB-GAL-197', alt:'197',
+{ num:'197', code:'TS-GAL-197', alt:'197',
   title:'Moda İkonu – Sarı Saç Yaşıl Eynək Qara Portret',
   artist:'Naməlum rəssam', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -2094,7 +2094,7 @@ const ARTWORKS_DATA = [
   gift:'Moda sevənlərə, müasir qadınlara, pop-art heyranlarına cəsarətli hədiyyə.',
   metaDesc:'Moda ikonu sarı saç yaşıl eynək qara portret tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'198', code:'VB-GAL-198', alt:'198',
+{ num:'198', code:'TS-GAL-198', alt:'198',
   title:'Tikanlı Siluet – Qırmızı Fonda Qadın Profilı Tablo',
   artist:'Naməlum rəssam', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -2104,7 +2104,7 @@ const ARTWORKS_DATA = [
   gift:'Güclü bəyanat sevənlərə, sənətsevərlərə, cəsarətli dekorasiya istəyənlərə.',
   metaDesc:'Tikanlı siluet qırmızı fon qadın profil portret tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'199', code:'VB-GAL-199', alt:'199',
+{ num:'199', code:'TS-GAL-199', alt:'199',
   title:'Mavi Dodaq – Afrika Gözəli Dairəvi Eynək Portret',
   artist:'Naməlum rəssam', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -2114,7 +2114,7 @@ const ARTWORKS_DATA = [
   gift:'Müasir güclü qadınlara, moda sevənlərə, lüks dekorasiya istəyənlərə prestijli hədiyyə.',
   metaDesc:'Mavi dodaq dairəvi eynək Afrika qadın portret tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'200', code:'VB-GAL-200', alt:'200',
+{ num:'200', code:'TS-GAL-200', alt:'200',
   title:'Qızıl Çalmalı Gözəl – Sarı Fonda Afrika Portreti',
   artist:'Naməlum rəssam', cat:'portret',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -2124,7 +2124,7 @@ const ARTWORKS_DATA = [
   gift:'Lüks zövqlü qadınlara, sənətsevərlərə, prestijli hədiyyə axtaranlara ideal seçim.',
   metaDesc:'Qızıl çalma eynək Afrika qadın sarı portret tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'201', code:'VB-GAL-201', alt:'201',
+{ num:'201', code:'TS-GAL-201', alt:'201',
   title:'Rəngli Şamlar – Ulduzlu LED İşıqlı Şam Tablosu',
   artist:'Naməlum rəssam', cat:'romantik',
   size:'Ölçü soruşun', material:'LED işıqlı kanvas çap',
@@ -2134,7 +2134,7 @@ const ARTWORKS_DATA = [
   gift:'Romantik cütlüklərə, bayram hədiyyəsi olaraq, ev açımına isti seçim.',
   metaDesc:'Rəngli şamlar ulduz LED işıqlı tablo kanvas. Divar tablosu Bakı.' },
 
-{ num:'202', code:'VB-GAL-202', alt:'202',
+{ num:'202', code:'TS-GAL-202', alt:'202',
   title:'Qız Qalası – Bakı Gecə İşığında Milli Tablo',
   artist:'Naməlum rəssam', cat:'sheher',
   size:'Ölçü soruşun', material:'Kanvas çap',
@@ -2153,7 +2153,7 @@ function generateArtworks() {
     const num = String(i).padStart(3, '0');
     if (!realNums.has(num)) {
       placeholders.push({
-        num, code:`VB-GAL-${num}`, alt:num,
+        num, code:`TS-GAL-${num}`, alt:num,
         title:'', artist:'Naməlum rəssam', cat:'',
         size:'Ölçü soruşun', material:'',
         seoDesc:'', emoDesc:'', interior:'', gift:'', metaDesc:''

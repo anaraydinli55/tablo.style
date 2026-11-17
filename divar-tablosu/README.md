@@ -1,4 +1,4 @@
-# VəBo Gallery – Divar Tabloları Saytı
+# TabloStyle Galleri – Divar Tabloları Saytı
 
 ## 📁 Qovluq Strukturu
 
@@ -51,7 +51,7 @@ imageExt: '.webp'  // ya .png, .jpg
 ```
 
 ### 4. Domain dəyişikliyi
-`vebo-gallery.az` axtarıb öz domain adınla əvəz et (index.html, blog.html, sitemap.xml, script.js).
+`www.tablo-style.shop` axtarıb öz domain adınla əvəz et (index.html, blog.html, sitemap.xml, script.js).
 
 ### 5. Google Search Console
 - `sitemap.xml`-i Google Search Console-a əlavə et
