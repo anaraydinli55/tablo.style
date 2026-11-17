@@ -2564,10 +2564,10 @@ window.renderBlogPage = function() {
       "@context":"https://schema.org","@type":"BlogPosting",
       "headline":post.title,"description":post.preview,
       "datePublished":post.date,"dateModified":post.date,
-      "url":`https://www.tablo-style.shop/blog.html#${post.id}`,
+      "url":`https://www.tablo-style.shop/blog#${post.id}`,
       "publisher":{"@type":"Organization","name":"Tablo Style Gallery",
         "logo":{"@type":"ImageObject","url":"https://www.tablo-style.shop/images/logo.png"}},
-      "mainEntityOfPage":`https://www.tablo-style.shop/blog.html#${post.id}`
+      "mainEntityOfPage":`https://www.tablo-style.shop/blog#${post.id}`
     });
     document.head.appendChild(s);
   });

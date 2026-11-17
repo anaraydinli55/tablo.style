@@ -28,8 +28,8 @@ The catalog features over 200 designs indexed as TS-GAL-001 through TS-GAL-202, 
 
 - Homepage & Catalog (TS-GAL-001 to TS-GAL-202): https://www.tablo-style.shop/
 - Price List (Qiymət Cədvəli): https://www.tablo-style.shop/qiymetler
-- Blog Hub: https://www.tablo-style.shop/blog.html
-- Visual Showcase: https://www.tablo-style.shop/hareketli.html
+- Blog Hub: https://www.tablo-style.shop/blog
+- Visual Showcase: https://www.tablo-style.shop/hareketli
 
 ---
 
@@ -75,11 +75,11 @@ The catalog features over 200 designs indexed as TS-GAL-001 through TS-GAL-202, 
    Topics: Personalized gifts, family photo canvas, anniversary and birthday wall art gifts.
 
 5. Divar Tablosu Ölçüsü Necə Seçilir?
-   URL: https://www.tablo-style.shop/tablo-olcusu
+   URL: https://www.tablo-style.shop/divar-tablosu-olcusu-nece-secilir
    Topics: Practical sizing rules above sofas, beds, and office walls.
 
 6. Divar Rənginə Uyğun Tablo Seçimi
-   URL: https://www.tablo-style.shop/bloq4.html
+   URL: https://www.tablo-style.shop/bloq4
    Topics: Color harmony between wall paint and canvas artwork.
 
 ---
