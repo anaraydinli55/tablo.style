@@ -6,7 +6,7 @@
 
 /* ── Config ─────────────────────────────────────────── */
 const CONFIG = {
-  waNumber:    '905540183188',
+  waNumber:    '994552357380',
   waText:      (code) => `${code} haqqında məlumat almaq istəyirəm`,
   imageFolder: '/',
   imageExt:    '.jpg',

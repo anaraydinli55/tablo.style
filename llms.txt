@@ -1,14 +1,16 @@
 # TabloStyle Galleri (Tablo Style Gallery)
 
-TabloStyle Galleri is an Azerbaijani online wall art, canvas, and velvet (məxmər) painting gallery and printing store based in Baku.
+TabloStyle Galleri is an Azerbaijani online wall art, canvas, and velvet (məxmər) painting gallery and printing store located in Sheki (Şəki), Azerbaijan.
 
 ## Website
 
 https://www.tablo-style.shop/
 
-## Purpose
+## Location & Contact
 
-The website offers 202+ curated wall art designs (codes TS-GAL-001 to TS-GAL-202), custom photo canvas printing, transparent AZN pricing, interior design guides, and gift ideas across Azerbaijan.
+- Base Location: Şəki şəhəri, Azərbaycan (Sheki, Azerbaijan)
+- WhatsApp Orders: +994552357380
+- Phone Numbers: +994552357380 (Azerbaijan), +905540183188 (Turkey)
 
 ## Main Pages
 
@@ -33,10 +35,10 @@ The website offers 202+ curated wall art designs (codes TS-GAL-001 to TS-GAL-202
 - 3-Piece Canvas (Kanvas 3-lü 45x75 cm): 70 AZN
 - Velvet (Məxmər): 40 AZN (45x30 cm, 40x40 cm), 70 AZN (45x75 cm, 50x70 cm), 120 AZN (70x100 cm), 200 AZN (100x150 cm)
 
-## Ordering & Delivery
+## Delivery Across Azerbaijan
 
-- WhatsApp Order: +905540183188
-- Delivery across Azerbaijan: Baku, Sumgayit, Ganja, Sheki, Lankaran, Mingachevir, Nakhchivan.
+- Azerpost (Azərpoçt) nationwide delivery: 3–10 AZN depending on size.
+- Intercity bus delivery (5 AZN) from Sheki to: Balakən, Zaqatala, Qax, Mingəçevir, Bərdə, Gəncə, Yevlax, Oğuz, Qəbələ, İsmayıllı, Şamaxı, Bakı, Sumqayıt, Ucar, Kürdəmir, Qobustan, Göyçay.
 
 ## License
 
