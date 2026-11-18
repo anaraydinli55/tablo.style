@@ -2233,13 +2233,13 @@ function buildCard(art, idx) {
   card.innerHTML = `
     <div class="art-img-wrap">
       <img src="${CONFIG.imageFolder}${art.num}${CONFIG.imageExt}"
-           alt="${art.alt || art.num}" loading="lazy" decoding="async" width="400" height="400">
+           alt="${displayTitle} – divar tablosu ${art.code}" loading="lazy" decoding="async" width="400" height="400">
       <div class="art-overlay" aria-hidden="true"><span class="art-overlay-icon">🔍</span></div>
     </div>
     <div class="art-info">
-      <div class="art-code">${art.code}</div>
-      <h3 class="art-title">${displayTitle}<br>
-        <small style="font-size:.8rem;font-style:normal;color:#888">${displayArt}</small></h3>
+      <div class="art-code">${art.code} · <span style="color:#d4af37">15 AZN-dən</span></div>
+      <h3 class="art-title"><a href="/tablo/${art.code.toLowerCase()}" onclick="event.stopPropagation()" style="color:inherit;text-decoration:none;">${displayTitle}</a><br>
+        <small style="font-size:.8rem;font-style:normal;color:#888"><a href="/tablo/${art.code.toLowerCase()}" onclick="event.stopPropagation()" style="color:#d4af37;text-decoration:underline;">Ölçü və qiymətlərə bax →</a></small></h3>
       <a class="art-wa" href="https://wa.me/${CONFIG.waNumber}?text=${waMsg}"
          target="_blank" rel="noopener" onclick="event.stopPropagation()" aria-label="WhatsApp sifariş">
         <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
