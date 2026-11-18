@@ -2,14 +2,26 @@
   "redirects": [
     {
       "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "tablo-style.vercel.app"
-        }
-      ],
+      "has": [{ "type": "host", "value": "tablo-style.vercel.app" }],
       "destination": "https://www.tablo-style.shop/:path*",
       "permanent": true
-    }
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "tablo-style.shop" }],
+      "destination": "https://www.tablo-style.shop/:path*",
+      "permanent": true
+    },
+    { "source": "/minimalist-tablo-nedir.html", "destination": "/blog/minimalist-tablo-nedir", "permanent": true },
+    { "source": "/minimalist-tablo-nedir", "destination": "/blog/minimalist-tablo-nedir", "permanent": true },
+    { "source": "/tablo-olcusu", "destination": "/divar-tablosu-olcusu-nece-secilir", "permanent": true },
+    { "source": "/ev-ofis-kabinet-isyeri-divar-tablosu", "destination": "/blog/ev-ucun-divar-tablosu-nece-secilmelidir", "permanent": true },
+    { "source": "/ev-ucun-divar-tablosu-nece-secilmelidir.html", "destination": "/blog/ev-ucun-divar-tablosu-nece-secilmelidir", "permanent": true },
+    { "source": "/divar-tablosu-olcusu-nece-secilir.html", "destination": "/divar-tablosu-olcusu-nece-secilir", "permanent": true },
+    { "source": "/blog.html", "destination": "/blog", "permanent": true },
+    { "source": "/bloq.html", "destination": "/blog", "permanent": true },
+    { "source": "/bloq4.html", "destination": "/bloq4", "permanent": true },
+    { "source": "/hareketli.html", "destination": "/hareketli", "permanent": true },
+    { "source": "/divar-tablosu/:path*", "destination": "/", "permanent": true }
   ]
 }

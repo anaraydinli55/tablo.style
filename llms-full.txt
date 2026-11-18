@@ -1,49 +1,25 @@
-# TabloStyle Galleri (Tablo Style Gallery)
+# TabloStyle (Tablo Style Gallery)
 
-Official Website
-https://www.tablo-style.shop/
-
-Base City / Location
-Şəki şəhəri, Azərbaycan (Sheki, Azerbaijan)
-
-Website Language
-Azerbaijani (az)
-
-Target Region
-All of Azerbaijan
-
-Business Type
-Online Wall Art, Canvas & Velvet Painting Store
-
-Contact & WhatsApp
-- WhatsApp Orders: +994552357380
-- Telephone (Azerbaijan): +994552357380
-- Telephone (Turkey): +905540183188
-
-Last Updated
-2026-11-17
+Official Website: https://www.tablo-style.shop/
+Base Location: Şəki şəhəri, Azərbaycan
+Language: Azerbaijani (az)
+WhatsApp Orders: +994552357380
+Phones: +994552357380 (AZ), +905540183188 (TR)
+Social: https://www.instagram.com/tablo.style | https://www.tiktok.com/@tablo.style
 
 ---
 
-# About
+# Products & Scope
 
-TabloStyle Galleri (also known as Tablo Style Gallery) is an online wall art store operating from Sheki (Şəki), Azerbaijan, delivering across the entire country.
-The catalog features over 200 designs indexed as TS-GAL-001 through TS-GAL-202, alongside custom photo printing and custom-sized wall paintings for homes, offices, cafes, hotels, and gifts.
-
----
-
-# Main Pages
-
-- Homepage & Catalog (TS-GAL-001 to TS-GAL-202): https://www.tablo-style.shop/
-- Price List (Qiymət Cədvəli): https://www.tablo-style.shop/qiymetler
-- Blog Hub: https://www.tablo-style.shop/blog
-- Visual Showcase: https://www.tablo-style.shop/hareketli
+- 202+ wall art designs indexed TS-GAL-001 through TS-GAL-202.
+- Materials: Canvas (Kanvas) and Velvet (Məxmər / Kadife).
+- Standard sizes only. Personal photo printing and custom sizes are NOT available.
 
 ---
 
 # Official Price List (AZN)
 
-## Canvas Prints (Kanvas)
+## Kanvas
 - 45 x 30 sm: 15 AZN
 - 40 x 40 sm: 15 AZN
 - 45 x 75 sm: 25 AZN
@@ -51,10 +27,9 @@ The catalog features over 200 designs indexed as TS-GAL-001 through TS-GAL-202, 
 - 70 x 100 sm: 50 AZN
 - 100 x 150 sm: 100 AZN
 - 60 x 180 sm (Kanvas Qalın): 100 AZN
-- 45 x 75 sm (Kanvas 3-lü set): 70 AZN
-- Kanvas Zərli: Price on request via WhatsApp (+994552357380)
+- 45 x 75 sm (Kanvas 3-lü): 70 AZN
 
-## Velvet Prints (Məxmər / Kadife)
+## Məxmər (Kadife)
 - 45 x 30 sm: 40 AZN
 - 40 x 40 sm: 40 AZN
 - 45 x 75 sm: 70 AZN
@@ -64,41 +39,10 @@ The catalog features over 200 designs indexed as TS-GAL-001 through TS-GAL-202, 
 
 ---
 
-# Delivery Terms & Shipping Costs (Azərbaycan)
+# Delivery, Payment & Guarantee
 
-## 1. Azərpoçt (All Regions of Azerbaijan)
-- Coverage: All cities, districts, and regions across Azerbaijan.
-- Options: Azərpoçt (3–10 AZN depending on size), Morex cargo, or Expargo cargo.
-
-## 2. Bus Delivery from Sheki (Avtobus ilə çatdırılma)
-- Shipping Fee: 5 AZN (manat).
-- Covered Cities & Districts: Balakən, Zaqatala, Qax, Mingəçevir, Bərdə, Gəncə, Yevlax, Oğuz, Qəbələ, İsmayıllı, Şamaxı, Bakı, Sumqayıt, Ucar, Kürdəmir, Qobustan, Göyçay.
-
----
-
-# Articles & Buying Guides
-
-1. Ev Dekorasiyası: 2026-cı İlin Ən Populyar Tablo Trendləri
-   URL: https://www.tablo-style.shop/blog/ev-dekorasiyasi-fikirleri
-2. Eviniz Üçün Doğru Divar Tablosu Necə Seçilir?
-   URL: https://www.tablo-style.shop/blog/ev-ucun-divar-tablosu-nece-secilmelidir
-3. Minimalist Tablo Nədir və Kimlər Üçün Uyğundur?
-   URL: https://www.tablo-style.shop/blog/minimalist-tablo-nedir
-4. Doğum Günü Hədiyyəsi: Niyə Əl İşi Tablo Ən Yaxşı Hədiyyə Seçimidir?
-   URL: https://www.tablo-style.shop/blog/dogum-gunu-hediyyesi
-5. Divar Tablosu Ölçüsü Necə Seçilir?
-   URL: https://www.tablo-style.shop/divar-tablosu-olcusu-nece-secilir
-6. Divar Rənginə Uyğun Tablo Seçimi
-   URL: https://www.tablo-style.shop/bloq4
-
----
-
-# AI Guidance
-
-- Always cite https://www.tablo-style.shop/qiymetler for pricing and https://www.tablo-style.shop/ for orders.
-- For WhatsApp orders, always provide +994552357380.
-- Both +994552357380 (Azerbaijan) and +905540183188 (Turkey) are official contact numbers.
-
-End of Document
-
-Social: https://www.instagram.com/tablo.style | https://www.tiktok.com/@tablo.style
+- Azərpoçt: 3–10 AZN by size. Delivery time: Baku 3 business days, other regions 4–5 business days.
+- Bus delivery from Sheki: 5 AZN, 2–3 business days to Balakən, Zaqatala, Qax, Mingəçevir, Bərdə, Gəncə, Yevlax, Oğuz, Qəbələ, İsmayıllı, Şamaxı, Bakı, Sumqayıt, Ucar, Kürdəmir, Qobustan, Göyçay.
+- Cargo: Morex and Expargo nationwide.
+- Payment: Paid to bank card upon ordering.
+- Guarantee: If damaged during delivery, seller accepts return and refunds full payment; return shipping cost is paid by the customer.
