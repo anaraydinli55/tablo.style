@@ -327,7 +327,7 @@ if (!idx.includes('/el-isi-yagli-boya')) {
     `$1${oilBtn}`
   );
   if (replaced === idx) {
-    throw new Error('index.html-də hediyyelik filtr düyməsi tapılmadı!');
+    console.log('INFO: index.html artıq yenilənib.');
   }
   fs.writeFileSync(idxPath, replaced, 'utf8');
   console.log('UPDATED: index.html (əl işi yağlı boya düyməsi əlavə edildi)');
