@@ -450,3 +450,6 @@ ul{list-style:none}
   cursor:pointer!important;opacity:1!important;padding:0!important;
 }
 #modalCloseBtn:hover{transform:scale(1.06)}
+
+.main-nav a{white-space:nowrap}
+@media(min-width:769px) and (max-width:1080px){.main-nav{gap:18px}}
