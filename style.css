@@ -453,3 +453,14 @@ ul{list-style:none}
 
 .main-nav a{white-space:nowrap}
 @media(min-width:769px) and (max-width:1080px){.main-nav{gap:18px}}
+
+/* ── Catalog Extra Action Buttons ────────────────────── */
+.filter-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;width:fit-content;max-width:100%;margin:14px auto 28px}
+.filter-actions-btn{width:100%;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 24px;border-radius:50px;font-size:14.5px;font-weight:700;text-decoration:none;cursor:pointer;transition:transform .2s,box-shadow .2s;white-space:nowrap}
+.filter-actions-btn:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(26,22,18,.12)}
+.filter-actions-btn.gold{background:linear-gradient(135deg,#b8860b,#d4a017);border:1px solid #d4a017;color:#1a1612}
+.filter-actions-btn.outline{background:#f5eed8;border:1px solid rgba(184,134,11,.45);color:#1a1612}
+@media(max-width:768px){
+  .filter-actions{grid-template-columns:1fr;gap:8px;width:100%;max-width:420px;margin:10px auto 22px}
+  .filter-actions-btn{padding:12px 16px}
+}
