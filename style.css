@@ -437,3 +437,16 @@ ul{list-style:none}
   .geo-inner{gap:12px;font-size:.75rem}
   .footer-bottom{flex-direction:column;text-align:center}
 }
+
+/* ── Visible Gold Modal Close Button ─────────────────── */
+#modalCloseBtn{
+  position:absolute!important;top:12px!important;right:12px!important;
+  width:38px!important;height:38px!important;border-radius:50%!important;
+  background:linear-gradient(135deg,#b8860b,#d4a017)!important;
+  color:#ffffff!important;border:2px solid #faf8f4!important;
+  font-size:20px!important;font-weight:700!important;line-height:1!important;
+  display:flex!important;align-items:center!important;justify-content:center!important;
+  box-shadow:0 4px 14px rgba(0,0,0,.45)!important;z-index:30!important;
+  cursor:pointer!important;opacity:1!important;padding:0!important;
+}
+#modalCloseBtn:hover{transform:scale(1.06)}
