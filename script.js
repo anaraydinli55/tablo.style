@@ -2538,6 +2538,13 @@ window.toggleNav = function() {
   const btn = document.querySelector('.nav-toggle');
   if (!nav) return;
   btn?.setAttribute('aria-expanded', String(nav.classList.toggle('open')));
+  if (!nav.dataset.bound) {
+    nav.dataset.bound = '1';
+    nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      nav.classList.remove('open');
+      btn?.setAttribute('aria-expanded', 'false');
+    }));
+  }
 };
 
 /* ── Blog page ───────────────────────────────────────── */

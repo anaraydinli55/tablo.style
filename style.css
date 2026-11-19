@@ -79,12 +79,16 @@ ul{list-style:none}
 /* Mobile nav */
 @media(max-width:768px){
   .main-nav{
-    display:none;position:fixed;inset:0;top:64px;
-    background:var(--cream);flex-direction:column;
-    justify-content:center;align-items:center;gap:40px;
-    font-size:1.2rem;z-index:800;
+    display:none;position:absolute;top:100%;left:0;right:0;
+    background:var(--cream, #faf8f4);flex-direction:column;
+    justify-content:center;align-items:center;gap:26px;
+    padding:32px 20px;min-height:calc(100vh - 64px);
+    border-top:1px solid rgba(184,134,11,.18);
+    box-shadow:0 14px 32px rgba(0,0,0,.22);
+    font-size:1.15rem;z-index:950;
   }
   .main-nav.open{display:flex}
+  .main-nav a{color:var(--ink, #1a1612);font-size:1.05rem;font-weight:600}
   .nav-toggle{display:flex}
 }
 
