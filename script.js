@@ -3,11 +3,13 @@
    ════════════════════════════════════════════════════════ */
 
 'use strict';
+const IS_RU = document.documentElement.lang === 'ru';
+const RU_SEARCH_MAP = {'пейзаж':'menzere','портрет':'portret','абстракция':'abstrakt','город':'seher','подарок':'hediyye','цветы':'cicek','животные':'heyvan','природа':'tebiet','религия':'dini','музыка':'musiqi','классика':'klassik','романтика':'romantik'};
 
 /* ── Config ─────────────────────────────────────────── */
 const CONFIG = {
   waNumber:    '994552357380',
-  waText:      (code) => `${code} haqqında məlumat almaq istəyirəm`,
+  waText:      (code) => (document.documentElement.lang === 'ru' ? `Здравствуйте! Хочу узнать цену и заказать картину ${code}` : `${code} haqqında məlumat almaq istəyirəm`),
   imageFolder: '/',
   imageExt:    '.jpg',
   pageSize:    40,
@@ -2190,7 +2192,8 @@ function initGallery() { applyFilter(); }
 function applyFilter() {
   filteredItems = ALL_ARTWORKS.filter(a => {
     const showInCat = currentFilter === 'all' ? true : a.cat === currentFilter;
-    const q = searchQuery.toLowerCase().trim();
+    const rawQ = searchQuery.toLowerCase().trim();
+    const q = RU_SEARCH_MAP[rawQ] || rawQ;
     const searchOk = !q ||
       a.title.toLowerCase().includes(q) ||
       a.num.includes(q) ||
@@ -2208,7 +2211,7 @@ function renderGallery() {
   const slice = filteredItems.slice(0, visibleCount);
   grid.innerHTML = '';
   if (slice.length === 0) {
-    grid.innerHTML = '<p style="grid-column:1/-1;text-align:center;padding:60px;color:#888">Nəticə tapılmadı.</p>';
+    grid.innerHTML = '<p style="grid-column:1/-1;text-align:center;padding:60px;color:#888">${IS_RU ? 'Ничего не найдено.' : 'Nəticə tapılmadı.'}</p>';
     const btn = document.getElementById('loadMoreBtn');
     if (btn) btn.classList.add('hidden');
     return;
@@ -2228,8 +2231,8 @@ function buildCard(art, idx) {
   card.onclick   = () => openModal(idx);
   card.onkeydown = (e) => { if (e.key === 'Enter') openModal(idx); };
   const waMsg        = encodeURIComponent(CONFIG.waText(art.code));
-  const displayTitle = art.title  || `Tablo #${art.num}`;
-  const displayArt   = art.artist || 'Naməlum rəssam';
+  const displayTitle = art.title  || `${IS_RU ? 'Картина' : 'Tablo'} #${art.num}`;
+  const displayArt   = art.artist || (IS_RU ? 'Неизвестный художник' : 'Naməlum rəssam');
   card.innerHTML = `
     <div class="art-img-wrap">
       <img src="/webp/${art.num}.webp" onerror="this.onerror=null;this.src='${CONFIG.imageFolder}${art.num}${CONFIG.imageExt}'"
@@ -2237,15 +2240,15 @@ function buildCard(art, idx) {
       <div class="art-overlay" aria-hidden="true"><span class="art-overlay-icon">🔍</span></div>
     </div>
     <div class="art-info">
-      <div class="art-code">${art.code} · <span style="color:#d4af37">15 AZN-dən</span></div>
+      <div class="art-code">${art.code} · <span style="color:#d4af37">${IS_RU ? 'от 15 AZN' : '15 AZN-dən'}</span></div>
       <h3 class="art-title"><a href="/tablo/${art.code.toLowerCase()}" onclick="event.stopPropagation()" style="color:inherit;text-decoration:none;">${displayTitle}</a><br>
-        <small style="font-size:.8rem;font-style:normal;color:#888"><a href="/tablo/${art.code.toLowerCase()}" onclick="event.stopPropagation()" style="color:#d4af37;text-decoration:underline;">Ölçü və qiymətlərə bax →</a></small></h3>
+        <small style="font-size:.8rem;font-style:normal;color:#888"><a href="/tablo/${art.code.toLowerCase()}" onclick="event.stopPropagation()" style="color:#d4af37;text-decoration:underline;">${IS_RU ? 'Размеры и цены →' : 'Ölçü və qiymətlərə bax →'}</a></small></h3>
       <a class="art-wa" href="https://wa.me/${CONFIG.waNumber}?text=${waMsg}"
          target="_blank" rel="noopener" onclick="event.stopPropagation()" aria-label="WhatsApp sifariş">
         <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path fill="#fff" d="M16 2C8.27 2 2 8.27 2 16c0 2.44.65 4.72 1.77 6.7L2 30l7.52-1.73A13.94 13.94 0 0 0 16 30c7.73 0 14-6.27 14-14S23.73 2 16 2Zm7.6 19.4c-.32.9-1.87 1.73-2.56 1.84-.66.1-1.5.14-2.42-.15a22.2 22.2 0 0 1-2.19-.81C13.1 21.1 10.9 18.5 10.7 18.24c-.2-.26-1.62-2.15-1.62-4.1 0-1.94 1.02-2.9 1.38-3.3.36-.4.79-.5 1.05-.5l.75.01c.24.01.57-.09.89.68l1.14 2.78c.1.23.05.5-.06.7l-.44.57-.43.44c-.14.14-.29.3-.12.59.17.28.76 1.25 1.63 2.02 1.12.99 2.07 1.3 2.36 1.44.29.14.46.12.63-.07l1.02-1.16c.19-.22.38-.15.63-.06l2.91 1.37c.27.13.45.2.52.3.07.1.07.6-.25 1.5Z"/>
         </svg>
-        Sifariş
+        ${IS_RU ? 'Заказать' : 'Sifariş'}
       </a>
     </div>`;
   return card;
@@ -2276,8 +2279,8 @@ window.openModal = function(idx) {
   const art = filteredItems[idx];
   if (!art) return;
   const waMsg = encodeURIComponent(CONFIG.waText(art.code));
-  const displayTitle = art.title  || `Tablo #${art.num}`;
-  const displayDesc  = art.emoDesc || art.seoDesc || 'Bu əsər haqqında məlumat üçün WhatsApp ilə əlaqə saxlayın.';
+  const displayTitle = art.title  || `${IS_RU ? 'Картина' : 'Tablo'} #${art.num}`;
+  const displayDesc  = art.emoDesc || art.seoDesc || (IS_RU ? 'Для подробной информации напишите нам в WhatsApp.' : 'Bu əsər haqqında məlumat üçün WhatsApp ilə əlaqə saxlayın.');
   document.getElementById('modalImg').src           = `${CONFIG.imageFolder}${art.num}${CONFIG.imageExt}`;
   document.getElementById('modalImg').alt           = art.alt || art.num;
   document.getElementById('modalCode').textContent  = art.code;
@@ -2497,7 +2500,7 @@ function initBlog() {
         <div class="blog-tag">${post.tag}</div>
         <h3>${post.title}</h3>
         <p>${post.preview.substring(0,140)}…</p>
-        <a href="blog/${post.id}" class="blog-read-more">ardı →</a>
+        <a href="/blog/${post.id}" class="blog-read-more">${IS_RU ? 'читать →' : 'ardı →'}</a>
       </div>`;
     grid.appendChild(card);
   });
