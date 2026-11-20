@@ -2502,9 +2502,9 @@ function initBlog() {
       <div class="blog-card-img" aria-hidden="true">${post.icon}</div>
       <div class="blog-card-body">
         <div class="blog-tag">${post.tag}</div>
-        <h3>${post.title}</h3>
-        <p>${post.preview.substring(0,140)}…</p>
-        <a href="/blog/${post.id}" class="blog-read-more">${IS_RU ? 'читать →' : 'ardı →'}</a>
+        <h3>${(IS_RU && window.RU_BLOG && window.RU_BLOG[post.id]?.t) || post.title}</h3>
+        <p>${((IS_RU && window.RU_BLOG && window.RU_BLOG[post.id]?.p) || post.preview).substring(0,140)}…</p>
+        <a href="${IS_RU ? '/ru/blog/' + post.id : '/blog/' + post.id}" class="blog-read-more">${IS_RU ? 'читать →' : 'ardı →'}</a>
       </div>`;
     grid.appendChild(card);
   });
