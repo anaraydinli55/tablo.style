@@ -2211,7 +2211,7 @@ function renderGallery() {
   const slice = filteredItems.slice(0, visibleCount);
   grid.innerHTML = '';
   if (slice.length === 0) {
-    grid.innerHTML = '<p style="grid-column:1/-1;text-align:center;padding:60px;color:#888">${IS_RU ? 'Ничего не найдено.' : 'Nəticə tapılmadı.'}</p>';
+    grid.innerHTML = `<p style="grid-column:1/-1;text-align:center;padding:60px;color:#888">${IS_RU ? "Ничего не найдено." : "Nəticə tapılmadı."}</p>`;
     const btn = document.getElementById('loadMoreBtn');
     if (btn) btn.classList.add('hidden');
     return;
