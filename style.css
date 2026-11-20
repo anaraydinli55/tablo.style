@@ -475,3 +475,7 @@ ul{list-style:none}
   .header-inner{padding:0 12px;gap:8px}
   .lang-btn{padding:4px 7px;font-size:11px}
 }
+
+/* ── Hide modal & close button completely when closed ── */
+.modal-backdrop:not(.open){display:none!important}
+.modal-box{position:relative!important}
