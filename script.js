@@ -4,6 +4,7 @@
 
 'use strict';
 const IS_RU = document.documentElement.lang === 'ru';
+function getRuArt(num) { return (IS_RU && window.RU_ARTWORKS && window.RU_ARTWORKS[num]) ? window.RU_ARTWORKS[num] : null; }
 const RU_SEARCH_MAP = {'пейзаж':'menzere','портрет':'portret','абстракция':'abstrakt','город':'seher','подарок':'hediyye','цветы':'cicek','животные':'heyvan','природа':'tebiet','религия':'dini','музыка':'musiqi','классика':'klassik','романтика':'romantik'};
 
 /* ── Config ─────────────────────────────────────────── */
@@ -2195,7 +2196,7 @@ function applyFilter() {
     const rawQ = searchQuery.toLowerCase().trim();
     const q = RU_SEARCH_MAP[rawQ] || rawQ;
     const searchOk = !q ||
-      a.title.toLowerCase().includes(q) ||
+      (a.title.toLowerCase().includes(q) || ((getRuArt(a.num)?.t || '').toLowerCase().includes(q))) ||
       a.num.includes(q) ||
       a.code.toLowerCase().includes(q) ||
       a.cat.toLowerCase().includes(q);
@@ -2231,7 +2232,8 @@ function buildCard(art, idx) {
   card.onclick   = () => openModal(idx);
   card.onkeydown = (e) => { if (e.key === 'Enter') openModal(idx); };
   const waMsg        = encodeURIComponent(CONFIG.waText(art.code));
-  const displayTitle = art.title  || `${IS_RU ? 'Картина' : 'Tablo'} #${art.num}`;
+  const ruArt = getRuArt(art.num);
+  const displayTitle = (ruArt && ruArt.t) || art.title  || `${IS_RU ? 'Картина' : 'Tablo'} #${art.num}`;
   const displayArt   = art.artist || (IS_RU ? 'Неизвестный художник' : 'Naməlum rəssam');
   card.innerHTML = `
     <div class="art-img-wrap">
@@ -2279,8 +2281,10 @@ window.openModal = function(idx) {
   const art = filteredItems[idx];
   if (!art) return;
   const waMsg = encodeURIComponent(CONFIG.waText(art.code));
-  const displayTitle = art.title  || `${IS_RU ? 'Картина' : 'Tablo'} #${art.num}`;
-  const displayDesc  = art.emoDesc || art.seoDesc || (IS_RU ? 'Для подробной информации напишите нам в WhatsApp.' : 'Bu əsər haqqında məlumat üçün WhatsApp ilə əlaqə saxlayın.');
+  const ruArt = getRuArt(art.num);
+  const displayTitle = (ruArt && ruArt.t) || art.title  || `${IS_RU ? 'Картина' : 'Tablo'} #${art.num}`;
+  const ruModal = getRuArt(art.num);
+  const displayDesc  = (ruModal && ruModal.d) || art.emoDesc || art.seoDesc || (IS_RU ? 'Для подробной информации напишите нам в WhatsApp.' : 'Bu əsər haqqında məlumat üçün WhatsApp ilə əlaqə saxlayın.');
   document.getElementById('modalImg').src           = `${CONFIG.imageFolder}${art.num}${CONFIG.imageExt}`;
   document.getElementById('modalImg').alt           = art.alt || art.num;
   document.getElementById('modalCode').textContent  = art.code;
