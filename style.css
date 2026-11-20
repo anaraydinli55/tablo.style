@@ -479,3 +479,23 @@ ul{list-style:none}
 /* ── Hide modal & close button completely when closed ── */
 .modal-backdrop:not(.open){display:none!important}
 .modal-box{position:relative!important}
+
+/* ── Tighter Clean Vertical Spacing (AZ & RU) ────────── */
+.hero{min-height:76vh;padding:64px 20px 48px}
+.ai-intro{padding:44px 20px}
+.ai-intro p:last-child{margin-bottom:0}
+.catalog-section{padding:44px 0 48px}
+.section-header{margin-bottom:32px}
+.hediyye-section,.blog-section,.contact-section{padding:52px 0}
+
+@media(max-width:768px){
+  .hero{min-height:auto!important;padding:34px 16px 30px!important}
+  .hero-scroll{display:none!important}
+  .geo-strip{padding:10px 14px}
+  .ai-intro{padding:26px 16px!important}
+  .ai-intro h2{margin-bottom:12px}
+  .catalog-section{padding:26px 0 32px!important}
+  .section-header{margin-bottom:20px!important}
+  .search-wrap{margin:0 auto 18px!important}
+  .hediyye-section,.blog-section,.contact-section{padding:32px 0!important}
+}
